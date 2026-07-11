@@ -1,0 +1,111 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-base.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--no key, author in cryptoLoss2025
+Warning--no author, editor, organization, or key in cryptoLoss2025
+Warning--to sort, need author or key in cryptoLoss2025
+Warning--no key, author in chainalysis2025report
+Warning--no author, editor, organization, or key in chainalysis2025report
+Warning--to sort, need author or key in chainalysis2025report
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, author in chainalysis2025report
+Warning--no key, author in chainalysis2025report
+Warning--no key, author in cryptoLoss2025
+Warning--no key, author in cryptoLoss2025
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in cryptoLoss2025
+Warning--empty author in cryptoLoss2025
+Warning--no key, author in chainalysis2025report
+Warning--empty author in chainalysis2025report
+Warning--empty publisher in zhou2021flashboys
+Warning--empty address in zhou2021flashboys
+Warning--no number and no volume in scvsurvey2024
+Warning--page numbers missing in both pages and numpages fields in scvsurvey2024
+Warning--empty publisher in slither
+Warning--empty address in slither
+Warning--empty publisher in fu2022linevul
+Warning--empty address in fu2022linevul
+Warning--page numbers missing in both pages and numpages fields in fu2022linevul
+Warning--no number and no volume in reentrancysurvey2025
+Warning--empty publisher in hanif2022vulberta
+Warning--empty address in hanif2022vulberta
+Warning--empty publisher in Hildenbrandt2018KEVM
+Warning--empty address in Hildenbrandt2018KEVM
+Warning--empty publisher in iaudit2025
+Warning--empty address in iaudit2025
+Warning--no number and no volume in oraclesurvey2023
+Warning--empty publisher in defitainter2023
+Warning--empty address in defitainter2023
+Warning--empty publisher in GPTScan
+Warning--empty address in GPTScan
+Warning--empty publisher in mythischaikul2023machine
+Warning--empty address in mythischaikul2023machine
+Warning--can't use both volume and number fields in slise2024
+Warning--empty publisher in slise2024
+Warning--empty address in slise2024
+Warning--empty publisher in wu2025blockscan
+Warning--empty address in wu2025blockscan
+Warning--page numbers missing in both pages and numpages fields in wu2025blockscan
+Warning--empty publisher in pomabuster2024
+Warning--empty address in pomabuster2024
+Warning--empty publisher in defort2024
+Warning--empty address in defort2024
+Warning--empty publisher in blockwatchdog2024
+Warning--empty address in blockwatchdog2024
+Warning--page numbers missing in both pages and numpages fields in blockwatchdog2024
+Warning--empty publisher in zhang2020txspector
+Warning--empty address in zhang2020txspector
+Warning--empty address in TXSPECTOR
+Warning--empty publisher in defi2023
+Warning--empty address in defi2023
+You've used 51 entries,
+            6273 wiz_defined-function locations,
+            1836 strings with 31229 characters,
+and the built_in function-call counts, 57054 in all, are:
+= -- 6318
+> -- 2445
+< -- 0
++ -- 842
+- -- 830
+* -- 4569
+:= -- 5894
+add.period$ -- 249
+call.type$ -- 51
+change.case$ -- 473
+chr.to.int$ -- 46
+cite$ -- 114
+duplicate$ -- 4875
+empty$ -- 3415
+format.name$ -- 985
+if$ -- 13143
+int.to.chr$ -- 7
+int.to.str$ -- 1
+missing$ -- 128
+newline$ -- 537
+num.names$ -- 340
+pop$ -- 2008
+preamble$ -- 1
+purify$ -- 858
+quote$ -- 0
+skip$ -- 1915
+stack$ -- 0
+substring$ -- 3771
+swap$ -- 461
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1416
+warning$ -- 55
+while$ -- 238
+width$ -- 0
+write$ -- 1069
+(There were 55 warnings)

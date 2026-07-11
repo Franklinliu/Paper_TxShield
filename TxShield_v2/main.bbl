@@ -1,0 +1,766 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{51}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[cry(2025)]%
+        {cryptoLoss2025}
+ \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Crypto hacks hit \$3.4 billion in 2025, attacks on
+  individual wallets rise: Chainalysis}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.theblock.co/post/382477/crypto-hack-2025-chainalysis}}.
+\newblock
+\newblock
+\shownote{Accessed: 2026-01}.
+
+
+\bibitem[cha(2026)]%
+        {chainalysis2025report}
+ \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{North Korea Drives Record \$2 Billion Crypto Theft
+  Year, Pushing All-Time Total to \$6.75 Billion}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.chainalysis.com/blog/crypto-hacking-stolen-funds-2026/}}.
+\newblock
+\newblock
+\shownote{Accessed: 2026-01-30}.
+
+
+\bibitem[Aave(2024)]%
+        {aaveflashloan}
+\bibfield{author}{\bibinfo{person}{Aave}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Aave Protocol Documentation: Flash Loans}.
+\newblock
+  \bibinfo{howpublished}{\url{https://docs.aave.com/developers/guides/flash-loans}}.
+\newblock
+\newblock
+\shownote{Accessed: 2025-01-01}.
+
+
+\bibitem[Adams et~al\mbox{.}(2021)]%
+        {uniswapv3}
+\bibfield{author}{\bibinfo{person}{Hayden Adams}, \bibinfo{person}{Noah
+  Zinsmeister}, \bibinfo{person}{Moody Salem}, \bibinfo{person}{River Keefer},
+  {and} \bibinfo{person}{Dan Robinson}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Uniswap v3 Core}.
+\newblock \bibinfo{howpublished}{\url{https://uniswap.org/whitepaper-v3.pdf}}.
+\newblock
+
+
+\bibitem[Bender et~al\mbox{.}(2021)]%
+        {10.1145/3442188.3445922}
+\bibfield{author}{\bibinfo{person}{Emily~M. Bender}, \bibinfo{person}{Timnit
+  Gebru}, \bibinfo{person}{Angelina McMillan-Major}, {and}
+  \bibinfo{person}{Shmargaret Shmitchell}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{On the Dangers of Stochastic Parrots: Can Language
+  Models Be Too Big?}. In \bibinfo{booktitle}{\emph{Proceedings of the 2021 ACM
+  Conference on Fairness, Accountability, and Transparency}} (Virtual Event,
+  Canada) \emph{(\bibinfo{series}{FAccT '21})}. \bibinfo{publisher}{Association
+  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{610–623}.
+\newblock
+\showISBNx{9781450383097}
+\href{https://doi.org/10.1145/3442188.3445922}{doi:\nolinkurl{10.1145/3442188.3445922}}
+
+
+\bibitem[Chroma(2024)]%
+        {chromadb}
+\bibfield{author}{\bibinfo{person}{Chroma}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Chroma: The AI-native Open-source Embedding
+  Database}.
+\newblock \bibinfo{howpublished}{\url{https://www.trychroma.com/}}.
+\newblock
+\newblock
+\shownote{Accessed: 2025-01-01}.
+
+
+\bibitem[Daian et~al\mbox{.}(2020)]%
+        {zhou2021flashboys}
+\bibfield{author}{\bibinfo{person}{Philip Daian}, \bibinfo{person}{Steven
+  Goldfeder}, \bibinfo{person}{Tyler Kell}, \bibinfo{person}{Yunqi Li},
+  \bibinfo{person}{Xueyuan Zhao}, \bibinfo{person}{Iddo Bentov},
+  \bibinfo{person}{Lorenz Breidenbach}, {and} \bibinfo{person}{Ari Juels}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Flash Boys 2.0: Frontrunning in Decentralized
+  Exchanges, Miner Extractable Value, and Consensus Instability}. In
+  \bibinfo{booktitle}{\emph{2020 IEEE Symposium on Security and Privacy (SP)}}.
+  \bibinfo{pages}{910--927}.
+\newblock
+\href{https://doi.org/10.1109/SP40000.2020.00040}{doi:\nolinkurl{10.1109/SP40000.2020.00040}}
+
+
+\bibitem[De~Baets et~al\mbox{.}(2024)]%
+        {scvsurvey2024}
+\bibfield{author}{\bibinfo{person}{Christopher De~Baets},
+  \bibinfo{person}{Basem Suleiman}, \bibinfo{person}{Armin Chitizadeh}, {and}
+  \bibinfo{person}{Imran Razzak}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Vulnerability Detection in Smart Contracts: A
+  Comprehensive Survey}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2407.07922}}
+  (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Deng et~al\mbox{.}(2024)]%
+        {deng2024pentestgptllmempoweredautomaticpenetration}
+\bibfield{author}{\bibinfo{person}{Gelei Deng}, \bibinfo{person}{Yi Liu},
+  \bibinfo{person}{Víctor Mayoral-Vilches}, \bibinfo{person}{Peng Liu},
+  \bibinfo{person}{Yuekang Li}, \bibinfo{person}{Yuan Xu},
+  \bibinfo{person}{Tianwei Zhang}, \bibinfo{person}{Yang Liu},
+  \bibinfo{person}{Martin Pinzger}, {and} \bibinfo{person}{Stefan Rass}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{PentestGPT: An LLM-empowered Automatic Penetration
+  Testing Tool}.
+\newblock
+\showeprint[arxiv]{2308.06782}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2308.06782}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Diligence(2017)]%
+        {mythril2018}
+\bibfield{author}{\bibinfo{person}{ConsenSys Diligence}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{Mythril: Security Analysis Tool for Ethereum Smart
+  Contracts}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/ConsenSysDiligence/mythril}}.
+\newblock
+\newblock
+\shownote{Accessed: 2026-01-22}.
+
+
+\bibitem[Feist et~al\mbox{.}(2019)]%
+        {slither}
+\bibfield{author}{\bibinfo{person}{Josselin Feist}, \bibinfo{person}{Gustavo
+  Grieco}, {and} \bibinfo{person}{Alex Groce}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Slither: A Static Analysis Framework for Smart
+  Contracts}. In \bibinfo{booktitle}{\emph{2019 IEEE/ACM 2nd International
+  Workshop on Emerging Trends in Software Engineering for Blockchain
+  (WETSEB)}}. \bibinfo{pages}{8--15}.
+\newblock
+\href{https://doi.org/10.1109/WETSEB.2019.00008}{doi:\nolinkurl{10.1109/WETSEB.2019.00008}}
+
+
+\bibitem[Feng et~al\mbox{.}(2020)]%
+        {feng-etal-2020-codebert}
+\bibfield{author}{\bibinfo{person}{Zhangyin Feng}, \bibinfo{person}{Daya Guo},
+  \bibinfo{person}{Duyu Tang}, \bibinfo{person}{Nan Duan},
+  \bibinfo{person}{Xiaocheng Feng}, \bibinfo{person}{Ming Gong},
+  \bibinfo{person}{Linjun Shou}, \bibinfo{person}{Bing Qin},
+  \bibinfo{person}{Ting Liu}, \bibinfo{person}{Daxin Jiang}, {and}
+  \bibinfo{person}{Ming Zhou}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{C}ode{BERT}: A Pre-Trained Model for Programming
+  and Natural Languages}. In \bibinfo{booktitle}{\emph{Findings of the
+  Association for Computational Linguistics: EMNLP 2020}},
+  \bibfield{editor}{\bibinfo{person}{Trevor Cohn}, \bibinfo{person}{Yulan He},
+  {and} \bibinfo{person}{Yang Liu}} (Eds.). \bibinfo{publisher}{Association for
+  Computational Linguistics}, \bibinfo{address}{Online},
+  \bibinfo{pages}{1536--1547}.
+\newblock
+\href{https://doi.org/10.18653/v1/2020.findings-emnlp.139}{doi:\nolinkurl{10.18653/v1/2020.findings-emnlp.139}}
+
+
+\bibitem[Fu and Tantithamthavorn(2022)]%
+        {fu2022linevul}
+\bibfield{author}{\bibinfo{person}{Michael Fu} {and} \bibinfo{person}{Chakkrit
+  Tantithamthavorn}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{LineVul: A Transformer-based Line-Level
+  Vulnerability Prediction}. In \bibinfo{booktitle}{\emph{2022 IEEE/ACM 19th
+  International Conference on Mining Software Repositories (MSR)}}. IEEE.
+\newblock
+
+
+\bibitem[Ghiyami~Pour et~al\mbox{.}(2025)]%
+        {reentrancysurvey2025}
+\bibfield{author}{\bibinfo{person}{F. Ghiyami~Pour}, \bibinfo{person}{G.
+  Costa}, {and} \bibinfo{person}{L. Galletta}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Welcome Back: A Systematic Literature Review of
+  Smart Contract Reentrancy and Countermeasures}.
+\newblock \bibinfo{journal}{\emph{Blockchain: Research and Applications}}
+  (\bibinfo{year}{2025}), \bibinfo{pages}{100347}.
+\newblock
+\href{https://doi.org/10.1016/j.bcra.2025.100347}{doi:\nolinkurl{10.1016/j.bcra.2025.100347}}
+
+
+\bibitem[Grech et~al\mbox{.}(2018)]%
+        {MadMax}
+\bibfield{author}{\bibinfo{person}{Neville Grech}, \bibinfo{person}{Michael
+  Kong}, \bibinfo{person}{Anton Jurisevic}, \bibinfo{person}{Lexi Brent},
+  \bibinfo{person}{Bernhard Scholz}, {and} \bibinfo{person}{Yannis
+  Smaragdakis}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{MadMax: surviving out-of-gas conditions in Ethereum
+  smart contracts}.
+\newblock \bibinfo{journal}{\emph{Proc. ACM Program. Lang.}}
+  \bibinfo{volume}{2}, \bibinfo{number}{OOPSLA}, Article
+  \bibinfo{articleno}{116} (\bibinfo{date}{Oct.} \bibinfo{year}{2018}),
+  \bibinfo{numpages}{27}~pages.
+\newblock
+\href{https://doi.org/10.1145/3276486}{doi:\nolinkurl{10.1145/3276486}}
+
+
+\bibitem[Guo et~al\mbox{.}(2024)]%
+        {guo2024outsidecomfortzoneanalysing}
+\bibfield{author}{\bibinfo{person}{Yuejun Guo}, \bibinfo{person}{Constantinos
+  Patsakis}, \bibinfo{person}{Qiang Hu}, \bibinfo{person}{Qiang Tang}, {and}
+  \bibinfo{person}{Fran Casino}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Outside the Comfort Zone: Analysing LLM Capabilities
+  in Software Vulnerability Detection}.
+\newblock
+\showeprint[arxiv]{2408.16400}~[cs.CR]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2408.16400}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hanif and Maffeis(2022)]%
+        {hanif2022vulberta}
+\bibfield{author}{\bibinfo{person}{Hazim Hanif} {and} \bibinfo{person}{Sergio
+  Maffeis}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{VulBERTa: Simplified Source Code Pre-Training for
+  Vulnerability Detection}. In \bibinfo{booktitle}{\emph{2022 International
+  Joint Conference on Neural Networks (IJCNN)}}. \bibinfo{pages}{1--8}.
+\newblock
+\href{https://doi.org/10.1109/IJCNN55064.2022.9892280}{doi:\nolinkurl{10.1109/IJCNN55064.2022.9892280}}
+
+
+\bibitem[Hildenbrandt et~al\mbox{.}(2018)]%
+        {Hildenbrandt2018KEVM}
+\bibfield{author}{\bibinfo{person}{Everett Hildenbrandt},
+  \bibinfo{person}{Manasvi Saxena}, \bibinfo{person}{Nishant Rodrigues},
+  \bibinfo{person}{Xiaoran Zhu}, \bibinfo{person}{Philip Daian},
+  \bibinfo{person}{Dwight Guth}, \bibinfo{person}{Brandon Moore},
+  \bibinfo{person}{Daejun Park}, \bibinfo{person}{Yi Zhang},
+  \bibinfo{person}{Andrei Stefanescu}, {and} \bibinfo{person}{Grigore Rosu}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{KEVM: A Complete Formal Semantics of the Ethereum
+  Virtual Machine}. In \bibinfo{booktitle}{\emph{2018 IEEE 31st Computer
+  Security Foundations Symposium (CSF)}}. \bibinfo{pages}{204--217}.
+\newblock
+\href{https://doi.org/10.1109/CSF.2018.00022}{doi:\nolinkurl{10.1109/CSF.2018.00022}}
+
+
+\bibitem[Inc.(2026)]%
+        {certoraProver}
+\bibfield{author}{\bibinfo{person}{Certora Inc.}}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Certora Prover}.
+\newblock \bibinfo{howpublished}{\url{https://www.certora.com/prover}}.
+\newblock
+\newblock
+\shownote{Accessed: 2026-01-17}.
+
+
+\bibitem[Khare et~al\mbox{.}(2024)]%
+        {khare2024understandingeffectivenesslargelanguage}
+\bibfield{author}{\bibinfo{person}{Avishree Khare}, \bibinfo{person}{Saikat
+  Dutta}, \bibinfo{person}{Ziyang Li}, \bibinfo{person}{Alaia Solko-Breslin},
+  \bibinfo{person}{Rajeev Alur}, {and} \bibinfo{person}{Mayur Naik}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Understanding the Effectiveness of Large Language
+  Models in Detecting Security Vulnerabilities}.
+\newblock
+\showeprint[arxiv]{2311.16169}~[cs.CR]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2311.16169}
+\showURL{%
+\tempurl}
+
+
+\bibitem[LangChain(2024)]%
+        {langchain}
+\bibfield{author}{\bibinfo{person}{LangChain}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{LangChain: Build Context-aware Reasoning
+  Applications}.
+\newblock \bibinfo{howpublished}{\url{https://www.langchain.com/}}.
+\newblock
+\newblock
+\shownote{Accessed: 2025-01-01}.
+
+
+\bibitem[Lewis et~al\mbox{.}(2021)]%
+        {lewis2021retrievalaugmentedgenerationknowledgeintensivenlp}
+\bibfield{author}{\bibinfo{person}{Patrick Lewis}, \bibinfo{person}{Ethan
+  Perez}, \bibinfo{person}{Aleksandra Piktus}, \bibinfo{person}{Fabio Petroni},
+  \bibinfo{person}{Vladimir Karpukhin}, \bibinfo{person}{Naman Goyal},
+  \bibinfo{person}{Heinrich Küttler}, \bibinfo{person}{Mike Lewis},
+  \bibinfo{person}{Wen tau Yih}, \bibinfo{person}{Tim Rocktäschel},
+  \bibinfo{person}{Sebastian Riedel}, {and} \bibinfo{person}{Douwe Kiela}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Retrieval-Augmented Generation for
+  Knowledge-Intensive NLP Tasks}.
+\newblock
+\showeprint[arxiv]{2005.11401}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2005.11401}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Luu et~al\mbox{.}(2016)]%
+        {Luu2016Making}
+\bibfield{author}{\bibinfo{person}{Loi Luu}, \bibinfo{person}{Duc-Hiep Chu},
+  \bibinfo{person}{Hrishi Olickel}, \bibinfo{person}{Prateek Saxena}, {and}
+  \bibinfo{person}{Aquinas Hobor}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Making Smart Contracts Smarter}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2016 ACM SIGSAC Conference on
+  Computer and Communications Security}} (Vienna, Austria)
+  \emph{(\bibinfo{series}{CCS '16})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{254–269}.
+\newblock
+\showISBNx{9781450341394}
+\href{https://doi.org/10.1145/2976749.2978309}{doi:\nolinkurl{10.1145/2976749.2978309}}
+
+
+\bibitem[Ma et~al\mbox{.}(2025a)]%
+        {TrxGNNBERT}
+\bibfield{author}{\bibinfo{person}{Wei Ma}, \bibinfo{person}{Junjie Shi},
+  \bibinfo{person}{Jiaxi Qiu}, \bibinfo{person}{Cong Wu}, \bibinfo{person}{Jing
+  Chen}, \bibinfo{person}{Lingxiao Jiang}, \bibinfo{person}{Shangqing Liu},
+  \bibinfo{person}{Yang Liu}, {and} \bibinfo{person}{Yang Xiang}.}
+  \bibinfo{year}{2025}\natexlab{a}.
+\newblock \showarticletitle{Detecting DeFi Fraud With a Graph-Transformer
+  Language Model}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Information Forensics
+  and Security}}  \bibinfo{volume}{20} (\bibinfo{year}{2025}),
+  \bibinfo{pages}{10051--10065}.
+\newblock
+\href{https://doi.org/10.1109/TIFS.2025.3612184}{doi:\nolinkurl{10.1109/TIFS.2025.3612184}}
+
+
+\bibitem[Ma et~al\mbox{.}(2025b)]%
+        {iaudit2025}
+\bibfield{author}{\bibinfo{person}{Xiangyu Ma}, \bibinfo{person}{Yuqiang Sun},
+  \bibinfo{person}{Kairan Zhang}, \bibinfo{person}{Yue Xue},
+  \bibinfo{person}{Han Liu}, {and} \bibinfo{person}{Daoyuan Wu}.}
+  \bibinfo{year}{2025}\natexlab{b}.
+\newblock \showarticletitle{Combining Fine-Tuning and LLM-based Agents for
+  Intuitive Smart Contract Auditing with Justifications}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 47th IEEE/ACM International
+  Conference on Software Engineering (ICSE)}}. \bibinfo{pages}{1742--1754}.
+\newblock
+\href{https://doi.org/10.1109/ICSE55347.2025.00027}{doi:\nolinkurl{10.1109/ICSE55347.2025.00027}}
+
+
+\bibitem[Mackinga et~al\mbox{.}(2022)]%
+        {oraclesurvey2023}
+\bibfield{author}{\bibinfo{person}{Torgin Mackinga}, \bibinfo{person}{Tejaswi
+  Nadahalli}, {and} \bibinfo{person}{Roger Wattenhofer}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{TWAP Oracle Attacks: Easier Done than Said?}
+\newblock \bibinfo{journal}{\emph{IACR Cryptology ePrint Archive}}
+  (\bibinfo{year}{2022}), \bibinfo{pages}{445}.
+\newblock
+
+
+\bibitem[Nikoli\'{c} et~al\mbox{.}(2018)]%
+        {Nikolic2018Finding}
+\bibfield{author}{\bibinfo{person}{Ivica Nikoli\'{c}}, \bibinfo{person}{Aashish
+  Kolluri}, \bibinfo{person}{Ilya Sergey}, \bibinfo{person}{Prateek Saxena},
+  {and} \bibinfo{person}{Aquinas Hobor}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Finding The Greedy, Prodigal, and Suicidal
+  Contracts at Scale}. In \bibinfo{booktitle}{\emph{Proceedings of the 34th
+  Annual Computer Security Applications Conference}} (San Juan, PR, USA)
+  \emph{(\bibinfo{series}{ACSAC '18})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{653–663}.
+\newblock
+\showISBNx{9781450365697}
+\href{https://doi.org/10.1145/3274694.3274743}{doi:\nolinkurl{10.1145/3274694.3274743}}
+
+
+\bibitem[Ortu et~al\mbox{.}(2024)]%
+        {taxonomysc2024}
+\bibfield{author}{\bibinfo{person}{Marco Ortu}, \bibinfo{person}{Giacomo Ibba},
+  \bibinfo{person}{Giuseppe Destefanis}, \bibinfo{person}{Claudio Conversano},
+  {and} \bibinfo{person}{Roberto Tonelli}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Taxonomic Insights into Ethereum Smart Contracts by
+  Linking Application Categories to Security Vulnerabilities}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}}  \bibinfo{volume}{14}
+  (\bibinfo{year}{2024}), \bibinfo{pages}{23433}.
+\newblock
+\href{https://doi.org/10.1038/s41598-024-73454-0}{doi:\nolinkurl{10.1038/s41598-024-73454-0}}
+
+
+\bibitem[Paradigm(2024)]%
+        {foundry}
+\bibfield{author}{\bibinfo{person}{Paradigm}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Foundry: A Blazing Fast, Portable and Modular Toolkit
+  for Ethereum Application Development}.
+\newblock \bibinfo{howpublished}{\url{https://github.com/foundry-rs/foundry}}.
+\newblock
+\newblock
+\shownote{Accessed: 2025-01-01}.
+
+
+\bibitem[Peng et~al\mbox{.}(2023)]%
+        {defitainter2023}
+\bibfield{author}{\bibinfo{person}{Shuo Peng}, \bibinfo{person}{Zhenguang Tan},
+  \bibinfo{person}{Zhuang Chen}, \bibinfo{person}{Bifei Zhou},
+  \bibinfo{person}{Xusheng Luo}, \bibinfo{person}{Dong Zhang}, {and}
+  \bibinfo{person}{Jianhai Li}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{DeFiTainter: Detecting Price Manipulation
+  Vulnerabilities in DeFi Protocols}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 32nd ACM SIGSOFT International Symposium on Software Testing and
+  Analysis (ISSTA)}}. \bibinfo{pages}{1144--1156}.
+\newblock
+\href{https://doi.org/10.1145/3597926.3598124}{doi:\nolinkurl{10.1145/3597926.3598124}}
+
+
+\bibitem[Qin et~al\mbox{.}(2020)]%
+        {qin2020flashloan}
+\bibfield{author}{\bibinfo{person}{Kaihua Qin}, \bibinfo{person}{Liyi Zhou},
+  \bibinfo{person}{Benjamin Livshits}, {and} \bibinfo{person}{Arthur Gervais}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Attacking the DeFi Ecosystem with Flash Loans for Fun
+  and Profit}.
+\newblock
+\showeprint[arxiv]{2003.03810}~[cs.CR]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2003.03810}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sturua et~al\mbox{.}(2024)]%
+        {jina2024}
+\bibfield{author}{\bibinfo{person}{Saba Sturua}, \bibinfo{person}{Isabelle
+  Mohr}, \bibinfo{person}{Mohammad~Kalim Akram}, \bibinfo{person}{Michael
+  G{\"u}nther}, \bibinfo{person}{Bo Wang}, \bibinfo{person}{Markus Krimmel},
+  \bibinfo{person}{Feng Wang}, \bibinfo{person}{Georgios Mastrapas},
+  \bibinfo{person}{Andreas Koukounas}, \bibinfo{person}{Nan Wang}, {and}
+  \bibinfo{person}{Han Xiao}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{jina-embeddings-v3: Multilingual Embeddings With Task
+  LoRA}.
+\newblock
+\showeprint[arxiv]{2409.10173}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2409.10173}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sun et~al\mbox{.}(2024)]%
+        {GPTScan}
+\bibfield{author}{\bibinfo{person}{Yuqiang Sun}, \bibinfo{person}{Daoyuan Wu},
+  \bibinfo{person}{Yue Xue}, \bibinfo{person}{Han Liu}, \bibinfo{person}{Haijun
+  Wang}, \bibinfo{person}{Zhengzi Xu}, \bibinfo{person}{Xiaofei Xie}, {and}
+  \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{GPTScan: Detecting Logic Vulnerabilities in Smart
+  Contracts by Combining GPT with Program Analysis}. In
+  \bibinfo{booktitle}{\emph{2024 IEEE/ACM 46th International Conference on
+  Software Engineering (ICSE)}}. \bibinfo{pages}{2048--2060}.
+\newblock
+\href{https://doi.org/10.1145/3597503.3639117}{doi:\nolinkurl{10.1145/3597503.3639117}}
+
+
+\bibitem[SunWeb3Sec(2024)]%
+        {defihacklabs2024}
+\bibfield{author}{\bibinfo{person}{SunWeb3Sec}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{DeFiHackLabs: Reproduce DeFi Hacked Incidents Using
+  Foundry}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/SunWeb3Sec/DeFiHackLabs}}.
+\newblock
+\newblock
+\shownote{Accessed: 2025-01-01}.
+
+
+\bibitem[Wang et~al\mbox{.}(2024c)]%
+        {mythischaikul2023machine}
+\bibfield{author}{\bibinfo{person}{Deguang Wang}, \bibinfo{person}{Mengtao
+  Shan}, {and} \bibinfo{person}{Ning Tong}.} \bibinfo{year}{2024}\natexlab{c}.
+\newblock \showarticletitle{Smart Contract Vulnerability Detection Based on
+  Machine Learning}. In \bibinfo{booktitle}{\emph{2024 6th International
+  Conference on Electronic Engineering and Informatics (EEI)}}.
+  \bibinfo{pages}{1038--1042}.
+\newblock
+\href{https://doi.org/10.1109/EEI63073.2024.10696331}{doi:\nolinkurl{10.1109/EEI63073.2024.10696331}}
+
+
+\bibitem[Wang et~al\mbox{.}(2024b)]%
+        {wang2024smartinvmultimodallearningsmart}
+\bibfield{author}{\bibinfo{person}{Sally~Junsong Wang}, \bibinfo{person}{Kexin
+  Pei}, {and} \bibinfo{person}{Junfeng Yang}.}
+  \bibinfo{year}{2024}\natexlab{b}.
+\newblock \bibinfo{title}{SmartInv: Multimodal Learning for Smart Contract
+  Invariant Inference}.
+\newblock
+\showeprint[arxiv]{2411.09217}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2411.09217}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wang et~al\mbox{.}(2024a)]%
+        {slise2024}
+\bibfield{author}{\bibinfo{person}{Zexu Wang}, \bibinfo{person}{Jiachi Chen},
+  \bibinfo{person}{Yanlin Wang}, \bibinfo{person}{Yu Zhang},
+  \bibinfo{person}{Weizhe Zhang}, {and} \bibinfo{person}{Zibin Zheng}.}
+  \bibinfo{year}{2024}\natexlab{a}.
+\newblock \showarticletitle{Efficiently Detecting Reentrancy Vulnerabilities in
+  Complex Smart Contracts}. In \bibinfo{booktitle}{\emph{Proceedings of the ACM
+  on Software Engineering}}, Vol.~\bibinfo{volume}{1}.
+  \bibinfo{pages}{161--181}.
+\newblock
+\href{https://doi.org/10.1145/3643734}{doi:\nolinkurl{10.1145/3643734}}
+
+
+\bibitem[Wei et~al\mbox{.}(2023)]%
+        {wei2023chainofthoughtpromptingelicitsreasoning}
+\bibfield{author}{\bibinfo{person}{Jason Wei}, \bibinfo{person}{Xuezhi Wang},
+  \bibinfo{person}{Dale Schuurmans}, \bibinfo{person}{Maarten Bosma},
+  \bibinfo{person}{Brian Ichter}, \bibinfo{person}{Fei Xia},
+  \bibinfo{person}{Ed Chi}, \bibinfo{person}{Quoc Le}, {and}
+  \bibinfo{person}{Denny Zhou}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Chain-of-Thought Prompting Elicits Reasoning in Large
+  Language Models}.
+\newblock
+\showeprint[arxiv]{2201.11903}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2201.11903}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wu et~al\mbox{.}(2021)]%
+        {defiranger2021}
+\bibfield{author}{\bibinfo{person}{Siwei Wu}, \bibinfo{person}{Dabao Wang},
+  \bibinfo{person}{Jianting He}, \bibinfo{person}{Yajin Zhou},
+  \bibinfo{person}{Lei Wu}, \bibinfo{person}{Xingliang Yuan},
+  \bibinfo{person}{Qinming He}, {and} \bibinfo{person}{Kui Ren}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{DeFiRanger: Detecting Price Manipulation Attacks on
+  DeFi Applications}.
+\newblock
+\showeprint[arxiv]{2104.15068}~[cs.CR]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2104.15068}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Wu et~al\mbox{.}(2025)]%
+        {wu2025blockscan}
+\bibfield{author}{\bibinfo{person}{Xian Wu} {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{BlockScan: Detecting Anomalies in Blockchain
+  Transactions}. In \bibinfo{booktitle}{\emph{Proceedings of the Neural
+  Information Processing Systems (NeurIPS)}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/nuwuxian/BlockScan}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accepted at NeurIPS 2025}.
+
+
+\bibitem[Xi et~al\mbox{.}(2024)]%
+        {pomabuster2024}
+\bibfield{author}{\bibinfo{person}{Rui Xi}, \bibinfo{person}{Zehua Wang}, {and}
+  \bibinfo{person}{Karthik Pattabiraman}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{POMABuster: Detecting Price Oracle Manipulation
+  Attacks in Decentralized Finance}. In \bibinfo{booktitle}{\emph{2024 IEEE
+  Symposium on Security and Privacy (SP)}}. \bibinfo{pages}{1823--1841}.
+\newblock
+\href{https://doi.org/10.1109/SP54263.2024.00095}{doi:\nolinkurl{10.1109/SP54263.2024.00095}}
+
+
+\bibitem[Xie et~al\mbox{.}(2024)]%
+        {defort2024}
+\bibfield{author}{\bibinfo{person}{Yuanliang Xie}, \bibinfo{person}{Jiaming
+  Chen}, \bibinfo{person}{Zibin Ye}, \bibinfo{person}{Yuefei Liu},
+  \bibinfo{person}{Yinglong Chen}, \bibinfo{person}{Zhenchang Yang}, {and}
+  \bibinfo{person}{Zibin Zheng}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{DeFort: Automatic Detection and Analysis of Price
+  Manipulation Attacks in DeFi Applications}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 33rd ACM SIGSOFT International
+  Symposium on Software Testing and Analysis (ISSTA)}}.
+  \bibinfo{pages}{1235--1247}.
+\newblock
+\href{https://doi.org/10.1145/3650212.3652137}{doi:\nolinkurl{10.1145/3650212.3652137}}
+
+
+\bibitem[{Yahoo Finance}(2025)]%
+        {defiTVL2025}
+\bibfield{author}{\bibinfo{person}{{Yahoo Finance}}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{DeFi Total Value Locked Surpasses \$230 Billion in
+  2025}.
+\newblock
+  \bibinfo{howpublished}{\url{https://finance.yahoo.com/news/defi-tvl-hits-record-237b-181957477.html}}.
+\newblock
+\newblock
+\shownote{Accessed: 2026-01}.
+
+
+\bibitem[Yang et~al\mbox{.}(2024)]%
+        {blockwatchdog2024}
+\bibfield{author}{\bibinfo{person}{Shuo Yang}, \bibinfo{person}{Jiachi Chen},
+  \bibinfo{person}{Mingyuan Huang}, \bibinfo{person}{Zibin Zheng}, {and}
+  \bibinfo{person}{Yuan Huang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Uncover the Premeditated Attacks: Detecting
+  Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 46th IEEE/ACM International
+  Conference on Software Engineering (ICSE)}}.
+\newblock
+\href{https://doi.org/10.1145/3597503.3639153}{doi:\nolinkurl{10.1145/3597503.3639153}}
+
+
+\bibitem[Zhang et~al\mbox{.}(2023)]%
+        {zhang2023repocoder}
+\bibfield{author}{\bibinfo{person}{Fengji Zhang}, \bibinfo{person}{Bei Chen},
+  \bibinfo{person}{Yue Zhang}, \bibinfo{person}{Jacky Keung},
+  \bibinfo{person}{Jin Liu}, \bibinfo{person}{Daoguang Zan},
+  \bibinfo{person}{Yi Mao}, \bibinfo{person}{Jian-Guang Lou}, {and}
+  \bibinfo{person}{Weizhu Chen}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{RepoCoder: Repository-Level Code Completion Through
+  Iterative Retrieval and Generation}.
+\newblock
+\showeprint[arxiv]{2303.12570}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2303.12570}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2020a)]%
+        {zhang2020txspector}
+\bibfield{author}{\bibinfo{person}{Mengya Zhang}, \bibinfo{person}{Xiaokuan
+  Zhang}, \bibinfo{person}{Yinqian Zhang}, {and} \bibinfo{person}{Zhiqiang
+  Lin}.} \bibinfo{year}{2020}\natexlab{a}.
+\newblock \showarticletitle{TXSPECTOR: Uncovering Attacks in Ethereum from
+  Transactions}. In \bibinfo{booktitle}{\emph{Proceedings of the 29th USENIX
+  Security Symposium (USENIX Security 20)}}. \bibinfo{pages}{2775--2792}.
+\newblock
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-mengya}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2020b)]%
+        {TXSPECTOR}
+\bibfield{author}{\bibinfo{person}{Mengya Zhang}, \bibinfo{person}{Xiaokuan
+  Zhang}, \bibinfo{person}{Yinqian Zhang}, {and} \bibinfo{person}{Zhiqiang
+  Lin}.} \bibinfo{year}{2020}\natexlab{b}.
+\newblock \showarticletitle{{TXSPECTOR}: Uncovering Attacks in Ethereum from
+  Transactions}. In \bibinfo{booktitle}{\emph{29th USENIX Security Symposium
+  (USENIX Security 20)}}. \bibinfo{publisher}{USENIX Association},
+  \bibinfo{pages}{2775--2792}.
+\newblock
+\showISBNx{978-1-939133-17-5}
+\urldef\tempurl%
+\url{https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-mengya}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhang et~al\mbox{.}(2024)]%
+        {llmhallucination2024}
+\bibfield{author}{\bibinfo{person}{Ziyao Zhang}, \bibinfo{person}{Yanlin Wang},
+  \bibinfo{person}{Yan Xia}, \bibinfo{person}{Xun Zhou}, \bibinfo{person}{Ziyu
+  Lyu}, \bibinfo{person}{Guissart Matteo}, \bibinfo{person}{Peng Liang}, {and}
+  \bibinfo{person}{Qing Wang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{LLM Hallucinations in Practical Code Generation:
+  Phenomena, Mechanism, and Mitigation}.
+\newblock
+\showeprint[arxiv]{2409.20550}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2409.20550}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhong et~al\mbox{.}(2025)]%
+        {zhong2025detectingvariousdefiprice}
+\bibfield{author}{\bibinfo{person}{Juantao Zhong}, \bibinfo{person}{Daoyuan
+  Wu}, \bibinfo{person}{Ye Liu}, \bibinfo{person}{Maoyi Xie},
+  \bibinfo{person}{Yang Liu}, \bibinfo{person}{Yi Li}, {and}
+  \bibinfo{person}{Ning Liu}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Detecting Various DeFi Price Manipulations with LLM
+  Reasoning}.
+\newblock
+\showeprint[arxiv]{2502.11521}~[cs.CR]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2502.11521}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhou et~al\mbox{.}(2023b)]%
+        {defi2023}
+\bibfield{author}{\bibinfo{person}{Liyi Zhou}, \bibinfo{person}{Xihan Xiong},
+  \bibinfo{person}{Jens Ernstberger}, \bibinfo{person}{Stefanos Chaliasos},
+  \bibinfo{person}{Zhipeng Wang}, \bibinfo{person}{Ye Wang},
+  \bibinfo{person}{Kaihua Qin}, \bibinfo{person}{Roger Wattenhofer},
+  \bibinfo{person}{Dawn Song}, {and} \bibinfo{person}{Arthur Gervais}.}
+  \bibinfo{year}{2023}\natexlab{b}.
+\newblock \showarticletitle{SoK: Decentralized Finance (DeFi) Attacks}. In
+  \bibinfo{booktitle}{\emph{2023 IEEE Symposium on Security and Privacy (SP)}}.
+  \bibinfo{pages}{2444--2461}.
+\newblock
+\href{https://doi.org/10.1109/SP46215.2023.10179435}{doi:\nolinkurl{10.1109/SP46215.2023.10179435}}
+
+
+\bibitem[Zhou et~al\mbox{.}(2023a)]%
+        {zhou2023docpromptinggeneratingcoderetrieving}
+\bibfield{author}{\bibinfo{person}{Shuyan Zhou}, \bibinfo{person}{Uri Alon},
+  \bibinfo{person}{Frank~F. Xu}, \bibinfo{person}{Zhiruo Wang},
+  \bibinfo{person}{Zhengbao Jiang}, {and} \bibinfo{person}{Graham Neubig}.}
+  \bibinfo{year}{2023}\natexlab{a}.
+\newblock \bibinfo{title}{DocPrompting: Generating Code by Retrieving the
+  Docs}.
+\newblock
+\showeprint[arxiv]{2207.05987}~[cs.CL]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2207.05987}
+\showURL{%
+\tempurl}
+
+
+\end{thebibliography}

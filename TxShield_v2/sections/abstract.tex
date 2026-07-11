@@ -1,0 +1,9 @@
+%% Abstract section
+
+\begin{abstract}
+Decentralized Finance (DeFi) protocols have become prime targets for sophisticated attacks, with losses exceeding \$3.4 billion in 2025. Existing detection approaches face fundamental limitations: static analyzers cannot capture runtime behaviors, rule-based detectors fail on custom pricing mechanisms, and standalone LLMs suffer from knowledge staleness and hallucinations. We observe that DeFi attacks, despite diverse implementations, exhibit recurring behavioral patterns at the semantic level, suggesting that their apparent diversity masks a small number of underlying semantic structures.
+
+We present \approach, a Retrieval-Augmented Generation framework for real-time DeFi attack detection. \approach constructs an incrementally expandable knowledge base of historical attacks with LLM-generated behavioral summaries, employs a two-stage retrieval mechanism with dynamic similarity thresholding to ensure high-precision context, and applies adaptive prompting to guide LLM reasoning by analogy with retrieved patterns.
+
+Evaluated on 728 transactions spanning 110+ attack types, \approach achieves an F1-score of 0.824, outperforming the state-of-the-art TrxGNNBERT (F1: 0.766) while providing 20$\times$ faster detection. On price manipulation benchmarks, \approach attains 95.60\% recall compared to 80.22\% for DeFiScope. Ablation studies confirm that the RAG framework contributes 0.586 absolute F1 improvement over vanilla LLM. \approach demonstrates that leveraging historical attack knowledge enables effective detection of novel attacks sharing behavioral semantics with known patterns.
+\end{abstract}

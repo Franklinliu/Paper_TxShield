@@ -1,0 +1,153 @@
+%%
+%% Main file for ISSTA 2026 submission
+%% RAGFlow: Detecting Blockchain Attacks with Fine-grained Trace Knowledge
+%%
+
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+
+%% For submission and review
+%\documentclass[acmsmall,screen,review,anonymous,nonacm]{acmart}
+\documentclass[acmsmall,screen,review,anonymous]{acmart}
+%% Note: Use XeLaTeX for compilation
+
+%%% Additional packages
+%\usepackage[most]{tcolorbox}
+%\usepackage{array}
+%\usepackage{booktabs}
+%
+%%% siunitx commented out - not available in this TeX environment
+%%\usepackage{siunitx}
+%%\sisetup{detect-weight=true, detect-family=true, table-number-alignment=center}
+%
+%\usepackage{caption}
+%\usepackage{multirow}
+%\usepackage{makecell}
+%%\usepackage{siunitx} % Commented out - not available
+%\usepackage{enumitem}
+%\usepackage{pifont}
+%\usepackage{ragged2e}
+%\usepackage{tabularx}
+%\usepackage{xspace}
+\input{macros}
+
+%% Promptbox no longer needed - using PDF figures instead
+
+%% BibTeX command
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information (to be updated)
+\setcopyright{acmlicensed}
+\copyrightyear{2026}
+\acmYear{2026}
+\acmDOI{XXXXXXX.XXXXXXX}
+
+%% Conference information (to be updated for ISSTA 2026)
+\acmConference[ISSTA '26]{ACM SIGSOFT International Symposium on Software Testing and Analysis}{July 2026}{TBD}
+\acmISBN{978-1-4503-XXXX-X/2026/07}
+
+
+% 
+% Author list
+% Ye Liu, Beijing Institute of Technology, liuye5@live.com
+% Shiya Li, Wuhan University, 
+% Mu.., Wuhan University,
+% Wei Ma, Singapore Management University, weima@smu.edu.sg
+% Cong Wu, Wuhan 
+% Jing Chen, Wuhan University
+% Zijian Zhang, Beijing Institute of Technology, zhangzijian@bit.edu.cn
+%
+%% Custom commands for easy renaming
+\newcommand{\approach}{\textsc{TxShield}\xspace}
+\newcommand{\dsystem}{DeFiAttackBench\xspace}
+\newcommand{\done}{PriceAttackBench\xspace}
+
+%% Document begins
+%%
+\begin{document}
+
+%% Title
+%\title{Detecting Blockchain Attacks with Fine-grained Trace Knowledge}
+
+\title{TxShield: Transaction-level RAG-enabled DeFi Attack Detection}
+
+%% Authors (anonymized for submission)
+\author{Anonymous Author(s)}
+\affiliation{%
+  \institution{Anonymous Institution}
+  \country{}}
+
+\renewcommand{\shortauthors}{Anonymous}
+
+%% Abstract
+\input{sections/abstract}
+
+%% CCS Concepts (to be updated)
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10011007.10011074.10011099.10011102.10011103</concept_id>
+  <concept_desc>Software and its engineering~Software testing and debugging</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10002978.10003022.10003023</concept_id>
+  <concept_desc>Security and privacy~Software security engineering</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Software and its engineering~Software testing and debugging}
+\ccsdesc[500]{Security and privacy~Software security engineering}
+
+%% Keywords
+\keywords{Smart Contract Security, DeFi Attack Detection, Retrieval-Augmented Generation, Transaction Analysis, Blockchain Security}
+
+%% Teaser figure (optional, comment out if not needed)
+% \begin{teaserfigure}
+%   \includegraphics[width=\textwidth]{pic/flowchart2.png}
+%   \caption{A high-level overview of RAGFlow}
+%   \Description{Overview of the RAGFlow system architecture}
+%   \label{fig:teaser}
+% \end{teaserfigure}
+
+\maketitle
+
+%% Main content sections
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/approach}
+\input{sections/evaluation}
+\input{sections/related}
+\input{sections/conclusion}
+\newpage
+\input{sections/data_availability}
+
+%% Acknowledgments (will be added in camera-ready)
+%\begin{acks}
+%To be added in the camera-ready version.
+%\end{acks}
+
+
+%% Bibliography
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+\newpage
+%% Appendix
+%\appendix
+%\input{sections/appendix}
+
+\end{document}
