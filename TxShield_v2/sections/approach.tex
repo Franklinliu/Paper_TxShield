@@ -193,7 +193,7 @@ Long argument strings are truncated to a fixed length, and contract addresses ar
 Finally, we perform target-oriented structural pruning if target function(s) are given. After locating the target function \(f_t\), such as \texttt{executeOperation}, we record the depth of its first occurrence (Line~\ref{func:finddeepest}). At that depth, nodes that do not invoke \(f_t\) are removed, whereas nodes at other depths remain subject only to the general pruning rules (Line~\ref{func:prunetarget}, Lines~\ref{func:prunetarget:start}-\ref{func:prunetarget:end}). This step suppresses parallel calls that are less relevant to the monitored execution phase while retaining the context leading to the target call and its nested internal behavior. The resulting minimized tree reduces redundant and low-information content while preserving control-flow, asset-flow, and state-query evidence relevant to attack monitoring.
 
 
-\subsection{Semantic Summarization}
+\subsection{Semantic Summarization and Vector Indexing}
 
 Raw execution traces are verbose and difficult to interpret directly. We use an LLM to generate concise \textit{behavioral summaries} that describe the attack logic in natural language. The summarization prompt instructs the model to:
 
@@ -205,13 +205,11 @@ Raw execution traces are verbose and difficult to interpret directly. We use an 
 \end{enumerate}
 
 For example, a flash-loan price manipulation attack might be summarized as: \textit{``The attacker borrows 10~M USDC via an Aave flash loan, swaps to ETH on Uniswap to inflate the ETH/USDC price, deposits ETH as collateral on the victim lending protocol (which uses Uniswap as a price oracle), borrows the maximum amount of USDC against the inflated collateral value, repays the flash loan, and profits \$2.3~M from the price discrepancy.''}
-
 These summaries provide human-readable documentation and, more importantly, distill the semantic essence of attacks into a concise form that offers more useful context for downstream analysis and retrieval.
 
-\subsection{Vector Indexing}
+% \subsection{Vector Indexing}
 
 Each attack case is stored as a record containing: (1) a unique case ID, (2) the behavioral summary, (3) the raw execution trace, and (4) structured metadata. We generate vector embeddings for the behavioral summaries using a pre-trained text embedding model and index them in a vector database.
-
 The vector representation enables semantic similarity search: when a new transaction exhibits patterns similar to known attacks, relevant historical cases can be retrieved even if the specific contracts, function names, or token addresses differ. This ``semantic fingerprinting'' is the foundation of \approach's generalization capability.
 
 \section{In-Context Reasoning for Attack Detection}
@@ -254,29 +252,7 @@ When closely matching historical cases are retrieved ($\mathcal{C}_{\text{filter
     \item \textit{Analysis instructions} directing the LLM to compare the current transaction against historical patterns, identify shared malicious indicators, and assess the degree of behavioral correspondence.
 \end{enumerate}
 
-%The prompt instructs the LLM to \textit{assume initial suspicion} given the proximity to known attack patterns, and to provide irrefutable evidence if concluding the transaction is benign. This design reflects the principle that close retrieval matches constitute preliminary evidence of malicious intent.
-The prompt instructs the LLM to \textit{assume initial suspicion} given the proximity to known attack patterns, and to provide irrefutable evidence if concluding the transaction is benign. Concretely, a \texttt{Benign} verdict is accepted only when it is supported by explicit, trace-grounded evidence that provides concrete evidence against the malicious hypothesis suggested by retrieved cases (e.g., the absence of key malicious indicators present in the retrieved attack patterns). This design reflects the principle that close retrieval matches constitute preliminary evidence of malicious intent.
-
-%\subsubsection{Zero-Shot Prompt}
-
-When no cases pass the similarity threshold, \approach{} falls back to zero-shot analysis. The prompt includes only the current transaction data and general instructions for identifying suspicious patterns (e.g., reentrancy signatures, abnormal fund flows, unauthorized privilege escalation). In contrast to retrieval-augmented prompting, the zero-shot prompt adopts a conservative stance, presuming the transaction to be benign unless verifiable security flaws or anomalous execution logic are evident in the trace. This asymmetric design reflects the absence of corroborating historical evidence: without retrieval-based grounding, aggressive suspicion would increase false positives. This path handles novel attack types that lack historical analogues in the knowledge base.
-
-%\subsubsection{Output Format}
-Both prompts require the LLM to produce structured output comprising four components:
-\begin{enumerate}
-    \item \textit{Decision}: a binary label (\texttt{Attack} or \texttt{Benign}).
-    \item \textit{Behavior Summary}: a description of the transaction's contract interactions and fund movements.
-    \item \textit{Call Sequence Analysis}: an examination of function call patterns. Under retrieval augmentation, this involves comparative analysis against retrieved historical cases with an explicit assessment of behavioral correspondence; under zero-shot prompting, an independent identification of security-relevant patterns.
-    \item \textit{Malicious Indicators}: specific behaviors that support the decision.
-\end{enumerate}
-
-This structured output facilitates downstream processing and provides interpretable explanations for security analysts. 
-
-%\subsubsection{Prompt Details}
-The specific prompt templates are illustrated in Figures~\ref{fig:prompt1} and Figures~\ref{fig:prompt2}: the former presents the context-aware detection prompt, which leverages retrieved historical attack instances for few-shot in-context learning; the latter details the zero-shot detection prompt, designed to evaluate transaction semantics autonomously when relevant historical references are absent.
-By decoupling the reasoning logic into retrieval-augmented and zero-shot prompting, \approach{} maintains high precision for known threats while preserving the flexibility to detect novel attack types. The structured analysis fields make the LLM's reasoning process transparent, enabling security analysts to inspect the evidence chain underlying each decision.
-
-\begin{figure}[t!]
+\begin{figure}[t]
 	\begin{tcolorbox}[title=Prompt template for retrieval-augmented detection]
 		\emph{Input}:\\
 		* Current transaction:  \blue{\{system\_input\}}\\
@@ -303,7 +279,7 @@ By decoupling the reasoning logic into retrieval-augmented and zero-shot prompti
 \end{figure}
 
 
-\begin{figure}[t!]
+\begin{figure}[t]
 	\begin{tcolorbox}[title=Prompt template for zero-shot detection]
 		\emph{Input}:\\
 		* Current transaction:  \blue{\{system\_input\}}
@@ -323,6 +299,28 @@ By decoupling the reasoning logic into retrieval-augmented and zero-shot prompti
 	\caption{Prompt template for zero-shot detection.}
 	\label{fig:prompt2}
 \end{figure}
+%The prompt instructs the LLM to \textit{assume initial suspicion} given the proximity to known attack patterns, and to provide irrefutable evidence if concluding the transaction is benign. This design reflects the principle that close retrieval matches constitute preliminary evidence of malicious intent.
+The prompt instructs the LLM to \textit{assume initial suspicion} given the proximity to known attack patterns, and to provide irrefutable evidence if concluding the transaction is benign. Concretely, a \texttt{Benign} verdict is accepted only when it is supported by explicit, trace-grounded evidence that provides concrete evidence against the malicious hypothesis suggested by retrieved cases (e.g., the absence of key malicious indicators present in the retrieved attack patterns). This design reflects the principle that close retrieval matches constitute preliminary evidence of malicious intent.
+
+%\subsubsection{Zero-Shot Prompt}
+
+When no cases pass the similarity threshold, \approach{} falls back to zero-shot analysis. The prompt includes only the current transaction data and general instructions for identifying suspicious patterns (e.g., reentrancy signatures, abnormal fund flows, unauthorized privilege escalation). In contrast to retrieval-augmented prompting, the zero-shot prompt adopts a conservative stance, presuming the transaction to be benign unless verifiable security flaws or anomalous execution logic are evident in the trace. This asymmetric design reflects the absence of corroborating historical evidence: without retrieval-based grounding, aggressive suspicion would increase false positives. This path handles novel attack types that lack historical analogues in the knowledge base.
+
+%\subsubsection{Output Format}
+Both prompts require the LLM to produce structured output comprising four components:
+\begin{enumerate}
+    \item \textit{Decision}: a binary label (\texttt{Attack} or \texttt{Benign}).
+    \item \textit{Behavior Summary}: a description of the transaction's contract interactions and fund movements.
+    \item \textit{Call Sequence Analysis}: an examination of function call patterns. Under retrieval augmentation, this involves comparative analysis against retrieved historical cases with an explicit assessment of behavioral correspondence; under zero-shot prompting, an independent identification of security-relevant patterns.
+    \item \textit{Malicious Indicators}: specific behaviors that support the decision.
+\end{enumerate}
+
+This structured output facilitates downstream processing and provides interpretable explanations for security analysts. 
+
+%\subsubsection{Prompt Details}
+The specific prompt templates are illustrated in Figures~\ref{fig:prompt1} and Figures~\ref{fig:prompt2}: the former presents the context-aware detection prompt, which leverages retrieved historical attack instances for few-shot in-context learning; the latter details the zero-shot detection prompt, designed to evaluate transaction semantics autonomously when relevant historical references are absent.
+By decoupling the reasoning logic into retrieval-augmented and zero-shot prompting, \approach{} maintains high precision for known threats while preserving the flexibility to detect novel attack types. The structured analysis fields make the LLM's reasoning process transparent, enabling security analysts to inspect the evidence chain underlying each decision.
+
 %
 %\begin{figure}[htbp]
 %	\centering

@@ -2,7 +2,7 @@
 
 \section{Evaluation}
 \label{sec:evaluation}
-To rigorously assess the performance of \approach{}, we design a comprehensive experimental framework encompassing three key dimensions: effectiveness, efficiency, and practicality. Our evaluation is structured around four Research Questions (RQs):
+To rigorously assess the performance of \approach{}, we evaluate four research questions:
 
 \begin{itemize}
 	\item \textbf{RQ1 (Effectiveness)}: How does \approach{} perform relative to state-of-the-art methods in terms of precision and recall?
@@ -13,9 +13,9 @@ To rigorously assess the performance of \approach{}, we design a comprehensive e
 
 These RQs are motivated as follows. \textbf{RQ1} validates whether retrieval-augmented reasoning translates into tangible detection gains over representative learning-based and analysis-based baselines. \textbf{RQ2} isolates the contributions of knowledge injection (RAG) and retrieval refinement, clarifying which component is responsible for the observed improvements. \textbf{RQ3} characterizes the end-to-end latency and API cost footprint, which ultimately determines whether \approach{} is viable for near-real-time deployment. \textbf{RQ4} identifies systematic strengths and failure modes across attack categories, delineating the practical capability boundary and guiding future extensions.
 
-\subsection{Experimental Setup}
+% \subsection{Experimental Setup}
 
-\textit{\textbf{Datasets.}}
+\textit{\textbf{Benchmark.}}
 We evaluate \approach{} on two datasets with complementary goals: \textit{\dsystem{}} for broad-spectrum detection and \textit{\done{}} for price manipulation. \dsystem{} contains 728 transactions with a balanced 1:1 ratio between malicious and benign samples (364 each): malicious transactions were curated from publicly documented incidents in DeFiHackLabs~\cite{defihacklabs2024} (Jan.~2021--Jan.~2025; 110+ exploit types across Ethereum/BSC/Arbitrum), while benign transactions were collected from the same protocols and filtered by temporal proximity; Table~\ref{tab:attack_categories} summarizes the category distribution. \done{} is the public dataset released with DeFiScope~\cite{zhong2025detectingvariousdefiprice} (95 real-world price manipulation cases; \$381.16M total loss); using our trace collection pipeline, we retrieved complete call-flow data for 91 transactions used in the experiments.
 
 \begin{table}[t]
@@ -50,7 +50,7 @@ We benchmark \approach{} against strong baselines aligned with each dataset: on 
 Together, these baselines cover learning-based, formal, and dynamic analysis paradigms for a balanced comparison.
 
 
-\textit{\textbf{Implementation, API Access, and Metrics.}}
+\textit{\textbf{Experiment Setup.}}
 To ensure consistent inference conditions across heterogeneous models, all large language models used in our experiments were accessed through third-party API providers. \approach{} is implemented using LangChain~\cite{langchain} with Chroma~\cite{chromadb} as the vector database. Unless otherwise specified, we use GPT-4.1-mini as the primary reasoning engine and Jina Embeddings v3~\cite{jina2024} to generate vector representations. To prevent data leakage, we construct the knowledge base from a randomly sampled set of 210 DeFiHackLabs historical attack incidents, disjoint from the evaluated attack transactions. The retrieval stage (vector search + filtering) completes in under 100~ms; end-to-end latency is dominated by LLM inference, averaging 15~seconds with GPT-4.1-mini and as low as 11.82~seconds with Llama-3.1-8B-Instruct. We report Accuracy, Precision, Recall, F1-score, and average end-to-end processing latency.
 
 % \textit{\textbf{Compute Environment and API Access.}}
@@ -69,7 +69,7 @@ To ensure consistent inference conditions across heterogeneous models, all large
 To provide a comprehensive assessment of \approach{}'s detection efficacy, we conducted comparative experiments across two datasets with distinct characteristics.
 
 \textit{\textbf{Overall effectiveness and latency.}}
-As detailed in Table~\ref{tab:performance-dsystem-compact}, when configured with GPT-4.1-mini as its reasoning engine, \approach{} achieves an F1-score of 0.839, with precision and recall reaching 0.832 and 0.846, respectively, and an overall accuracy of 0.838. This performance consistently outperforms all evaluated baselines, including the state-of-the-art TrxGNNBERT (F1: 0.766), Blockscan (F1: 0.810), and Txspector (F1: 0.533). Notably, while Blockscan attains a very high precision (0.955), its recall is significantly lower (0.701), indicating a conservative detection strategy that tends to mislabel novel or complex attacks as benign. In contrast, \approach{} strikes a superior balance between precision and recall, delivering the highest F1 score and overall accuracy among all compared methods. Furthermore, Txspector suffers from inherent limitations in its rule-based EVM tracing engine, resulting in low recall (0.571), incomplete transaction coverage (only 450 out of 728 transactions), and an impractical processing latency of several hours. Beyond detection accuracy, \approach{} demonstrates a decisive edge in efficiency; its average processing latency is approximately 15~seconds, which is $20\times$ faster than TrxGNNBERT ($\sim$5~minutes) and orders of magnitude faster than Txspector's manual rule-based pipeline, making it suitable for near-real-time deployment.
+As detailed in \Cref{tab:performance-dsystem-compact}, when configured with GPT-4.1-mini as its reasoning engine, \approach{} achieves an F1-score of 0.839, with precision and recall reaching 0.832 and 0.846, respectively, and an overall accuracy of 0.838. This performance consistently outperforms all evaluated baselines, including the state-of-the-art TrxGNNBERT (F1: 0.766), Blockscan (F1: 0.810), and Txspector (F1: 0.533). Notably, while Blockscan attains a very high precision (0.955), its recall is significantly lower (0.701), indicating a conservative detection strategy that tends to mislabel novel or complex attacks as benign. In contrast, \approach{} strikes a superior balance between precision and recall, delivering the highest F1 score and overall accuracy among all compared methods. Furthermore, Txspector suffers from inherent limitations in its rule-based EVM tracing engine, resulting in low recall (0.571), incomplete transaction coverage (only 450 out of 728 transactions), and an impractical processing latency of several hours. Beyond detection accuracy, \approach{} demonstrates a decisive edge in efficiency; its average processing latency is approximately 15~seconds, which is $20\times$ faster than TrxGNNBERT ($\sim$5~minutes) and orders of magnitude faster than Txspector's manual rule-based pipeline, making it suitable for near-real-time deployment.
 
 % \begin{table}[H]
 % 	\centering
@@ -87,17 +87,18 @@ As detailed in Table~\ref{tab:performance-dsystem-compact}, when configured with
 % 	\end{tabular}
 % \end{table}
 
-\begin{table}[H]
+
+\begin{table}[t]
 	\centering
 	\caption{Performance Comparison on the \dsystem{} Dataset}
 	\label{tab:performance-dsystem-compact}
 	%\small
 	\begin{tabular}{lccccc}
 		\toprule
-		\textbf{Tool} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} & \textbf{Avg. Latency} \\
+		\text{Tool} & \text{Accuracy} & \text{Precision} & \text{Recall} & \text{F1-Score} & \text{Avg. Latency} \\
 		\midrule
-		TrxGNNBERT \cite{TrxGNNBERT} & 0.759 & 0.760 & 0.773 & 0.766 & $\sim$5 min \\
 		Txspector \cite{zhang2020txspector} & 0.544 & 0.500 & 0.571 & 0.533 & $\sim$hours \\
+		TrxGNNBERT \cite{TrxGNNBERT} & 0.759 & 0.760 & 0.773 & 0.766 & $\sim$5 min \\
 		Blockscan\cite{wu2025blockscan} & 0.834 & 0.955 & 0.701 & 0.810 & 25 s \\
 		\approach{}(Ours) & \textbf{0.838} & \textbf{0.832} & \textbf{0.846} & \textbf{0.839} & 15.02 s \\
 		\bottomrule
@@ -106,55 +107,60 @@ As detailed in Table~\ref{tab:performance-dsystem-compact}, when configured with
 
 
 \textit{\textbf{Sensitivity to the LLM backbone.}}
-Building upon these results, we further investigated how different large language models influence \approach{}, as summarized in Table~\ref{tab:ragflow_results}. The Llama-3.1-8B-Instruct variant achieved the lowest processing latency of 11.82~seconds while maintaining a competitive F1-score of 0.793, demonstrating an excellent balance between efficiency and accuracy. Similarly, the ERNIE-Speed-128k model offered a favorable trade-off with a latency of 12.66~seconds and an F1-score of 0.809. Meanwhile, the GPT-4.1-mini variant yielded the highest accuracy metrics across the board (F1: 0.839), validating the synergistic effect between high-performance language models and the RAG framework.
+Building upon these results, we further investigated how different large language models influence \approach{}, as summarized in \Cref{tab:ragflow_results}. The Llama-3.1-8B-Instruct variant achieved the lowest processing latency of 11.82~seconds while maintaining a competitive F1-score of 0.793, demonstrating an excellent balance between efficiency and accuracy. Similarly, the ERNIE-Speed-128k model offered a favorable trade-off with a latency of 12.66~seconds and an F1-score of 0.809. Meanwhile, the GPT-4.1-mini variant yielded the highest accuracy metrics across the board (F1: 0.839), validating the synergistic effect between high-performance language models and the RAG framework.
 
-
-\begin{table*}[htbp]
-	\centering
-	\caption{Performance of \approach{} with Different Models on the \dsystem{} Dataset}
+\begin{figure}[t]
+	\includegraphics[width=.8\linewidth]{pic/model_performance_column_chart.pdf}
+	\caption{Performance Comparison across Different Models on the \dsystem{} Dataset}
 	\label{tab:ragflow_results}
-	\begin{tabular}{lccccr}
-		\toprule
-		Model & Accuracy & Precision & Recall & F1-Score & Avg. Latency (s) \\
-		\midrule
-		% GPT-4.1-mini & 0.812 & 0.774 & 0.882 & 0.824 & 15.02 \\
-        GPT-4.1-mini & 0.838 & 0.832 & 0.846 & 0.839 & 15.02 \\
-		Baidu ERNIE-Speed-128k & 0.794 & 0.755 & 0.871 & 0.809 & 12.66 \\
-		Llama3-8B & 0.778 & 0.741 & 0.854 & 0.793 & 11.82 \\
-		Qwen3-8B & 0.702 & 0.719 & 0.662 & 0.690 & 37.54 \\
-		DeepSeek-R1-Distill-Qwen-7B & 0.702 & 0.702 & 0.698 & 0.700 & 32.31 \\
-		InternLM3 & 0.551 & 0.533 & 0.827 & 0.649 & 12.70 \\
-		\bottomrule
-	\end{tabular}
-\end{table*}
+\end{figure}
+
+% \begin{table*}[htbp]
+% 	\centering
+% 	\caption{Performance of \approach{} with Different Models on the \dsystem{} Dataset}
+% 	\label{tab:ragflow_results}
+% 	\begin{tabular}{lccccr}
+% 		\toprule
+% 		Model & Accuracy & Precision & Recall & F1-Score & Avg. Latency (s) \\
+% 		\midrule
+% 		% GPT-4.1-mini & 0.812 & 0.774 & 0.882 & 0.824 & 15.02 \\
+%         GPT-4.1-mini & 0.838 & 0.832 & 0.846 & 0.839 & 15.02 \\
+% 		Baidu ERNIE-Speed-128k & 0.794 & 0.755 & 0.871 & 0.809 & 12.66 \\
+% 		Llama3-8B & 0.778 & 0.741 & 0.854 & 0.793 & 11.82 \\
+% 		Qwen3-8B & 0.702 & 0.719 & 0.662 & 0.690 & 37.54 \\
+% 		DeepSeek-R1-Distill-Qwen-7B & 0.702 & 0.702 & 0.698 & 0.700 & 32.31 \\
+% 		InternLM3 & 0.551 & 0.533 & 0.827 & 0.649 & 12.70 \\
+% 		\bottomrule
+% 	\end{tabular}
+% \end{table*}
 
 \textit{\textbf{Price manipulation recall.}}
 Driven by the high criticality of price manipulation attacks, we performed a specialized evaluation using the public dataset \done{}. As shown in Table~\ref{tab:recall-d1-dataset}, the GPT-3.5-turbo-backed version of \approach{} achieved a recall of 95.60\%, significantly outperforming the best-performing baseline, DeFiScope (80.22\%). This performance gap stems from a fundamental methodological divergence: while traditional tools like DeFiRanger and DeFort rely on precise mathematical modeling of specific pricing functions, \approach{} emphasizes semantic reasoning grounded by retrieved historical patterns, enabling it to better handle non-standard or custom pricing logic.
 
 \begin{table}[htbp]
 	\centering
-	\caption{Recall Comparison on \done{} Dataset (Price Manipulation)}
+	\caption{Recall Comparison on \done{} Dataset (91 Price Manipulation Cases)}
 	\label{tab:recall-d1-dataset}
 	%\setlength{\tabcolsep}{4pt} % 缩小列间距（关键）
 	\begin{tabular}{l c c c}
 		\toprule
-		\textbf{Detection Tool} &
-		\textbf{Detected Attacks} &
-		\textbf{Recall} &
-		\textbf{$\Delta$Recall (model $-$ DeFiScope)} \\
+		\text{Tool} &
+		\text{\#Attack} &
+		\text{Recall} &
+		\text{$\Delta$Recall (w.r.t. DeFiScope)} \\
 		\midrule
-		\approach{} (GPT-3.5-turbo) & 87 / 91 & 95.60\% & +15.38\% \\
-		\approach{} (GPT-4.1-mini)  & 86 / 91 & 94.51\% & +14.29\% \\
-		DeFiScope (DS)          & 73 / 91 & 80.22\% & Baseline \\
-		DeFort (DF)             & 50 / 91 & 54.95\% & $-$25.27\% \\
-		DeFiRanger (DR)         & 48 / 91 & 52.75\% & $-$27.47\% \\
-		DeFiTainter (DT)        & 32 / 91 & 35.16\% & $-$45.06\% \\
+		\approach{} (GPT-3.5-turbo) & 87  & 95.60\% & +15.38\% \\
+		\approach{} (GPT-4.1-mini)  & 86 & 94.51\% & +14.29\% \\
+		DeFiScope (DS)          & 73  & 80.22\% & \textbf{Baseline} \\
+		DeFort (DF)             & 50  & 54.95\% & $-$25.27\% \\
+		DeFiRanger (DR)         & 48  & 52.75\% & $-$27.47\% \\
+		DeFiTainter (DT)        & 32  & 35.16\% & $-$45.06\% \\
 		\bottomrule
 	\end{tabular}
 \end{table}
 
 \textit{\textbf{Error analysis: missed cases.}}
-Despite its robust overall performance, \approach{} encountered challenges in a few highly intricate cases. Table~\ref{tab:ragflow_false_negative} provides a granular breakdown of these misclassifications. For instance, the IndexedFinance attack involved an index token manipulation mechanism that was not widely recognized at the time, while the BeltFinance series featured complex, multi-step cross-contract interactions. It is worth noting, however, that these cases proved equally challenging for traditional tools; in most instances, at least two baseline tools also failed to provide a correct detection.
+Despite its robust overall performance, \approach{} encountered challenges in a few highly intricate cases. Table~\ref{tab:ragflow_false_negative} provides a granular breakdown of five misclassifications for \approach{} with GPT-4.1-mini. For instance, the IndexedFinance attack involved an index token manipulation mechanism that was not widely recognized at the time, while the BeltFinance series featured complex, multi-step cross-contract interactions. It is worth noting, however, that these cases proved equally challenging for traditional tools; in most instances, at least two baseline tools also failed to provide a correct detection.
 
 
 \begin{table}[H]
