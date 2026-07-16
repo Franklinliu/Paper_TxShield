@@ -7,9 +7,8 @@ This section presents the design of \approach, a retrieval-augmented framework f
 %% Overview figure
 \begin{figure*}[htbp]
 	\centering
-	\includegraphics[width=\textwidth]{ragflow.pdf}
-	\caption{A high-level overview of \approach. It consists of two main components: (1) \textit{Historical Knowledge Base Construction}, which collects execution traces from historical attacks, generates behavioral summaries via LLM; (2) \textit{RAG-based Decision Engine}, which preprocesses incoming transactions, retrieves similar historical cases, and employs adaptive prompting to guide LLM-based attack detection.}
-	\Description{Overview of the \approach system architecture showing the two-stage retrieval mechanism and LLM-based reasoning.}
+	\includegraphics[width=.85\textwidth]{pic/TxHunt.pdf}
+	\caption{A high-level overview of \approach}
 	\label{fig:flowchart}
 \end{figure*}
 
@@ -39,7 +38,7 @@ We source historical attack incidents from DeFiHackLabs~\cite{defihacklabs2024},
     \item Metadata: Attack date, affected protocol, estimated loss, and attack type labels (when available).
 \end{itemize}
 
-The raw trace data captures the every transaction execution details of an attack but often lacks the semantic context needed for effective analysis. 
+The raw trace data captures the very execution details of an attack but often lacks the semantic context needed for effective analysis. 
 To eliminate execution noise and reduce the trace size, we apply a minimization algorithm that removes redundant or low-information nodes while preserving the essential control-flow and asset-flow semantics of the attack.
 
 \subsection{Execution Trace Minimization}
@@ -341,3 +340,5 @@ By decoupling the reasoning logic into retrieval-augmented and zero-shot prompti
 %\end{figure}
 
 
+
+\subsection{Optimization with an XGBoost Classifier}
