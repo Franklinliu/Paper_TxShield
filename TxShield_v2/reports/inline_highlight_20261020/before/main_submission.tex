@@ -1,0 +1,12 @@
+% Submission rendering of the same manuscript; only revision colors change.
+% Build with: latexmk -pdf main_submission.tex
+\AddToHook{begindocument/before}{%
+  \colorlet{blue}{black}%
+  \colorlet{red}{black}%
+  \colorlet{revisionpink}{white}
+  \colorlet{revisiongreen}{white}%
+  \renewcommand{\blue}[1]{\textcolor{black}{#1}}%
+  \renewcommand{\red}[1]{\textcolor{black}{#1}}%
+}
+\newcommand{\TxShieldWorkflowFigure}{pic/overview.pdf}
+\input{main.tex}

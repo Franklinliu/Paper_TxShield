@@ -1,0 +1,10 @@
+% Submission rendering of the same manuscript; only revision colors change.
+% Build with: latexmk -pdf main_submission.tex
+\AddToHook{begindocument/before}{%
+  \colorlet{blue}{black}%
+  \colorlet{red}{black}%
+  \renewcommand{\blue}[1]{\textcolor{black}{#1}}%
+  \renewcommand{\red}[1]{\textcolor{black}{#1}}%
+}
+\newcommand{\TxShieldWorkflowFigure}{pic/TxHunt_xgb_submission.pdf}
+\input{main.tex}

@@ -1,0 +1,11 @@
+%% Conclusion section
+
+\section{Conclusion}
+\label{sec:conclusion}
+\RevBlock{We presented \approach{}, a retrieval-augmented framework for transaction-level DeFi attack detection. Historical attack summaries provide behavioral context, while XGBoost estimates transaction risk to select that context and guide LLM prompting. The LLM combines these inputs with execution evidence to produce the final classification.}
+
+\RevBlock{\approach{} achieves 92.93\% F1 on \dsystem{}, the 728-transaction evaluation set constructed from DeFiHackLabs attacks and sampled benign transactions. Compared with XGBoost-only, it improves F1 by 6.45 percentage points and reduces the number of false-positive transactions from 60 to 7 at comparable recall. In the complementary evaluation on 91 attacks from DeFiScope\textquotesingle s D1 dataset~\cite{zhong2025detectingvariousdefiprice}, it detects 86 attacks. These results support combining numerical risk estimates with historical context and transaction-level reasoning.}
+
+\approach{} faces limitations in scenarios involving cryptographic exploits without behavioral signatures, complex multi-step cross-contract attacks with fragmented semantic signals, and truly novel attack patterns that are absent from the knowledge base. Future work includes integrating formal verification for cryptographic exploit detection, developing more sophisticated call-graph analysis for cross-contract reasoning, and implementing automated knowledge base expansion to remain responsive to emerging threats.
+
+\RevBlock{The results show the value of using historical attack evidence to support transaction analysis, with numerical risk guidance controlling how that evidence enters LLM reasoning.}

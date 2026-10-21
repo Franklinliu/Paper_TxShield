@@ -1,0 +1,71 @@
+{
+  "n": 9,
+  "key": "Hildenbrandt2018KEVM",
+  "input": {
+    "n": 9,
+    "key": "Hildenbrandt2018KEVM",
+    "author": "Hildenbrandt, Everett and Saxena, Manasvi and Rodrigues, Nishant and Zhu, Xiaoran and Daian, Philip and Guth, Dwight and Moore, Brandon and Park, Daejun and Zhang, Yi and Stefanescu, Andrei and Rosu, Grigore",
+    "booktitle": "2018 IEEE 31st Computer Security Foundations Symposium (CSF)",
+    "title": "KEVM: A Complete Formal Semantics of the Ethereum Virtual Machine",
+    "year": "2018",
+    "volume": "",
+    "number": "",
+    "pages": "204-217",
+    "keywords": "Contracts;Semantics;Tools;Virtual machining;Bitcoin;kevm;evm;ethereum;blockchain;k-framework;verification;smart-contract;semantics;ethereum-virtual-machine;formal-methods",
+    "doi": "10.1109/CSF.2018.00022"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=KEVM%3A+A+Complete+Formal+Semantics+of+the+Ethereum+Virtual+Machine&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "KEVM: A Complete Formal Semantics of the Ethereum Virtual Machine",
+      "doi": "https://doi.org/10.1109/csf.2018.00022",
+      "year": 2018,
+      "authors": [
+        "Everett Hildenbrandt",
+        "Manasvi Saxena",
+        "Nishant Rodrigues",
+        "Xiaoran Zhu",
+        "Philip Daian",
+        "Dwight Guth",
+        "Brandon M. Moore",
+        "Daejun Park",
+        "Yi Zhang",
+        "Andrei R Stefanescu",
+        "Grigore Roşu"
+      ],
+      "url": "https://doi.org/10.1109/csf.2018.00022"
+    },
+    {
+      "similarity": 0.942,
+      "title": "KEVM: A Complete Semantics of the Ethereum Virtual Machine",
+      "doi": null,
+      "year": 2017,
+      "authors": [
+        "Everett Hildenbrandt",
+        "Manasvi Saxena",
+        "Xiaoran Zhu",
+        "Nishant Rodrigues",
+        "Philip Daian",
+        "Dwight Guth",
+        "Grigore Roşu"
+      ],
+      "url": "https://hdl.handle.net/2142/97207"
+    },
+    {
+      "similarity": 0.522,
+      "title": "A formal verification tool for Ethereum VM bytecode",
+      "doi": "https://doi.org/10.1145/3236024.3264591",
+      "year": 2018,
+      "authors": [
+        "Daejun Park",
+        "Yi Zhang",
+        "Manasvi Saxena",
+        "Philip Daian",
+        "Grigore Roşu"
+      ],
+      "url": "https://doi.org/10.1145/3236024.3264591"
+    }
+  ]
+}

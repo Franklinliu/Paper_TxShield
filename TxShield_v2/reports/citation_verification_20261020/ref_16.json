@@ -1,0 +1,61 @@
+{
+  "n": 16,
+  "key": "iaudit2025",
+  "input": {
+    "n": 16,
+    "key": "iaudit2025",
+    "title": "Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications",
+    "author": "Ma, Wei and Wu, Daoyuan and Sun, Yuqiang and Wang, Tianwen and Liu, Shangqing and Zhang, Jian and Xue, Yue and Liu, Yang",
+    "booktitle": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+    "pages": "1742--1754",
+    "year": "2025",
+    "organization": "IEEE"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Combining+Fine-Tuning+and+LLM-based+Agents+for+Intuitive+Smart+Contract+Auditing+with+Justifications&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications",
+      "doi": "https://doi.org/10.1109/icse55347.2025.00027",
+      "year": 2025,
+      "authors": [
+        "Wei Ma",
+        "Daoyuan Wu",
+        "Yuqiang Sun",
+        "Tianwen Wang",
+        "Shangqing Liu",
+        "Jian Zhang",
+        "Yue Xue",
+        "Yang Liu"
+      ],
+      "url": "https://doi.org/10.1109/icse55347.2025.00027"
+    },
+    {
+      "similarity": 0.432,
+      "title": "Decoupled Smart Contract Audits: Lightweight LLM Framework via Distillation and Aggregation",
+      "doi": "https://doi.org/10.1109/icws72778.2026.00118",
+      "year": 2026,
+      "authors": [
+        "Bagus Rakadyanto Oktavianto Putra",
+        "Muhamad Risqi U. Saputra",
+        "Widyawan"
+      ],
+      "url": "https://doi.org/10.1109/icws72778.2026.00118"
+    },
+    {
+      "similarity": 0.5,
+      "title": "Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
+      "doi": "https://doi.org/10.48550/arxiv.2609.29454",
+      "year": 2026,
+      "authors": [
+        "Cuifeng Gao",
+        "Juantao Zhong",
+        "Jiachi Chen",
+        "Shuai Wang",
+        "Daoyuan Wu"
+      ],
+      "url": "https://arxiv.org/abs/2609.29454"
+    }
+  ]
+}

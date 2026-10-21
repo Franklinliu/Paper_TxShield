@@ -1,0 +1,51 @@
+{
+  "n": 23,
+  "key": "blockwatchdog2024",
+  "input": {
+    "n": 23,
+    "key": "blockwatchdog2024",
+    "author": "Yang, Shuo and Chen, Jiachi and Huang, Mingyuan and Zheng, Zibin and Huang, Yuan",
+    "title": "Uncover the Premeditated Attacks: Detecting Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts",
+    "booktitle": "Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (ICSE)",
+    "year": "2024",
+    "doi": "10.1145/3597503.3639153"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Uncover+the+Premeditated+Attacks%3A+Detecting+Exploitable+Reentrancy+Vulnerabilities+by+Identifying+Attacker+Contracts&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Uncover the Premeditated Attacks: Detecting Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts",
+      "doi": "https://doi.org/10.1145/3597503.3639153",
+      "year": 2024,
+      "authors": [
+        "Shuo Yang",
+        "Jiachi Chen",
+        "Mingyuan Huang",
+        "Zibin Zheng",
+        "Yuan Huang"
+      ],
+      "url": "https://doi.org/10.1145/3597503.3639153"
+    },
+    {
+      "similarity": 0.406,
+      "title": "The evolution and automated analysis of reentrancy attacks on EVM blockchains",
+      "doi": null,
+      "year": 2026,
+      "authors": [
+        "Liu, Yuqi"
+      ],
+      "url": "http://hdl.handle.net/2429/94201"
+    },
+    {
+      "similarity": 0.419,
+      "title": "The Effectiveness of Echidna in Detecting Reentrancy in Ethereum Smart Contracts Using Bug Injection",
+      "doi": null,
+      "year": 2026,
+      "authors": [
+        "Muhammad Faruq"
+      ],
+      "url": "http://repository.uin-suska.ac.id/94479/1/skripsi_12250111791_1783262508_artikel-lengkap-hz.pdf"
+    }
+  ]
+}

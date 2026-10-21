@@ -1,0 +1,58 @@
+{
+  "n": 41,
+  "key": "mythischaikul2023machine",
+  "input": {
+    "n": 41,
+    "key": "mythischaikul2023machine",
+    "author": "Wang, Deguang and Shan, Mengtao and Tong, Ning",
+    "booktitle": "2024 6th International Conference on Electronic Engineering and Informatics (EEI)",
+    "title": "Smart Contract Vulnerability Detection Based on Machine Learning",
+    "year": "2024",
+    "volume": "",
+    "number": "",
+    "pages": "1038-1042",
+    "keywords": "Radio frequency;Machine learning algorithms;Accuracy;Source coding;Smart contracts;Logic gates;Blockchains;Informatics;Random forests;Open source software;Blockchain smart contract;Deep learning;vulnerability detection algorithm;Dataset preprocessing",
+    "doi": "10.1109/EEI63073.2024.10696331"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Smart+Contract+Vulnerability+Detection+Based+on+Machine+Learning&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Smart Contract Vulnerability Detection Based on Machine Learning",
+      "doi": "https://doi.org/10.1109/eei63073.2024.10696331",
+      "year": 2024,
+      "authors": [
+        "De‐Guang Wang",
+        "Mengtao Shan",
+        "Ning Tong"
+      ],
+      "url": "https://doi.org/10.1109/eei63073.2024.10696331"
+    },
+    {
+      "similarity": 0.513,
+      "title": "SmartMixModel: Machine Learning-based Vulnerability Detection of Solidity Smart Contracts",
+      "doi": "https://doi.org/10.1109/blockchain55522.2022.00016",
+      "year": 2022,
+      "authors": [
+        "Supriya Shakya",
+        "Arnab Mukherjee",
+        "Raju Halder",
+        "Abyayananda Maiti",
+        "Amrita Chaturvedi"
+      ],
+      "url": "https://doi.org/10.1109/blockchain55522.2022.00016"
+    },
+    {
+      "similarity": 0.524,
+      "title": "Attention-based Machine Learning Model for Smart Contract Vulnerability Detection",
+      "doi": "https://doi.org/10.1088/1742-6596/1820/1/012004",
+      "year": 2021,
+      "authors": [
+        "Yuhang Sun",
+        "Lize Gu"
+      ],
+      "url": "https://doi.org/10.1088/1742-6596/1820/1/012004"
+    }
+  ]
+}

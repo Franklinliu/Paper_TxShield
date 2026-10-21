@@ -1,0 +1,52 @@
+{
+  "n": 20,
+  "key": "scvsurvey2024",
+  "input": {
+    "n": 20,
+    "key": "scvsurvey2024",
+    "author": "De Baets, Christopher and Suleiman, Basem and Chitizadeh, Armin and Razzak, Imran",
+    "title": "Vulnerability Detection in Smart Contracts: A Comprehensive Survey",
+    "journal": "arXiv preprint arXiv:2407.07922",
+    "year": "2024"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Vulnerability+Detection+in+Smart+Contracts%3A+A+Comprehensive+Survey&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Vulnerability Detection in Smart Contracts: A Comprehensive Survey",
+      "doi": "https://doi.org/10.48550/arxiv.2407.07922",
+      "year": 2024,
+      "authors": [
+        "Christopher De Baets",
+        "Basem Suleiman",
+        "Armin Chitizadeh",
+        "Imran Razzak"
+      ],
+      "url": "http://arxiv.org/abs/2407.07922"
+    },
+    {
+      "similarity": 0.418,
+      "title": "Smart Contracts and Security: A Comprehensive Survey of Vulnerabilities, Detection Techniques, and Mitigation Strategies",
+      "doi": "https://doi.org/10.1109/melecon64486.2026.11418841",
+      "year": 2026,
+      "authors": [
+        "Zahraa Diabelharake",
+        "Rasha Issa",
+        "Khaleel Mershad"
+      ],
+      "url": "https://doi.org/10.1109/melecon64486.2026.11418841"
+    },
+    {
+      "similarity": 0.607,
+      "title": "A Survey of Vulnerability Detection Techniques by Smart Contract Tools",
+      "doi": "https://doi.org/10.1109/access.2024.3401623",
+      "year": 2024,
+      "authors": [
+        "Zulfiqar Ali Khan",
+        "Akbar Siami Namin"
+      ],
+      "url": "https://doi.org/10.1109/access.2024.3401623"
+    }
+  ]
+}

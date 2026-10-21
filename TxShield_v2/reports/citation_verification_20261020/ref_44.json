@@ -1,0 +1,52 @@
+{
+  "n": 44,
+  "key": "fu2022linevul",
+  "input": {
+    "n": 44,
+    "key": "fu2022linevul",
+    "title": "LineVul: A Transformer-based Line-Level Vulnerability Prediction",
+    "author": "Fu, Michael and Tantithamthavorn, Chakkrit",
+    "booktitle": "2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)",
+    "year": "2022",
+    "organization": "IEEE"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=LineVul%3A+A+Transformer-based+Line-Level+Vulnerability+Prediction&rows=3",
+  "openalex": [
+    {
+      "similarity": 0.2,
+      "title": "LineVul",
+      "doi": "https://doi.org/10.1145/3524842.3528452",
+      "year": 2022,
+      "authors": [
+        "Michael C. Fu",
+        "Chakkrit Kla Tantithamthavorn"
+      ],
+      "url": "https://doi.org/10.1145/3524842.3528452"
+    },
+    {
+      "similarity": 0.607,
+      "title": "Explaining of Transformer-based Models for Vulnerable Function Detection",
+      "doi": "https://doi.org/10.1109/usbereit61901.2024.10583974",
+      "year": 2024,
+      "authors": [
+        "Zalina Rusinova",
+        "Yury Chernyshov",
+        "Anton Yu. Dolganov"
+      ],
+      "url": "https://doi.org/10.1109/usbereit61901.2024.10583974"
+    },
+    {
+      "similarity": 0.611,
+      "title": "VulnBench: A Comprehensive Benchmark for Transformer-Based Vulnerability Detection",
+      "doi": "https://doi.org/10.1609/aaai.v40i48.42369",
+      "year": 2026,
+      "authors": [
+        "Jake Norton",
+        "David M. Eyers",
+        "Veronica Liesaputra"
+      ],
+      "url": "https://doi.org/10.1609/aaai.v40i48.42369"
+    }
+  ]
+}

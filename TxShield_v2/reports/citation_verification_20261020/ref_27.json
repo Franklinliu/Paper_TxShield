@@ -1,0 +1,67 @@
+{
+  "n": 27,
+  "key": "zhou2021flashboys",
+  "input": {
+    "n": 27,
+    "key": "zhou2021flashboys",
+    "author": "Daian, Philip and Goldfeder, Steven and Kell, Tyler and Li, Yunqi and Zhao, Xueyuan and Bentov, Iddo and Breidenbach, Lorenz and Juels, Ari",
+    "booktitle": "2020 IEEE Symposium on Security and Privacy (SP)",
+    "title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability",
+    "year": "2020",
+    "volume": "",
+    "number": "",
+    "pages": "910-927",
+    "keywords": "Contracts;Electronics packaging;Peer-to-peer computing;Bitcoin;Games",
+    "doi": "10.1109/SP40000.2020.00040"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Flash+Boys+2.0%3A+Frontrunning+in+Decentralized+Exchanges%2C+Miner+Extractable+Value%2C+and+Consensus+Instability&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability",
+      "doi": "https://doi.org/10.1109/sp40000.2020.00040",
+      "year": 2020,
+      "authors": [
+        "Philip Daian",
+        "Steven Goldfeder",
+        "Tyler Kell",
+        "Yunqi Li",
+        "Xueyuan Zhao",
+        "Iddo Bentov",
+        "Lorenz Breidenbach",
+        "Ari Juels"
+      ],
+      "url": "https://doi.org/10.1109/sp40000.2020.00040"
+    },
+    {
+      "similarity": 0.522,
+      "title": "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+      "doi": "https://doi.org/10.48550/arxiv.1904.05234",
+      "year": 2019,
+      "authors": [
+        "Philip Daian",
+        "Steven Goldfeder",
+        "Tyler Kell",
+        "Yunqi Li",
+        "Xueyuan Zhao",
+        "Iddo Bentov",
+        "Lorenz Breidenbach",
+        "Ari Juels"
+      ],
+      "url": "http://arxiv.org/abs/1904.05234"
+    },
+    {
+      "similarity": 0.404,
+      "title": "A2MM: Mitigating Frontrunning, Transaction Reordering and Consensus Instability in Decentralized Exchanges",
+      "doi": "https://doi.org/10.48550/arxiv.2106.07371",
+      "year": 2021,
+      "authors": [
+        "Liyi Zhou",
+        "Kaihua Qin",
+        "Arthur Gervais"
+      ],
+      "url": "http://arxiv.org/abs/2106.07371"
+    }
+  ]
+}

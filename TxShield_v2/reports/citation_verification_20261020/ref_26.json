@@ -1,0 +1,16 @@
+{
+  "n": 26,
+  "key": "oraclesurvey2023",
+  "input": {
+    "n": 26,
+    "key": "oraclesurvey2023",
+    "author": "Mackinga, Torgin and Nadahalli, Tejaswi and Wattenhofer, Roger",
+    "title": "TWAP Oracle Attacks: Easier Done than Said?",
+    "journal": "IACR Cryptology ePrint Archive",
+    "year": "2022",
+    "pages": "445"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=TWAP+Oracle+Attacks%3A+Easier+Done+than+Said%3F&rows=3",
+  "openalex_error": "400 Client Error: Bad Request for url: https://api.openalex.org/works?search=TWAP+Oracle+Attacks%3A+Easier+Done+than+Said%3F&per-page=3"
+}

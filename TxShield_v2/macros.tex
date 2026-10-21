@@ -10,7 +10,7 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage[normalem]{ulem} % normalem do not replace \emph to underline
-%\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{amsmath,amssymb,amsfonts,array}
 \usepackage{enumitem}
 \usepackage{microtype}
 \usepackage{hyphenat}
@@ -19,7 +19,8 @@
 %\usepackage{url}
 %\usepackage[hidelinks]{hyperref}
 %\usepackage[hyphens]{url}
-\usepackage[anythingbreaks]{breakurl}
+\usepackage{cite}
+\usepackage[hyphens]{url}
 %\usepackage{cite}
 
 %%% Tables
@@ -30,11 +31,11 @@
 \usepackage{longtable}
 \usepackage{diagbox}
 %%% Plots
-\usepackage{caption}
+% IEEEtran supplies caption formatting.
 % \usepackage{subcaption}
-\usepackage{subfloat}
+
 % \usepackage{subfig}
-\usepackage[caption=false]{subfig}
+\usepackage[caption=false,font=footnotesize]{subfig}
 \usepackage{wrapfig}
 % Code
 \usepackage{listings}
@@ -75,6 +76,7 @@
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 \SetKw{Return}{return}
 
+\usepackage[hidelinks]{hyperref}
 \usepackage[capitalize]{cleveref}
 \crefname{section}{Sect.}{Sects.}
 \Crefname{section}{Section}{Sections}
@@ -84,15 +86,6 @@
 %\renewcommand\footnotetextcopyrightpermission[1]{}
 %\settopmatter{printacmref=false}
 
-\setlength{\abovedisplayskip}{5pt}
-\setlength{\belowdisplayskip}{5pt}
-\setlength{\abovecaptionskip}{5pt}
-\setlength{\belowcaptionskip}{5pt}
-\setlength{\textfloatsep}{5pt}
-\setlength{\floatsep}{5pt}
-\setlength{\intextsep}{5pt}
-\setlength{\dbltextfloatsep}{5pt}
-\setlength{\dblfloatsep}{5pt}
 
 \newcommand{\XSpace}[1]{}
 \newcommand{\XComment}[1]{}
@@ -299,3 +292,16 @@
 \usepackage{alphabeta}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 \usepackage[group-separator={,}]{siunitx}
+\usepackage{colortbl}
+\definecolor{revisionpink}{RGB}{255,225,237}
+\usepackage{soul}
+\newcommand{\RevBlock}[1]{{\let\xspace\relax\sethlcolor{revisionpink}\hl{#1}}}
+\definecolor{revisiongreen}{RGB}{220,245,220}
+\newcommand{\GreenBlock}[1]{{\let\xspace\relax\sethlcolor{revisiongreen}\hl{#1}}}
+\soulregister\approach0
+\soulregister\dsystem0
+\soulregister\done0
+\soulregister\ref7
+\soulregister\Cref7
+\soulregister\cite7
+\soulregister\textquotesingle0

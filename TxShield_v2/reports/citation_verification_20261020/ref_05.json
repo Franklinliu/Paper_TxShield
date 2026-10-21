@@ -1,0 +1,328 @@
+{
+  "n": 5,
+  "key": "slither",
+  "input": {
+    "n": 5,
+    "key": "slither",
+    "author": "Feist, Josselin and Grieco, Gustavo and Groce, Alex",
+    "booktitle": "2019 IEEE/ACM 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB)",
+    "title": "Slither: A Static Analysis Framework for Smart Contracts",
+    "year": "2019",
+    "volume": "",
+    "number": "",
+    "pages": "8-15",
+    "keywords": "Tools;Smart contracts;Static analysis;Optimization;Security;Detectors;Blockchain;Smart Contract;Solidity;Static Analysis;Vulnerability Detection",
+    "doi": "10.1109/WETSEB.2019.00008"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "Slither: A Static Analysis Framework for Smart Contracts",
+      "doi": "10.1109/wetseb.2019.00008",
+      "author": [
+        {
+          "given": "Josselin",
+          "family": "Feist",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gustavo",
+          "family": "Grieco",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Groce",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2019,
+            5
+          ]
+        ]
+      },
+      "venue": [
+        "2019 IEEE/ACM 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB)"
+      ],
+      "page": "8-15",
+      "volume": null,
+      "url": "https://doi.org/10.1109/wetseb.2019.00008"
+    },
+    {
+      "similarity": 0.662,
+      "title": "EOSIOAnalyzer: An Effective Static Analysis Vulnerability Detection Framework for EOSIO Smart Contracts",
+      "doi": "10.1109/compsac54236.2022.00124",
+      "author": [
+        {
+          "given": "Wenyuan",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jiahao",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "WeBank Co., Ltd,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gansen",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jinji",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shuangyin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ruilin",
+          "family": "Lai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ping",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hua",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haoyu",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science, South China Normal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ziheng",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "VeChain Foundation"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2022,
+            6
+          ]
+        ]
+      },
+      "venue": [
+        "2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC)"
+      ],
+      "page": "746-756",
+      "volume": null,
+      "url": "https://doi.org/10.1109/compsac54236.2022.00124"
+    },
+    {
+      "similarity": 0.483,
+      "title": "Enhancing Ethereum Smart Contract Security: A Novel Slither-Based Static Analysis Framework",
+      "doi": "10.1109/icdlt66400.2025.11466794",
+      "author": [
+        {
+          "given": "Nasrin",
+          "family": "Nemati",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Northumbria University,London,United Kingdon"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nasr",
+          "family": "Abosata",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computing, University of Derby,Derby,United Kingdon"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Usman",
+          "family": "Butt",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Engineering and IT, Ajman University,United Arab Emirates"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            5
+          ]
+        ]
+      },
+      "venue": [
+        "2025 IEEE International Conference on Distributed Ledger Technologies (ICDLT)"
+      ],
+      "page": "1-7",
+      "volume": null,
+      "url": "https://doi.org/10.1109/icdlt66400.2025.11466794"
+    }
+  ]
+}

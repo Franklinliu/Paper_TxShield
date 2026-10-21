@@ -1,0 +1,21 @@
+{
+  "pages": 15,
+  "figures": [
+    "Fig. 1.",
+    "Fig. 2.",
+    "Fig. 3.",
+    "Fig. 4.",
+    "Fig. 5."
+  ],
+  "tables": [
+    "TABLE I",
+    "TABLE II",
+    "TABLE III",
+    "TABLE IV",
+    "TABLE V",
+    "TABLE VI",
+    "TABLE VII",
+    "TABLE VIII"
+  ],
+  "blue_spans": 519
+}

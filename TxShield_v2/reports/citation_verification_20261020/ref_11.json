@@ -1,0 +1,55 @@
+{
+  "n": 11,
+  "key": "defitainter2023",
+  "input": {
+    "n": 11,
+    "key": "defitainter2023",
+    "author": "Peng, Shuo and Tan, Zhenguang and Chen, Zhuang and Zhou, Bifei and Luo, Xusheng and Zhang, Dong and Li, Jianhai",
+    "title": "DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols",
+    "year": "2023",
+    "booktitle": "Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+    "pages": "1144--1156",
+    "doi": "10.1145/3597926.3598124"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=DeFiTainter%3A+Detecting+Price+Manipulation+Vulnerabilities+in+DeFi+Protocols&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols",
+      "doi": "https://doi.org/10.1145/3597926.3598124",
+      "year": 2023,
+      "authors": [
+        "Queping Kong",
+        "Jiachi Chen",
+        "Yanlin Wang",
+        "Zigui Jiang",
+        "Zibin Zheng"
+      ],
+      "url": "https://doi.org/10.1145/3597926.3598124"
+    },
+    {
+      "similarity": 0.405,
+      "title": "Strengthening DeFi Security: A Static Analysis Approach to Flash Loan Vulnerabilities",
+      "doi": "https://doi.org/10.48550/arxiv.2411.01230",
+      "year": 2024,
+      "authors": [
+        "Ka Wai Wu"
+      ],
+      "url": "http://arxiv.org/abs/2411.01230"
+    },
+    {
+      "similarity": 0.371,
+      "title": "Flash Loan Attack is More Than Just Price Oracle Manipulation: A Comprehensive Empirical Study",
+      "doi": "https://doi.org/10.1109/qrs65678.2025.00073",
+      "year": 2025,
+      "authors": [
+        "Cuifeng Gao",
+        "J.B. Ye",
+        "Wenzhang Yang",
+        "Yinxing Xue"
+      ],
+      "url": "https://doi.org/10.1109/qrs65678.2025.00073"
+    }
+  ]
+}

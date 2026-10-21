@@ -1,0 +1,11 @@
+%% Conclusion section
+
+\section{Conclusion}
+\label{sec:conclusion}
+We presented \approach{}, a retrieval-augmented generation (RAG) framework for DeFi attack detection that addresses key limitations of existing approaches. \approach{} constructs an incrementally expandable knowledge base of historical attacks with behavioral summaries, employs a two-stage retrieval mechanism with dynamic similarity thresholding, and applies adaptive prompting strategies. Together, these components bridge the gap between low-level execution traces and high-level attack semantics, while mitigating LLM hallucinations via evidence-grounded reasoning.
+
+Our experimental evaluation shows that \approach{} achieves an F1-score of 0.824 on a diverse dataset of 728 transactions spanning 110+ attack types, outperforming TrxGNNBERT by 5.8 percentage points while reducing latency by 20$\times$. On specialized price manipulation benchmarks, \approach{} attains 95.60\% recall, substantially improving recall over prior baselines. The ablation study further confirms that retrieval augmentation contributes the majority of performance gains (0.586 F1 improvement), supporting our hypothesis that historical attack knowledge strengthens detection capability.
+
+\approach{} faces limitations in scenarios involving cryptographic exploits without behavioral signatures, complex multi-step cross-contract attacks with fragmented semantic signals, and truly novel attack patterns that are absent from the knowledge base. Future work includes integrating formal verification for cryptographic exploit detection, developing more sophisticated call-graph analysis for cross-contract reasoning, and implementing automated knowledge base expansion to remain responsive to emerging threats.
+
+\approach{} demonstrates that retrieval-augmented generation is a promising paradigm for security analysis tasks that require both domain knowledge and robust reasoning. As DeFi protocols continue to evolve, approaches that leverage accumulated security knowledge while adapting to new patterns will be essential for protecting the assets at stake in this ecosystem.

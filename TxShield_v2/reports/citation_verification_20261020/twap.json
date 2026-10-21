@@ -1,0 +1,35 @@
+{
+  "url": "https://eprint.iacr.org/2022/445",
+  "status": 200,
+  "metadata": [
+    {
+      "name": "citation_title",
+      "content": "TWAP Oracle Attacks: Easier Done than Said?"
+    },
+    {
+      "name": "citation_author",
+      "content": "Torgin Mackinga"
+    },
+    {
+      "name": "citation_author",
+      "content": "Tejaswi Nadahalli"
+    },
+    {
+      "name": "citation_author",
+      "content": "Roger Wattenhofer"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "Cryptology ePrint Archive"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2022"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://eprint.iacr.org/2022/445.pdf"
+    }
+  ],
+  "text": "TWAP Oracle Attacks: Easier Done than Said? What a lovely hat Is it made out of tin foil ? Cryptology ePrint Archive Papers Updates from the last: 7 days 31 days 6 months 365 days Listing by year All papers Compact view Subscribe How to cite Harvesting metadata Submissions Submit a paper Revise or withdraw a paper Acceptance and publishing conditions About Goals and history News Statistics Contact Search Advanced search Paper 2022/445 TWAP Oracle Attacks: Easier Done than Said? Torgin Mackinga, Tejaswi Nadahalli, and Roger Wattenhofer Abstract Blockchain ``on-chain'' oracles are critical to the functioning of many Decentralized Finance (DeFi) protocols. We analyze these oracles for manipulation resistance. Specifically, we analyze the cost of manipulating on-chain time-weighted average price (TWAP) oracles that use the arithmetic mean. It has been assumed that manipulating a TWAP oracle with the well-known multi-block attack is expensive and scales linearly with the length of the TWAP. We question this assumption with two novel results. First, we describe a single-block attack that works under the same setting as the multi-block attack but costs less to execute. Second, we describe a multi-block MEV (MMEV) style attack where the attacker colludes with a miner/proposer who can mine/propose two blocks in a row. This MMEV style attack makes oracle manipulation orders of magnitude cheaper than previously known attacks. In the proof-of-work setting, MMEV can be done by selfish mining even with very low shares of hashpower. Metadata Available format(s) PDF Category Cryptographic protocols Publication info Published elsewhere. ICBC 2022 Keywords TWAP Oracles MEV DeFi Contact author(s) tejaswin @ ethz ch History 2022-04-12: received Short URL https://ia.cr/2022/445 License CC BY BibTeX Copy to clipboard @misc{cryptoeprint:2022/445,\n      author = {Torgin Mackinga and Tejaswi Nadahalli and Roger Wattenhofer},\n      title = {{TWAP} Oracle Attacks: Easier Done than Said?},\n      howpublished = {Cryptology {ePrint} Archive, Paper 2022/445},\n      year = {2022},\n      url = {https://eprint.iacr.org/2022/445}\n} Note: In order to protect the privacy of readers, eprint.iacr.org\n    does not use cookies or embedded third party content."
+}

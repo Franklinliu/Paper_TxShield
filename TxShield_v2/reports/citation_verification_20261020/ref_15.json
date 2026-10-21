@@ -1,0 +1,287 @@
+{
+  "n": 15,
+  "key": "GPTScan",
+  "input": {
+    "n": 15,
+    "key": "GPTScan",
+    "author": "Sun, Yuqiang and Wu, Daoyuan and Xue, Yue and Liu, Han and Wang, Haijun and Xu, Zhengzi and Xie, Xiaofei and Liu, Yang",
+    "booktitle": "2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)",
+    "title": "GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis",
+    "year": "2024",
+    "volume": "",
+    "number": "",
+    "pages": "2048-2060",
+    "keywords": "Codes;Accuracy;Smart contracts;Computer bugs;Static analysis;Transformers;Logic",
+    "doi": "10.1145/3597503.3639117"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis",
+      "doi": "10.1145/3597503.3639117",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4340-3371",
+          "authenticated-orcid": false,
+          "given": "Yuqiang",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3752-0718",
+          "authenticated-orcid": false,
+          "given": "Daoyuan",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-2141-2044",
+          "authenticated-orcid": false,
+          "given": "Yue",
+          "family": "Xue",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MetaTrust Labs, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-8384-7933",
+          "authenticated-orcid": false,
+          "given": "Han",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Shanghai Key Laboratory of Trustworthy Computing, East China Normal University, Shanghai, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-3509-3919",
+          "authenticated-orcid": false,
+          "given": "Haijun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Xi'an Jiaotong University, Xi'an, Shanxi, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8390-7518",
+          "authenticated-orcid": false,
+          "given": "Zhengzi",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1288-6502",
+          "authenticated-orcid": false,
+          "given": "Xiaofei",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Singapore Management University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7300-9215",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            12
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering"
+      ],
+      "page": "1-13",
+      "volume": null,
+      "url": "https://doi.org/10.1145/3597503.3639117"
+    },
+    {
+      "similarity": 0.608,
+      "title": "CFG Analysis for Detecting Vulnerabilities in Smart Contracts",
+      "doi": "10.1007/978-981-99-0838-7_65",
+      "author": [
+        {
+          "given": "Karishma",
+          "family": "Yadav",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Smita",
+          "family": "Naval",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "venue": [
+        "Lecture Notes in Networks and Systems",
+        "Smart Trends in Computing and Communications"
+      ],
+      "page": "753-763",
+      "volume": null,
+      "url": "https://doi.org/10.1007/978-981-99-0838-7_65"
+    },
+    {
+      "similarity": 0.601,
+      "title": "WASMOD: Detecting vulnerabilities in Wasm smart contracts",
+      "doi": "10.1049/blc2.12029",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0197-2851",
+          "authenticated-orcid": false,
+          "given": "Jianfei",
+          "family": "Zhou",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Electronic Science and Technology of China Chengdu China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ting",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Electronic Science and Technology of China Chengdu China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            15
+          ]
+        ]
+      },
+      "venue": [
+        "IET Blockchain"
+      ],
+      "page": "172-181",
+      "volume": "3",
+      "url": "https://doi.org/10.1049/blc2.12029"
+    }
+  ]
+}

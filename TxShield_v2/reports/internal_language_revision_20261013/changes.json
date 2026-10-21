@@ -1,0 +1,104 @@
+[
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "The changes between runs comprise 93 corrected and two newly introduced false positives, together with 39 recovered and 12 newly missed attacks.",
+    "new": "At the transaction level, the complete system correctly classifies 93 benign transactions and 39 attacks misclassified by the no-XGBoost variant, but misclassifies two benign transactions and 12 attacks correctly classified by that variant.",
+    "note": "A1: 比较配置的预测结果，去掉修复/新引入等版本差异措辞；不归因为过滤器单独作用。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "In the absence of XGBoost, the run retaining two-stage retrieval achieves 77.94\\% F1, whereas the joint-removal configuration achieves 79.85\\%. Retaining two-stage retrieval therefore corresponds to 1.91 percentage points lower F1 in this comparison.",
+    "new": "Without XGBoost, F1 is 77.94\\% with two-stage retrieval and 79.85\\% without it, a decrease of 1.91 percentage points when retrieval filtering is retained.",
+    "note": "A2: 用组件条件取代运行及内部简称。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "The complete system exceeds the joint-removal variant by 13.08 percentage points in F1.",
+    "new": "The complete system exceeds the variant without both XGBoost and two-stage retrieval by 13.08 percentage points in F1.",
+    "note": "A2: 展开内部简称。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "\\textbf{Prediction coverage.} An additional evaluation of the complete pipeline with Qwen3-8B yields 588 valid predictions (80.77\\% coverage): TP=293, FP=97, TN=162, and FN=36. F1 on this subset is 81.50\\%; the remaining 140 transactions comprise 35 attacks and 105 benign samples.",
+    "new": "\\textbf{Prediction coverage.} In the prediction-coverage evaluation, Qwen3-8B produces valid predictions for 588 transactions (80.77\\% coverage), with TP=293, FP=97, TN=162, and FN=36. F1 on these valid predictions is 81.50\\%; the 140 transactions without valid predictions comprise 35 attacks and 105 benign samples.",
+    "note": "A3: 以覆盖率评价及有效预测为口径；保留全部数值，不臆造与 Fig. 5 的设置差异。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "Table~\\ref{tab:noxgb_backbones} reports the separate experiments without XGBoost, including valid sample counts.",
+    "new": "Table~\\ref{tab:noxgb_backbones} reports the backbone ablations without XGBoost and the number of valid predictions for each configuration.",
+    "note": "A4: 用具体消融名称代替 separate experiments。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "\\Blue{The category-level evaluation examines how attack mechanisms affect detection. Its rates are separate measurements from the aggregate results of the default configuration in RQ1--RQ3.}",
+    "new": "\\textcolor{red}{Table~\\ref{tab:capability_spectrum} relates detection rates to the behavioral evidence available for different attack mechanisms.}",
+    "note": "A5: 类别分析以研究问题开头，口径移至表注，不删去区别。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "Note: Cross-contract reentrancy exploits are merged into Reentrancy due to limited samples (2 cases).",
+    "new": "Note: Cross-contract reentrancy exploits are merged into Reentrancy due to limited samples (2 cases). Category-level rates are computed independently of the aggregate default-backbone metrics in RQ1--RQ3.",
+    "note": "A5: 表注保留类别结果并非默认配置汇总结果分解的范围限制。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "\\Blue{Table~\\ref{tab:api_cost_comparison} reports latency and API cost for its six named backbones.}",
+    "new": "\\textcolor{red}{We measure end-to-end latency and API cost across six LLM backbones to assess deployment overhead (Table~\\ref{tab:api_cost_comparison}).}",
+    "note": "A6/B1: 直接说明测量对象及目的。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "Having established the detection efficacy and structural integrity of \\approach{}, we now pivot to its pragmatic engineering feasibility. In the high-stakes domain of smart contract security, the real-world utility of any monitoring system is strictly governed by its operational latency and resource overhead. To ascertain whether \\approach{} can be seamlessly integrated into live threat-detection pipelines, we evaluate its performance across two pivotal dimensions: temporal efficiency and economic sustainability.",
+    "new": "",
+    "note": "B1: 删除作者工作过程叙述，测量目的已合并至上一段。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": " RQ3 varies the LLM backbone, whereas RQ2 holds the backbone fixed and examines component removal.",
+    "new": "",
+    "note": "A7: 删除重复解释小节分工的句子。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/approach.tex",
+    "old": "This stage aims to reduce false positives; its benefit must be assessed together with the attacks discarded by filtering.",
+    "new": "This stage aims to reduce false positives, but can also discard true attacks, creating a trade-off between false alarms and recall.",
+    "note": "A8: 评估建议改为方法的具体权衡。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/approach.tex",
+    "old": "\\Blue{To assess the value of LLM reasoning, we compare the complete pipeline with an XGBoost-only baseline that classifies transactions directly from numerical features. Section~\\ref{sec:evaluation} describes this baseline and its performance.}",
+    "new": "",
+    "note": "A9: 删除方法末尾重复的实验预告；Baselines 中原定义保留。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/evaluation.tex",
+    "old": "The third row jointly removes XGBoost and two-stage retrieval. No-RAG coverage is 726/728 (99.73\\%); two invalid outputs are excluded. Comparisons measure end-to-end differences between variants.",
+    "new": "The w/o XGBoost + two-stage configuration removes both components. No-RAG coverage is 726/728 (99.73\\%); two invalid outputs are excluded. Metrics compare predictions from the respective model configurations.",
+    "note": "A10: 以配置及统计对象为主语，保留覆盖率和比较边界。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/abstract.tex",
+    "old": "The retrieval ablation identifies a more specific trade-off: without XGBoost, two-stage retrieval increases precision but reduces recall and F1.",
+    "new": "Without XGBoost, two-stage retrieval increases precision but reduces recall and F1.",
+    "note": "B2: 删除暗示修正过程的描述，保留实验发现。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/conclusion.tex",
+    "old": "The retrieval ablation shows a narrower effect: without XGBoost, two-stage retrieval increases precision but reduces recall and F1.",
+    "new": "Without XGBoost, two-stage retrieval increases precision but reduces recall and F1.",
+    "note": "B2: 同步结论。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/introduction.tex",
+    "old": "Our key insight, distilled from years of practical experience in smart-contract security, is that DeFi attacks, despite their diverse manifestations, often exhibit recurring behavioral patterns at the semantic level.",
+    "new": "Our key insight is that DeFi attacks, despite their diverse manifestations, often exhibit recurring behavioral patterns at the semantic level.",
+    "note": "B3: 去掉作者经历式支撑，保留后续案例及数据依据。"
+  },
+  {
+    "file": "/Users/weima/Projects/myworks/Paper_TxShield/TxShield_v2/sections/related.tex",
+    "old": "This study addresses this gap by introducing a Semantically-Enhanced Temporal Transaction Knowledge Base.",
+    "new": "\\approach{} retrieves behavioral summaries from a historical attack knowledge base to support transaction-level detection.",
+    "note": "B4: 使用方法已有术语，去掉未定义的大写包装名及额外时间机制暗示。"
+  }
+]

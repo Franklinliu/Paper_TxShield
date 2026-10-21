@@ -1,0 +1,17 @@
+{
+  "pages": [
+    15,
+    15,
+    15
+  ],
+  "text_identical": true,
+  "submission_pink_removed": true,
+  "submission_text_colors": "black body; original plot gray and white box titles preserved",
+  "table_count": 8,
+  "unchanged_tables": 7,
+  "cost_table_added_row": "GPT-3.5-Turbo, 5.87M, $3.15, N/A",
+  "comments_checked": 66,
+  "completed_or_reviewed": 45,
+  "deferred_items": 21,
+  "new_highlight_blocks": 31
+}

@@ -1,0 +1,141 @@
+{
+  "n": 49,
+  "key": "zhang2023repocoder",
+  "input": {
+    "n": 49,
+    "key": "zhang2023repocoder",
+    "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+    "author": "Fengji Zhang and Bei Chen and Yue Zhang and Jacky Keung and Jin Liu and Daoguang Zan and Yi Mao and Jian-Guang Lou and Weizhu Chen",
+    "year": "2023",
+    "eprint": "2303.12570",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CL",
+    "url": "https://arxiv.org/abs/2303.12570"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=RepoCoder%3A+Repository-Level+Code+Completion+Through+Iterative+Retrieval+and+Generation&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+      "doi": "https://doi.org/10.18653/v1/2023.emnlp-main.151",
+      "year": 2023,
+      "authors": [
+        "Fengji Zhang",
+        "Bei Chen",
+        "Yue Zhang",
+        "Jacky Keung",
+        "Jin Liu",
+        "Daoguang Zan",
+        "Yi Mao",
+        "Jian–Guang Lou",
+        "Weizhu Chen"
+      ],
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.151"
+    },
+    {
+      "similarity": 1.0,
+      "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+      "doi": "https://doi.org/10.48550/arxiv.2303.12570",
+      "year": 2023,
+      "authors": [
+        "Fengji Zhang",
+        "Bei Chen",
+        "Yue Zhang",
+        "Keung, Jacky",
+        "Jin Liu",
+        "Daoguang Zan",
+        "Yi Mao",
+        "Jian–Guang Lou",
+        "Weizhu Chen"
+      ],
+      "url": "http://arxiv.org/abs/2303.12570"
+    },
+    {
+      "similarity": 0.513,
+      "title": "RLCoder: Reinforcement Learning for Repository-Level Code Completion",
+      "doi": "https://doi.org/10.1109/icse55347.2025.00014",
+      "year": 2025,
+      "authors": [
+        "Yanlin Wang",
+        "Yanli Wang",
+        "Daya Guo",
+        "Jiachi Chen",
+        "Ruikai Zhang",
+        "Yuchi Ma",
+        "Zibin Zheng"
+      ],
+      "url": "https://doi.org/10.1109/icse55347.2025.00014"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2303.12570",
+  "source_status": 200,
+  "source_title": "[2303.12570] RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation"
+    },
+    {
+      "name": "citation_title",
+      "content": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhang, Fengji"
+    },
+    {
+      "name": "citation_author",
+      "content": "Chen, Bei"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhang, Yue"
+    },
+    {
+      "name": "citation_author",
+      "content": "Keung, Jacky"
+    },
+    {
+      "name": "citation_author",
+      "content": "Liu, Jin"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zan, Daoguang"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mao, Yi"
+    },
+    {
+      "name": "citation_author",
+      "content": "Lou, Jian-Guang"
+    },
+    {
+      "name": "citation_author",
+      "content": "Chen, Weizhu"
+    },
+    {
+      "name": "citation_date",
+      "content": "2023/03/22"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2023/10/20"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2303.12570"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2303.12570"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "The task of repository-level code completion is to continue writing the unfinished code based on a broader context of the repository. While for automated code completion tools, it is difficult to utilize the useful information scattered in different files. We propose RepoCoder, a simple, generic, and effective framework to address the challenge. It streamlines the repository-level code completion process by incorporating a similarity-based retriever and a pre-trained code language model in an iterative retrieval-generation pipeline. RepoCoder makes effective utilization of repository-level information for code completion and has the ability to generate code at various levels of granularity. Moreover, we propose a new benchmark RepoEval, which consists of the latest and high-quality real-world repositories covering line, API invocation, and function body completion scenarios. Experimental results indicate that RepoCoder significantly improves the In-File completion baseline by over 10% in all settings and consistently outperforms the vanilla retrieval-augmented code completion approach. Furthermore, we validate the effectiveness of RepoCoder through comprehensive analysis, providing valuable insights for future research. Our source code and benchmark are publicly available: https://github.com/microsoft/CodeT/tree/main/RepoCoder"
+    }
+  ],
+  "source_text": "[2303.12570] RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Computation and Language arXiv:2303.12570 (cs) [Submitted on 22 Mar 2023 ( v1 ), last revised 20 Oct 2023 (this version, v3)] Title: RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation Authors: Fengji Zhang , Bei Chen , Yue Zhang , Jacky Keung , Jin Liu , Daoguang Zan , Yi Mao , Jian-Guang Lou , Weizhu Chen View a PDF of the paper titled RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation, by Fengji Zhang and 8 other authors View PDF HTML (experimental) Abstract: The task of repository-level code completion is to continue writing the unfinished code based on a broader context of the repository. While for automated code completion tools, it is difficult to utilize the useful information scattered in different files. We propose RepoCoder, a simple, generic, and effective framework to address the challenge. It streamlines the repository-level code completion process by incorporating a similarity-based retriever and a pre-trained code language model in an iterative retrieval-generation pipeline. RepoCoder makes effective utilization of repository-level information for code completion and has the ability to generate code at various levels of granularity. Moreover, we propose a new benchmark RepoEval, which consists of the latest and high-quality real-world repositories covering line, API invocation, and function body completion scenarios. Experimental results indicate that RepoCoder significantly improves the In-File completion baseline by over 10% in all settings and consistently outperforms the vanilla retrieval-augmented code completion approach. Furthermore, we validate the effectiveness of RepoCoder through comprehensive analysis, providing valuable insights for future research. Our source code and benchmark are publicly available: this https URL Comments: accepted by EMNLP 2023 main conference Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI); Programming Languages (cs.PL); Software Engineering (cs.SE) Cite as: arXiv:2303.12570 [cs.CL] (or arXiv:2303.12570v3 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2303.12570 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Fengji Zhang [ view email ] [v1] Wed, 22 Mar 2023 13:54:46 UTC (2,312 KB) [v2] Mon, 3 Apr 2023 08:07:16 UTC (2,312 KB) [v3] Fri, 20 Oct 2023 15:21:51 UTC (4,224 KB) Full-text links: Access Paper: View a PDF of the paper titled RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation, by Fengji Zhang and 8 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CL < prev | next > new | recent | 2023-03 Change to browse by: cs cs.AI cs.PL cs.SE References & Citations SciX Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

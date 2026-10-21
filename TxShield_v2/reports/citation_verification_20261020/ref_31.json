@@ -1,0 +1,516 @@
+{
+  "n": 31,
+  "key": "jina2024",
+  "input": {
+    "n": 31,
+    "key": "jina2024",
+    "title": "jina-embeddings-v3: Multilingual Embeddings With Task LoRA",
+    "author": "Saba Sturua and Isabelle Mohr and Mohammad Kalim Akram and Michael G{\\\"u}nther and Bo Wang and Markus Krimmel and Feng Wang and Georgios Mastrapas and Andreas Koukounas and Nan Wang and Han Xiao",
+    "year": "2024",
+    "eprint": "2409.10173",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CL",
+    "url": "https://arxiv.org/abs/2409.10173"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 0.693,
+      "title": "Jina Embeddings V3: Multilingual Text Encoder with Low-Rank Adaptations",
+      "doi": "10.1007/978-3-031-88720-8_21",
+      "author": [
+        {
+          "given": "Saba",
+          "family": "Sturua",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabelle",
+          "family": "Mohr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohammad",
+          "family": "Kalim Akram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Günther",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Markus",
+          "family": "Krimmel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Feng",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Georgios",
+          "family": "Mastrapas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Koukounas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Han",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "venue": [
+        "Lecture Notes in Computer Science",
+        "Advances in Information Retrieval"
+      ],
+      "page": "123-129",
+      "volume": null,
+      "url": "https://doi.org/10.1007/978-3-031-88720-8_21"
+    },
+    {
+      "similarity": 0.522,
+      "title": "jina-embeddings-v4: Universal Embeddings for Multimodal Multilingual Retrieval",
+      "doi": "10.18653/v1/2025.mrl-main.36",
+      "author": [
+        {
+          "given": "Michael",
+          "family": "Günther",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Saba",
+          "family": "Sturua",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohammad Kalim",
+          "family": "Akram",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Isabelle",
+          "family": "Mohr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrei",
+          "family": "Ungureanu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bo",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sedigheh",
+          "family": "Eslami",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Martens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maximilian",
+          "family": "Werk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Han",
+          "family": "Xiao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the 5th Workshop on Multilingual Representation Learning (MRL 2025)"
+      ],
+      "page": "531-550",
+      "volume": null,
+      "url": "https://doi.org/10.18653/v1/2025.mrl-main.36"
+    },
+    {
+      "similarity": 0.333,
+      "title": "Task Embeddings",
+      "doi": "10.1145/3132847.3133098",
+      "author": [
+        {
+          "given": "Rishabh",
+          "family": "Mehrotra",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University College London, London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Emine",
+          "family": "Yilmaz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University College London &amp; Alan Turing Institute, London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            6
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the 2017 ACM on Conference on Information and Knowledge Management"
+      ],
+      "page": "2199-2202",
+      "volume": null,
+      "url": "https://doi.org/10.1145/3132847.3133098"
+    }
+  ],
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "jina-embeddings-v3: Multilingual Embeddings With Task LoRA",
+      "doi": "https://doi.org/10.48550/arxiv.2409.10173",
+      "year": 2024,
+      "authors": [
+        "Saba Sturua",
+        "Mohr, Isabelle",
+        "Mohammad Kalim Akram",
+        "Michael Günther",
+        "Bo Wang",
+        "Markus Krimmel",
+        "Feng Wang",
+        "Georgios Mastrapas",
+        "Andreas Koukounas",
+        "Nan Wang",
+        "Han Xiao"
+      ],
+      "url": "http://arxiv.org/abs/2409.10173"
+    },
+    {
+      "similarity": 0.522,
+      "title": "jina-embeddings-v4: Universal Embeddings for Multimodal Multilingual Retrieval",
+      "doi": "https://doi.org/10.18653/v1/2025.mrl-main.36",
+      "year": 2025,
+      "authors": [
+        "Michael Günther",
+        "Saba Sturua",
+        "Mohammad Kalim Akram",
+        "Isabelle Mohr",
+        "Andrei Ungureanu",
+        "Bo Wang",
+        "Sedigheh Eslami",
+        "Scott Martens",
+        "Maximilian Werk",
+        "Nan Wang",
+        "Han Xiao"
+      ],
+      "url": "https://doi.org/10.18653/v1/2025.mrl-main.36"
+    },
+    {
+      "similarity": 0.597,
+      "title": "jina-clip-v2: Multilingual Multimodal Embeddings for Text and Images",
+      "doi": "https://doi.org/10.48550/arxiv.2412.08802",
+      "year": 2024,
+      "authors": [
+        "Andreas Koukounas",
+        "Georgios Mastrapas",
+        "Sedigheh Eslami",
+        "Bo Wang",
+        "Mohammad Kalim Akram",
+        "Michael Günther",
+        "Mohr, Isabelle",
+        "Saba Sturua",
+        "Nan Wang",
+        "Han Xiao"
+      ],
+      "url": "http://arxiv.org/abs/2412.08802"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2409.10173",
+  "source_status": 200,
+  "source_title": "[2409.10173] jina-embeddings-v3: Multilingual Embeddings With Task LoRA",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "jina-embeddings-v3: Multilingual Embeddings With Task LoRA"
+    },
+    {
+      "name": "citation_title",
+      "content": "jina-embeddings-v3: Multilingual Embeddings With Task LoRA"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sturua, Saba"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mohr, Isabelle"
+    },
+    {
+      "name": "citation_author",
+      "content": "Akram, Mohammad Kalim"
+    },
+    {
+      "name": "citation_author",
+      "content": "Günther, Michael"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, Bo"
+    },
+    {
+      "name": "citation_author",
+      "content": "Krimmel, Markus"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, Feng"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mastrapas, Georgios"
+    },
+    {
+      "name": "citation_author",
+      "content": "Koukounas, Andreas"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, Nan"
+    },
+    {
+      "name": "citation_author",
+      "content": "Xiao, Han"
+    },
+    {
+      "name": "citation_date",
+      "content": "2024/09/16"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2024/09/19"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2409.10173"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2409.10173"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "We introduce jina-embeddings-v3, a novel text embedding model with 570 million parameters, achieves state-of-the-art performance on multilingual data and long-context retrieval tasks, supporting context lengths of up to 8192 tokens. The model includes a set of task-specific Low-Rank Adaptation (LoRA) adapters to generate high-quality embeddings for query-document retrieval, clustering, classification, and text matching. Evaluation on the MTEB benchmark shows that jina-embeddings-v3 outperforms the latest proprietary embeddings from OpenAI and Cohere on English tasks, while achieving superior performance compared to multilingual-e5-large-instruct across all multilingual tasks. With a default output dimension of 1024, users can flexibly reduce the embedding dimensions to as low as 32 without compromising performance, enabled by Matryoshka Representation Learning."
+    }
+  ],
+  "source_text": "[2409.10173] jina-embeddings-v3: Multilingual Embeddings With Task LoRA Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Computation and Language arXiv:2409.10173 (cs) [Submitted on 16 Sep 2024 ( v1 ), last revised 19 Sep 2024 (this version, v3)] Title: jina-embeddings-v3: Multilingual Embeddings With Task LoRA Authors: Saba Sturua , Isabelle Mohr , Mohammad Kalim Akram , Michael Günther , Bo Wang , Markus Krimmel , Feng Wang , Georgios Mastrapas , Andreas Koukounas , Nan Wang , Han Xiao View a PDF of the paper titled jina-embeddings-v3: Multilingual Embeddings With Task LoRA, by Saba Sturua and 10 other authors View PDF HTML (experimental) Abstract: We introduce jina-embeddings-v3, a novel text embedding model with 570 million parameters, achieves state-of-the-art performance on multilingual data and long-context retrieval tasks, supporting context lengths of up to 8192 tokens. The model includes a set of task-specific Low-Rank Adaptation (LoRA) adapters to generate high-quality embeddings for query-document retrieval, clustering, classification, and text matching. Evaluation on the MTEB benchmark shows that jina-embeddings-v3 outperforms the latest proprietary embeddings from OpenAI and Cohere on English tasks, while achieving superior performance compared to multilingual-e5-large-instruct across all multilingual tasks. With a default output dimension of 1024, users can flexibly reduce the embedding dimensions to as low as 32 without compromising performance, enabled by Matryoshka Representation Learning. Comments: 20 pages, pp11-13 references, pp14-20 appendix and experiment tables Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI); Information Retrieval (cs.IR) MSC classes: 68T50 ACM classes: I.2.7 Cite as: arXiv:2409.10173 [cs.CL] (or arXiv:2409.10173v3 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2409.10173 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Han Xiao [ view email ] [v1] Mon, 16 Sep 2024 11:10:29 UTC (866 KB) [v2] Tue, 17 Sep 2024 06:42:20 UTC (883 KB) [v3] Thu, 19 Sep 2024 11:21:24 UTC (885 KB) Full-text links: Access Paper: View a PDF of the paper titled jina-embeddings-v3: Multilingual Embeddings With Task LoRA, by Saba Sturua and 10 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CL < prev | next > new | recent | 2024-09 Change to browse by: cs cs.AI cs.IR References & Citations SciX Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

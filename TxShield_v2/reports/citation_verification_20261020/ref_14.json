@@ -1,0 +1,328 @@
+{
+  "n": 14,
+  "key": "TrxGNNBERT",
+  "input": {
+    "n": 14,
+    "key": "TrxGNNBERT",
+    "author": "Ma, Wei and Shi, Junjie and Qiu, Jiaxi and Wu, Cong and Chen, Jing and Jiang, Lingxiao and Liu, Shangqing and Liu, Yang and Xiang, Yang",
+    "journal": "IEEE Transactions on Information Forensics and Security",
+    "title": "Detecting DeFi Fraud With a Graph-Transformer Language Model",
+    "year": "2025",
+    "volume": "20",
+    "number": "",
+    "pages": "10051-10065",
+    "keywords": "Blockchains;Transformers;Fraud;Smart contracts;Context modeling;Finance;Security;Graph neural networks;Computer hacking;Semantics;Smart contract transaction;pre-trained model;blockchain security",
+    "doi": "10.1109/TIFS.2025.3612184"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "Detecting DeFi Fraud With a Graph-Transformer Language Model",
+      "doi": "10.1109/tifs.2025.3612184",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0002-6172-4101",
+          "authenticated-orcid": false,
+          "given": "Wei",
+          "family": "Ma",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Junjie",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiaxi",
+          "family": "Qiu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0930-0283",
+          "authenticated-orcid": false,
+          "given": "Cong",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7212-5297",
+          "authenticated-orcid": false,
+          "given": "Jing",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4336-8548",
+          "authenticated-orcid": false,
+          "given": "Lingxiao",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5598-4006",
+          "authenticated-orcid": false,
+          "given": "Shangqing",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7300-9215",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5252-0831",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Xiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Digital Research, Swinburne University of Technology, Hawthorn, VIC, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "venue": [
+        "IEEE Transactions on Information Forensics and Security"
+      ],
+      "page": "10051-10065",
+      "volume": "20",
+      "url": "https://doi.org/10.1109/tifs.2025.3612184"
+    },
+    {
+      "similarity": 0.559,
+      "title": "Detecting bitcoin fraud using graph neural networks",
+      "doi": "10.5267/j.ijdns.2026.2.005",
+      "author": [
+        {
+          "given": "Renad Saleh",
+          "family": "Alsweed",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dina M.",
+          "family": "Ibrahim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "venue": [
+        "International Journal of Data and Network Science"
+      ],
+      "page": "537-546",
+      "volume": "10",
+      "url": "https://doi.org/10.5267/j.ijdns.2026.2.005"
+    },
+    {
+      "similarity": 0.179,
+      "title": "An Adaptive Heterogeneous Temporal Graph Neural Framework for Fraud Detection in DeFi",
+      "doi": "10.1109/iccnct68477.2026.11590156",
+      "author": [
+        {
+          "given": "Prashanth",
+          "family": "S.",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Vidyavardhaka College of Engineering,Mysuru,India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prajwal M.",
+          "family": "K.",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vidyavardhaka College of Engineering,Mysuru,India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rashmi",
+          "family": "S.",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vidyavardhaka College of Engineering,Mysuru,India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prathap Raj",
+          "family": "P.",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Vidyavardhaka College of Engineering,Mysuru,India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            11
+          ]
+        ]
+      },
+      "venue": [
+        "2026 International Conference on Computer Networks and Inventive Communication Technologies (ICCNCT)"
+      ],
+      "page": "1106-1113",
+      "volume": null,
+      "url": "https://doi.org/10.1109/iccnct68477.2026.11590156"
+    }
+  ]
+}

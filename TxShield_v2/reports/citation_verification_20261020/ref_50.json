@@ -1,0 +1,117 @@
+{
+  "n": 50,
+  "key": "zhou2023docpromptinggeneratingcoderetrieving",
+  "input": {
+    "n": 50,
+    "key": "zhou2023docpromptinggeneratingcoderetrieving",
+    "title": "DocPrompting: Generating Code by Retrieving the Docs",
+    "author": "Shuyan Zhou and Uri Alon and Frank F. Xu and Zhiruo Wang and Zhengbao Jiang and Graham Neubig",
+    "year": "2023",
+    "eprint": "2207.05987",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CL",
+    "url": "https://arxiv.org/abs/2207.05987"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=DocPrompting%3A+Generating+Code+by+Retrieving+the+Docs&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "DocPrompting: Generating Code by Retrieving the Docs",
+      "doi": "https://doi.org/10.48550/arxiv.2207.05987",
+      "year": 2022,
+      "authors": [
+        "Shuyan Zhou",
+        "Uri Alon",
+        "Frank F. Xu",
+        "Wang, Zhiruo",
+        "Zhengbao Jiang",
+        "Graham Neubig"
+      ],
+      "url": "http://arxiv.org/abs/2207.05987"
+    },
+    {
+      "similarity": 0.288,
+      "title": "Beyond \"What to Retrieve\": Uncertainty in Retrieval-Augmented Code Generation",
+      "doi": "https://doi.org/10.48550/arxiv.2607.24884",
+      "year": 2026,
+      "authors": [
+        "Chandan Kumar Sah",
+        "Li Zhang",
+        "Xiaoli Lian"
+      ],
+      "url": "https://arxiv.org/abs/2607.24884"
+    },
+    {
+      "similarity": 0.426,
+      "title": "CodeBERTScore: Evaluating Code Generation with Pretrained Models of Code",
+      "doi": "https://doi.org/10.18653/v1/2023.emnlp-main.859",
+      "year": 2023,
+      "authors": [
+        "Shuyan Zhou",
+        "Uri Alon",
+        "Sumit D. Agarwal",
+        "Graham Neubig"
+      ],
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.859"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2207.05987",
+  "source_status": 200,
+  "source_title": "[2207.05987] DocPrompting: Generating Code by Retrieving the Docs",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "DocPrompting: Generating Code by Retrieving the Docs"
+    },
+    {
+      "name": "citation_title",
+      "content": "DocPrompting: Generating Code by Retrieving the Docs"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhou, Shuyan"
+    },
+    {
+      "name": "citation_author",
+      "content": "Alon, Uri"
+    },
+    {
+      "name": "citation_author",
+      "content": "Xu, Frank F."
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, Zhiruo"
+    },
+    {
+      "name": "citation_author",
+      "content": "Jiang, Zhengbao"
+    },
+    {
+      "name": "citation_author",
+      "content": "Neubig, Graham"
+    },
+    {
+      "name": "citation_date",
+      "content": "2022/07/13"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2023/02/18"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2207.05987"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2207.05987"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "Publicly available source-code libraries are continuously growing and changing. This makes it impossible for models of code to keep current with all available APIs by simply training these models on existing code repositories. Thus, existing models inherently cannot generalize to using unseen functions and libraries, because these would never appear in the training data. In contrast, when human programmers use functions and libraries for the first time, they frequently refer to textual resources such as code manuals and documentation, to explore and understand the available functionality. Inspired by this observation, we introduce DocPrompting: a natural-language-to-code generation approach that explicitly leverages documentation by (1) retrieving the relevant documentation pieces given an NL intent, and (2) generating code based on the NL intent and the retrieved documentation. DocPrompting is general: it can be applied to any programming language and is agnostic to the underlying neural model. We demonstrate that DocPrompting consistently improves NL-to-code models: DocPrompting improves strong base models such as CodeT5 by 2.85% in pass@1 (52% relative gain) and 4.39% in pass@10 (30% relative gain) in execution-based evaluation on the popular Python CoNaLa benchmark; on a new Bash dataset tldr, DocPrompting improves CodeT5 and GPT-Neo1.3B by up to absolute 6.9% exact match."
+    }
+  ],
+  "source_text": "[2207.05987] DocPrompting: Generating Code by Retrieving the Docs Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Computation and Language arXiv:2207.05987 (cs) [Submitted on 13 Jul 2022 ( v1 ), last revised 18 Feb 2023 (this version, v3)] Title: DocPrompting: Generating Code by Retrieving the Docs Authors: Shuyan Zhou , Uri Alon , Frank F. Xu , Zhiruo Wang , Zhengbao Jiang , Graham Neubig View a PDF of the paper titled DocPrompting: Generating Code by Retrieving the Docs, by Shuyan Zhou and Uri Alon and Frank F. Xu and Zhiruo Wang and Zhengbao Jiang and Graham Neubig View PDF HTML (experimental) Abstract: Publicly available source-code libraries are continuously growing and changing. This makes it impossible for models of code to keep current with all available APIs by simply training these models on existing code repositories. Thus, existing models inherently cannot generalize to using unseen functions and libraries, because these would never appear in the training data. In contrast, when human programmers use functions and libraries for the first time, they frequently refer to textual resources such as code manuals and documentation, to explore and understand the available functionality. Inspired by this observation, we introduce DocPrompting: a natural-language-to-code generation approach that explicitly leverages documentation by (1) retrieving the relevant documentation pieces given an NL intent, and (2) generating code based on the NL intent and the retrieved documentation. DocPrompting is general: it can be applied to any programming language and is agnostic to the underlying neural model. We demonstrate that DocPrompting consistently improves NL-to-code models: DocPrompting improves strong base models such as CodeT5 by 2.85% in pass@1 (52% relative gain) and 4.39% in pass@10 (30% relative gain) in execution-based evaluation on the popular Python CoNaLa benchmark; on a new Bash dataset tldr, DocPrompting improves CodeT5 and GPT-Neo1.3B by up to absolute 6.9% exact match. Comments: ICLR 2023 (notable-top-25%); code and data are available at this https URL Subjects: Computation and Language (cs.CL) ; Artificial Intelligence (cs.AI); Software Engineering (cs.SE) Cite as: arXiv:2207.05987 [cs.CL] (or arXiv:2207.05987v3 [cs.CL] for this version) https://doi.org/10.48550/arXiv.2207.05987 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Shuyan Zhou [ view email ] [v1] Wed, 13 Jul 2022 06:47:51 UTC (1,082 KB) [v2] Wed, 5 Oct 2022 22:19:01 UTC (1,137 KB) [v3] Sat, 18 Feb 2023 18:27:49 UTC (404 KB) Full-text links: Access Paper: View a PDF of the paper titled DocPrompting: Generating Code by Retrieving the Docs, by Shuyan Zhou and Uri Alon and Frank F. Xu and Zhiruo Wang and Zhengbao Jiang and Graham Neubig View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CL < prev | next > new | recent | 2022-07 Change to browse by: cs cs.AI cs.SE References & Citations SciX Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

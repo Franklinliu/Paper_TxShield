@@ -1,0 +1,559 @@
+{
+  "url": "https://api.crossref.org/works/10.1109/CSF.2018.00022",
+  "status": 200,
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T10:09:02Z",
+      "timestamp": 1791540542059,
+      "version": "4.3.4"
+    },
+    "reference-count": 47,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1109/csf.2018.00022",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          9
+        ]
+      ],
+      "date-time": "2018-08-09T22:10:14Z",
+      "timestamp": 1533852614000
+    },
+    "page": "204-217",
+    "source": "Crossref",
+    "is-referenced-by-count": 353,
+    "title": [
+      "KEVM: A Complete Formal Semantics of the Ethereum Virtual Machine"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Everett",
+        "family": "Hildenbrandt",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Manasvi",
+        "family": "Saxena",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nishant",
+        "family": "Rodrigues",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoran",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip",
+        "family": "Daian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dwight",
+        "family": "Guth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brandon",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daejun",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrei",
+        "family": "Stefanescu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Grigore",
+        "family": "Rosu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "author": "melendez",
+        "year": "2017",
+        "journal-title": "Inside the ico bubble Why initial coin offerings have raised more than $1 billion since January"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Matching logic",
+        "author": "ro?u",
+        "year": "2017",
+        "journal-title": "Logical Methods in Computer Science"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2737924.2737991"
+      },
+      {
+        "key": "ref32",
+        "first-page": "445",
+        "article-title": "K-Java: A Complete Semantics of Java",
+        "author": "bogd?na?",
+        "year": "2015",
+        "journal-title": "Proceedings of the 42nd Symposium on Principles of Programming Languages (POPL'15)"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2737924.2737979"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2103656.2103719"
+      },
+      {
+        "key": "ref37",
+        "year": "2018",
+        "journal-title": "Github Verified Smart Contracts"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-319-70278-0_33",
+        "article-title": "Defining the ethereum virtual machine for interactive theorem provers",
+        "author": "hirai",
+        "year": "2017",
+        "journal-title": "WSTC17 International Conference on Financial Cryptography and Data Security"
+      },
+      {
+        "key": "ref35",
+        "author": "quenston",
+        "year": "2016",
+        "journal-title": "Ethereum's blockchain accidentally splits"
+      },
+      {
+        "key": "ref34",
+        "first-page": "337",
+        "article-title": "Z3: An efficient smt solver",
+        "author": "de moura",
+        "year": "2008",
+        "journal-title": "International Conference on Tools and Algorithms for the Construction and Analysis of Systems"
+      },
+      {
+        "key": "ref10",
+        "author": "szabo",
+        "year": "1994",
+        "journal-title": "Smart Contracts"
+      },
+      {
+        "key": "ref40",
+        "year": "2017",
+        "journal-title": "Ethereum application binary support"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1007/978-3-319-42448-4_13",
+        "article-title": "Understanding modern banking ledgers through blockchain technologies: Future of transaction processing and smart contracts on the internet of money",
+        "author": "peters",
+        "year": "2016",
+        "journal-title": "Banking Beyond Banks and Money"
+      },
+      {
+        "key": "ref12",
+        "author": "daian",
+        "year": "2016",
+        "journal-title": "DAO attack"
+      },
+      {
+        "key": "ref13",
+        "author": "del castillo",
+        "year": "2016",
+        "journal-title": "Ethereum executes blockchain hard fork to return DAO funds"
+      },
+      {
+        "key": "ref14",
+        "author": "buterin",
+        "year": "2016",
+        "journal-title": "Thinking about smart contract security"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1007",
+        "article-title": "A survey of attacks on Ethereum smart contracts",
+        "volume": "2016",
+        "author": "atzei",
+        "year": "2016",
+        "journal-title": "IACR Cryptology ePrint Archive"
+      },
+      {
+        "key": "ref16",
+        "author": "breidenbach",
+        "year": "2017",
+        "journal-title": "An in-depth look at the parity multisig bug"
+      },
+      {
+        "key": "ref17",
+        "author": "steiner",
+        "year": "2017",
+        "journal-title": "Security is a process A postmortem on the parity multi-sig library self-destruct"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2976749.2978309"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "397",
+        "DOI": "10.1016/j.jlap.2010.03.012",
+        "article-title": "An overview of the K semantic framework",
+        "volume": "79",
+        "author": "ro?u",
+        "year": "2010",
+        "journal-title": "Journal of Logic and Algebraic Programming"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Semantics-based program verifiers for all languages",
+        "author": "?tef?nescu",
+        "year": "2016",
+        "journal-title": "Proceedings of the 31th Conference on Object-Oriented Programming Systems Languages and Applications (OOPSLA'16)"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2014.36"
+      },
+      {
+        "key": "ref27",
+        "year": "2017",
+        "journal-title": "Viper - new experimental programming language"
+      },
+      {
+        "key": "ref3",
+        "author": "narayanan",
+        "year": "2016",
+        "journal-title": "Bitcoin and Cryptocurrency Technologies A Comprehensive Introduction"
+      },
+      {
+        "key": "ref6",
+        "first-page": "279",
+        "article-title": "Enhancing bitcoin security and performance with strong consistency via collective signing",
+        "author": "kogias",
+        "year": "2016",
+        "journal-title": "25th USENIX Security Symposium (USENIX Security 16)"
+      },
+      {
+        "key": "ref29",
+        "year": "2012",
+        "journal-title": "K tutorial"
+      },
+      {
+        "key": "ref5",
+        "author": "wilkinson",
+        "year": "2014",
+        "journal-title": "Storj A Peer-to-Peer Cloud Storage Network"
+      },
+      {
+        "key": "ref8",
+        "year": "2013",
+        "journal-title": "Ethereum White Paper"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-802117-0.00005-9"
+      },
+      {
+        "key": "ref2",
+        "author": "nakamoto",
+        "year": "2008",
+        "journal-title": "Bitcoin A Peer-to-Peer Electronic Cash System"
+      },
+      {
+        "key": "ref9",
+        "author": "wood",
+        "year": "2014",
+        "journal-title": "Ethereum A Secure Decentralised Generalised Transaction Ledger"
+      },
+      {
+        "key": "ref1",
+        "year": "2015",
+        "journal-title": "Ethereum tests"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46982-9_5"
+      },
+      {
+        "key": "ref20",
+        "year": "2006",
+        "journal-title": "The K framework"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-89722-6_10"
+      },
+      {
+        "key": "ref22",
+        "author": "manning",
+        "year": "2017",
+        "journal-title": "Ether camps hkg token has a bug and needs to be reissued"
+      },
+      {
+        "key": "ref47",
+        "first-page": "447",
+        "article-title": "RV-Match: Practical semantics-based program analysis",
+        "volume": "9779",
+        "author": "guth",
+        "year": "2016",
+        "journal-title": "Computer Aided Verification - 28th International Conference (CAV 2016) Toronto ON Canada July 17&#x2013;23 2016 Proceedings"
+      },
+      {
+        "key": "ref21",
+        "author": "solana",
+        "year": "2017",
+        "journal-title": "$500K hack challenge backfires on blockchain lottery SmartBillions"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.1145/2692915.2628143",
+        "article-title": "Lem: reusable engineering of real-world semantics",
+        "volume": "49",
+        "author": "mulligan",
+        "year": "2014",
+        "journal-title": "ACM SIGPLAN Notices"
+      },
+      {
+        "key": "ref24",
+        "author": "reitwiessner",
+        "year": "2016",
+        "journal-title": "Dev update Formal methods"
+      },
+      {
+        "key": "ref41",
+        "first-page": "125",
+        "author": "filliâtre",
+        "year": "2013",
+        "journal-title": "Why3 &#x2013; Where Programs Meet Provers"
+      },
+      {
+        "key": "ref23",
+        "year": "2017",
+        "journal-title": "ERC20 Token Standard"
+      },
+      {
+        "key": "ref44",
+        "year": "2017",
+        "journal-title": "Manticore Symbolic execution for humans"
+      },
+      {
+        "key": "ref26",
+        "year": "2017",
+        "journal-title": "Ethereum solidity documentation"
+      },
+      {
+        "key": "ref43",
+        "author": "grishchenko",
+        "year": "2018",
+        "journal-title": "A semantic framework for the security analysis of ethereum smart contracts"
+      },
+      {
+        "key": "ref25",
+        "author": "rizzo",
+        "year": "2016",
+        "journal-title": "formal verification push Ethereum seeks smart contract certainty"
+      }
+    ],
+    "event": {
+      "name": "2018 IEEE 31st Computer Security Foundations Symposium (CSF)",
+      "location": "Oxford",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            9
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2018 IEEE 31st Computer Security Foundations Symposium (CSF)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8428826/8429284/08429306.pdf?arnumber=8429306",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          26
+        ]
+      ],
+      "date-time": "2022-01-26T13:40:42Z",
+      "timestamp": 1643204442000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8429306/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1109/csf.2018.00022",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          7
+        ]
+      ]
+    }
+  }
+}

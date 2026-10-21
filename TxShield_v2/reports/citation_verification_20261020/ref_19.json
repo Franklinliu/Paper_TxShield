@@ -1,0 +1,15 @@
+{
+  "n": 19,
+  "key": "aaveflashloan",
+  "input": {
+    "n": 19,
+    "key": "aaveflashloan",
+    "author": "Aave",
+    "title": "Aave Protocol Documentation: Flash Loans",
+    "howpublished": "\\url{https://docs.aave.com/developers/guides/flash-loans}",
+    "note": "Accessed: 2025-01-01",
+    "year": "2024"
+  },
+  "evidence": [],
+  "source_error": "404 Client Error: Not Found for url: https://aave.com/docs/developers/guides/flash-loans"
+}

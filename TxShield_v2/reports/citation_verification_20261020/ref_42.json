@@ -1,0 +1,158 @@
+{
+  "n": 42,
+  "key": "feng-etal-2020-codebert",
+  "input": {
+    "n": 42,
+    "key": "feng-etal-2020-codebert",
+    "title": "{C}ode{BERT}: A Pre-Trained Model for Programming and Natural Languages",
+    "author": "Feng, Zhangyin and Guo, Daya and Tang, Duyu and Duan, Nan and Feng, Xiaocheng and Gong, Ming and Shou, Linjun and Qin, Bing and Liu, Ting and Jiang, Daxin and Zhou, Ming",
+    "editor": "Cohn, Trevor and He, Yulan and Liu, Yang",
+    "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    "month": "nov",
+    "year": "2020",
+    "address": "Online",
+    "publisher": "Association for Computational Linguistics",
+    "url": "https://aclanthology.org/2020.findings-emnlp.139/",
+    "doi": "10.18653/v1/2020.findings-emnlp.139",
+    "pages": "1536--1547",
+    "abstract": "We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both ``bimodal'' data of NL-PL pairs and ``unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NLPL probing."
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=CodeBERT%3A+A+Pre-Trained+Model+for+Programming+and+Natural+Languages&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+      "doi": "https://doi.org/10.18653/v1/2020.findings-emnlp.139",
+      "year": 2020,
+      "authors": [
+        "Zhangyin Feng",
+        "Daya Guo",
+        "Duyu Tang",
+        "Nan Duan",
+        "Xiaocheng Feng",
+        "Ming Gong",
+        "Linjun Shou",
+        "Bing Qin",
+        "Ting Liu",
+        "Daxin Jiang",
+        "Ming Zhou"
+      ],
+      "url": "https://doi.org/10.18653/v1/2020.findings-emnlp.139"
+    },
+    {
+      "similarity": 1.0,
+      "title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+      "doi": "https://doi.org/10.48550/arxiv.2002.08155",
+      "year": 2020,
+      "authors": [
+        "Zhangyin Feng",
+        "Daya Guo",
+        "Duyu Tang",
+        "Nan Duan",
+        "Xiaocheng Feng",
+        "Ming Gong",
+        "Linjun Shou",
+        "Bing Qin",
+        "Ting Liu",
+        "Daxin Jiang",
+        "Ming Zhou"
+      ],
+      "url": "http://arxiv.org/abs/2002.08155"
+    },
+    {
+      "similarity": 0.154,
+      "title": "Assessing Generalizability of CodeBERT",
+      "doi": "https://doi.org/10.1109/icsme52107.2021.00044",
+      "year": 2021,
+      "authors": [
+        "Xin Zhou",
+        "DongGyun Han",
+        "David Lo"
+      ],
+      "url": "https://doi.org/10.1109/icsme52107.2021.00044"
+    }
+  ],
+  "source_url": "https://aclanthology.org/2020.findings-emnlp.139/",
+  "source_status": 200,
+  "source_title": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages - ACL Anthology",
+  "source_metadata": [
+    {
+      "content": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages",
+      "name": "citation_title"
+    },
+    {
+      "content": "Zhangyin Feng",
+      "name": "citation_author"
+    },
+    {
+      "content": "Daya Guo",
+      "name": "citation_author"
+    },
+    {
+      "content": "Duyu Tang",
+      "name": "citation_author"
+    },
+    {
+      "content": "Nan Duan",
+      "name": "citation_author"
+    },
+    {
+      "content": "Xiaocheng Feng (冯骁骋)",
+      "name": "citation_author"
+    },
+    {
+      "content": "Ming Gong",
+      "name": "citation_author"
+    },
+    {
+      "content": "Linjun Shou",
+      "name": "citation_author"
+    },
+    {
+      "content": "Bing Qin (秦兵)",
+      "name": "citation_author"
+    },
+    {
+      "content": "Ting Liu",
+      "name": "citation_author"
+    },
+    {
+      "content": "Daxin Jiang",
+      "name": "citation_author"
+    },
+    {
+      "content": "Ming Zhou",
+      "name": "citation_author"
+    },
+    {
+      "content": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+      "name": "citation_conference_title"
+    },
+    {
+      "content": "2020/11",
+      "name": "citation_publication_date"
+    },
+    {
+      "content": "https://aclanthology.org/2020.findings-emnlp.139.pdf",
+      "name": "citation_pdf_url"
+    },
+    {
+      "content": "1536",
+      "name": "citation_firstpage"
+    },
+    {
+      "content": "1547",
+      "name": "citation_lastpage"
+    },
+    {
+      "content": "10.18653/v1/2020.findings-emnlp.139",
+      "name": "citation_doi"
+    },
+    {
+      "property": "og:title",
+      "content": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages"
+    }
+  ],
+  "source_text": "CodeBERT: A Pre-Trained Model for Programming and Natural Languages - ACL Anthology C ode BERT : A Pre-Trained Model for Programming and Natural Languages Zhangyin Feng , Daya Guo , Duyu Tang , Nan Duan , Xiaocheng Feng , Ming Gong , Linjun Shou , Bing Qin , Ting Liu , Daxin Jiang , Ming Zhou Correct Metadata for Use this form to create a GitHub issue with structured data describing the correction. You will need a GitHub account.\nOnce you create that issue, the correction will be reviewed by a staff member. ⚠️ Mobile Users: Submitting this form to create a new issue will only work with github.com, not the GitHub Mobile app. Important : The Anthology treat PDFs as authoritative. Please use this form only to correct data\nthat is out of line with the PDF. See our corrections\nguidelines if you need to change the PDF. Title Adjust the title. Retain tags such as\n<fixed-case>. Authors Adjust author names and order to match the\nPDF. Add Author Abstract Correct abstract if needed. Retain XML formatting tags such as <tex-math>. You may use <b>...</b> for bold , <i>...</i> for italic , <u>...</u> for underline , <sc>...</sc> for small-caps , <tt>...<tt> for typewriter text , <url>...</url> for URLs, <a href=...> for hyperlinks, and <par/> for paragraph breaks. Verification against PDF Ensure that the new title/authors match the snapshot below. (If there\nis no snapshot or it is too small, consult the PDF .) Authors concatenated from the text boxes above: ALL author names match the snapshot above—including\nmiddle initials, hyphens, and accents. Create GitHub issue for staff review Abstract We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both “bimodal” data of NL-PL pairs and “unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NLPL probing. Anthology ID: 2020.findings-emnlp.139 Volume: Findings of the Association for Computational Linguistics: EMNLP 2020 Month: November Year: 2020 Address: Online Editors: Trevor Cohn , Yulan He , Yang Liu Venue: Findings SIG: Publisher: Association for Computational Linguistics Note: Pages: 1536–1547 Language: URL: https://aclanthology.org/2020.findings-emnlp.139/ DOI: 10.18653/v1/2020.findings-emnlp.139 Bibkey: feng-etal-2020-codebert Cite (ACL): Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, and Ming Zhou. 2020. CodeBERT: A Pre-Trained Model for Programming and Natural Languages . In Findings of the Association for Computational Linguistics: EMNLP 2020 , pages 1536–1547, Online. Association for Computational Linguistics. Cite (Informal): CodeBERT: A Pre-Trained Model for Programming and Natural Languages (Feng et al., Findings 2020) Copy Citation: BibTeX Markdown MODS XML Endnote More\noptions… PDF: https://aclanthology.org/2020.findings-emnlp.139.pdf PDF Cite Search Fix data Export citation BibTeX MODS XML Endnote Preformatted @inproceedings{feng-etal-2020-codebert,\n    title = \"{C}ode{BERT}: A Pre-Trained Model for Programming and Natural Languages\",\n    author = \"Feng, Zhangyin  and\n      Guo, Daya  and\n      Tang, Duyu  and\n      Duan, Nan  and\n      Feng, Xiaocheng  and\n      Gong, Ming  and\n      Shou, Linjun  and\n      Qin, Bing  and\n      Liu, Ting  and\n      Jiang, Daxin  and\n      Zhou, Ming\",\n    editor = \"Cohn, Trevor  and\n      He, Yulan  and\n      Liu, Yang\",\n    booktitle = \"Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2020\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.findings-emnlp.139/\",\n    doi = \"10.18653/v1/2020.findings-emnlp.139\",\n    pages = \"1536--1547\",\n    abstract = \"We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both ``bimodal'' data of NL-PL pairs and ``unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NLPL probing.\"\n} Download as\nFile Copy to Clipboard <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<modsCollection xmlns=\"http://www.loc.gov/mods/v3\">\n<mods ID=\"feng-etal-2020-codebert\">\n    <titleInfo>\n        <title>CodeBERT: A Pre-Trained Model for Programming and Natural Languages</title>\n    </titleInfo>\n    <name type=\"personal\">\n        <namePart type=\"given\">Zhangyin</namePart>\n        <namePart type=\"family\">Feng</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Daya</namePart>\n        <namePart type=\"family\">Guo</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Duyu</namePart>\n        <namePart type=\"family\">Tang</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Nan</namePart>\n        <namePart type=\"family\">Duan</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Xiaocheng</namePart>\n        <namePart type=\"family\">Feng</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Ming</namePart>\n        <namePart type=\"family\">Gong</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Linjun</namePart>\n        <namePart type=\"family\">Shou</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Bing</namePart>\n        <namePart type=\"family\">Qin</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Ting</namePart>\n        <namePart type=\"family\">Liu</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Daxin</namePart>\n        <namePart type=\"family\">Jiang</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <name type=\"personal\">\n        <namePart type=\"given\">Ming</namePart>\n        <namePart type=\"family\">Zhou</namePart>\n        <role>\n            <roleTerm authority=\"marcrelator\" type=\"text\">author</roleTerm>\n        </role>\n    </name>\n    <originInfo>\n        <dateIssued>2020-11</dateIssued>\n    </originInfo>\n    <typeOfResource>text</typeOfResource>\n    <relatedItem type=\"host\">\n        <titleInfo>\n            <title>Findings of the Association for Computational Linguistics: EMNLP 2020</title>\n        </titleInfo>\n        <name type=\"personal\">\n            <namePart type=\"given\">Trevor</namePart>\n            <namePart type=\"family\">Cohn</namePart>\n            <role>\n                <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm>\n            </role>\n        </name>\n        <name type=\"personal\">\n            <namePart type=\"given\">Yulan</namePart>\n            <namePart type=\"family\">He</namePart>\n            <role>\n                <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm>\n            </role>\n        </name>\n        <name type=\"personal\">\n            <namePart type=\"given\">Yang</namePart>\n            <namePart type=\"family\">Liu</namePart>\n            <role>\n                <roleTerm authority=\"marcrelator\" type=\"text\">editor</roleTerm>\n            </role>\n        </name>\n        <originInfo>\n            <publisher>Association for Computational Linguistics</publisher>\n            <place>\n                <placeTerm type=\"text\">Online</placeTerm>\n            </place>\n        </originInfo>\n        <genre authority=\"marcgt\">conference publication</genre>\n    </relatedItem>\n    <abstract>We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both “bimodal” data of NL-PL pairs and “unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NLPL probing.</abstract>\n    <identifier type=\"citekey\">feng-etal-2020-codebert</identifier>\n    <identifier type=\"doi\">10.18653/v1/2020.findings-emnlp.139</identifier>\n    <location>\n        <url>https://aclanthology.org/2020.findings-emnlp.139/</url>\n    </location>\n    <part>\n        <date>2020-11</date>\n        <extent unit=\"page\">\n            <start>1536</start>\n            <end>1547</end>\n        </extent>\n    </part>\n</mods>\n</modsCollection> Download as\nFile Copy to Clipboard %0 Conference Proceedings\n%T CodeBERT: A Pre-Trained Model for Programming and Natural Languages\n%A Feng, Zhangyin\n%A Guo, Daya\n%A Tang, Duyu\n%A Duan, Nan\n%A Feng, Xiaocheng\n%A Gong, Ming\n%A Shou, Linjun\n%A Qin, Bing\n%A Liu, Ting\n%A Jiang, Daxin\n%A Zhou, Ming\n%Y Cohn, Trevor\n%Y He, Yulan\n%Y Liu, Yang\n%S Findings of the Association for Computational Linguistics: EMNLP 2020\n%D 2020\n%8 November\n%I Association for Computational Linguistics\n%C Online\n%F feng-etal-2020-codebert\n%X We present CodeBERT, a bimodal pre-trained model for programming language (PL) and natural language (NL). CodeBERT learns general-purpose representations that support downstream NL-PL applications such as natural language code search, code documentation generation, etc. We develop CodeBERT with Transformer-based neural architecture, and train it with a hybrid objective function that incorporates the pre-training task of replaced token detection, which is to detect plausible alternatives sampled from generators. This enables us to utilize both “bimodal” data of NL-PL pairs and “unimodal data, where the former provides input tokens for model training while the latter helps to learn better generators. We evaluate CodeBERT on two NL-PL applications by fine-tuning model parameters. Results show that CodeBERT achieves state-of-the-art performance on both natural language code search and code documentation generation. Furthermore, to investigate what type of knowledge is learned in CodeBERT, we construct a dataset for NL-PL probing, and evaluate in a zero-shot setting where parameters of pre-trained models are fixed. Results show that CodeBERT performs better than previous pre-trained models on NLPL probing.\n%R 10.18653/v1/2020.findings-emnlp.139\n%U https://aclanthology.org/2020.findings-emnlp.139/\n%U https://doi.org/10.18653/v1/2020.findings-emnlp.139\n%P 1536-1547 Download as\nFile Copy to Clipboard Markdown (Informal) [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://aclanthology.org/2020.findings-emnlp.139/) (Feng et al., Findings 2020) CodeBERT: A Pre-Trained Model for Programming and Natural Languages (Feng et al., Findings 2020) ACL Zhangyin Feng, Daya Guo, Duyu Tang, Nan Duan, Xiaocheng Feng, Ming Gong, Linjun Shou, Bing Qin, Ting Liu, Daxin Jiang, and Ming Zhou. 2020. CodeBERT: A Pre-Trained Model for Programming and Natural Languages . In Findings of the Association for Computational Linguistics: EMNLP 2020 , pages 1536–1547, Online. Association for Computational Linguistics. Copy Markdown to\nClipboard Copy ACL to\nClipboard"
+}

@@ -1,0 +1,86 @@
+{
+  "Kimi_k3.json": {
+    "N": 728,
+    "TP": 322,
+    "FP": 7,
+    "TN": 357,
+    "FN": 42,
+    "accuracy": 93.26923076923077,
+    "precision": 97.87234042553192,
+    "recall": 88.46153846153847,
+    "f1": 92.92929292929293
+  },
+  "DeepSeek-v4-pro_xgboost.json": {
+    "N": 728,
+    "TP": 325,
+    "FP": 24,
+    "TN": 340,
+    "FN": 39,
+    "accuracy": 91.34615384615384,
+    "precision": 93.12320916905445,
+    "recall": 89.28571428571429,
+    "f1": 91.164095371669
+  },
+  "GPT-5.6-luna": {
+    "N": 728,
+    "TP": 318,
+    "FP": 29,
+    "TN": 335,
+    "FN": 46,
+    "accuracy": 89.6978021978022,
+    "precision": 91.64265129682997,
+    "recall": 87.36263736263736,
+    "f1": 89.45147679324894
+  },
+  "wo_xgboost": {
+    "N": 728,
+    "TP": 295,
+    "FP": 98,
+    "TN": 266,
+    "FN": 69,
+    "accuracy": 77.06043956043956,
+    "precision": 75.06361323155217,
+    "recall": 81.04395604395604,
+    "f1": 77.93923381770145,
+    "invalid": 0
+  },
+  "test_abl_no_two_stage": {
+    "N": 728,
+    "TP": 315,
+    "FP": 110,
+    "TN": 254,
+    "FN": 49,
+    "accuracy": 78.15934065934066,
+    "precision": 74.11764705882354,
+    "recall": 86.53846153846153,
+    "f1": 79.84790874524715,
+    "invalid": 0
+  },
+  "norag": {
+    "N": 726,
+    "TP": 278,
+    "FP": 98,
+    "TN": 266,
+    "FN": 84,
+    "accuracy": 74.93112947658402,
+    "precision": 73.93617021276596,
+    "recall": 76.79558011049724,
+    "f1": 75.33875338753387,
+    "invalid": 2
+  },
+  "full_on_norag_subset": {
+    "N": 726,
+    "TP": 320,
+    "FP": 7,
+    "TN": 357,
+    "FN": 42,
+    "accuracy": 93.25068870523415,
+    "precision": 97.85932721712538,
+    "recall": 88.39779005524862,
+    "f1": 92.88824383164005
+  },
+  "paired_norag_f1_gap": 17.549490444106183,
+  "retained_numeric_tables": "identical: efficiency, attack category, price benchmark"
+}
+Figures 1–4 preserved; Figure 5 updated in place; no duplicate Figure 6.
+Fig. 5: nine models on one axis, six original series unchanged, three new series verified against JSON.

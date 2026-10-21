@@ -1,0 +1,26 @@
+{
+  "files": [
+    "macros.tex",
+    "main.bbl",
+    "main.tex",
+    "pic/attack_distribution_bar.pdf",
+    "pic/model_performance_column_chart.pdf",
+    "pic/overview.pdf",
+    "sample-base.bib",
+    "sections/abstract.tex",
+    "sections/approach.tex",
+    "sections/background.tex",
+    "sections/conclusion.tex",
+    "sections/data_availability.tex",
+    "sections/evaluation.tex",
+    "sections/introduction.tex",
+    "sections/related.tex"
+  ],
+  "file_count": 15,
+  "pages": 14,
+  "text_identical": true,
+  "render_identical": true,
+  "compile_errors": [],
+  "comments_removed": true,
+  "references": 52
+}

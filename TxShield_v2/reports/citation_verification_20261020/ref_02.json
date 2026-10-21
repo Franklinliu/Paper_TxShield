@@ -1,0 +1,47 @@
+{
+  "n": 2,
+  "key": "cryptoLoss2025",
+  "input": {
+    "n": 2,
+    "key": "cryptoLoss2025",
+    "title": "Crypto hacks hit \\$3.4 billion in 2025, attacks on individual wallets rise: Chainalysis",
+    "year": "2025",
+    "howpublished": "\\url{https://www.theblock.co/post/382477/crypto-hack-2025-chainalysis}",
+    "note": "Accessed: 2026-01"
+  },
+  "evidence": [],
+  "source_url": "https://www.theblock.co/news/regulation/2025-12-18-crypto-hack-2025-chainalysis-382477",
+  "source_status": 200,
+  "source_title": "Crypto hacks hit $3.4 billion in 2025, attacks on individual wallets rise: Chainalysis | The Block",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "Crypto hacks hit $3.4 billion in 2025, attacks on individual wallets rise: Chainalysis"
+    },
+    {
+      "property": "article:publisher",
+      "content": "https://facebook.com/The-Block-Crypto-191118545129469"
+    },
+    {
+      "property": "article:section",
+      "content": "Security"
+    },
+    {
+      "property": "article:published_time",
+      "content": "2025-12-18T13:00:00+00:00"
+    },
+    {
+      "property": "article:modified_time",
+      "content": "2025-12-15T08:44:21+00:00"
+    },
+    {
+      "property": "article:author",
+      "content": "https://www.theblock.co/author/danny-park"
+    },
+    {
+      "property": "article:tag",
+      "content": "Exploits"
+    }
+  ],
+  "source_text": "Crypto hacks hit $3.4 billion in 2025, attacks on individual wallets rise: Chainalysis | The Block Get The Block’s latest crypto news and price alerts for the coins you follow, right in Chrome. Add our free extension here. ✕ Institutional crypto intel Explore Try it free Live BTCUSD $81,579.50 -0.53% ETHUSD $2,390.62 -0.47% SOLUSD $104.28 -0.33% PYTHUSD $0.0721 0.49% LINKUSD $11.98 0.69% Latest Crypto News BlackRock's IBIT Bitcoin ETF draws $665 million inflow, highest since October 2025 Oct 20, 2026, 3:05AM EDT • Markets Blockchain Association says Treasury's GENIUS Act rollout needs clearer DeFi, foreign issuer rules Oct 20, 2026, 12:07AM EDT • Regulation BlackRock files for bitcoin ETF offering downside protection and upside exposure to IBIT Oct 19, 2026, 6:00PM EDT • Regulation Mesh taps Visa to let users spend crypto without a separate card Oct 19, 2026, 12:10PM EDT • Business See More Latest Crypto News Crypto hacks hit $3.4 billion in 2025, attacks on individual wallets rise: Chainalysis Chainalysis says personal wallet breaches surged, while DPRK-linked hackers stole a record $2.02 billion and the Bybit exploit drove much of the annual total By Danny Park • Edited by Adam James Regulation • December 18, 2025, 8:00AM EST Make us preferred Share <span class=\"acf-media-credit\"><span class=\"acf-credit\"><span class=\"acf-credit\"><a href=\"theblock.co\" target=\"_blank\">The Block</a></span></span></span> Quick Take Crypto theft reached over $3.4 billion in 2025, showing an increase from last year. Personal wallet hacks and private key breaches on centralized crypto services are on the rise while DeFi hacks remain suppressed. Cryptocurrency theft totaled over $3.41 billion from January through early December, blockchain intelligence firm Chainalysis said. The figure marks an increase from last year's $3.38 billion. A single incident — $1.5 billion hack of Bybit exchange — accounted for around 44% of the annual total. The top three hacks represented 69% of all losses from services, highlighting the escalating severity in major breaches. Chainalysis said there was a notable increase of attacks on personal crypto wallets and private keys on centralized crypto services this year. \"Personal wallet compromises have grown substantially, increasing from just 7.3% of total stolen value in 2022 to 44% in 2024,\" Chainalysis said. Personal wallet compromises reached 158,000 cases involving at least 80,000 unique victims. The total value stolen from individuals declined to $713 million, down from $1.5 billion the previous year, suggesting that attackers targeted smaller amounts across a greater number of users. Ethereum and Tron showed higher rates of victims per 100,000 wallets compared to networks like Base and Solana. Centralized services remain vulnerable to attacks despite professional security measures due to their susceptibility to private key breaches. Such attacks accounted for 88% of the stolen amounts in Q1 2025. DeFi security improves DeFi hack losses remained suppressed even as the total value locked rebounded. This is a key divergence from earlier cycles, where rising TVL usually meant more successful attacks. Chainalysis said this possibly indicates meaningful progress in the sector's security. \"The Venus Protocol incident of September 2025 exemplifies how improved security practices are making a tangible difference,\" the firm noted. Venus, with security monitoring platform Hexagate, detected suspicious activity 18 hours before the attack and swiftly paused operations and recovered funds within hours. Following the attack, Venus passed a governance protocol to freeze $3 million in the attacker's control, leading the perpetrator to actually lose money as a result. \"The combination of proactive monitoring, rapid response capabilities, and governance mechanisms that can act decisively has made the ecosystem more agile and resilient,\" Chainalysis said. \"While attacks still occur, the ability to detect, respond, and even reverse them represents a fundamental shift from the early DeFi era when successful hacks often meant permanent losses.\" DPRK's record year The Democratic People's Republic of Korea (DPRK) continues to be the biggest threat to crypto security, achieving a record amount of crypto thefts worth at least $2.02 billion in 2025. This is $681 million more than what North Korea stole in 2024. With the 2025 figures, DPRK's state-backed cyberactors have now stolen a cumulative amount of $6.75 billion, a large portion of which reportedly goes to fund the regime's nuclear weapons development. Chainalysis said North Korea's major tactic is embedding fraud IT workers inside crypto services to gain privileged access to information or funds. The record amount of stolen funds likely reflects increased reliance on the infiltration strategy, the firm said. The DPRK's laundering methods are characterized by the admission of stolen funds into Chinese-language services, bridges, mixers, and dedicated services, such as Huione . This approach stands apart from that of most other hackers, who generally prefer using lending protocols, KYC-free exchanges, and P2P platforms, according to Chainalysis. Their movement of funds also display structured stages that usually last 45 days — the first five days are spent on immediate distancing of funds from the theft source via DeFi protocols and mixers. The second week focuses on integrating the funds into the broader ecosystem through no-KYC exchanges and bridges, and starts moving funds off-ramp. Between days 20 to 45, North Korean hackers use less-regulated Chinese language platforms, such as Huione, and other centralized exchanges to complete conversion to fiat or other assets. \"As North Korea continues to use cryptocurrency theft to fund state priorities and circumvent international sanctions, the industry must recognize that this threat actor operates by different rules than typical cybercriminals,\" Chainalysis said. \"The challenge for 2026 will be detecting and preventing these high-impact operations before DPRK actors inflict another Bybit-scale incident.\" Bitget CEO Gracy Chen Breaks Down the $350M Hack More videos → TAGS Exploits Bitget CEO Gracy Chen Breaks Down the $350M Hack More videos → SPONSORED PopDEX Opens to All Traders With a Growing Onchain Prize Pool With No Fixed Cap October 19, 2026, 12:01PM EDT RATINGS Best crypto cards with token rewards in 2026 See more ratings Editorial standards and AI use The Block's news, research and explainers are reported, written and edited by our editorial team. We sometimes use AI tools for data analysis, summaries or AI overviews. An editor checks the facts, figures and quotes they produce against primary sources, and every piece is reviewed by an editor before it is published. Sponsored content and press releases are labeled as such and are not written by our editorial team. © 2026 The Block. All Rights Reserved. This content is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice. Privacy Policy"
+}

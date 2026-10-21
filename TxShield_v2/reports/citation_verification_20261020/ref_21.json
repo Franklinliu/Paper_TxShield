@@ -1,0 +1,55 @@
+{
+  "n": 21,
+  "key": "taxonomysc2024",
+  "input": {
+    "n": 21,
+    "key": "taxonomysc2024",
+    "author": "Ortu, Marco and Ibba, Giacomo and Destefanis, Giuseppe and Conversano, Claudio and Tonelli, Roberto",
+    "title": "Taxonomic Insights into Ethereum Smart Contracts by Linking Application Categories to Security Vulnerabilities",
+    "journal": "Scientific Reports",
+    "year": "2024",
+    "volume": "14",
+    "pages": "23433",
+    "doi": "10.1038/s41598-024-73454-0"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Taxonomic+Insights+into+Ethereum+Smart+Contracts+by+Linking+Application+Categories+to+Security+Vulnerabilities&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Taxonomic insights into ethereum smart contracts by linking application categories to security vulnerabilities",
+      "doi": "https://doi.org/10.1038/s41598-024-73454-0",
+      "year": 2024,
+      "authors": [
+        "Marco Ortu",
+        "Giacomo Ibba",
+        "Giuseppe Destefanis",
+        "Claudio Conversano",
+        "Roberto Tonelli"
+      ],
+      "url": "https://doi.org/10.1038/s41598-024-73454-0"
+    },
+    {
+      "similarity": 0.551,
+      "title": "Ethereum Smart Contracts: Security Vulnerabilities and Security Tools",
+      "doi": null,
+      "year": 2017,
+      "authors": [
+        "Ardit Dika"
+      ],
+      "url": "http://hdl.handle.net/11250/2479191"
+    },
+    {
+      "similarity": 0.383,
+      "title": "Review of Automated Vulnerability Analysis of Smart Contracts on Ethereum",
+      "doi": "https://doi.org/10.3389/fbloc.2022.814977",
+      "year": 2022,
+      "authors": [
+        "Heidelinde Rameder",
+        "Monika di Angelo",
+        "Gernot Salzer"
+      ],
+      "url": "https://doi.org/10.3389/fbloc.2022.814977"
+    }
+  ]
+}

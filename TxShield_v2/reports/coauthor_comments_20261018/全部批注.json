@@ -1,0 +1,464 @@
+[
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "staleness",
+    "comment": "\"insufficiency\" may be less questionable; see another comment later.",
+    "y": 237.57916259765625
+  },
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "incrementally",
+    "comment": "not evaluated, related to the comment for \"staleness\"; may omit this word",
+    "y": 307.3171691894531
+  },
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "dynamic",
+    "comment": "omit this word; see another comment later.",
+    "y": 327.2431640625
+  },
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "adaptive",
+    "comment": "may use \"customized\" instead; see another comment later.",
+    "y": 337.2051696777344
+  },
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "XGBoost post-filter checks",
+    "comment": "is the XGBoost model custom-built or built by other people. To edit to show the technical contribution more clearly, e.g.,\nA tailored-made XGBoost decision tree classification model checks...",
+    "y": 357.13116455078125
+  },
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "60 to 7.",
+    "comment": "are these percentage points or absolute counts?",
+    "y": 416.9091796875
+  },
+  {
+    "page": 1,
+    "type": "Highlight",
+    "selected": "Without XGBoost, two-stage retrieval increases precision but reduces recall and F1.",
+    "comment": "Based on the description above, XGBoost would only filter some outputs, so using XGBoost should reduce recall and likely increase precision, contradicting with this sentence here. Some descriptions about using XGBoost are inconsistent.",
+    "y": 436.83416748046875
+  },
+  {
+    "page": 2,
+    "type": "Highlight",
+    "selected": "dynamic",
+    "comment": "why is it called \"dynamic\" but fixed at 0.85?",
+    "y": 511.8209533691406
+  },
+  {
+    "page": 2,
+    "type": "Highlight",
+    "selected": "all within a single atomic transaction.",
+    "comment": "is this an overclaim? Some attacks may happen through multiple transactions? Especially if composability is mentioned in Section II background.  May just omit this phrase.",
+    "y": 93.54937744140625
+  },
+  {
+    "page": 2,
+    "type": "Highlight",
+    "selected": "adaptive",
+    "comment": "see a later comment; \"customized\" may be better",
+    "y": 547.725830078125
+  },
+  {
+    "page": 2,
+    "type": "Caret",
+    "selected": "filtered by XGBoost",
+    "comment": "checked by a tailored-trained XGBoost classification model",
+    "y": 622.6323852539062
+  },
+  {
+    "page": 2,
+    "type": "Highlight",
+    "selected": "60 to 7.",
+    "comment": "to clarify % or counts?",
+    "y": 679.3523559570312
+  },
+  {
+    "page": 2,
+    "type": "Highlight",
+    "selected": "two",
+    "comment": "are two-stage retrieval, customized prompting, and\nXGBoost post-filtering all counted as part of the RAG-\nbased Decision Engine? How are \"two\" counted? May not need to explicitly say the number to minimize inconsistencies in descriptions.",
+    "y": 404.38336181640625
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "selected": "XGBoost then filters the attack candidates",
+    "comment": "is this step part of the \"engine\"? If yes, may change this into step (5); if not, may separate XGBoost descriptions into another paragraph.",
+    "y": 373.4883728027344
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "selected": "engine",
+    "comment": "does this \"engine\" include the XGBoost step? If not, better to separate/extract the sentences about XGBoost into another paragraph.",
+    "y": 385.443359375
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "selected": "real-time",
+    "comment": "might be an overclaim; may remove this phrase here.",
+    "y": 122.37237548828125
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "selected": "knowledge staleness:",
+    "comment": "the evaluation doesn't seem to evaluate this: whether adding new knowledge to the knowledge base incrementally would detect more attacks? This may be evaluated by using different numbers of attacks (according to their temporal ordering) to construct the knowledge base. If not to evaluate this, may change \"knowledge staleness\" to \"knowledge insufficiency\"",
+    "y": 679.3523559570312
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "selected": "the two-stage retrieval mechanism, adaptive LLM-based reasoning, and XGBoost post-filtering.",
+    "comment": "The description below uses \"The RAG-based Decision Engine\"; are the retrieval and XGBoost both part of the RAG? Need to be more consistent how the different components are named and described in the paper.",
+    "y": 158.23736572265625
+  },
+  {
+    "page": 3,
+    "type": "Highlight",
+    "selected": "two",
+    "comment": "but if we look at the previous sentence, there are 4 components..better to make the component naming more consistency; can be done by labeling the component names more clearly in Figure 1.",
+    "y": 182.1673583984375
+  },
+  {
+    "page": 4,
+    "type": "Highlight",
+    "selected": "",
+    "comment": "<",
+    "y": 679.3523559570312
+  },
+  {
+    "page": 4,
+    "type": "Highlight",
+    "selected": "",
+    "comment": ">",
+    "y": 691.307373046875
+  },
+  {
+    "page": 4,
+    "type": "Highlight",
+    "selected": "each trace tree, only the first occurrence of a signature is retained (Line 15); subsequent occurrences and their subtrees are removed during pruning stage (Lines 19-20).",
+    "comment": "Repeated calls can be semantically essential in reentrancy, looping, iterative liquidation, multi-hop swaps, etc. How would removing all later occurrences of the same call signature affect the later detection? This may be a question that needs more ablation/sensitivity evaluation.",
+    "y": 715.2183837890625
+  },
+  {
+    "page": 4,
+    "type": "Highlight",
+    "selected": "too large context bases for LLM to reason efficiently and effectively in limited context windows.",
+    "comment": "may give some statistics how large the traces are before/after minimization, to show the significant saving in tokens; can show in Table VII about the token numbers before minimization saved",
+    "y": 499.5663757324219
+  },
+  {
+    "page": 5,
+    "type": "Highlight",
+    "selected": "pre-trained text embedding model",
+    "comment": "which one? from TrxGNNBERT?",
+    "y": 667.3973388671875
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "1 −∥q −d∥2,",
+    "comment": "is q, d normalized somehow? Otherwise, the 1-... definition may produce negative value?\nDoes Jina Embeddings v3 normalize vectors?",
+    "y": 254.37506103515625
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "set k = 5 to balance recall and computational efficiency.",
+    "comment": "why 5? some ablation/sensitivity study?",
+    "y": 290.7979736328125
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "perform approximate nearest neighbor search to retrieve the top-k most similar historical cases.",
+    "comment": "the knowledge base only contains attack samples, right? Then even for a benign transaction, the retrieval would always return some matches for potential attacks so the retrieved match is highly attack-biased? \nShould the knowledge base include benign cases too, so that if the retrieval returns all benign cases, it may be likely a benign case already?",
+    "y": 219.22637939453125
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "empirically set τ = 0.85",
+    "comment": "sensitive evaluation?",
+    "y": 338.3090515136719
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "must assume malicious intent initially",
+    "comment": "Why this attack-biased prompt? would this cause many unnecessary false positives? Reviewers might ask for more evaluation on alternative prompts (e.g., neutral or benign-biased prompts)\nOk, saw some explanations in later paragraphs; better to move those explanations forwards to the beginning of this subsection when the prompting strategy is introduced, to avoid such questions.",
+    "y": 203.74835205078125
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "assume initial suspicion given the proximity to known attack patterns, and to provide irrefutable evidence",
+    "comment": "this may inflate recall. Why is this a good design choice?",
+    "y": 523.2623291015625
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "adaptive prompting strategy",
+    "comment": "what is \"adaptive\"? Does it refer to choose one from the 2 prompt templates? That is a small adaption only; may use \"selective\" instead, or more general \"customized\"",
+    "y": 564.5663452148438
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "two-stage retrieval mechanism",
+    "comment": "see another comment in ablation settings. Is this retrieval part of RAG? \nAlso, is it really needed to say \"two-stage\"? It's unclear how you count 1, 2,... May omit \"two-stage\", simply say \"a retrieval mechanism\"",
+    "y": 125.6893310546875
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "Cases below this threshold are discarded",
+    "comment": "This cutoff happens after choosing top-k=5; why not apply the threshold before applying k=5? This might provide more relevant candidates.",
+    "y": 374.891357421875
+  },
+  {
+    "page": 6,
+    "type": "Highlight",
+    "selected": "presuming the transaction to be benign unless verifiable security flaws or anomalous execution logic are evident in the trace. This asymmetric design reflects the",
+    "comment": "such explanations can move earlier to avoid questions why the prompts are designed to be attack-biased vs. benign-biased.",
+    "y": 715.2183837890625
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "selected": "transactions drawn from DeFiHackLabs",
+    "comment": "Section IV knowledge base was also constructed from DeFiHackLabs; what mechanisms did you use to minimize data leak? At least, need to say that no attack is used in the knowledge base construction, Even better, need to check no same contract is used for both the knowledge base and the evaluation; may also consider time-based separation: only use contracts/attacks before certain time for knowledge base and training; contracts/attacks after the cut-off time are used to testing.",
+    "y": 691.307373046875
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "selected": "benign transactions sampled from normal user activity in the affected protocols.",
+    "comment": "benign cases might be too simple, as these normal user transactions may be very different from attacks so it's easy to differentiate them from attacks. More difficult cases would be benign transactions involving flash loans, liquidations, arbitrage, multi-hop routing, etc. and real-world data may not be balanced: a small number of attacks hide among a lot of benign transactions. Reviewers may ask to include more benign flash-loan transactions in the benign evaluation dataset.",
+    "y": 715.2183837890625
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "selected": "The 14 candidate features",
+    "comment": "what are these 14 features? need more details",
+    "y": 361.8903503417969
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "selected": "decide whether to retain each candidate as an alert.",
+    "comment": "If XGBoost only to remove some alerts, then using XGBoost would reduce recall; without using XGBoost, recall should be higher. But why ablation Table Iv shows opposite?",
+    "y": 290.3223571777344
+  },
+  {
+    "page": 7,
+    "type": "Highlight",
+    "selected": "Both prompts",
+    "comment": "in the evaluation later, can be interesting to show how many cases had zero-shot prompting  vs. few-shot prompting, and their success rates respectively, so as to illustrate how the different prompts affect the results.",
+    "y": 519.5753173828125
+  },
+  {
+    "page": 8,
+    "type": "Highlight",
+    "selected": "420 training samples",
+    "comment": "where came the training samples? Better to describe what mechanisms you used to minimize data leakage to the test samples.",
+    "y": 327.8763732910156
+  },
+  {
+    "page": 8,
+    "type": "Highlight",
+    "selected": "LLMs are accessed through third-party APIs.",
+    "comment": "LLM outputs may be nondeterministic; were they executed multiple times to estimate statistical confidence levels?",
+    "y": 715.1187133789062
+  },
+  {
+    "page": 9,
+    "type": "Highlight",
+    "selected": "correspond to 373 attacks and 355 benign samples,",
+    "comment": "what does this mean? Why TP+FN = 373, not 364? TrxGNNBERT used a different dataset or errors in the labels of the samples? Reviewers might ask why not run txShield on the same dataset as trxGNNBERT",
+    "y": 258.1292724609375
+  },
+  {
+    "page": 9,
+    "type": "Caret",
+    "selected": "without both XGBoost and",
+    "comment": "without either XGBoost or two-stage retrieval",
+    "y": 349.11236572265625
+  },
+  {
+    "page": 9,
+    "type": "Highlight",
+    "selected": "two-stage retrieval, and without RAG.",
+    "comment": "I thought two-stage retrieval part of your RAG pipeline, but based on the ablation settings, they are treated as different components. Need to describe more clearly which components are which, especially in Fig. 1, better to label which part is two-stage retrieval, which part is RAG. Also, some terms about the RAG portion are vague, e.g., \"LLM reasoning\", \"\"LLM-based reasoning\", \"the RAG engine\", \"RAG-based Decision Engine\"; better to use the term more consistently and explain clearly with respect to Figure 1 (better to label clearly in Fig. 1, which is which so as to match the text description).",
+    "y": 346.0563659667969
+  },
+  {
+    "page": 10,
+    "type": "Highlight",
+    "selected": "near-real-time analysis.",
+    "comment": "Need some clarification of the operation mode of txShield: its pipeline appears to require an execution trace of the full transaction, including external and internal calls, state changes, and event logs; this implies that TxShield operates after the transaction has executed, which may not be \"real-time\" anymore. It may be more \"real-time\"-ish if it's pre-execution simulation in the mempool, or post-execution monitoring but before block finality. If it's more for post-confirmation forensic alerting or offline incident analysis, it may not be \"real-time\"; “near-real-time post-execution monitoring” may be more accurate.",
+    "y": 727.17333984375
+  },
+  {
+    "page": 10,
+    "type": "Highlight",
+    "selected": "w/o XGBoost 728 295/98/266/69 77.06 75.06 81.04 77.94",
+    "comment": "why recall lower without using XGBoost filter? This raises multiple questions:\n* If the LLM labels an attack as benign, can XGBoost recover it?\n* Does XGBoost classify all transactions or only LLM-positive transactions?\n* What happens if the LLM produces an invalid output?\n* Does the post-filter utilize the LLM’s rationale, confidence, or label as input features?\n* Is the full system simply an AND gate of both stages: LLM says Attack AND XGBoost says Attack? Or, something else?\nTODO:\nNeed more careful, detailed descriptions for XGBoost in Section V.C",
+    "y": 114.72979736328125
+  },
+  {
+    "page": 10,
+    "type": "Caret",
+    "selected": "w/o XGBoost + two-stage",
+    "comment": "w/o XGBoost or two-stage retrieval",
+    "y": 127.4422607421875
+  },
+  {
+    "page": 10,
+    "type": "Highlight",
+    "selected": "coverage.",
+    "comment": "what's \"coverage\"? Does \"uncovered\" mean for some cases the models failed to produce any prediction?",
+    "y": 655.3228149414062
+  },
+  {
+    "page": 10,
+    "type": "Highlight",
+    "selected": "valid predictions",
+    "comment": "what's \"valid\"; do you mean TP+TN? Is this called coverage? As this term may have different meanings, better to define clearly what it means in this paper.",
+    "y": 667.3973388671875
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "whereas GPT-3.5-Turbo required 5.87 million tokens, totaling $3.15.",
+    "comment": "why not put this into the table VII?",
+    "y": 439.4583740234375
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "Llama- 3.1-8B-Instruct",
+    "comment": "Llama3-8B? Use consistent model names",
+    "y": 247.77935791015625
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "Llama-3.1-8B-Instruct",
+    "comment": "Llama3-8B?",
+    "y": 178.134765625
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "Llama3-8B",
+    "comment": "Llama-3.1-8B-Instruct ?",
+    "y": 191.4097900390625
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "COVERAGE.",
+    "comment": "? See a previous comment; need a clearer definition",
+    "y": 85.9332275390625
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "in high-frequency production environments",
+    "comment": "this claim may be too strong; 10~30 seconds of latency per transaction may not be efficient enough for high-freq uses. Better to tone down the statement.",
+    "y": 425.8533630371094
+  },
+  {
+    "page": 11,
+    "type": "Highlight",
+    "selected": "Discussion: Operational Boundaries and Capability Spec- trum",
+    "comment": "very good to have such discussions",
+    "y": 616.5369873046875
+  },
+  {
+    "page": 12,
+    "type": "Highlight",
+    "selected": "DETECTION RATES",
+    "comment": "for better reading and the evaluation scope, can add a column to show the number of attacks for each category too.",
+    "y": 68.00128173828125
+  },
+  {
+    "page": 13,
+    "type": "Highlight",
+    "selected": "DN404 token standard in 2023–2024,",
+    "comment": "may add some references",
+    "y": 201.58935546875
+  },
+  {
+    "page": 13,
+    "type": "Highlight",
+    "selected": "Hybrid exploits, such as the Game exp attack,",
+    "comment": "may add some references",
+    "y": 261.3653564453125
+  },
+  {
+    "page": 14,
+    "type": "Highlight",
+    "selected": "repository",
+    "comment": "last commit 9 months ago; any recent update to bring it up to date?",
+    "y": 122.693359375
+  },
+  {
+    "page": 14,
+    "type": "StrikeOut",
+    "selected": "incrementally",
+    "comment": "",
+    "y": 293.6613464355469
+  },
+  {
+    "page": 14,
+    "type": "StrikeOut",
+    "selected": "dynamic",
+    "comment": "",
+    "y": 317.57135009765625
+  },
+  {
+    "page": 14,
+    "type": "Caret",
+    "selected": "adaptive",
+    "comment": "customized prompting strategies with LLM-based reasoning",
+    "y": 332.5823669433594
+  },
+  {
+    "page": 14,
+    "type": "Highlight",
+    "selected": "post- filtering.",
+    "comment": "need to clarify whether it is a conditional classifier, a gate,  a fusion component, or else.",
+    "y": 329.5263671875
+  },
+  {
+    "page": 14,
+    "type": "Highlight",
+    "selected": "60 to 7",
+    "comment": "need clarification",
+    "y": 426.2103576660156
+  },
+  {
+    "page": 14,
+    "type": "Highlight",
+    "selected": "The complete system also exceeds the no-XGBoost variant by 14.99 percentage points in F1. Without XGBoost, two-stage retrieval increases precision but reduces recall and F1.",
+    "comment": "these ablation results are less important; may be omitted from conclusion/abstract",
+    "y": 438.1653747558594
+  }
+]

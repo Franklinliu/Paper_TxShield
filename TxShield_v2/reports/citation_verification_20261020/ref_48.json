@@ -1,0 +1,116 @@
+{
+  "n": 48,
+  "key": "guo2024outsidecomfortzoneanalysing",
+  "input": {
+    "n": 48,
+    "key": "guo2024outsidecomfortzoneanalysing",
+    "title": "Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection",
+    "author": "Yuejun Guo and Constantinos Patsakis and Qiang Hu and Qiang Tang and Fran Casino",
+    "year": "2024",
+    "eprint": "2408.16400",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CR",
+    "url": "https://arxiv.org/abs/2408.16400"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Outside+the+Comfort+Zone%3A+Analysing+LLM+Capabilities+in+Software+Vulnerability+Detection&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection",
+      "doi": "https://doi.org/10.1007/978-3-031-70879-4_14",
+      "year": 2024,
+      "authors": [
+        "Yuejun Guo",
+        "Constantinos Patsakis",
+        "Qiang Hu",
+        "Qiang Tang",
+        "Fran Casino"
+      ],
+      "url": "https://doi.org/10.1007/978-3-031-70879-4_14"
+    },
+    {
+      "similarity": 1.0,
+      "title": "Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection",
+      "doi": "https://doi.org/10.48550/arxiv.2408.16400",
+      "year": 2024,
+      "authors": [
+        "Yuejun Guo",
+        "Constantinos Patsakis",
+        "Qiang Hu",
+        "Qiang Tang",
+        "Fran Casino"
+      ],
+      "url": "http://arxiv.org/abs/2408.16400"
+    },
+    {
+      "similarity": 0.465,
+      "title": "LLMs in Software Security: A Survey of Vulnerability Detection Techniques and Insights",
+      "doi": "https://doi.org/10.1145/3769082",
+      "year": 2025,
+      "authors": [
+        "Ze Sheng",
+        "Z.G. Chen",
+        "Shuning Gu",
+        "Heqing Huang",
+        "Guofei Gu",
+        "Jeff Huang"
+      ],
+      "url": "https://doi.org/10.1145/3769082"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2408.16400",
+  "source_status": 200,
+  "source_title": "[2408.16400] Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection"
+    },
+    {
+      "name": "citation_title",
+      "content": "Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection"
+    },
+    {
+      "name": "citation_author",
+      "content": "Guo, Yuejun"
+    },
+    {
+      "name": "citation_author",
+      "content": "Patsakis, Constantinos"
+    },
+    {
+      "name": "citation_author",
+      "content": "Hu, Qiang"
+    },
+    {
+      "name": "citation_author",
+      "content": "Tang, Qiang"
+    },
+    {
+      "name": "citation_author",
+      "content": "Casino, Fran"
+    },
+    {
+      "name": "citation_date",
+      "content": "2024/08/29"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2024/08/29"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2408.16400"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2408.16400"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "The significant increase in software production driven by automation and faster development lifecycles has resulted in a corresponding surge in software vulnerabilities. In parallel, the evolving landscape of software vulnerability detection, highlighting the shift from traditional methods to machine learning and large language models (LLMs), provides massive opportunities at the cost of resource-demanding computations. This paper thoroughly analyses LLMs' capabilities in detecting vulnerabilities within source code by testing models beyond their usual applications to study their potential in cybersecurity tasks. We evaluate the performance of six open-source models that are specifically trained for vulnerability detection against six general-purpose LLMs, three of which were further fine-tuned on a dataset that we compiled. Our dataset, alongside five state-of-the-art benchmark datasets, were used to create a pipeline to leverage a binary classification task, namely classifying code into vulnerable and non-vulnerable. The findings highlight significant variations in classification accuracy across benchmarks, revealing the critical influence of fine-tuning in enhancing the detection capabilities of small LLMs over their larger counterparts, yet only in the specific scenarios in which they were trained. Further experiments and analysis also underscore the issues with current benchmark datasets, particularly around mislabeling and their impact on model training and performance, which raises concerns about the current state of practice. We also discuss the road ahead in the field suggesting strategies for improved model training and dataset curation."
+    }
+  ],
+  "source_text": "[2408.16400] Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Cryptography and Security arXiv:2408.16400 (cs) [Submitted on 29 Aug 2024] Title: Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection Authors: Yuejun Guo , Constantinos Patsakis , Qiang Hu , Qiang Tang , Fran Casino View a PDF of the paper titled Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection, by Yuejun Guo and 4 other authors View PDF HTML (experimental) Abstract: The significant increase in software production driven by automation and faster development lifecycles has resulted in a corresponding surge in software vulnerabilities. In parallel, the evolving landscape of software vulnerability detection, highlighting the shift from traditional methods to machine learning and large language models (LLMs), provides massive opportunities at the cost of resource-demanding computations. This paper thoroughly analyses LLMs' capabilities in detecting vulnerabilities within source code by testing models beyond their usual applications to study their potential in cybersecurity tasks. We evaluate the performance of six open-source models that are specifically trained for vulnerability detection against six general-purpose LLMs, three of which were further fine-tuned on a dataset that we compiled. Our dataset, alongside five state-of-the-art benchmark datasets, were used to create a pipeline to leverage a binary classification task, namely classifying code into vulnerable and non-vulnerable. The findings highlight significant variations in classification accuracy across benchmarks, revealing the critical influence of fine-tuning in enhancing the detection capabilities of small LLMs over their larger counterparts, yet only in the specific scenarios in which they were trained. Further experiments and analysis also underscore the issues with current benchmark datasets, particularly around mislabeling and their impact on model training and performance, which raises concerns about the current state of practice. We also discuss the road ahead in the field suggesting strategies for improved model training and dataset curation. Comments: Accepted to ESORICS 2024 Subjects: Cryptography and Security (cs.CR) Cite as: arXiv:2408.16400 [cs.CR] (or arXiv:2408.16400v1 [cs.CR] for this version) https://doi.org/10.48550/arXiv.2408.16400 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Constantinos Patsakis [ view email ] [v1] Thu, 29 Aug 2024 10:00:57 UTC (119 KB) Full-text links: Access Paper: View a PDF of the paper titled Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection, by Yuejun Guo and 4 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CR < prev | next > new | recent | 2024-08 Change to browse by: cs References & Citations SciX Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

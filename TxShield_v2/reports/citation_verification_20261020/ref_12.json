@@ -1,0 +1,68 @@
+{
+  "n": 12,
+  "key": "defort2024",
+  "input": {
+    "n": 12,
+    "key": "defort2024",
+    "author": "Xie, Yuanliang and Chen, Jiaming and Ye, Zibin and Liu, Yuefei and Chen, Yinglong and Yang, Zhenchang and Zheng, Zibin",
+    "title": "DeFort: Automatic Detection and Analysis of Price Manipulation Attacks in DeFi Applications",
+    "year": "2024",
+    "booktitle": "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+    "pages": "1235--1247",
+    "doi": "10.1145/3650212.3652137"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=DeFort%3A+Automatic+Detection+and+Analysis+of+Price+Manipulation+Attacks+in+DeFi+Applications&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "DeFort: Automatic Detection and Analysis of Price Manipulation Attacks in DeFi Applications",
+      "doi": "https://doi.org/10.1145/3650212.3652137",
+      "year": 2024,
+      "authors": [
+        "Maoyi Xie",
+        "Ming Hu",
+        "Ziqiao Kong",
+        "Cen Zhang",
+        "Yebo Feng",
+        "Haijun Wang",
+        "Yue Xue",
+        "Hao Zhang",
+        "Ye Liu",
+        "Yang Liu"
+      ],
+      "url": "https://doi.org/10.1145/3650212.3652137"
+    },
+    {
+      "similarity": 0.582,
+      "title": "LLM-Powered Detection of Price Manipulation in DeFi",
+      "doi": "https://doi.org/10.48550/arxiv.2510.21272",
+      "year": 2025,
+      "authors": [
+        "Lu Liu",
+        "Wuqi Zhang",
+        "Lili Wei",
+        "Hao Guan",
+        "Yongqiang Tian",
+        "Yepang Liu",
+        "Shing-Chi Cheung"
+      ],
+      "url": "https://arxiv.org/abs/2510.21272"
+    },
+    {
+      "similarity": 0.471,
+      "title": "DeFiFusion: Combining Transaction Events with Smart Contracts to Detect Price Manipulation Attacks",
+      "doi": "https://doi.org/10.48550/arxiv.2609.11008",
+      "year": 2026,
+      "authors": [
+        "Rui Cao",
+        "Shaojing Fan",
+        "Liming Fang",
+        "Yuchan Liu",
+        "Yingying Jiao",
+        "Zhenguang Liu"
+      ],
+      "url": "https://arxiv.org/abs/2609.11008"
+    }
+  ]
+}

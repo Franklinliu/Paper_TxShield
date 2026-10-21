@@ -1,0 +1,13 @@
+\section{Data Availability}
+
+To ensure the reproducibility of our findings and facilitate further innovation in DeFi security, we have made all data, source code, and auxiliary resources publicly accessible.
+
+\textbf{Datasets and Curation.} The core of our evaluation rests on the \dsystem{} and \done{} datasets. \dsystem{} comprises 728 individual transactions, evenly balanced between 364 attack and 364 benign samples, curated from the open-source DeFiHackLabs repository. \done{} comprises 95 documented real-world price manipulation cases released with DeFiScope~\cite{zhong2025detectingvariousdefiprice}. We provide preprocessed versions that include detailed execution traces and behavioral summaries. These refined datasets, essential for understanding the nuances of cross-protocol logic, can be found at: \url{https://github.com/SunWeb3Sec/DeFiHackLabs}.
+
+
+\textbf{Implementation and Knowledge Base.} The \approach{} framework, which encompasses our retrieval-augmented detection pipeline and two-stage retrieval mechanism, is open-sourced under the MIT License. This repository also contains the adaptive prompting templates used throughout our experiments. Accompanying the code is a structured JSON dataset containing historical attack knowledge base embeddings and behavioral summaries, providing a turnkey environment for researchers to replicate our retrieval logic. The repository is currently hosted at:  \url{https://github.com/oumo0/TxShield}.
+
+% \textbf{Comparative Benchmarks and Models.} For a rigorous performance assessment, we utilized several baseline tools, including DeFiScope, DeFiRanger, DeFort, and DeFiTainter. Each is publicly available through their respective official repositories as cited in our references.
+
+% Our evaluation adopts a unified API-based setup: all models—including the OpenAI GPT series, Baidu ERNIE, and several open-source LLMs—are accessed through a standardized third-party API server rather than local deployments. As the prompting requirements are lightweight, the complete prompts used in our experiments are provided at the end of Section~3.4, and all inference-related configurations are documented in detail within the code repository.
+

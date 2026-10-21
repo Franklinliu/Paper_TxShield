@@ -1,0 +1,38 @@
+% IEEE Transactions on Information Forensics and Security manuscript.
+% Compile with pdfLaTeX and BibTeX (latexmk -pdf main.tex).
+\documentclass[journal,10pt]{IEEEtran}
+\input{macros}
+\providecommand{\TxShieldWorkflowFigure}{pic/TxHunt_xgb_marked.pdf}
+
+%% Custom commands for easy renaming
+\newcommand{\approach}{\textup{\textsc{TxShield}}\xspace}
+\newcommand{\dsystem}{DeFiAttackBench\xspace}
+\newcommand{\done}{PriceAttackBench\xspace}
+
+
+\begin{document}
+\title{TxShield: Transaction-level RAG-enabled DeFi Attack Detection}
+\author{Wei~Ma\textsuperscript{\ensuremath{\dagger}}, Shiya~Li\textsuperscript{\ensuremath{\dagger}}, Jiayi~Xu, Ye~Liu\textsuperscript{*}, Junjie~Shi, Cong~Wu, Jing~Chen, Lingxiao~Jiang, and Zijian~Zhang%
+\thanks{\textsuperscript{\ensuremath{\dagger}}Wei Ma and Shiya Li contributed equally to this work and share first authorship. \textsuperscript{*}Corresponding author: Ye Liu.}%
+\thanks{Wei Ma is an Assistant Professor at Blekinge Institute of Technology (BTH), Sweden. This work was mainly carried out while he was at Singapore Management University (SMU) (e-mail: weima@smu.edu.sg).}%
+\thanks{Lingxiao Jiang is with Singapore Management University.}%
+\thanks{Shiya Li, Jiayi Xu, Cong Wu, and Jing Chen are with Wuhan University (e-mail: 2022302181203@whu.edu.cn; 2022302181176@whu.edu.cn; cnacwu@whu.edu.cn; chenjing@whu.edu.cn).}%
+\thanks{Ye Liu and Zijian Zhang are with Beijing Institute of Technology (e-mail: ye.liu@bit.edu.cn; zhangzijian@bit.edu.cn).}%
+\thanks{Junjie Shi is with Nanyang Technological University (e-mail: chunkit001@e.ntu.edu.sg).}}
+\maketitle
+\input{sections/abstract}
+\begin{IEEEkeywords}
+Smart Contract Security, DeFi Attack Detection, Retrieval-Augmented Generation, Transaction Analysis, Blockchain Security
+\end{IEEEkeywords}
+
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/approach}
+\input{sections/evaluation}
+\input{sections/related}
+\input{sections/conclusion}
+\input{sections/data_availability}
+
+\bibliographystyle{IEEEtran}
+\bibliography{sample-base}
+\end{document}

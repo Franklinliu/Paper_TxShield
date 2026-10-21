@@ -1,0 +1,330 @@
+
+\section{Evaluation}
+\label{sec:evaluation}
+To rigorously assess the performance of \approach{}, we evaluate \Blue{four} research questions:
+
+\begin{itemize}
+	\item \textbf{RQ1 (Effectiveness)}: How effectively does \approach{} perform relative to state-of-the-art methods in attack detection?
+	\item \textbf{RQ2 (Ablation Study)}: How significantly do different components contribute to the system's performance?
+	\item \textbf{RQ3 (Sensitivity Analysis)}: How sensitive is \approach{} to selection of different LLM backbones?
+	\item \textbf{RQ4 (Efficiency)}: How efficient are \approach{} in terms of computational resources and time?
+\end{itemize}
+
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.8\linewidth, trim=0cm 3cm 0.0cm 1cm]{pic/attack_distribution_pie.pdf}
+	\caption{Attack Distribution in \dsystem{} Dataset}
+	\label{tab:attack_categories}
+\end{figure}
+
+\textit{\textbf{Benchmark.}}
+We evaluate \approach{} on two well-studied datasets: \textit{\dsystem} for general DeFi attack detection and \textit{\done} curated for price manipulation detection. Specifically, \dsystem includes 364 previously reported malicious transactions from public incidents recorded by DeFiHackLabs~\cite{defihacklabs2024} between January of 2021 and January of 2025, which involves \Blue{110+} labeled exploit types across different blockchains such as Ethereum, BSC, and Arbitrum.
+\Cref{tab:attack_categories} shows the attack distribution and their proportions.
+Bussiness logic flaws and price-related attacks are the most common, accounting for 34.3\% and 17.9\% of the dataset, respectively. Reentrancy and call attacks, access control vulnerabilities, input validation issues, flashloan-driven attacks, mathematical calculation issues, token mechanism vulnerabilities, and other miscellaneous attack types make up the remaining 47.8\%.
+It is believed that the diversity of attack types in \dsystem{} is representative of the broader DeFi ecosystem, providing a comprehensive benchmark for evaluating detection methods. 
+For fair comparison, we curated a balanced dataset that contains 364 benign transactions that were sampled from normal user transactions of the victim protocols and filtered by temporal proximity.
+Therefore, the final \dsystem{} dataset contains 728 transactions, evenly split between 364 attack and 364 benign samples.
+
+As price manipulation is one of the most prevalent attack types in DeFi era, we also evaluate \approach{} on \done{}, which was first released with DeFiScope~\cite{zhong2025detectingvariousdefiprice}, that contains 95 real-world price manipulation cases and cause \$381.16M total loss.
+Among them, we were unable to parse transaction data for four cases, resulting in 91 price manipulation-related transactions in \done{} for evaluation.
+
+
+
+
+
+
+\textit{\textbf{Baselines.}}
+To the best of our knowledge, TrxGNNBERT~\cite{TrxGNNBERT}, TxSpector~\cite{TXSPECTOR}, Blockscan~\cite{wu2025blockscan}, DeFiScope~\cite{zhong2025detectingvariousdefiprice}, DeFort~\cite{defort2024}, DeFiRanger~\cite{defiranger2021}, and DeFiTainter~\cite{defitainter2023} are the most relevant and representative baselines for our evaluation.
+Particularly,  TrxGNNBERT~\cite{TrxGNNBERT} powered by a Graph-Transformer architecture, TxSpector~\cite{TXSPECTOR} leveraging static opcode analysis, and Blockscan~\cite{wu2025blockscan} using BERT model enhanced with masked language modeling mechanism, are evaluated on \dsystem{} dataset.
+For specialized price manipulation detectors, DeFiScope~\cite{zhong2025detectingvariousdefiprice} combining fine-tuning and pattern learning, DeFort~\cite{defort2024} harnessing symbolic execution and runtime monitoring, and DeFiRanger~\cite{defiranger2021}, and DeFiTainter~\cite{defitainter2023} based on a inter-contract taint analysis, are evaluated on \done{} dataset.
+\Blue{We include XGBoost-only as a numerical-feature baseline without retrieval or LLM inference. Its training and test sets contain 420 and 728 samples, respectively, with balanced attack and benign classes. Its hyperparameters are maximum depth 3, learning rate 0.02, minimum child weight 1, row subsampling 0.9, column subsampling 0.7, $L_1$ regularization 0, and $L_2$ regularization 0.5. Its test AUC is 0.9467. Table~\ref{tab:performance-dsystem-compact} also includes the external baselines, with their evaluation coverage stated explicitly.}
+
+
+\textit{\textbf{Experiment Setup.}}
+\Blue{We access the LLMs through third-party APIs. The implementation uses LangChain~\cite{langchain}, Chroma~\cite{chromadb}, and Jina Embeddings v3~\cite{jina2024}. Kimi-k3 is the default backbone for \dsystem{} effectiveness and ablation experiments; DeepSeek-v4-pro and GPT-5.6-luna provide two further complete evaluations. Each of these three configurations processes all 728 transactions. We treat attacks as the positive class and report accuracy, precision, recall, and F1. For configurations with invalid outputs, metrics are computed on valid predictions and accompanied by prediction coverage. The price-manipulation, efficiency, and category-level analyses use the configurations specified in their respective subsections.}
+
+
+
+
+
+
+\subsection{RQ1 (Effectiveness): Comparative Analysis of Detection Accuracy}
+To provide a comprehensive assessment of \approach{}'s detection efficacy, we conducted comparative experiments across two datasets with distinct characteristics.
+\Blue{\approach{} achieves 92.93\% F1 and 97.87\% precision with Kimi-k3 (\Cref{tab:performance-dsystem-compact}). It correctly classifies 679 of 728 transactions: 322 attacks and 357 benign transactions, with 7 false positives and 42 false negatives. Compared with XGBoost-only, F1 increases from 86.48\% to 92.93\% and precision from 84.33\% to 97.87\%. False positives decrease by 88.33\% (60 to 7), while false negatives increase by one (41 to 42). The combined pipeline therefore substantially reduces false alarms while maintaining comparable recall. Comparisons with external baselines are descriptive because their evaluation coverage and class composition differ.}
+
+
+
+\begin{table}[t]
+\centering\color{blue}\small
+\caption{\Blue{Detection performance on \dsystem{}. \approach{} and XGBoost-only use 364 attack and 364 benign samples. Metrics are percentages.}}
+\label{tab:performance-dsystem-compact}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Method & $N$ & TP & FP & TN & FN & Acc. & Prec. & Rec. & F1\\
+\midrule
+TxSpector & 450 &117&117&128&88&54.4&50.0&57.1&53.3\\
+TrxGNNBERT &728&288&91&264&85&75.9&76.0&77.3&76.6\\
+Blockscan &728&255&12&352&109&83.4&95.5&70.1&81.0\\
+\midrule
+XGBoost-only &728&323&60&304&41&86.13&84.33&88.74&86.48\\
+\approach{} (Kimi-k3)&728&322&7&357&42&93.27&97.87&88.46&92.93\\
+\bottomrule
+\end{tabular}
+\smallskip\par\footnotesize
+TxSpector covers 450/728 cases. The TrxGNNBERT counts correspond to 373 attacks and 355 benign samples, rather than 364/364; its metrics are reported on that class composition. Runtime is analyzed separately in RQ4.
+\end{table}
+
+
+
+
+\begin{table}[t]
+	\centering
+	\caption{\Blue{Detection performance on 91 \done{} attacks.}}
+	\label{tab:recall-d1-dataset}
+	\small
+	\begin{tabular}{l c c c}
+		\toprule
+		\text{Tool} &
+		\text{\#Attack} &
+		\text{Detection Rate} &
+		\text{$\Delta$Detection Rate} \\
+		\midrule
+		DeFort (DF)             & 50  & 54.95\% & $-$25.27\% \\
+		DeFiRanger (DR)         & 48  & 52.75\% & $-$27.47\% \\
+		DeFiTainter (DT)        & 32  & 35.16\% & $-$45.06\% \\
+		DeFiScope (DS)          & 73  & 80.22\% & \textbf{Baseline} \\
+		\approach{}   & 86 & 94.51\% & +14.29\% \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+\Blue{On \done{}, the price-manipulation configuration detects 86 of 91 attacks, achieving 94.51\% recall compared with 80.22\% for DeFiScope (Table~\ref{tab:recall-d1-dataset}). This evaluation examines specialized price-manipulation detection separately from the Kimi-based \dsystem{} experiment. Table~\ref{tab:ragflow_false_negative} lists the five missed cases.}
+
+
+
+
+\begin{table}[H]
+	\centering
+	\caption{\Blue{Missed price-manipulation attacks and baselines' detection results.}}
+	\label{tab:ragflow_false_negative}
+	\small
+	\begin{tabular}{l c c c c}
+		\toprule
+		Attack Case & DS & DT & DF & DR \\
+		\midrule
+		MerlinLab & \ding{51} & \ding{55} & \ding{55} & \ding{55} \\
+		BeltFinance\_1 & \ding{51} & \ding{51} & \ding{55} & \ding{51} \\
+		BeltFinance\_2 & \ding{51} & \ding{51} & \ding{55} & \ding{51} \\
+		IndexedFinance & \ding{55} & \ding{55} & \ding{55} & \ding{51} \\
+		ERC20TokenBank & \ding{51} & \ding{55} & \ding{55} & \ding{51} \\
+		\bottomrule
+	\end{tabular}
+	
+	\vspace{0.3em}
+	\footnotesize\textit{DS=DeFiScope, DT=DeFiTainter, DF=DeFort, DR=DeFiRanger. \ding{51}=detected, \ding{55}=missed.}
+\end{table}
+
+\Blue{The five missed price-manipulation attacks expose challenges in recognizing protocol-specific economic logic and multi-step interactions.}
+
+A deep dive into these misjudgments reveals that \approach{}’s limitations are primarily confined to four scenarios. First are rare or highly customized oracle manipulation patterns (e.g., MerlinLab), which exploit idiosyncratic oracle update windows; the absence of sufficiently similar historical samples causes analogical reasoning to falter. Second, the system struggles with arbitrage attacks involving complex multi-step cross-contract interactions (e.g., BeltFinance), where attackers leverage minute price discrepancies through sequences of transactions that appear legitimate in isolation, making full-chain reconstruction difficult. Third, novel attacks utilizing innovative mechanisms (e.g., IndexedFinance), such as exploiting index token rebalancing weights, fall outside the scope of historical patterns or rule-based detection. Finally, atypical price manipulation edge cases (e.g., ERC20TokenBank) manipulate internal accounting logic rather than liquidity pool pricing, a paradigm shift that often leads to omissions by most detection tools.
+
+
+
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!black,sharp corners,fontupper=\small,title=Answer to RQ1]
+\Blue{With Kimi-k3, \approach{} achieves 92.93\% F1 and 97.87\% precision. Compared with direct XGBoost classification, it reduces false positives from 60 to 7 with one additional false negative. The price-manipulation configuration achieves 94.51\% recall on \done{}.}
+\end{tcolorbox}
+
+\subsection{\Blue{RQ2 (Ablation Study): Effects of Component Configurations}}
+\Blue{We use Kimi-k3 to compare the complete system with three ablated configurations: without XGBoost, without both XGBoost and two-stage retrieval, and without RAG. The first two ablated configurations yield valid predictions for all 728 transactions. The no-RAG configuration yields 726 valid predictions; its two invalid outputs correspond to attacks.}
+
+\begin{table}[t]
+\centering\color{blue}\small
+\caption{\Blue{Kimi-k3 ablation results. Metrics are percentages on valid predictions; counts are ordered TP/FP/TN/FN.}}
+\label{tab:ragflow-ablation}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrlrrrr}
+\toprule
+Configuration & $N$ & TP/FP/TN/FN & Acc. & Prec. & Rec. & F1\\
+\midrule
+Full system &728&322/7/357/42&93.27&97.87&88.46&92.93\\
+w/o XGBoost &728&295/98/266/69&77.06&75.06&81.04&77.94\\
+w/o XGBoost + two-stage &728&315/110/254/49&78.16&74.12&86.54&79.85\\
+w/o RAG &726&278/98/266/84&74.93&73.94&76.80&75.34\\
+\bottomrule
+\end{tabular}
+\smallskip\par\footnotesize
+The third row jointly removes XGBoost and two-stage retrieval. No-RAG coverage is 726/728 (99.73\%); two invalid outputs are excluded. Full versus no-RAG is a configuration-level comparison.
+\end{table}
+
+\Blue{\textbf{XGBoost post-filtering.} The complete configuration exceeds the no-XGBoost configuration by 14.99 F1 points, 22.81 precision points, and 7.42 recall points. Between the two runs, 93 false positives become true negatives and two true negatives become false positives; 39 missed attacks are detected and 12 detected attacks are missed. The net difference is 91 fewer false positives and 27 more true positives. These are end-to-end differences between configurations, rather than counts of candidates rejected within a single filtering stage.}
+
+\Blue{\textbf{Two-stage retrieval.} In the absence of XGBoost, the run retaining two-stage retrieval achieves 77.94\% F1, whereas the joint-removal configuration achieves 79.85\%. Retaining two-stage retrieval therefore corresponds to 1.91 points lower F1 in this comparison. Its precision is slightly higher (75.06\% versus 74.12\%), but recall is lower (81.04\% versus 86.54\%). The 13.08-point gap between the full system and the joint-removal run changes two components and cannot be attributed to retrieval refinement alone.}
+
+\Blue{\textbf{No-RAG comparison.} On the 726 transactions with valid predictions in both configurations, the complete system achieves 92.89\% F1, compared with 75.34\% without RAG, a difference of 17.55 percentage points. This comparison uses a common sample set and measures the difference between the full and no-RAG configurations.}
+
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!black,sharp corners,fontupper=\small,title=Answer to RQ2]
+\Blue{The complete Kimi configuration exceeds the no-XGBoost configuration by 14.99 F1 points and the no-RAG configuration by 17.55 points on their shared valid samples. Without XGBoost, two-stage retrieval trades higher precision for lower recall and F1, showing that its benefit depends on the surrounding pipeline.}
+\end{tcolorbox}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{pic/model_performance_column_chart.pdf}
+\caption{\Blue{Detection performance across nine LLM backbones on \dsystem{}. Asterisks identify the Kimi-k3, DeepSeek-v4-pro, and GPT-5.6-luna post-filtered configurations, each evaluated on all 728 transactions. Metrics are percentages. Comparisons across backbone configurations are distinct from the fixed-backbone ablation in RQ2.}}
+\label{tab:ragflow_results}
+\label{fig:backbone_results}
+\end{figure}
+
+\subsection{\Blue{RQ3 (Sensitivity Analysis): Choice of LLM Backbone}}
+
+\Blue{Figure~\ref{fig:backbone_results} compares nine backbone configurations, spanning GPT-4.1-mini, Baidu ERNIE-Speed-128k, Llama3-8B, Qwen3-8B, DeepSeek-R1-Distill-Qwen-7B, InternLM3, GPT-5.6-luna, DeepSeek-v4-pro, and Kimi-k3. Table~\ref{tab:backbone_results} details the three complete post-filtered evaluations. Among these three configurations, Kimi-k3 achieves the highest precision and F1, producing seven false positives. DeepSeek-v4-pro attains the highest recall, detecting 325 attacks compared with Kimi-k3\textquotesingle s 322, but produces 24 false positives. GPT-5.6-luna detects 318 attacks and produces 29 false positives. Kimi-k3 thus favors false-alarm reduction, whereas DeepSeek-v4-pro detects more attacks at the cost of additional false alarms.}
+
+
+
+\begin{table}[t]
+\centering\color{blue}\small
+\caption{\Blue{Complete post-filtered backbone results ($N=728$ each). Metrics are percentages.}}
+\label{tab:backbone_results}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Backbone & TP & FP & TN & FN & Acc. & Prec. & Rec. & F1\\
+\midrule
+Kimi-k3 &322&7&357&42&93.27&97.87&88.46&92.93\\
+DeepSeek-v4-pro &325&24&340&39&91.35&93.12&89.29&91.16\\
+GPT-5.6-luna &318&29&335&46&89.70&91.64&87.36&89.45\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\Blue{\textbf{Prediction coverage.} The Qwen3-8B post-filtered configuration yields 588 valid predictions (80.77\% coverage): TP=293, FP=97, TN=162, and FN=36. F1 on this subset is 81.50\%; the remaining 140 transactions comprise 35 attacks and 105 benign samples. Its performance should therefore be interpreted together with coverage. Table~\ref{tab:noxgb_backbones} reports the separate experiments without XGBoost, including valid sample counts. These backbone comparisons complement the fixed-Kimi ablation in RQ2.}
+
+\begin{table}[t]
+\centering\color{blue}\small
+\caption{\Blue{Backbone performance without XGBoost. Metrics are percentages on valid predictions; valid sample counts indicate coverage.}}
+\label{tab:noxgb_backbones}
+\begin{tabular}{lrrrrr}
+\toprule
+Backbone/configuration & Valid/728 & Acc. & Prec. & Rec. & F1\\
+\midrule
+BAIDU &727&79.23&75.42&86.81&80.72\\
+GPT-4.1-mini (no RAG) &728&55.36&80.00&14.29&24.24\\
+GPT-4.1-mini (RAG) &728&80.91&77.11&87.91&82.16\\
+InternLM3 &682&58.80&53.27&94.65&68.18\\
+Llama3-8B &726&77.69&73.81&85.64&79.28\\
+Qwen3-8B &620&81.94&78.88&83.28&81.02\\
+DeepSeek-R1 &682&74.78&70.17&79.87&74.71\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!black,sharp corners,fontupper=\small,title=Answer to RQ3]
+\Blue{Kimi-k3 provides the highest F1 (92.93\%) and precision (97.87\%) among the three complete post-filtered configurations, while DeepSeek-v4-pro provides the highest recall (89.29\%). This trade-off allows backbone selection to reflect the relative costs of false alarms and missed attacks.}
+\end{tcolorbox}
+
+\subsection{RQ4 (Efficiency): Practical Latency, Cost Analysis, and Deployment Viability}
+
+\Blue{We measure runtime and API cost for GPT-4.1-mini, Llama-3.1-8B-Instruct, Baidu ERNIE-Speed-128k, InternLM3-8B-Instruct, DeepSeek-R1-Distill-Qwen-14B, and Qwen3-8B. These measurements characterize the named configurations; they do not estimate the runtime of Kimi-k3, DeepSeek-v4-pro, or GPT-5.6-luna.}
+
+Having established the detection efficacy and structural integrity of \approach{}, we now pivot to its pragmatic engineering feasibility. In the high-stakes domain of smart contract security, the real-world utility of any monitoring system is strictly governed by its operational latency and resource overhead. To ascertain whether \approach{} can be seamlessly integrated into live threat-detection pipelines, we evaluate its performance across two pivotal dimensions: temporal efficiency and economic sustainability.
+
+As evidenced by the performance metrics in \Blue{Table~\ref{tab:api_cost_comparison}}, \approach{} demonstrates a promising throughput suitable for near-real-time analysis. The system achieves an average end-to-end latency of 15.02 seconds when utilizing GPT-4.1-mini. This can be further optimized to 11.82 seconds with Llama-3.1-8B-Instruct and 12.66 seconds with Baidu ERNIE-Speed-128k. Such efficiency is largely underpinned by the optimized synergy between the RAG engine and our two-stage retrieval mechanism, a design choice that drastically prunes the search space before Large Language Model (LLM) inference begins. Notably, the retrieval stage itself (vector search followed by filtering) completes in under 100ms. Our profiling reveals that peak latencies are primarily driven by LLM inference cycles and network propagation during API calls, rather than internal computational bottlenecks like vector database queries or context distillation.
+
+We conducted a granular assessment of operational expenditures across both datasets, as detailed in Table~\ref{tab:api_cost_comparison}. For the relatively compact \done{} dataset (91 samples), GPT-4.1-mini consumed approximately 5.43 million tokens at a cumulative cost of \$2.24, whereas GPT-3.5-Turbo required 5.87 million tokens, totaling \$3.15. Scaling the evaluation to the more extensive \dsystem{} dataset (728 samples) unveiled distinct efficiency profiles among the models. While GPT-4.1-mini processed the entire corpus for \$3.86, the Llama-3.1-8B-Instruct model demonstrated the capacity to slash costs to roughly \$0.26, a reduction of over 93\%.
+
+To better understand the cost characteristics of different models, we analyzed token consumption during live API evaluation. The results indicate that model-specific verbosity remains a key factor shaping overall token usage. Qwen3-8B produced comparatively longer responses, with outputs reaching up to 29~KB (approximately 7,400 tokens), resulting in a total of 8.15M tokens. InternLM3-8B-Instruct generated more compact outputs, though its total volume (8.2M tokens) remained similar due to retrieval-induced input overhead. DeepSeek-R1-Distill-Qwen-14B exhibited the highest efficiency among the evaluated models, with a total of 7.7M tokens. These observations highlight the combined influence of output verbosity and retrieval context on API-level cost.
+
+
+While our evaluation primarily focuses on Ethereum and BSC, where most attack cases are currently observed, \approach{} is designed to be extendable to other EVM-compatible blockchains, such as Polygon and Arbitrum. This adaptability ensures that the framework remains applicable as malicious activities evolve and expand across different blockchain ecosystems.
+
+\begin{table}[t]
+	\caption{\Blue{Runtime and API cost of \approach{} for the evaluated backbone configurations.}}
+	\label{tab:api_cost_comparison}
+	\centering
+	\small
+	\renewcommand{\arraystretch}{1}
+	\setlength{\tabcolsep}{1pt}
+	\begin{tabular}
+		{
+		>{\raggedright}p{0.4\columnwidth}
+			>{\centering\arraybackslash}p{0.12\columnwidth}
+			>{\centering\arraybackslash}p{0.12\columnwidth}
+			>{\centering\arraybackslash}p{0.12\columnwidth}}
+		\toprule
+		\text{Model} & \text{Tokens} & \text{Cost(\$)} & \Blue{Avg. Time (s)}\\
+		\midrule
+		\multicolumn{4}{l}{\textbf{\done{} (91 samples)}} \\
+		\midrule
+		GPT-4.1-mini & 5.43M & 2.24 & N/A\\
+		\midrule
+		\multicolumn{4}{l}{\textbf{\dsystem{} (728 samples)}} \\
+		\midrule
+		GPT-4.1-mini & 8.62M & 3.86 &  15.02\\
+		Llama-3.1-8B-Instruct & 8.28M & 0.26  & 11.82\\
+		Baidu ERNIE-Speed-128k & 11.62M & FREE & 12.66\\
+		InternLM3-8B-Instruct & 8.2M & FREE & 12.70\\
+		DeepSeek-R1-Distill-Qwen-14B & 7.7M & FREE & 32.31\\
+		Qwen3-8B & 8.15M & FREE  & 37.54\\
+		\bottomrule
+	\end{tabular}
+	
+	\smallskip\scriptsize\textit{Note: Costs are estimated from public API rates; token counts are total input+output per query, as reported by the API providers.}
+\end{table}
+
+
+As shown in Table~\ref{tab:api_cost_comparison}, such discrepancies, where output volumes vary by a factor of three for identical retrieval-augmented queries, underscore the critical impact of model selection on a system's economic viability. Crucially, the stable and economical output characteristics of models like InternLM3-8B-Instruct suggest that by prioritizing token efficiency without sacrificing analytical depth, the \approach{} framework can achieve a high degree of financial sustainability. Furthermore, the convergence of low operational cost (\$0.26) and competitive latency (11.82 seconds) positions Llama-3.1-8B-Instruct as a particularly compelling candidate for practical deployment. These empirical findings collectively reinforce the prospect of deploying \approach{} in high-frequency production environments where both precision and cost-efficiency are paramount.
+
+\begin{tcolorbox}[colback=black!5!white, colframe=black!75!black, sharp corners, fontupper=\small, title=Answer to RQ4, label=box:takeaways]
+\approach{} demonstrates practical viability for near-real-time DeFi attack detection, achieving average latencies of 11.82 to 15.02 seconds across different LLM backbones. Cost analysis reveals that while GPT-4.1-mini incurs higher expenses (\$3.86 for 728 samples), models like Llama-3.1-8B-Instruct can reduce costs to \$0.26 without significant performance loss. These findings highlight \approach{}'s adaptability to various operational constraints, balancing speed, accuracy, and economic efficiency for deployment in production environments.
+\end{tcolorbox}
+
+\subsection{Discussion: Operational Boundaries and Capability Spectrum}
+
+\Blue{We complement aggregate detection metrics with a category-level analysis of the reference configuration. This analysis characterizes variation across attack mechanisms; the Kimi-k3 evaluation above reports aggregate performance.}
+To better understand the operational boundaries of \approach{}, we conducted a systematic analysis of its detection performance across the \dsystem{} dataset, specifically examining the interplay between attack mechanisms and technical features. Our findings reveal that \approach{}'s efficacy is distributed across a distinct spectrum, primarily dictated by three core dimensions: the observability of malicious behavior, the analogicality of semantic patterns, and the contextual dependency of the attack logic. This spectrum not only defines the current capability limits of \approach{} but also provides critical insights for its real-world deployment and future iteration. Table~\ref{tab:capability_spectrum} summarizes the detection performance across different attack categories.
+
+To characterize \approach{}'s capability boundaries, we organize attacks along three dimensions that align with its decision pipeline: (i) \emph{trace-level behavioral evidence}, (ii) \emph{retrieval-based analogy to historical cases}, and (iii) \emph{multi-step/cross-contract context integration}. Specifically, \textit{Observability} measures whether execution traces expose discriminative behavioral deviations (e.g., anomalous external-call/state-update patterns); \textit{Analogicality} measures whether such deviations form reusable semantic templates that can be matched to prior incidents in the knowledge base; \textit{Contextual dependency} measures the extent of global context required to infer intent, especially when signals are distributed across long, multi-step, or cross-contract interactions.
+Based on these dimensions, Table~\ref{tab:capability_spectrum} summarizes a capability spectrum: categories dominated by observable and reusable patterns are easier to detect, whereas categories requiring broad context integration or exhibiting behaviorally compliant traces approach the system’s natural boundary.
+
+We label each category in Table~\ref{tab:capability_spectrum} by the primary bottleneck it presents to \approach{}. \textbf{Low}: high observability and strong analogicality (clear, repetitive trace signatures). \textbf{Medium}: observable core semantics but weaker reusability due to protocol-specific or highly variable logic (analogy-dependent). \textbf{High}: strong contextual dependency, where intent emerges only after aggregating evidence across long, multi-step, or cross-contract execution chains. \textbf{Fundamental}: low observability at the trace-semantic level, where execution remains behaviorally compliant and the malice stems from cryptographic or protocol-assumption violations beyond behavior-only semantics.
+
+
+\begin{table}[t]
+	\centering
+	\caption{\Blue{Detection performance by attack category for the reference configuration.}}
+	\label{tab:capability_spectrum}
+	\small
+	\begin{tabular}{lcc}
+		\toprule
+		\text{Type} & \text{Detection Rate} & \text{Difficulty} \\
+		\midrule
+		Reentrancy & 96.2\% & Low \\
+        Price \& Oracle Manipulation & 93.2\% & Low \\
+		Flash-loan Price Manipulation & 91.7\% & Low \\
+		Business Logic Flaws & 89.6\% & Medium \\
+		Liquidity \& Migration Exploits & 87.5\% & Medium \\
+		Arbitrary Call / External Call & 86.7\% & Medium \\
+		Access Control & 79.3\% & Medium \\
+		Fake Market / MEV / Sandwich Attacks & 75.0\% & High \\
+		Signature \& Validation Issues & 57.1\% & High \\
+		Cryptographic Exploits  & $<$50\% & Fundamental \\
+		\bottomrule
+	\end{tabular}
+	
+	\smallskip\scriptsize\textit{Note: Cross-contract reentrancy exploits are merged into Reentrancy due to limited samples (2 cases).}
+\end{table}
+
+
+\approach{} demonstrates its most resilient detection capabilities in scenarios where behavioral anomalies are highly observable and semantic patterns remain stable and reusable. Typical examples include classic reentrancy exploits (96.2\%), flash-loan price manipulations (91.7\%), and price/oracle manipulations (93.2\%). These attacks generate explicit, identifiable signatures within the execution flow, such as the ``unprivileged call to privileged function'' pattern seen in the LocalTrader series, or the ``unexpected state change following an external call'' characteristic of the SpankChain reentrancy exploit. Because the core malicious semantics of these attacks are highly repetitive, \approach{} can leverage its historical case library to establish a robust mapping between ``symptoms'' and ``attack types.'' Consequently, even when encountering novel variants, the system maintains high detection rates through stable pattern matching.
+
+Moving into the domain of common but more sophisticated DeFi exploits---such as Access Control (79.3\%), business logic flaws (89.6\%), arbitrary external calls (86.7\%), liquidity/migration exploits (87.5\%), reflection/token economics flaws, and storage/proxy issues---the system’s performance begins to exhibit fluctuations influenced by the complexity and novelty of the attack patterns. In this domain, \approach{} effectively identifies signatures such as the ``unprivileged call to privileged function'' pattern (e.g., LocalTrader series) or anomalous asset transfer sequences when the knowledge base contains analogous patterns (e.g., Platypus attack). However, performance is challenged by highly innovative or combinatorial variants. For instance, the Indexed Finance exploit utilized a then-novel index token weight rebalancing mechanism; the absence of directly comparable cases in the knowledge base can lead to false negatives. Similarly, variants employing non-standard mechanisms---such as the UwU Lend exploit’s use of median pricing across multiple pools---require the underlying LLM to perform deep reasoning over novel logic rather than simple pattern matching. This area represents a transition for \approach{} from ``pattern matching'' to ``semantic comprehension,'' where accuracy is strictly gated by the breadth of the knowledge base and the model’s reasoning depth.
+
+A more pronounced performance degradation is observed in attacks where malicious intent is decoupled from immediate actions or dispersed across long, complex execution chains. Cross-contract exploits (e.g., Rari Capital, merged into Reentrancy), signature and validation issues (57.1\%), and fake market/MEV/sandwich attacks (75.0\%) exemplify this challenge. The core difficulty lies in the fragmentation of semantic signals: malicious intent is often distributed across multiple contracts or embedded within sequences of seemingly legitimate operations, creating a bottleneck for contextual integration. Intent typically becomes discernible only after aggregating evidence across disparate calls, such as missing \texttt{ecrecover}, replay patterns, MEV ordering, or long-range state effects. Although \approach{}’s retrieval module can surface localized anomalous fragments, its ability to reconstruct a holistic cross-contract call-graph and synthesize these dispersed signals into a coherent attack narrative remains limited, resulting in lower detection rates (approximately 57\%--75\%).
+
+
+At the furthest periphery of this capability spectrum lie attacks that manifest no distinguishable behavioral deviations, such as cryptographic exploits ($<50\%$) or pseudo-randomness prediction exploits. Here, \approach{} encounters a fundamental boundary. In these cases, such as integer overflow/underflow in legacy Solidity versions, precision loss, or signature malleability, the execution traces remain strictly compliant with EVM semantics, while the malice is rooted in the abuse of cryptographic primitives or the violation of underlying protocol-level assumptions that are not explicitly reflected in the execution trace. This limitation is not unique to \approach{} but is inherent to all detection methodologies based on behavioral semantics. It clearly defines the system's natural domain: it excels at detecting ``behaviorally anomalous'' exploits but is inherently blind to ``compliant yet malicious'' logic. Transcending this boundary would necessitate the integration of complementary paradigms, such as formal verification.
+
+
+Furthermore, the emergence of hybrid attack vectors and novel mechanisms, such as those associated with the DN404 token standard in 2023--2024, highlights the ongoing challenge of system adaptation. Detection rates for these nascent threats are slightly lower than for mature attack types, underscoring \approach{}’s dependence on the temporal relevance and coverage of its knowledge base. Hybrid exploits, such as the Game\_exp attack, which simultaneously leveraged reentrancy and business logic flaws, require an understanding of the synergy between different vulnerability types rather than the isolated identification of single features, posing a unique challenge to current retrieval-based methods.
+
+In conclusion, the capability spectrum of \approach{} provides empirical evidence for the value of semantic-based DeFi security detection. Its performance is most significant in scenarios with clear behavioral patterns and sufficient historical analogies, making it a powerful core for automated defense. However, the identified limitations in global context integration and behaviorally compliant exploits reveal the insufficiency of a singular methodology. These findings suggest a clear evolutionary path: enhancing the detection of complex attacks requires more sophisticated call-graph analysis and state-propagation modeling; maintaining responsiveness to new threats demands dynamic, automated knowledge base expansion; and breaking fundamental boundaries will require a multi-modal collaborative framework that fuses \approach{}’s behavioral analysis with formal verification and symbolic execution. Ultimately, \approach{} serves as a modular foundation for a next-generation, multi-layered defense architecture capable of covering a more complete attack surface.

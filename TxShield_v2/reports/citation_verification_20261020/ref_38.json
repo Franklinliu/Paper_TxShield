@@ -1,0 +1,68 @@
+{
+  "n": 38,
+  "key": "Luu2016Making",
+  "input": {
+    "n": 38,
+    "key": "Luu2016Making",
+    "author": "Luu, Loi and Chu, Duc-Hiep and Olickel, Hrishi and Saxena, Prateek and Hobor, Aquinas",
+    "title": "Making Smart Contracts Smarter",
+    "year": "2016",
+    "isbn": "9781450341394",
+    "publisher": "Association for Computing Machinery",
+    "address": "New York, NY, USA",
+    "url": "https://doi.org/10.1145/2976749.2978309",
+    "doi": "10.1145/2976749.2978309",
+    "abstract": "Cryptocurrencies record transactions in a decentralized data structure called a blockchain. Two of the most popular cryptocurrencies, Bitcoin and Ethereum, support the feature to encode rules or scripts for processing transactions. This feature has evolved to give practical shape to the ideas of smart contracts, or full-fledged programs that are run on blockchains. Recently, Ethereum's smart contract system has seen steady adoption, supporting tens of thousands of contracts, holding millions dollars worth of virtual coins.In this paper, we investigate the security of running smart contracts based on Ethereum in an open distributed network like those of cryptocurrencies. We introduce several new security problems in which an adversary can manipulate smart contract execution to gain profit. These bugs suggest subtle gaps in the understanding of the distributed semantics of the underlying platform. As a refinement, we propose ways to enhance the operational semantics of Ethereum to make contracts less vulnerable. For developers writing contracts for the existing Ethereum system, we build a symbolic execution tool called Oyente to find potential security bugs. Among 19, 336 existing Ethereum contracts, Oyente flags 8, 833 of them as vulnerable, including the TheDAO bug which led to a 60 million US dollar loss in June 2016. We also discuss the severity of other attacks for several case studies which have source code available and confirm the attacks (which target only our accounts) in the main Ethereum network.",
+    "booktitle": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+    "pages": "254–269",
+    "numpages": "16",
+    "keywords": "symbolic execution, smart contract, ethereum, cryptocurrencies, blockchain",
+    "location": "Vienna, Austria",
+    "series": "CCS '16"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Making+Smart+Contracts+Smarter&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Making Smart Contracts Smarter",
+      "doi": "https://doi.org/10.1145/2976749.2978309",
+      "year": 2016,
+      "authors": [
+        "Loi Luu",
+        "Duc-Hiep Chu",
+        "Hrishi Olickel",
+        "Prateek Saxena",
+        "Aquinas Hobor"
+      ],
+      "url": "https://doi.org/10.1145/2976749.2978309"
+    },
+    {
+      "similarity": 1.0,
+      "title": "Making Smart Contracts Smarter",
+      "doi": "https://doi.org/10.1109/icbc51069.2021.9461148",
+      "year": 2021,
+      "authors": [
+        "Syed Badruddoja",
+        "Ram Dantu",
+        "Yanyan He",
+        "Kritagya Upadhyay",
+        "Mark Thompson"
+      ],
+      "url": "https://doi.org/10.1109/icbc51069.2021.9461148"
+    },
+    {
+      "similarity": 0.537,
+      "title": "Intelligent contracts: Making smart contracts smart for blockchain intelligence",
+      "doi": "https://doi.org/10.1016/j.compeleceng.2022.108421",
+      "year": 2022,
+      "authors": [
+        "Liwei Ouyang",
+        "Wenwen Zhang",
+        "Fei–Yue Wang"
+      ],
+      "url": "https://doi.org/10.1016/j.compeleceng.2022.108421"
+    }
+  ],
+  "source_error": "403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/2976749.2978309"
+}

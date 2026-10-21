@@ -1,0 +1,134 @@
+{
+  "n": 10,
+  "key": "defiranger2021",
+  "input": {
+    "n": 10,
+    "key": "defiranger2021",
+    "title": "DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications",
+    "author": "Siwei Wu and Dabao Wang and Jianting He and Yajin Zhou and Lei Wu and Xingliang Yuan and Qinming He and Kui Ren",
+    "year": "2021",
+    "eprint": "2104.15068",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CR",
+    "url": "https://arxiv.org/abs/2104.15068"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=DeFiRanger%3A+Detecting+Price+Manipulation+Attacks+on+DeFi+Applications&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications",
+      "doi": "https://doi.org/10.48550/arxiv.2104.15068",
+      "year": 2021,
+      "authors": [
+        "Siwei Wu",
+        "Dabao Wang",
+        "Jianting He",
+        "Yajin Zhou",
+        "Lei Wu",
+        "Xingliang Yuan",
+        "Qinming He",
+        "Kui Ren"
+      ],
+      "url": "http://arxiv.org/abs/2104.15068"
+    },
+    {
+      "similarity": 0.783,
+      "title": "DeFiRanger: Detecting DeFi Price Manipulation Attacks",
+      "doi": "https://doi.org/10.1109/tdsc.2023.3346888",
+      "year": 2023,
+      "authors": [
+        "Siwei Wu",
+        "Zhou Yu",
+        "Dabao Wang",
+        "Yajin Zhou",
+        "Lei Wu",
+        "Haoyu Wang",
+        "Xingliang Yuan"
+      ],
+      "url": "https://doi.org/10.1109/tdsc.2023.3346888"
+    },
+    {
+      "similarity": 0.527,
+      "title": "Detecting Various DeFi Price Manipulations with LLM Reasoning",
+      "doi": "https://doi.org/10.1109/ase63991.2025.00149",
+      "year": 2025,
+      "authors": [
+        "Juantao Zhong",
+        "Daoyuan Wu",
+        "Ye Liu",
+        "Maoyi Xie",
+        "Yang Liu",
+        "Yi Li",
+        "Ning Liu"
+      ],
+      "url": "https://doi.org/10.1109/ase63991.2025.00149"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2104.15068",
+  "source_status": 200,
+  "source_title": "[2104.15068] DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications"
+    },
+    {
+      "name": "citation_title",
+      "content": "DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wu, Siwei"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, Dabao"
+    },
+    {
+      "name": "citation_author",
+      "content": "He, Jianting"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhou, Yajin"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wu, Lei"
+    },
+    {
+      "name": "citation_author",
+      "content": "Yuan, Xingliang"
+    },
+    {
+      "name": "citation_author",
+      "content": "He, Qinming"
+    },
+    {
+      "name": "citation_author",
+      "content": "Ren, Kui"
+    },
+    {
+      "name": "citation_date",
+      "content": "2021/04/30"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2021/04/30"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2104.15068"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2104.15068"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "The rapid growth of Decentralized Finance (DeFi) boosts the Ethereum ecosystem. At the same time, attacks towards DeFi applications (apps) are increasing. However, to the best of our knowledge, existing smart contract vulnerability detection tools cannot be directly used to detect DeFi attacks. That's because they lack the capability to recover and understand high-level DeFi semantics, e.g., a user trades a token pair X and Y in a Decentralized EXchange (DEX). In this work, we focus on the detection of two types of new attacks on DeFi apps, including direct and indirect price manipulation attacks. The former one means that an attacker directly manipulates the token price in DEX by performing an unwanted trade in the same DEX by attacking the vulnerable DeFi app. The latter one means that an attacker indirectly manipulates the token price of the vulnerable DeFi app (e.g., a lending app). To this end, we propose a platform-independent way to recover high-level DeFi semantics by first constructing the cash flow tree from raw Ethereum transactions and then lifting the low-level semantics to high-level ones, including token trade, liquidity mining, and liquidity cancel. Finally, we detect price manipulation attacks using the patterns expressed with the recovered DeFi semantics. We have implemented a prototype named \\tool{} and applied it to more than 350 million transactions. It successfully detected 432 real-world attacks in the wild. We confirm that they belong to four known security incidents and five zero-day ones. We reported our findings. Two CVEs have been assigned. We further performed an attack analysis to reveal the root cause of the vulnerability, the attack footprint, and the impact of the attack. Our work urges the need to secure the DeFi ecosystem."
+    }
+  ],
+  "source_text": "[2104.15068] DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Cryptography and Security arXiv:2104.15068 (cs) [Submitted on 30 Apr 2021] Title: DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications Authors: Siwei Wu , Dabao Wang , Jianting He , Yajin Zhou , Lei Wu , Xingliang Yuan , Qinming He , Kui Ren View a PDF of the paper titled DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications, by Siwei Wu and 7 other authors View PDF HTML (experimental) Abstract: The rapid growth of Decentralized Finance (DeFi) boosts the Ethereum ecosystem. At the same time, attacks towards DeFi applications (apps) are increasing. However, to the best of our knowledge, existing smart contract vulnerability detection tools cannot be directly used to detect DeFi attacks. That's because they lack the capability to recover and understand high-level DeFi semantics, e.g., a user trades a token pair X and Y in a Decentralized EXchange (DEX). In this work, we focus on the detection of two types of new attacks on DeFi apps, including direct and indirect price manipulation attacks. The former one means that an attacker directly manipulates the token price in DEX by performing an unwanted trade in the same DEX by attacking the vulnerable DeFi app. The latter one means that an attacker indirectly manipulates the token price of the vulnerable DeFi app (e.g., a lending app). To this end, we propose a platform-independent way to recover high-level DeFi semantics by first constructing the cash flow tree from raw Ethereum transactions and then lifting the low-level semantics to high-level ones, including token trade, liquidity mining, and liquidity cancel. Finally, we detect price manipulation attacks using the patterns expressed with the recovered DeFi semantics. We have implemented a prototype named \\tool{} and applied it to more than 350 million transactions. It successfully detected 432 real-world attacks in the wild. We confirm that they belong to four known security incidents and five zero-day ones. We reported our findings. Two CVEs have been assigned. We further performed an attack analysis to reveal the root cause of the vulnerability, the attack footprint, and the impact of the attack. Our work urges the need to secure the DeFi ecosystem. Subjects: Cryptography and Security (cs.CR) Cite as: arXiv:2104.15068 [cs.CR] (or arXiv:2104.15068v1 [cs.CR] for this version) https://doi.org/10.48550/arXiv.2104.15068 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Yajin Zhou [ view email ] [v1] Fri, 30 Apr 2021 15:38:16 UTC (534 KB) Full-text links: Access Paper: View a PDF of the paper titled DeFiRanger: Detecting Price Manipulation Attacks on DeFi Applications, by Siwei Wu and 7 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CR < prev | next > new | recent | 2021-04 Change to browse by: cs References & Citations SciX Google Scholar Semantic Scholar DBLP - CS Bibliography listing | bibtex Yajin Zhou Lei Wu Xingliang Yuan Qinming He Kui Ren export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

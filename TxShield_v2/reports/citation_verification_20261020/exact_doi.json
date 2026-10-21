@@ -1,0 +1,3356 @@
+[
+  null,
+  null,
+  null,
+  {
+    "n": 4,
+    "queried_doi": "10.1007/978-3-662-64322-8_1",
+    "title": [
+      "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit"
+    ],
+    "authors": [
+      {
+        "given": "Kaihua",
+        "family": "Qin",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liyi",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Benjamin",
+        "family": "Livshits",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arthur",
+        "family": "Gervais",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "3-32",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "venue": [
+      "Lecture Notes in Computer Science",
+      "Financial Cryptography and Data Security"
+    ],
+    "DOI": "10.1007/978-3-662-64322-8_1"
+  },
+  {
+    "n": 5,
+    "queried_doi": "10.1109/WETSEB.2019.00008",
+    "title": [
+      "Slither: A Static Analysis Framework for Smart Contracts"
+    ],
+    "authors": [
+      {
+        "given": "Josselin",
+        "family": "Feist",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gustavo",
+        "family": "Grieco",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alex",
+        "family": "Groce",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "8-15",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2019,
+          5
+        ]
+      ]
+    },
+    "venue": [
+      "2019 IEEE/ACM 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB)"
+    ],
+    "DOI": "10.1109/wetseb.2019.00008"
+  },
+  null,
+  {
+    "n": 7,
+    "queried_doi": "10.1109/SP46215.2023.10179435",
+    "title": [
+      "SoK: Decentralized Finance (DeFi) Attacks"
+    ],
+    "authors": [
+      {
+        "given": "Liyi",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Imperial College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xihan",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Imperial College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jens",
+        "family": "Ernstberger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Technical University of Munich"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stefanos",
+        "family": "Chaliasos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Imperial College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhipeng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Imperial College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ye",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Macau"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kaihua",
+        "family": "Qin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Imperial College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roger",
+        "family": "Wattenhofer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ETH Zurich"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dawn",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California,Berkeley"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arthur",
+        "family": "Gervais",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University College London"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "2444-2461",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "venue": [
+      "2023 IEEE Symposium on Security and Privacy (SP)"
+    ],
+    "DOI": "10.1109/sp46215.2023.10179435"
+  },
+  null,
+  {
+    "n": 9,
+    "queried_doi": "10.1109/CSF.2018.00022",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1109/CSF.2018.00022"
+  },
+  {
+    "n": 10,
+    "queried_doi": "10.48550/arxiv.2104.15068",
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.48550/arxiv.2104.15068"
+  },
+  {
+    "n": 11,
+    "queried_doi": "10.1145/3597926.3598124",
+    "title": [
+      "DeFiTainter: Detecting Price Manipulation Vulnerabilities in DeFi Protocols"
+    ],
+    "authors": [
+      {
+        "given": "Queping",
+        "family": "Kong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiachi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanlin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zigui",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zibin",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1144-1156",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          12
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis"
+    ],
+    "DOI": "10.1145/3597926.3598124"
+  },
+  {
+    "n": 12,
+    "queried_doi": "10.1145/3650212.3652137",
+    "title": [
+      "DeFort: Automatic Detection and Analysis of Price Manipulation Attacks in DeFi Applications"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0001-4496-5037",
+        "authenticated-orcid": false,
+        "given": "Maoyi",
+        "family": "Xie",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5058-4660",
+        "authenticated-orcid": false,
+        "given": "Ming",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-4926-4932",
+        "authenticated-orcid": false,
+        "given": "Ziqiao",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5603-1322",
+        "authenticated-orcid": false,
+        "given": "Cen",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7235-2377",
+        "authenticated-orcid": false,
+        "given": "Yebo",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-3509-3919",
+        "authenticated-orcid": false,
+        "given": "Haijun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi'an Jiaotong University, Xi'an, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-2141-2044",
+        "authenticated-orcid": false,
+        "given": "Yue",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MetaTrust Labs, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-5443-6542",
+        "authenticated-orcid": false,
+        "given": "Hao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MetaTrust Labs, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6709-3721",
+        "authenticated-orcid": false,
+        "given": "Ye",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7300-9215",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "402-414",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          11
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis"
+    ],
+    "DOI": "10.1145/3650212.3652137"
+  },
+  {
+    "n": 13,
+    "queried_doi": "10.1109/ase63991.2025.00149",
+    "title": [
+      "Detecting Various DeFi Price Manipulations with LLM Reasoning"
+    ],
+    "authors": [
+      {
+        "given": "Juantao",
+        "family": "Zhong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Lingnan University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daoyuan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lingnan University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ye",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Singapore Management University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maoyi",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ning",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong, City University of Hong Kong Shenzhen Research Institute"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1781-1793",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          16
+        ]
+      ]
+    },
+    "venue": [
+      "2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)"
+    ],
+    "DOI": "10.1109/ase63991.2025.00149"
+  },
+  {
+    "n": 14,
+    "queried_doi": "10.1109/TIFS.2025.3612184",
+    "title": [
+      "Detecting DeFi Fraud With a Graph-Transformer Language Model"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-6172-4101",
+        "authenticated-orcid": false,
+        "given": "Wei",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junjie",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaxi",
+        "family": "Qiu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0930-0283",
+        "authenticated-orcid": false,
+        "given": "Cong",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7212-5297",
+        "authenticated-orcid": false,
+        "given": "Jing",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education, School of Cyber Science and Engineering, Wuhan University, Wuhan, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4336-8548",
+        "authenticated-orcid": false,
+        "given": "Lingxiao",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5598-4006",
+        "authenticated-orcid": false,
+        "given": "Shangqing",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7300-9215",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5252-0831",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Xiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Digital Research, Swinburne University of Technology, Hawthorn, VIC, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "10051-10065",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "venue": [
+      "IEEE Transactions on Information Forensics and Security"
+    ],
+    "DOI": "10.1109/tifs.2025.3612184"
+  },
+  {
+    "n": 15,
+    "queried_doi": "10.1145/3597503.3639117",
+    "title": [
+      "GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4340-3371",
+        "authenticated-orcid": false,
+        "given": "Yuqiang",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3752-0718",
+        "authenticated-orcid": false,
+        "given": "Daoyuan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-2141-2044",
+        "authenticated-orcid": false,
+        "given": "Yue",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MetaTrust Labs, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-8384-7933",
+        "authenticated-orcid": false,
+        "given": "Han",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shanghai Key Laboratory of Trustworthy Computing, East China Normal University, Shanghai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-3509-3919",
+        "authenticated-orcid": false,
+        "given": "Haijun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi'an Jiaotong University, Xi'an, Shanxi, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8390-7518",
+        "authenticated-orcid": false,
+        "given": "Zhengzi",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1288-6502",
+        "authenticated-orcid": false,
+        "given": "Xiaofei",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Singapore Management University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7300-9215",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1-13",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          12
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering"
+    ],
+    "DOI": "10.1145/3597503.3639117"
+  },
+  {
+    "n": 16,
+    "queried_doi": "10.1109/icse55347.2025.00027",
+    "title": [
+      "Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications"
+    ],
+    "authors": [
+      {
+        "given": "Wei",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daoyuan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Hong Kong University of Science and Technology,Hong Kong SAR,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuqiang",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianwen",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shangqing",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yue",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MetaTrust Labs,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1742-1754",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          26
+        ]
+      ]
+    },
+    "venue": [
+      "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)"
+    ],
+    "DOI": "10.1109/icse55347.2025.00027"
+  },
+  null,
+  null,
+  null,
+  {
+    "n": 20,
+    "queried_doi": "10.48550/arxiv.2407.07922",
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.48550/arxiv.2407.07922"
+  },
+  {
+    "n": 21,
+    "queried_doi": "10.1038/s41598-024-73454-0",
+    "title": [
+      "Taxonomic insights into ethereum smart contracts by linking application categories to security vulnerabilities"
+    ],
+    "authors": [
+      {
+        "given": "Marco",
+        "family": "Ortu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giacomo",
+        "family": "Ibba",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Destefanis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Claudio",
+        "family": "Conversano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Roberto",
+        "family": "Tonelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": null,
+    "article": "23433",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          8
+        ]
+      ]
+    },
+    "venue": [
+      "Scientific Reports"
+    ],
+    "DOI": "10.1038/s41598-024-73454-0"
+  },
+  {
+    "n": 22,
+    "queried_doi": "10.1016/j.bcra.2025.100347",
+    "title": [
+      "Welcome back: A systematic literature review of smart contract reentrancy and countermeasures"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7428-3467",
+        "authenticated-orcid": false,
+        "given": "Fatemeh",
+        "family": "Ghiyami Pour",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9385-3998",
+        "authenticated-orcid": false,
+        "given": "Gabriele",
+        "family": "Costa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0351-9169",
+        "authenticated-orcid": false,
+        "given": "Letterio",
+        "family": "Galletta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "100347",
+    "article": "100347",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "venue": [
+      "Blockchain: Research and Applications"
+    ],
+    "DOI": "10.1016/j.bcra.2025.100347"
+  },
+  {
+    "n": 23,
+    "queried_doi": "10.1145/3597503.3639153",
+    "title": [
+      "Uncover the Premeditated Attacks: Detecting Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-4919-3138",
+        "authenticated-orcid": false,
+        "given": "Shuo",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Software Engineering, Sun Yat-sen University, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0192-9992",
+        "authenticated-orcid": false,
+        "given": "Jiachi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Software Engineering, Sun Yat-sen University, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-0546-7083",
+        "authenticated-orcid": false,
+        "given": "Mingyuan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Software Engineering, Sun Yat-sen University, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7878-4330",
+        "authenticated-orcid": false,
+        "given": "Zibin",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Software Engineering, Sun Yat-sen University, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9548-0208",
+        "authenticated-orcid": false,
+        "given": "Yuan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Software Engineering, Sun Yat-sen University, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1-12",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          12
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering"
+    ],
+    "DOI": "10.1145/3597503.3639153"
+  },
+  {
+    "n": 24,
+    "queried_doi": "10.1145/3643734",
+    "title": [
+      "Efficiently Detecting Reentrancy Vulnerabilities in Complex Smart Contracts"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-1439-2989",
+        "authenticated-orcid": false,
+        "given": "Zexu",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          },
+          {
+            "name": "Peng Cheng Laboratory, Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0192-9992",
+        "authenticated-orcid": false,
+        "given": "Jiachi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7761-7269",
+        "authenticated-orcid": false,
+        "given": "Yanlin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2040-5059",
+        "authenticated-orcid": false,
+        "given": "Yu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology, Harbin, China"
+          },
+          {
+            "name": "Peng Cheng Laboratory, Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4783-876X",
+        "authenticated-orcid": false,
+        "given": "Weizhe",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology, Harbin, China"
+          },
+          {
+            "name": "Peng Cheng Laboratory, Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7878-4330",
+        "authenticated-orcid": false,
+        "given": "Zibin",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          },
+          {
+            "name": "GuangDong Engineering Technology Research Center of Blockchain, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "161-181",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the ACM on Software Engineering"
+    ],
+    "DOI": "10.1145/3643734"
+  },
+  {
+    "n": 25,
+    "queried_doi": "10.1109/SP54263.2024.00095",
+    "title": [
+      "More is Merrier: Relax the Non-Collusion Assumption in Multi-Server PIR"
+    ],
+    "authors": [
+      {
+        "given": "Tiantian",
+        "family": "Gong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Purdue University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ryan",
+        "family": "Henry",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Calgary"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexandros",
+        "family": "Psomas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Purdue University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aniket",
+        "family": "Kate",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Purdue University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "4348-4366",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    },
+    "venue": [
+      "2024 IEEE Symposium on Security and Privacy (SP)"
+    ],
+    "DOI": "10.1109/sp54263.2024.00095"
+  },
+  null,
+  {
+    "n": 27,
+    "queried_doi": "10.1109/SP40000.2020.00040",
+    "title": [
+      "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability"
+    ],
+    "authors": [
+      {
+        "given": "Philip",
+        "family": "Daian",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Steven",
+        "family": "Goldfeder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tyler",
+        "family": "Kell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yunqi",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xueyuan",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Iddo",
+        "family": "Bentov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lorenz",
+        "family": "Breidenbach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ari",
+        "family": "Juels",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "910-927",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2020,
+          5
+        ]
+      ]
+    },
+    "venue": [
+      "2020 IEEE Symposium on Security and Privacy (SP)"
+    ],
+    "DOI": "10.1109/sp40000.2020.00040"
+  },
+  null,
+  {
+    "n": 29,
+    "queried_doi": "10.1145/3728894",
+    "title": [
+      "LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-8335-4299",
+        "authenticated-orcid": false,
+        "given": "Ziyao",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1424-6290",
+        "authenticated-orcid": false,
+        "given": "Chong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Nanyang Avenue, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7761-7269",
+        "authenticated-orcid": false,
+        "given": "Yanlin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5543-2025",
+        "authenticated-orcid": false,
+        "given": "Ensheng",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huawei Cloud Computing Technologies Co., Ltd., Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-3304-1389",
+        "authenticated-orcid": false,
+        "given": "Yuchi",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huawei Cloud Computing Technologies Co., Ltd., Shenzhen, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-2236-228X",
+        "authenticated-orcid": false,
+        "given": "Wanjun",
+        "family": "Zhong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Guangzhou, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0192-9992",
+        "authenticated-orcid": false,
+        "given": "Jiachi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9369-7828",
+        "authenticated-orcid": false,
+        "given": "Mingzhi",
+        "family": "Mao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7878-4330",
+        "authenticated-orcid": false,
+        "given": "Zibin",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University, Zhuhai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "481-503",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          22
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the ACM on Software Engineering"
+    ],
+    "DOI": "10.1145/3728894"
+  },
+  null,
+  {
+    "n": 31,
+    "queried_doi": "10.48550/arxiv.2409.10173",
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.48550/arxiv.2409.10173"
+  },
+  null,
+  {
+    "n": 33,
+    "queried_doi": "10.52202/085713-3350",
+    "title": [
+      "BlockScan: Detecting Anomalies in Blockchain Transactions"
+    ],
+    "authors": [
+      {
+        "given": "Jiahao",
+        "family": "Yu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Northwestern University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xian",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Baidu"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenbo",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UCSB &amp; Virtue AI"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinyu",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Northwestern University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "111065-111090",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "venue": [
+      "Advances in Neural Information Processing Systems 38"
+    ],
+    "DOI": "10.52202/085713-3350"
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "n": 38,
+    "queried_doi": "10.1145/2976749.2978309",
+    "title": [
+      "Making Smart Contracts Smarter"
+    ],
+    "authors": [
+      {
+        "given": "Loi",
+        "family": "Luu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Duc-Hiep",
+        "family": "Chu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hrishi",
+        "family": "Olickel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yale-NUS College, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prateek",
+        "family": "Saxena",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aquinas",
+        "family": "Hobor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yale-NUS College &amp; National University of Singapore, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "254-269",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2016,
+          10,
+          24
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security"
+    ],
+    "DOI": "10.1145/2976749.2978309"
+  },
+  {
+    "n": 39,
+    "queried_doi": "10.1145/3274694.3274743",
+    "title": [
+      "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale"
+    ],
+    "authors": [
+      {
+        "given": "Ivica",
+        "family": "Nikolić",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computing, NUS, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aashish",
+        "family": "Kolluri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing, NUS, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ilya",
+        "family": "Sergey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University College London, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prateek",
+        "family": "Saxena",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing, NUS, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Aquinas",
+        "family": "Hobor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yale-NUS College, School of Computing, NUS, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "653-663",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          3
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 34th Annual Computer Security Applications Conference"
+    ],
+    "DOI": "10.1145/3274694.3274743"
+  },
+  {
+    "n": 40,
+    "queried_doi": "10.1145/3276486",
+    "title": [
+      "MadMax: surviving out-of-gas conditions in Ethereum smart contracts"
+    ],
+    "authors": [
+      {
+        "given": "Neville",
+        "family": "Grech",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Athens, Greece / University of Malta, Malta"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Sydney, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anton",
+        "family": "Jurisevic",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Sydney, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lexi",
+        "family": "Brent",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Sydney, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bernhard",
+        "family": "Scholz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Sydney, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yannis",
+        "family": "Smaragdakis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1-27",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          24
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the ACM on Programming Languages"
+    ],
+    "DOI": "10.1145/3276486"
+  },
+  {
+    "n": 41,
+    "queried_doi": "10.1109/EEI63073.2024.10696331",
+    "title": [
+      "Smart Contract Vulnerability Detection Based on Machine Learning"
+    ],
+    "authors": [
+      {
+        "given": "Deguang",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Software, Dalian Jiaotong University,Dalian,China,116028"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mengtao",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Software, Dalian Jiaotong University,Dalian,China,116028"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ning",
+        "family": "Tong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Software, Dalian Jiaotong University,Dalian,China,116028"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "page": "1038-1042",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          28
+        ]
+      ]
+    },
+    "venue": [
+      "2024 6th International Conference on Electronic Engineering and Informatics (EEI)"
+    ],
+    "DOI": "10.1109/eei63073.2024.10696331"
+  },
+  {
+    "n": 42,
+    "queried_doi": "10.18653/v1/2020.findings-emnlp.139",
+    "title": [
+      "CodeBERT: A Pre-Trained Model for Programming and Natural Languages"
+    ],
+    "authors": [
+      {
+        "given": "Zhangyin",
+        "family": "Feng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daya",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Duyu",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nan",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaocheng",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming",
+        "family": "Gong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linjun",
+        "family": "Shou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bing",
+        "family": "Qin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ting",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daxin",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1536-1547",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "venue": [
+      "Findings of the Association for Computational Linguistics: EMNLP 2020"
+    ],
+    "DOI": "10.18653/v1/2020.findings-emnlp.139"
+  },
+  {
+    "n": 43,
+    "queried_doi": "10.1109/IJCNN55064.2022.9892280",
+    "title": [
+      "VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection"
+    ],
+    "authors": [
+      {
+        "given": "Hazim",
+        "family": "Hanif",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Imperial College,Department of Computing,London,UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sergio",
+        "family": "Maffeis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Malaya,Faculty of Computer Science and Information Technology,Malaysia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1-8",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          18
+        ]
+      ]
+    },
+    "venue": [
+      "2022 International Joint Conference on Neural Networks (IJCNN)"
+    ],
+    "DOI": "10.1109/ijcnn55064.2022.9892280"
+  },
+  {
+    "n": 44,
+    "queried_doi": "10.1145/3524842.3528452",
+    "title": [
+      "LineVul"
+    ],
+    "authors": [
+      {
+        "given": "Michael",
+        "family": "Fu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Monash University, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chakkrit",
+        "family": "Tantithamthavorn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Monash University, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "608-620",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          23
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 19th International Conference on Mining Software Repositories"
+    ],
+    "DOI": "10.1145/3524842.3528452"
+  },
+  {
+    "n": 45,
+    "queried_doi": "10.52202/068431-1800",
+    "title": [
+      "Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models"
+    ],
+    "authors": [
+      {
+        "given": "Jason",
+        "family": "Wei",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xuezhi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dale",
+        "family": "Schuurmans",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Maarten",
+        "family": "Bosma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Ichter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fei",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ed",
+        "family": "Chi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Quoc V",
+        "family": "Le",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Denny",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "24824-24837",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "venue": [
+      "Advances in Neural Information Processing Systems 35"
+    ],
+    "DOI": "10.52202/068431-1800"
+  },
+  {
+    "n": 46,
+    "queried_doi": "10.1145/3442188.3445922",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1145/3442188.3445922"
+  },
+  {
+    "n": 47,
+    "queried_doi": "10.1109/icst62969.2025.10988968",
+    "title": [
+      "Understanding the Effectiveness of Large Language Models in Detecting Security Vulnerabilities"
+    ],
+    "authors": [
+      {
+        "given": "Avishree",
+        "family": "Khare",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Pennsylvania,Philadelphia,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saikat",
+        "family": "Dutta",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell University,Ithaca,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ziyang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Pennsylvania,Philadelphia,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alaia",
+        "family": "Solko-Breslin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Pennsylvania,Philadelphia,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rajeev",
+        "family": "Alur",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Pennsylvania,Philadelphia,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mayur",
+        "family": "Naik",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Pennsylvania,Philadelphia,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "103-114",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          31
+        ]
+      ]
+    },
+    "venue": [
+      "2025 IEEE Conference on Software Testing, Verification and Validation (ICST)"
+    ],
+    "DOI": "10.1109/icst62969.2025.10988968"
+  },
+  {
+    "n": 48,
+    "queried_doi": "10.1007/978-3-031-70879-4_14",
+    "title": [
+      "Outside the Comfort Zone: Analysing LLM Capabilities in Software Vulnerability Detection"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5535-2420",
+        "authenticated-orcid": false,
+        "given": "Yuejun",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4460-9331",
+        "authenticated-orcid": false,
+        "given": "Constantinos",
+        "family": "Patsakis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8251-1669",
+        "authenticated-orcid": false,
+        "given": "Qiang",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6153-4255",
+        "authenticated-orcid": false,
+        "given": "Qiang",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4296-2876",
+        "authenticated-orcid": false,
+        "given": "Fran",
+        "family": "Casino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "271-289",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "venue": [
+      "Lecture Notes in Computer Science",
+      "Computer Security – ESORICS 2024"
+    ],
+    "DOI": "10.1007/978-3-031-70879-4_14"
+  },
+  {
+    "n": 49,
+    "queried_doi": "10.18653/v1/2023.emnlp-main.151",
+    "title": [
+      "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation"
+    ],
+    "authors": [
+      {
+        "given": "Fengji",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bei",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yue",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jacky",
+        "family": "Keung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daoguang",
+        "family": "Zan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Mao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jian-Guang",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weizhu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "2471-2484",
+    "article": null,
+    "date": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "venue": [
+      "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+    ],
+    "DOI": "10.18653/v1/2023.emnlp-main.151"
+  },
+  {
+    "n": 50,
+    "queried_doi": "10.48550/arxiv.2207.05987",
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.48550/arxiv.2207.05987"
+  },
+  {
+    "n": 51,
+    "queried_doi": "10.48550/arxiv.2308.06782",
+    "error": "404 Client Error: Not Found for url: https://api.crossref.org/works/10.48550/arxiv.2308.06782"
+  },
+  {
+    "n": 52,
+    "queried_doi": "10.1109/sp54263.2024.00126",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works/10.1109/sp54263.2024.00126"
+  }
+]

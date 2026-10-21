@@ -1,0 +1,105 @@
+{
+  "n": 52,
+  "key": "wang2024smartinvmultimodallearningsmart",
+  "input": {
+    "n": 52,
+    "key": "wang2024smartinvmultimodallearningsmart",
+    "title": "SmartInv: Multimodal Learning for Smart Contract Invariant Inference",
+    "author": "Sally Junsong Wang and Kexin Pei and Junfeng Yang",
+    "year": "2024",
+    "eprint": "2411.09217",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.SE",
+    "url": "https://arxiv.org/abs/2411.09217"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=SmartInv%3A+Multimodal+Learning+for+Smart+Contract+Invariant+Inference&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "SmartInv: Multimodal Learning for Smart Contract Invariant Inference",
+      "doi": "https://doi.org/10.1109/sp54263.2024.00126",
+      "year": 2024,
+      "authors": [
+        "Sally Junsong Wang",
+        "Kexin Pei",
+        "Junfeng Yang"
+      ],
+      "url": "https://doi.org/10.1109/sp54263.2024.00126"
+    },
+    {
+      "similarity": 0.488,
+      "title": "Smart Contract Invariants Protect Against Cybercriminals",
+      "doi": "https://doi.org/10.48550/arxiv.2608.13191",
+      "year": 2026,
+      "authors": [
+        "Sofia Bobadilla",
+        "Humaira Afrin",
+        "Angela Novelli",
+        "Martin Monperrus"
+      ],
+      "url": "https://arxiv.org/abs/2608.13191"
+    },
+    {
+      "similarity": 0.554,
+      "title": "SmartOracle: Generating Smart Contract Oracle via Fine-Grained Invariant Detection",
+      "doi": "https://doi.org/10.1109/tse.2025.3534567",
+      "year": 2025,
+      "authors": [
+        "Jianzhong Su",
+        "Jiachi Chen",
+        "Zhiyuan Fang",
+        "Xingwei Lin",
+        "Yutian Tang",
+        "Zibin Zheng"
+      ],
+      "url": "https://doi.org/10.1109/tse.2025.3534567"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2411.09217",
+  "source_status": 200,
+  "source_title": "[2411.09217] SmartInv: Multimodal Learning for Smart Contract Invariant Inference",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "SmartInv: Multimodal Learning for Smart Contract Invariant Inference"
+    },
+    {
+      "name": "citation_title",
+      "content": "SmartInv: Multimodal Learning for Smart Contract Invariant Inference"
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, Sally Junsong"
+    },
+    {
+      "name": "citation_author",
+      "content": "Pei, Kexin"
+    },
+    {
+      "name": "citation_author",
+      "content": "Yang, Junfeng"
+    },
+    {
+      "name": "citation_date",
+      "content": "2024/11/14"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2024/11/14"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2411.09217"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2411.09217"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "Smart contracts are software programs that enable diverse business activities on the blockchain. Recent research has identified new classes of \"machine un-auditable\" bugs that arise from both transactional contexts and source code. Existing detection methods require human understanding of underlying transaction logic and manual reasoning across different sources of context (i.e. modalities), such as code, dynamic transaction executions, and natural language specifying the expected transaction behavior. To automate the detection of ``machine un-auditable'' bugs, we present SmartInv, an accurate and fast smart contract invariant inference framework. Our key insight is that the expected behavior of smart contracts, as specified by invariants, relies on understanding and reasoning across multimodal information, such as source code and natural language. We propose a new prompting strategy to foundation models, Tier of Thought (ToT), to reason across multiple modalities of smart contracts and ultimately to generate invariants. By checking the violation of these generated invariants, SmartInv can identify potential vulnerabilities. We evaluate SmartInv on real-world contracts and re-discover bugs that resulted in multi-million dollar losses over the past 2.5 years (from January 1, 2021 to May 31, 2023). Our extensive evaluation shows that SmartInv generates (3.5X) more bug-critical invariants and detects (4$\\times$) more critical bugs compared to the state-of-the-art tools in significantly (150X) less time. \\sys uncovers 119 zero-day vulnerabilities from the 89,621 real-world contracts. Among them, five are critical zero-day bugs confirmed by developers as ``high severity.''"
+    }
+  ],
+  "source_text": "[2411.09217] SmartInv: Multimodal Learning for Smart Contract Invariant Inference Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Software Engineering arXiv:2411.09217 (cs) [Submitted on 14 Nov 2024] Title: SmartInv: Multimodal Learning for Smart Contract Invariant Inference Authors: Sally Junsong Wang , Kexin Pei , Junfeng Yang View a PDF of the paper titled SmartInv: Multimodal Learning for Smart Contract Invariant Inference, by Sally Junsong Wang and 2 other authors View PDF HTML (experimental) Abstract: Smart contracts are software programs that enable diverse business activities on the blockchain. Recent research has identified new classes of \"machine un-auditable\" bugs that arise from both transactional contexts and source code. Existing detection methods require human understanding of underlying transaction logic and manual reasoning across different sources of context (i.e. modalities), such as code, dynamic transaction executions, and natural language specifying the expected transaction behavior. To automate the detection of ``machine un-auditable'' bugs, we present SmartInv, an accurate and fast smart contract invariant inference framework. Our key insight is that the expected behavior of smart contracts, as specified by invariants, relies on understanding and reasoning across multimodal information, such as source code and natural language. We propose a new prompting strategy to foundation models, Tier of Thought (ToT), to reason across multiple modalities of smart contracts and ultimately to generate invariants. By checking the violation of these generated invariants, SmartInv can identify potential vulnerabilities. We evaluate SmartInv on real-world contracts and re-discover bugs that resulted in multi-million dollar losses over the past 2.5 years (from January 1, 2021 to May 31, 2023). Our extensive evaluation shows that SmartInv generates (3.5X) more bug-critical invariants and detects (4$\\times$) more critical bugs compared to the state-of-the-art tools in significantly (150X) less time. \\sys uncovers 119 zero-day vulnerabilities from the 89,621 real-world contracts. Among them, five are critical zero-day bugs confirmed by developers as ``high severity.'' Subjects: Software Engineering (cs.SE) ; Cryptography and Security (cs.CR); Programming Languages (cs.PL) Cite as: arXiv:2411.09217 [cs.SE] (or arXiv:2411.09217v1 [cs.SE] for this version) https://doi.org/10.48550/arXiv.2411.09217 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Sally Junsong Wang [ view email ] [v1] Thu, 14 Nov 2024 06:28:57 UTC (3,400 KB) Full-text links: Access Paper: View a PDF of the paper titled SmartInv: Multimodal Learning for Smart Contract Invariant Inference, by Sally Junsong Wang and 2 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.SE < prev | next > new | recent | 2024-11 Change to browse by: cs cs.CR cs.PL References & Citations SciX Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

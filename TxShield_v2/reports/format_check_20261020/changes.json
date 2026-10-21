@@ -1,0 +1,58 @@
+[
+  {
+    "file": "main.tex",
+    "before": "\\colorlet{blue}{black}",
+    "after": "\\renewcommand{\\RevBlock}[1]{#1}\n\\renewcommand{\\GreenBlock}[1]{#1}\n\\colorlet{blue}{black}",
+    "count": 1,
+    "reason": "提交版完全关闭高亮绘制，消除灰色提示框中的白色底纹，并恢复宏后正常词间距。"
+  },
+  {
+    "file": "sections/abstract.tex",
+    "before": "\\approach constructs",
+    "after": "\\approach{} constructs",
+    "count": 1,
+    "reason": "显式保留系统名和 constructs 之间的空格。"
+  },
+  {
+    "file": "sections/approach.tex",
+    "before": "$(P,d_t) \\gets \\textsc{FindDeepestTarget}(r',f_t)$\\; \\tcp*[r]",
+    "after": "$(P,d_t) \\gets \\textsc{FindDeepestTarget}(r',f_t)$ \\tcp*[r]",
+    "count": 1,
+    "reason": "移除算法第6行重复的行结束命令，消除孤立分号；算法步骤不变。"
+  },
+  {
+    "file": "sections/approach.tex",
+    "before": "during pruning stage",
+    "after": "during the pruning stage",
+    "count": 1,
+    "reason": "补齐冠词。"
+  },
+  {
+    "file": "sections/approach.tex",
+    "before": "Following the instructions:",
+    "after": "Follow the instructions:",
+    "count": 1,
+    "reason": "修正提示模板中的祈使句语法。"
+  },
+  {
+    "file": "sections/approach.tex",
+    "before": "followed by below information:",
+    "after": "followed by the following information:",
+    "count": 2,
+    "reason": "修正提示模板中的语法。"
+  },
+  {
+    "file": "sections/approach.tex",
+    "before": "Figures~\\ref{fig:prompt1} and Figures~\\ref{fig:prompt2}",
+    "after": "Figures~\\ref{fig:prompt1} and~\\ref{fig:prompt2}",
+    "count": 1,
+    "reason": "去掉重复的 Figures。"
+  },
+  {
+    "file": "sections/evaluation.tex",
+    "before": "based on a inter-contract",
+    "after": "based on an inter-contract",
+    "count": 1,
+    "reason": "修正不定冠词。"
+  }
+]

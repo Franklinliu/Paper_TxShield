@@ -1,0 +1,24 @@
+{
+  "n": 34,
+  "key": "langchain",
+  "input": {
+    "n": 34,
+    "key": "langchain",
+    "author": "LangChain",
+    "title": "LangChain: Build Context-aware Reasoning Applications",
+    "howpublished": "\\url{https://www.langchain.com/}",
+    "note": "Accessed: 2025-01-01",
+    "year": "2024"
+  },
+  "evidence": [],
+  "source_url": "https://www.langchain.com/",
+  "source_status": 200,
+  "source_title": "LangChain: the open agent platform to own your intelligence",
+  "source_metadata": [
+    {
+      "content": "LangChain: the open agent platform to own your intelligence",
+      "property": "og:title"
+    }
+  ],
+  "source_text": "LangChain: the open agent platform to own your intelligence Try LangSmith Get a demo Meet LangSmith Engine Put insights to work Smarter after every launch We catch your drift Start building Get a demo Video ↗ Case study ↗ Video ↗ Video ↗ Video ↗ Video ↗ Case study ↗ Video ↗ Video ↗ Case study ↗ Video ↗ Accelerating the Agent Development Lifecycle Build Test Deploy Monitor Iterate Govern Button Text Button Text Button Text Button Text Button Text This is some text inside of a div block. 1 2 3 4 5 6 Build Build agents fast with or without code. Choose your model. Own your harness. Start with proven agent patterns, customize when you need control Own your harness, context, memory, and model choice Enable every team build to agents in natural language with Fleet Deep Agents LangGraph LangChain Fleet Test Validate behavior before you ship. Turn traces into realistic datasets and eval every step. Debug agent runs with step-by-step tracing Query complex traces in under a second with SmithDB Turn expert review into standardized evals Observability Evaluation Deploy Ship agents on infra built for long-running tasks, persistent state, and secure execution. Build the right UX with 30+ Agent Server endpoints Standardize on one deployment pattern org-wide Run agent-generated code in isolated sandboxes Deployment Sandboxes Context Hub Monitor Catch issues in production with online evals, dashboards, and alerts built for agents. Measure quality across production agent runs Catch regressions before users do Track cost, latency, errors, and tool behavior Observability Evaluation Iterate Compound agent intelligence through a feedback loop you own. Detect production issues automatically with Engine, the agent for agent engineering Find root causes and make targeted fixes Feed every fix back into your eval loop Engine Govern Enforce cost limits and detect sensitive data before damage happens. Control model calls, spend, and sensitive data with LLM Gateway Require human approval for sensitive agent actions Deploy in SaaS, BYOC, or self-hosted environments LLM Gateway Build with our open source frameworks Build agents fast with any model provider. Choose the right framework for the job from batteries included to low-level control. deepagents Build intelligent agents for open-ended work For highly autonomous, long-running agents Explore deepagents langchain Quick start agents with any model provider For building agents fast with templates Explore langchain langgraph Build reliable agents with low-level control For production agents that require some determinism Explore langgraph Learn from teams running agents in production More customer stories Klarna’s AI assistant reduced case resolution time by 80% with LangSmith Read Use Case Monday Service achieved 8.7x faster feedback loops for evals with LangSmith Read Use Case Podium reduced engineering escalations by 90% with LangSmith Read Use Case C.H. Robinson automated 5,500 orders per day, saving 600+ hours daily with LangSmith Read Use Case ServiceNow orchestrates agents across 8 customer stages using LangSmith Read Use Case More use cases Trusted by the largest builder community in AI 350M+ Monthly open source downloads 7K+ Active LangSmith customers 5 Of the Fortune 10 are LangSmith customers Get started with LangSmith Start building Get a demo Use LangSmith, the agent engineering platform, to improve every step of the agent development lifecycle."
+}

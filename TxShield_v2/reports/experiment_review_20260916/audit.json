@@ -1,0 +1,610 @@
+{
+  "csv": {
+    "old:BAIDU": {
+      "n": 728,
+      "tp": 316,
+      "tn": 260,
+      "fp": 103,
+      "fn": 48,
+      "invalid": 1,
+      "accuracy": 0.7912087912087912,
+      "precision": 0.7541766109785203,
+      "recall_valid": 0.8681318681318682,
+      "f1_valid": 0.8071519795657727,
+      "recall_all_attacks": 0.8681318681318682,
+      "invalid_by_label": {
+        "0": 1
+      }
+    },
+    "old:GPT-4.1-mini(noRAG)": {
+      "n": 728,
+      "tp": 52,
+      "tn": 351,
+      "fp": 13,
+      "fn": 312,
+      "invalid": 0,
+      "accuracy": 0.5535714285714286,
+      "precision": 0.8,
+      "recall_valid": 0.14285714285714285,
+      "f1_valid": 0.24242424242424243,
+      "recall_all_attacks": 0.14285714285714285,
+      "invalid_by_label": {}
+    },
+    "old:gpt-4.1-mini": {
+      "n": 728,
+      "tp": 320,
+      "tn": 269,
+      "fp": 95,
+      "fn": 44,
+      "invalid": 0,
+      "accuracy": 0.8090659340659341,
+      "precision": 0.7710843373493976,
+      "recall_valid": 0.8791208791208791,
+      "f1_valid": 0.8215661103979461,
+      "recall_all_attacks": 0.8791208791208791,
+      "invalid_by_label": {}
+    },
+    "old:InternLM3": {
+      "n": 728,
+      "tp": 301,
+      "tn": 100,
+      "fp": 264,
+      "fn": 17,
+      "invalid": 46,
+      "accuracy": 0.5508241758241759,
+      "precision": 0.5327433628318584,
+      "recall_valid": 0.9465408805031447,
+      "f1_valid": 0.681766704416761,
+      "recall_all_attacks": 0.8269230769230769,
+      "invalid_by_label": {
+        "1": 46
+      }
+    },
+    "old:Llama3-8B_sum": {
+      "n": 728,
+      "tp": 310,
+      "tn": 254,
+      "fp": 110,
+      "fn": 52,
+      "invalid": 2,
+      "accuracy": 0.7747252747252747,
+      "precision": 0.7380952380952381,
+      "recall_valid": 0.856353591160221,
+      "f1_valid": 0.7928388746803069,
+      "recall_all_attacks": 0.8516483516483516,
+      "invalid_by_label": {
+        "1": 2
+      }
+    },
+    "old:Qwen3-8B": {
+      "n": 728,
+      "tp": 239,
+      "tn": 269,
+      "fp": 64,
+      "fn": 48,
+      "invalid": 108,
+      "accuracy": 0.6978021978021978,
+      "precision": 0.7887788778877888,
+      "recall_valid": 0.8327526132404182,
+      "f1_valid": 0.8101694915254237,
+      "recall_all_attacks": 0.6565934065934066,
+      "invalid_by_label": {
+        "1": 77,
+        "0": 31
+      }
+    },
+    "old:DeepSeek-R1": {
+      "n": 728,
+      "tp": 254,
+      "tn": 256,
+      "fp": 108,
+      "fn": 64,
+      "invalid": 46,
+      "accuracy": 0.7005494505494505,
+      "precision": 0.7016574585635359,
+      "recall_valid": 0.7987421383647799,
+      "f1_valid": 0.7470588235294118,
+      "recall_all_attacks": 0.6978021978021978,
+      "invalid_by_label": {
+        "1": 46
+      }
+    },
+    "new:Deepseek-v4-pro": {
+      "n": 728,
+      "tp": 325,
+      "tn": 340,
+      "fp": 24,
+      "fn": 39,
+      "invalid": 0,
+      "accuracy": 0.9134615384615384,
+      "precision": 0.9312320916905444,
+      "recall_valid": 0.8928571428571429,
+      "f1_valid": 0.9116409537166901,
+      "recall_all_attacks": 0.8928571428571429,
+      "invalid_by_label": {}
+    },
+    "new:GPT-5.6-luna": {
+      "n": 728,
+      "tp": 318,
+      "tn": 335,
+      "fp": 28,
+      "fn": 46,
+      "invalid": 1,
+      "accuracy": 0.896978021978022,
+      "precision": 0.9190751445086706,
+      "recall_valid": 0.8736263736263736,
+      "f1_valid": 0.895774647887324,
+      "recall_all_attacks": 0.8736263736263736,
+      "invalid_by_label": {
+        "0": 1
+      }
+    },
+    "new:Kimi_k3": {
+      "n": 728,
+      "tp": 322,
+      "tn": 357,
+      "fp": 7,
+      "fn": 42,
+      "invalid": 0,
+      "accuracy": 0.9326923076923077,
+      "precision": 0.9787234042553191,
+      "recall_valid": 0.8846153846153846,
+      "f1_valid": 0.9292929292929293,
+      "recall_all_attacks": 0.8846153846153846,
+      "invalid_by_label": {}
+    },
+    "new:Qwen3_8B": {
+      "n": 728,
+      "tp": 293,
+      "tn": 162,
+      "fp": 97,
+      "fn": 36,
+      "invalid": 140,
+      "accuracy": 0.625,
+      "precision": 0.7512820512820513,
+      "recall_valid": 0.8905775075987842,
+      "f1_valid": 0.8150208623087621,
+      "recall_all_attacks": 0.804945054945055,
+      "invalid_by_label": {
+        "1": 35,
+        "0": 105
+      }
+    }
+  },
+  "json": {
+    "Kimi_k3": {
+      "file": "detailed_results_Kimi_k3.json",
+      "metrics": {
+        "n": 728,
+        "tp": 322,
+        "tn": 357,
+        "fp": 7,
+        "fn": 42,
+        "invalid": 0,
+        "accuracy": 0.9326923076923077,
+        "precision": 0.9787234042553191,
+        "recall_valid": 0.8846153846153846,
+        "f1_valid": 0.9292929292929293,
+        "recall_all_attacks": 0.8846153846153846
+      },
+      "summary": {
+        "total_tests": 728,
+        "correct_predictions": 679,
+        "accuracy": 0.9326923076923077,
+        "true_positives": 322,
+        "true_negatives": 357,
+        "false_positives": 7,
+        "false_negatives": 42,
+        "precision": 0.9787361111111111,
+        "recall": 0.8846153846153846,
+        "f1_score": 0.9292929292929293,
+        "error_count": 0,
+        "avg_processing_time": 20.055206043956023,
+        "min_processing_time": 8.59,
+        "max_processing_time": 57.46
+      },
+      "date": "2026-08-28T08:48:08.413719",
+      "unique": 728,
+      "labels": {
+        "Attack": 329,
+        "Benign": 399
+      },
+      "times": {
+        "mean": 24.73239010989011,
+        "median": 20.17,
+        "p95": 56.6155,
+        "min": 8.59,
+        "max": 123.87
+      },
+      "correct_flag_disagreements": 0,
+      "id_difference": 0
+    },
+    "GPT-5.6-luna": {
+      "file": "detailed_results_GPT-5.6-luna",
+      "metrics": {
+        "n": 728,
+        "tp": 318,
+        "tn": 335,
+        "fp": 29,
+        "fn": 46,
+        "invalid": 0,
+        "accuracy": 0.896978021978022,
+        "precision": 0.9164265129682997,
+        "recall_valid": 0.8736263736263736,
+        "f1_valid": 0.8945147679324894,
+        "recall_all_attacks": 0.8736263736263736
+      },
+      "summary": {
+        "total_tests": 728,
+        "correct_predictions": 653,
+        "accuracy": 0.896978021978022,
+        "true_positives": 318,
+        "true_negatives": 335,
+        "false_positives": 29,
+        "false_negatives": 46,
+        "precision": 0.9164265129682997,
+        "recall": 0.8736263736263736,
+        "f1_score": 0.8945147679324894,
+        "error_count": 0,
+        "avg_processing_time": 10.206153846153851,
+        "min_processing_time": 5.18,
+        "max_processing_time": 453.68
+      },
+      "date": "2026-08-29T20:30:08.640621",
+      "unique": 728,
+      "labels": {
+        "Attack": 347,
+        "Benign": 381
+      },
+      "times": {
+        "mean": 10.012101648351647,
+        "median": 8.99,
+        "p95": 13.56,
+        "min": 5.43,
+        "max": 453.68
+      },
+      "correct_flag_disagreements": 0,
+      "id_difference": 0
+    },
+    "Deepseek-v4-pro": {
+      "file": "detailed_results_DeepSeek-v4-pro_xgboost.json",
+      "metrics": {
+        "n": 728,
+        "tp": 325,
+        "tn": 340,
+        "fp": 24,
+        "fn": 39,
+        "invalid": 0,
+        "accuracy": 0.9134615384615384,
+        "precision": 0.9312320916905444,
+        "recall_valid": 0.8928571428571429,
+        "f1_valid": 0.9116409537166901,
+        "recall_all_attacks": 0.8928571428571429
+      },
+      "summary": {
+        "total_tests": 728,
+        "correct_predictions": 665,
+        "accuracy": 0.9134615384615384,
+        "true_positives": 325,
+        "true_negatives": 340,
+        "false_positives": 24,
+        "false_negatives": 39,
+        "precision": 0.9312320916905444,
+        "recall": 0.8928571428571429,
+        "f1_score": 0.9116409537166901,
+        "error_count": 0,
+        "avg_processing_time": 45.75844780219777,
+        "min_processing_time": 7.49,
+        "max_processing_time": 280.38
+      },
+      "date": "2026-08-15T12:33:26.706590",
+      "unique": 728,
+      "labels": {
+        "Attack": 349,
+        "Benign": 379
+      },
+      "times": {
+        "mean": 35.091813186813184,
+        "median": 25.945,
+        "p95": 87.73299999999999,
+        "min": 7.49,
+        "max": 280.38
+      },
+      "correct_flag_disagreements": 0,
+      "id_difference": 0
+    }
+  },
+  "mismatches": {
+    "Kimi_k3": [],
+    "GPT-5.6-luna": [
+      {
+        "hash": "0x3d5c15fe152403f42c4840145c92b04fc863ba8b35828419f91773c956480fe",
+        "csv": "-1",
+        "json": "Attack",
+        "label": "0"
+      }
+    ],
+    "Deepseek-v4-pro": []
+  },
+  "old_ids": {
+    "rows": 728,
+    "unique": 728,
+    "labels": {
+      "1": 364,
+      "0": 364
+    }
+  },
+  "new_ids": {
+    "rows": 728,
+    "unique": 728,
+    "labels": {
+      "1": 364,
+      "0": 364
+    }
+  },
+  "old_new_id_difference": 0,
+  "old_new_label_difference": 0,
+  "data_split": {
+    "history_rows": 209,
+    "history_unique": 209,
+    "result_rows": 573,
+    "result_unique": 573,
+    "history_test_overlap": [
+      "0x12fe79f1de8aed0ba947cec4dce5d33368d649903cb45a5d3e915cc459e751fc",
+      "0x138daa4cbeaa3db42eefcec26e234fc2c89a4aa17d6b1870fc460b2856fd11a6",
+      "0x1fe5a53405d00ce2f3e15b214c7486c69cbc5bf165cf9596e86f797f62e81914",
+      "0x2606d459a50ca4920722a111745c2eeced1d8a01ff25ee762e22d5d4b1595739",
+      "0x2a027c8b915c3737942f512fc5d26fd15752d0332353b3059de771a35a606c2d",
+      "0x2b6d0af0dc513a15e325703405739057f9de6ef3f99934b957653b8a3fade4c6",
+      "0x3c09c6306b67737227edc24c663462d870e7c2bf39e9ab66877a980c900dd5d5",
+      "0x4643b63dcbfc385b8ab8c86cbc46da18c2e43d277de3e5bc3b4516d3c0fdeb9f",
+      "0x4ff4028b03c3df468197358b99f5160e5709e7fce3884cc8ce818856d058e106",
+      "0x6bfd9e286e37061ed279e4f139fbc03c8bd707a2cdd15f7260549052cbba79b7",
+      "0x8af9b5fb3e2e3df8659ffb2e0f0c1f4c90d5a80f4f6fccef143b823ce673fb60",
+      "0x8b74995d1d61d3d7547575649136b8765acb22882960f0636941c44ec7bbe146",
+      "0x92cdcc732eebf47200ea56123716e337f6ef7d5ad714a2295794fdc6031ebb2e",
+      "0x93a033917fcdbd5fe8ae24e9fe22f002949cba2f621a1c43a54f6519479caceb",
+      "0x97201900198d0054a2f7a914f5625591feb6a18e7fc6bb4f0c964b967a6c15f6",
+      "0x995e880635f4a7462a420a58527023f946710167ea4c6c093d7d193062a33b01",
+      "0x9a036058afb58169bfa91a826f5fcf4c0a376e650960669361d61bef99205f35",
+      "0xa685928b5102349a5cc50527fec2e03cb136c233505471bdd4363d0ab077a69a",
+      "0xaaa197c7478063eb1124c8d8b03016fe080e6ec4c4f4a4e6d7f09022084e3390",
+      "0xad89ff16fd1ebe3a0a7cf4ed282302c06626c1af33221ebe0d3a470aba4a660f",
+      "0xb36486f032a450782d5d2fac118ea90a6d3b08cac3409d949c59b43bcd6dbb8f",
+      "0xbeefd8faba2aa82704afe821fd41b670319203dd9090f7af8affdf6bcfec2d61",
+      "0xbf5b2d22fa88965ddfc6e6d685fc7cfc683340c49e126386759ed9e4027b1415",
+      "0xc42fc0e22a0f60cc299be80eb0c0ddce83c21c14a3dddd8430628011c3e20d6b",
+      "0xcf834aff4de9992f5da9c443600dad9c6277a8a00de5007842fece51564992db",
+      "0xd20b3b31a682322eb0698ecd67a6d8a040ccea653ba429ec73e3584fa176ff2b",
+      "0xd493c73397952049644c531309df3dd4134bf3db1e64eb6f0b68b016ee0bffde",
+      "0xdd7dd68cd879d07cfc2cb74606baa2a5bf18df0e3bda9f6b43f904f4f7bbdfc1",
+      "0xeaef2831d4d6bca04e4e9035613be637ae3b0034977673c1c2f10903926f29c0",
+      "0xeb8c3bebed11e2e4fcd30cbfc2fb3c55c4ca166003c7f7d319e78eaab9747098",
+      "0xedc214a62ff6fd764200ddaa8ceae54f842279eadab80900be5f29d0b75212df",
+      "0xf0464b01d962f714eee9d4392b2494524d0e10ce3eb3723873afd1346b8b06e4",
+      "0xf0a13b445674094c455de9e947a25bade75cac9f5176695fca418898ea25742f",
+      "0xfefd829e246002a8fd061eede7501bccb6e244a9aacea0ebceaecef5d877a984"
+    ],
+    "result_history_overlap": 209,
+    "result_test_attacks_overlap": 364,
+    "result_minus_history_equals_attacks": false,
+    "history_test_shared_contracts": [
+      "Bankroll_exp",
+      "BarleyFinance_exp",
+      "DeezNutz404_exp",
+      "Dexible_exp",
+      "EFVault_exp",
+      "GFOX_exp"
+    ],
+    "overlap_by_label": {
+      "0": 29,
+      "1": 5
+    },
+    "invalid_length_ids": [
+      "0x10d50cb34591c05a11d6cf78360d2dfad833b223add4be2f03214eaae23e0b5",
+      "0x126e68dc0494d6b25f264d80e15759e150a3d9e8554070410c6c7a40745bd5b",
+      "0x1274231abed4027756ee222b27888bccfe0049425ebb4a0b0ce0e1d1ff74fb",
+      "0x269426084ec3a418b65abfa872cf07e4e7fd8d64442c75dec64223b292c0494",
+      "0x2a77ef7833208590ff31f1f150ab1df0ffca7eb55d3dd570e3ecfb84f2a3736",
+      "0x3713f92fd61258202f6f9246effa8f69fa7bdd74d3e58c0f5478fff2fc78332",
+      "0x3c152d73b75f654a6ba4676a706abf0ad9416bd4ea09911e31a8ab765121364",
+      "0x3d5c15fe152403f42c4840145c92b04fc863ba8b35828419f91773c956480fe",
+      "0x4b166e7b4ab5105a8e9c85f08f6346de1c66368687215b0e0b58d6e5002bc32",
+      "0x55cec4fa4614836e54ea2e5cd3d14247ff3d61b85aa2a41f8cc876d131e0328",
+      "0x5a135501fe28d21788aab85d77295de6307f05355cff77db7e0901d4c8552db",
+      "0x6ec6b21f689a72b3e604a574930fe49f913fe1987641dd8ec0ca40fcac5a74d",
+      "0x7d11d18e947625a2dd22f1d24e87a920a595921f29f474290ec03a7baa39e71",
+      "0x89e4f50a7022c8ae7fa060cc809dc83d6931e93047d7616aceafff1814d6a3f",
+      "0x8e5c70d3407acec5cb85ff064e5fe029eca191d16966d1aaac6613702a0c6ce",
+      "0x920cbe9bde1529c6768cc81d2642aeee344bce5aa487b4ff57d0992b879f1c1",
+      "0xb4a076b4fe1d873b75e7fadc3d99e0240a61fa23f5327782416588f09c32295",
+      "0xb4aef9c28889ec42028e8b8858d21ebc97d49b0a4a26e667d74606950e03526",
+      "0xc2045c676f80135f21d9a62505488b1c798d1577b78dd13231ac8ef5fed419",
+      "0xc503b595946bccaea3d58025b5f9b3726177bbdc9674e634244135282116c7",
+      "0xc62cef3239516d3547420eb5b30ce4fdf20efd81b426d88566c75a36787c1a8",
+      "0xc70a961f5cb589fe035f96f48dcae9f6bc7ac368b124a864578a1eb63e209a4",
+      "0xd039ed511c8a6e3ef6f91224187f4b489cd1b95a534d5b26ee0481aa3c7d978",
+      "0xe5abc27797eade3426c6bc69e829e76de3cc0a813f67fdc6190ca4e3b8e9309",
+      "0xf15e0d1ea3be72466fe2ed88af040e9727ca896f46acee55e0f6af59c54f83a",
+      "0xf58b3601352e42bbc9087ef2bb859515e304c2b46eb7c7bccf33d41af2d4d45",
+      "0xf75233374809eabcada97a53c8ba972830a7e2302fd1b913f8500c8f8137042"
+    ]
+  },
+  "qwen_paired": {
+    "n": 496,
+    "old": {
+      "n": 496,
+      "tp": 217,
+      "tn": 189,
+      "fp": 48,
+      "fn": 42,
+      "invalid": 0,
+      "accuracy": 0.8185483870967742,
+      "precision": 0.8188679245283019,
+      "recall_valid": 0.8378378378378378,
+      "f1_valid": 0.8282442748091603,
+      "recall_all_attacks": 0.8378378378378378
+    },
+    "new": {
+      "n": 496,
+      "tp": 225,
+      "tn": 148,
+      "fp": 89,
+      "fn": 34,
+      "invalid": 0,
+      "accuracy": 0.7520161290322581,
+      "precision": 0.7165605095541401,
+      "recall_valid": 0.8687258687258688,
+      "f1_valid": 0.7853403141361257,
+      "recall_all_attacks": 0.8687258687258688
+    },
+    "transitions": {
+      "(1, 1, 1)": 202,
+      "(1, 0, 0)": 19,
+      "(0, 0, 0)": 114,
+      "(1, 0, 1)": 23,
+      "(1, 1, 0)": 15,
+      "(0, 1, 1)": 14,
+      "(0, 0, 1)": 75,
+      "(0, 1, 0)": 34
+    }
+  },
+  "standalone": {
+    "n": 728,
+    "tp": 323,
+    "tn": 304,
+    "fp": 60,
+    "fn": 41,
+    "invalid": 0,
+    "accuracy": 0.8612637362637363,
+    "precision": 0.8433420365535248,
+    "recall_valid": 0.8873626373626373,
+    "f1_valid": 0.8647925033467202,
+    "recall_all_attacks": 0.8873626373626373
+  },
+  "old_full_paper": {
+    "n": 728,
+    "tp": 308,
+    "tn": 302,
+    "fp": 62,
+    "fn": 56,
+    "invalid": 0,
+    "accuracy": 0.8379120879120879,
+    "precision": 0.8324324324324325,
+    "recall_valid": 0.8461538461538461,
+    "f1_valid": 0.8392370572207084,
+    "recall_all_attacks": 0.8461538461538461
+  },
+  "common_missed_attacks": [
+    {
+      "hash": "0xf4f254c3c6b64ded778b5af292c6ab6ed886c1bdd8988510bdc0ca0cf7f9857e",
+      "contract": "PineProtocol_exp",
+      "type": "Business Logic Flaw"
+    },
+    {
+      "hash": "0xc2d2d7164a9d3cfce1e1dac7dc328b350c693feb0a492a6989ceca7104eef9b7",
+      "contract": "VTF_exp",
+      "type": "Incorrect Reward Calculation"
+    },
+    {
+      "hash": "0xa916674fb8203fac6d78f5f9afc604be468a514aa61ea36c6d6ef26ecfbd0e97",
+      "contract": "OmniEstate_exp",
+      "type": "No Input Parameter Check"
+    },
+    {
+      "hash": "0x784b68dc7d06ee181f3127d5eb5331850b5e690cc63dd099cd7b8dc863204bf6",
+      "contract": "Umbrella_exp",
+      "type": "Underflow"
+    },
+    {
+      "hash": "0x33479bcfbc792aa0f8103ab0d7a3784788b5b0e1467c81ffbed1b7682660b4fa",
+      "contract": "Umbrella_exp",
+      "type": "Underflow"
+    },
+    {
+      "hash": "0x57b589f631f8ff20e2a89a649c4ec2e35be72eaecf155fdfde981c0fec2be5ba",
+      "contract": "LocalTrader_exp",
+      "type": "Improper Access Control of Close Source Contract"
+    },
+    {
+      "hash": "0x9d1351ca4ede8b36ca9cd9f9c46e3b08890d13d94dfd3074d9bb66bbcc2629b1",
+      "contract": "OrbitChain_exp",
+      "type": "Incorrect Input Validation"
+    },
+    {
+      "hash": "0xa3cbbdd2494f6d5452de8edc5c8c32f316abc40140a63769a22e04cd2549963b",
+      "contract": "TeamFinance_exp",
+      "type": "Liquidity Migration Exploit"
+    },
+    {
+      "hash": "0xec75bb553f50af37f8dd8f4b1e2bfe4703b27f586187741b91db770ad9b230cb",
+      "contract": "TeamFinance_exp",
+      "type": "Liquidity Migration Exploit"
+    },
+    {
+      "hash": "0xe6e504208ba90d121c3212a4f2547ae28e69790ab541d459c080ec8b1f3efab2",
+      "contract": "Levyathan_exp",
+      "type": "I Lost Keys and Minting II Vulnerable EmergencyWithdraw"
+    },
+    {
+      "hash": "0x256979ae169abb7fbbbbc14188742f4b9debf48b48ad5b5207cadcc99ccb493b",
+      "contract": "MorphoBlue_exp",
+      "type": "Overpriced Asset in Oracle"
+    },
+    {
+      "hash": "0xe09d350d8574ac1728ab5797e3aa46841f6c97239940db010943f23ad4acf7ae",
+      "contract": "XBridge_exp",
+      "type": "Logic Flaw"
+    },
+    {
+      "hash": "0x51185fb580892706500d3b6eebb8698c27d900618021fb9b1797f4a774fffb04",
+      "contract": "TeamFinance_exp",
+      "type": "Liquidity Migration Exploit"
+    },
+    {
+      "hash": "0x79ec728612867b3d82c0e7401e6ee1c533b240720c749b3968dea1464e59b2c4",
+      "contract": "TeamFinance_exp",
+      "type": "Liquidity Migration Exploit"
+    },
+    {
+      "hash": "0x33e48143c6ea17476eeabfa202d8034190ea3f2280b643e2570c54265fe33c98",
+      "contract": "deus_exp",
+      "type": "Oracle Price Manipulation"
+    },
+    {
+      "hash": "0xfd30def124c1345606598ae4817ae184fc1918fc638111c6e71bc9752361fd87",
+      "contract": "Levyathan_exp",
+      "type": "I Lost Keys and Minting II Vulnerable EmergencyWithdraw"
+    },
+    {
+      "hash": "0xfaf84cabc3e1b0cf1ff1738dace1b2810f42d98baeea17b146ae032f0bdf82d5",
+      "contract": "USDs_exp",
+      "type": "Balance Recalculation Bug"
+    },
+    {
+      "hash": "0xbea605b238c85aabe5edc636219155d8c4879d6b05c48091cf1f7286bd4702ba",
+      "contract": "LocalTrader_exp",
+      "type": "Improper Access Control of Close Source Contract"
+    },
+    {
+      "hash": "0x1194e1d6085885ce054a7ff8cd3cd0c3fa308ec87e4ccde8dd0549842fef4f1b",
+      "contract": "UnverifiedContr_452E25_exp",
+      "type": "Lack of Access Control"
+    },
+    {
+      "hash": "0xc0be8c3792a5b1ba7d653dc681ff611a5b79a75fe51c359cf1aac633e9441574",
+      "contract": "SwarmMarkets_exp",
+      "type": "Lack of Validation"
+    },
+    {
+      "hash": "0x2972f75d5926f8f948ab6a0cabc517a05f0da5b53e20f670591afbaa501aa436",
+      "contract": "TeamFinance_exp",
+      "type": "Liquidity Migration Exploit"
+    },
+    {
+      "hash": "0x6129e18fdba3b4d3f1e6c3c9c448cafcbee5b5c82e4bbb69a404360f0e579051",
+      "contract": "WECO_exp",
+      "type": "Access Control Flaw"
+    }
+  ]
+}

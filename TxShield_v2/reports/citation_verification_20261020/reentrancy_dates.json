@@ -1,0 +1,1732 @@
+{
+  "url": "https://api.crossref.org/works/10.1016/j.bcra.2025.100347",
+  "status": 200,
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2026-08-05T01:47:03Z",
+      "timestamp": 1785894423756,
+      "version": "3.56.0"
+    },
+    "reference-count": 188,
+    "publisher": "Elsevier BV",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2026-06-01T00:00:00Z",
+          "timestamp": 1780272000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2025-07-19T00:00:00Z",
+          "timestamp": 1752883200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000780",
+        "name": "European Commission",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "D67G22000340001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "D67G22000340001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000780",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Blockchain: Research and Applications"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.bcra.2025.100347",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2025-07-25T16:00:23Z",
+      "timestamp": 1753459223000
+    },
+    "page": "100347",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Welcome back: A systematic literature review of smart contract reentrancy and countermeasures"
+    ],
+    "prefix": "10.1016",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7428-3467",
+        "authenticated-orcid": false,
+        "given": "Fatemeh",
+        "family": "Ghiyami Pour",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9385-3998",
+        "authenticated-orcid": false,
+        "given": "Gabriele",
+        "family": "Costa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0351-9169",
+        "authenticated-orcid": false,
+        "given": "Letterio",
+        "family": "Galletta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1450",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.5210/fm.v2i9.548",
+        "article-title": "Formalizing and securing relationships on public networks",
+        "volume": "2",
+        "author": "Szabo",
+        "year": "1997",
+        "journal-title": "First Monday"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1410",
+        "author": "Hacked"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0440",
+        "author": "Ethereum"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0420",
+        "author": "EOS"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1500",
+        "author": "TRON"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1440",
+        "series-title": "Proceedings of the 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT)",
+        "first-page": "1",
+        "article-title": "Function locking fused with hashing technique to mitigate re-entrancy attacks in smart contract",
+        "author": "Swapna",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0250",
+        "first-page": "1",
+        "article-title": "A survey on Ethereum systems security: vulnerabilities, attacks and defenses",
+        "volume": "53",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0340",
+        "author": "Daian"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0470",
+        "author": "Feichtinger"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0490",
+        "series-title": "Proceedings of the 15th ACM Asia Conference on Computer and Communications Security",
+        "first-page": "584",
+        "article-title": "Ægis: shielding vulnerable smart contracts against attacks",
+        "author": "Ferreira Torres",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1670",
+        "author": "Xiong"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.bcra.2025.100347_br0620",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3570326",
+        "article-title": "Economic systems in the metaverse: basics, state of the art, and challenges",
+        "volume": "56",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1210",
+        "doi-asserted-by": "crossref",
+        "first-page": "19685",
+        "DOI": "10.1109/ACCESS.2020.2969429",
+        "article-title": "Towards automated reentrancy detection for smart contracts based on sequential models",
+        "volume": "8",
+        "author": "Qian",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0810",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.1016/j.future.2017.08.020",
+        "article-title": "A survey on the security of blockchain systems",
+        "volume": "107",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0710",
+        "article-title": "Ethereum smart contract vulnerability detection and machine learning-driven solutions: a systematic literature review",
+        "volume": "13",
+        "author": "Kiani",
+        "year": "2024",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1600",
+        "series-title": "Blockchain and Trustworthy Systems",
+        "first-page": "226",
+        "article-title": "A systematic literature review on smart contract vulnerability detection by symbolic execution",
+        "author": "Wang",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1780",
+        "article-title": "A systematic literature review of undiscovered vulnerabilities and tools in smart contract technology",
+        "volume": "32",
+        "author": "Zaazaa",
+        "year": "2023",
+        "journal-title": "J. Intell. Syst."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1550",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.infsof.2021.106589",
+        "article-title": "Automation of systematic literature reviews: a systematic literature review",
+        "volume": "136",
+        "author": "Van Dinter",
+        "year": "2021",
+        "journal-title": "Inf. Softw. Technol."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1490",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3464421",
+        "article-title": "A survey of smart contract formal specification and verification",
+        "volume": "54",
+        "author": "Tolmach",
+        "year": "2021",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0400",
+        "series-title": "Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering",
+        "first-page": "530",
+        "article-title": "Empirical review of automated analysis tools on 47,587 Ethereum smart contracts",
+        "author": "Durieux",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0740",
+        "doi-asserted-by": "crossref",
+        "first-page": "57037",
+        "DOI": "10.1109/ACCESS.2022.3169902",
+        "article-title": "Ethereum smart contract analysis tools: a systematic review",
+        "volume": "10",
+        "author": "Kushwaha",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0750",
+        "doi-asserted-by": "crossref",
+        "first-page": "6605",
+        "DOI": "10.1109/ACCESS.2021.3140091",
+        "article-title": "Systematic review of security vulnerabilities in Ethereum blockchain smart contract",
+        "volume": "10",
+        "author": "Kushwaha",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1260",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fbloc.2022.814977",
+        "article-title": "Review of automated vulnerability analysis of smart contracts on Ethereum",
+        "volume": "5",
+        "author": "Rameder",
+        "year": "2022",
+        "journal-title": "Front. Blockchain"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0700",
+        "doi-asserted-by": "crossref",
+        "first-page": "70870",
+        "DOI": "10.1109/ACCESS.2024.3401623",
+        "article-title": "A survey of vulnerability detection techniques by smart contract tools",
+        "volume": "12",
+        "author": "Khan",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0590",
+        "author": "Haouari"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0930",
+        "doi-asserted-by": "crossref",
+        "first-page": "2337",
+        "DOI": "10.1016/j.tele.2018.10.004",
+        "article-title": "Smart contract applications within blockchain technology: a systematic mapping study",
+        "volume": "35",
+        "author": "Macrinici",
+        "year": "2018",
+        "journal-title": "Telemat. Inform."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1540",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jss.2020.110891",
+        "article-title": "A systematic literature review of blockchain and smart contract development: techniques, tools, and open challenges",
+        "volume": "174",
+        "author": "Vacca",
+        "year": "2021",
+        "journal-title": "J. Syst. Softw."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1007/s10664-021-10018-0",
+        "article-title": "Maintenance-related concerns for post-deployed Ethereum smart contract development: issues, techniques, and future challenges",
+        "volume": "26",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Empir. Softw. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0360",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijpe.2020.107855",
+        "article-title": "Blockchain and smart contracts in supply chain management: a game theoretic model",
+        "volume": "228",
+        "author": "De Giovanni",
+        "year": "2020",
+        "journal-title": "Int. J. Prod. Econ."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "2292",
+        "DOI": "10.1109/ACCESS.2016.2566339",
+        "article-title": "Blockchains and smart contracts for the Internet of Things",
+        "volume": "4",
+        "author": "Christidis",
+        "year": "2016",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1590",
+        "first-page": "2056",
+        "article-title": "The value of smart contract in trade finance",
+        "volume": "25",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Manuf. Serv. Oper. Manag."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1320",
+        "doi-asserted-by": "crossref",
+        "first-page": "5914",
+        "DOI": "10.1109/JIOT.2020.3032997",
+        "article-title": "A smart-contract-based access control framework for cloud smart healthcare system",
+        "volume": "8",
+        "author": "Saini",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1160",
+        "series-title": "Proceedings of the 12th International Conference on Evaluation and Assessment in Software Engineering",
+        "first-page": "68",
+        "article-title": "Systematic mapping studies in software engineering",
+        "author": "Petersen",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0320",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ACCESS.2024.3364351",
+        "article-title": "An integrated smart contract vulnerability detection tool using multi-layer perceptron on real-time solidity smart contracts",
+        "author": "Colin",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1180",
+        "doi-asserted-by": "crossref",
+        "first-page": "78194",
+        "DOI": "10.1109/ACCESS.2019.2921936",
+        "article-title": "A massive analysis of Ethereum smart contracts empirical study and code metrics",
+        "volume": "7",
+        "author": "Pinna",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0450",
+        "doi-asserted-by": "crossref",
+        "first-page": "258",
+        "DOI": "10.1147/sj.382.0258",
+        "article-title": "Design and code inspections to reduce errors in program development",
+        "volume": "38",
+        "author": "Fagan",
+        "year": "1999",
+        "journal-title": "IBM Syst. J."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3417516",
+        "article-title": "Obsidian: typestate and assets for safer blockchain programming",
+        "volume": "42",
+        "author": "Coblenz",
+        "year": "2020",
+        "journal-title": "ACM Trans. Program. Lang. Syst."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1350",
+        "series-title": "Proceedings of the Companion Proceedings of the 2nd International Conference on the Art, Science, and Engineering of Programming",
+        "first-page": "218",
+        "article-title": "Writing safe smart contracts in Flint",
+        "author": "Schrans",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0350",
+        "series-title": "Proceedings of 2021 IEEE 34th Computer Security Foundations Symposium (CSF)",
+        "first-page": "1",
+        "article-title": "Resource-aware session types for digital contracts",
+        "author": "Das",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0200",
+        "series-title": "Proceedings of the 2021 IEEE Symposium on Security and Privacy (SP)",
+        "first-page": "1249",
+        "article-title": "Compositional security for reentrant applications",
+        "author": "Cecchetti",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1280",
+        "series-title": "Proceedings of the Network and Distributed System Security Symposium (NDSS'19)",
+        "article-title": "Sereum: protecting existing smart contracts against re-entrancy attacks",
+        "author": "Rodler",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1120",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijsu.2021.105906",
+        "article-title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+        "volume": "88",
+        "author": "Page",
+        "year": "2021",
+        "journal-title": "Int. J. Surg."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1000",
+        "series-title": "Proceedings of the 9th Annual HITB Security Conference (HITBSecConf)",
+        "first-page": "54",
+        "article-title": "Smashing Ethereum smart contracts for fun and real profit",
+        "author": "Mueller",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1480",
+        "series-title": "Proceedings of the 1st International Workshop on Emerging Trends in Software Engineering for Blockchain",
+        "first-page": "9",
+        "article-title": "Smartcheck: static analysis of Ethereum smart contracts",
+        "author": "Tikhomirov",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0480",
+        "series-title": "Proceedings of the 2019 IEEE/ACM 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB)",
+        "first-page": "8",
+        "article-title": "Slither: a static analysis framework for smart contracts",
+        "author": "Feist",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0920",
+        "series-title": "Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security",
+        "first-page": "254",
+        "article-title": "Making smart contracts smarter",
+        "author": "Luu",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1610",
+        "author": "WebAssembly"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0720",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1145/360248.360252",
+        "article-title": "Symbolic execution and program testing",
+        "volume": "19",
+        "author": "King",
+        "year": "1976",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1310",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.csi.2020.103444",
+        "article-title": "A systematic review of search strategies in dynamic symbolic execution",
+        "volume": "72",
+        "author": "Sabbaghi",
+        "year": "2020",
+        "journal-title": "Comput. Stand. Interfaces"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0670",
+        "series-title": "Proceedings of the 2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS)",
+        "first-page": "926",
+        "article-title": "WANA: symbolic execution of wasm bytecode for extensible smart contract vulnerability detection",
+        "author": "Jiang",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "2189",
+        "DOI": "10.1109/TSE.2021.3054928",
+        "article-title": "DefectChecker: automated smart contract defect detection by analyzing EVM bytecode",
+        "volume": "48",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Softw. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0530",
+        "doi-asserted-by": "crossref",
+        "first-page": "147327",
+        "DOI": "10.1109/ACCESS.2019.2947146",
+        "article-title": "A critical-path-coverage-based vulnerability detection method for smart contracts",
+        "volume": "7",
+        "author": "Fu",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1360",
+        "author": "Shou"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1420",
+        "series-title": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+        "first-page": "1",
+        "article-title": "Effectively generating vulnerable transaction sequences in smart contracts with reinforcement learning-guided fuzzing",
+        "author": "Su",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0190",
+        "author": "Cassar"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0120",
+        "series-title": "Principles of Model Checking",
+        "author": "Baier",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0070",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.pmcj.2020.101227",
+        "article-title": "Verification of smart contracts: a survey",
+        "volume": "67",
+        "author": "Almakhour",
+        "year": "2020",
+        "journal-title": "Pervasive Mob. Comput."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0730",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/app13148122",
+        "article-title": "A survey on formal verification and validation techniques for Internet of Things",
+        "volume": "13",
+        "author": "Krichen",
+        "year": "2023",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1900",
+        "series-title": "Proceedings of the 46th IEEE Annual Computers, Software, and Applications Conference (COMPSAC 2022)",
+        "first-page": "1742",
+        "article-title": "EtherGIS: a vulnerability detection framework for Ethereum smart contracts based on graph learning features",
+        "author": "Zeng",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0030",
+        "author": "Abdelaziz"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1040",
+        "series-title": "Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+        "first-page": "1736",
+        "article-title": "MANDO-GURU: vulnerability detection for smart contract source code by heterogeneous graph embeddings",
+        "author": "Nguyen",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1050",
+        "series-title": "Proceedings of the 2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)",
+        "first-page": "334",
+        "article-title": "MANDO-HGT: heterogeneous graph transformers for smart contract vulnerability detection",
+        "author": "Nguyen",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1850",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.1016/j.aiopen.2021.01.001",
+        "article-title": "Graph neural networks: a review of methods and applications",
+        "volume": "1",
+        "author": "Zhou",
+        "year": "2020",
+        "journal-title": "AI Open"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1810",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.comnet.2022.109289",
+        "article-title": "Smart contract vulnerability detection combined with multi-objective detection",
+        "volume": "217",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1880",
+        "series-title": "Proceedings of the 2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE)",
+        "first-page": "568",
+        "article-title": "GraBit: a sequential model-based framework for smart contract vulnerability detection",
+        "author": "Zhu",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1330",
+        "author": "Salehinejad"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0880",
+        "series-title": "Information Computing and Applications",
+        "first-page": "246",
+        "article-title": "New machine learning algorithm: Random Forest",
+        "author": "Liu",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0610",
+        "series-title": "Efficient Bayesian active learning and matrix modelling",
+        "author": "Houlsby",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3641289",
+        "article-title": "A survey on evaluation of large language models",
+        "volume": "15",
+        "author": "Chang",
+        "year": "2024",
+        "journal-title": "ACM Trans. Intell. Syst. Technol."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0430",
+        "series-title": "Proceedings of the 25th International Conference on Evaluation and Assessment in Software Engineering",
+        "first-page": "305",
+        "article-title": "Dynamic vulnerability detection on smart contracts using machine learning",
+        "author": "Eshghie",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1750",
+        "series-title": "Proceedings of the 2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE)",
+        "first-page": "556",
+        "article-title": "PSCVFinder: a prompt-tuning based framework for smart contract vulnerability detection",
+        "author": "Yu",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1800",
+        "series-title": "Applied Cryptography and Network Security Workshops",
+        "first-page": "66",
+        "article-title": "Vulnerability detection for smart contract via backward Bayesian active learning",
+        "author": "Zhang",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1690",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1109/TDSC.2022.3182373",
+        "article-title": "xFuzz: machine learning guided cross-contract fuzzing",
+        "volume": "21",
+        "author": "Xue",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Dependable Secure Comput."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0870",
+        "first-page": "539",
+        "article-title": "Exploratory undersampling for class-imbalance learning",
+        "volume": "39",
+        "author": "Liu",
+        "year": "2008",
+        "journal-title": "IEEE Trans. Syst. Man Cybern., Part B, Cybern."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0380",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.infsof.2021.106771",
+        "article-title": "Software security patch management-a systematic literature review of challenges, approaches, tools and practices",
+        "volume": "144",
+        "author": "Dissanayake",
+        "year": "2022",
+        "journal-title": "Inf. Softw. Technol."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1007/s10515-023-00392-y",
+        "article-title": "Tips: towards automating patch suggestion for vulnerable smart contracts",
+        "volume": "30",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "Autom. Softw. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1200",
+        "author": "Qasse"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0180",
+        "series-title": "Proceedings of the 2021 IEEE International Conference on Blockchain (Blockchain)",
+        "first-page": "252",
+        "article-title": "Evaluating upgradable smart contract",
+        "author": "Bui",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1640",
+        "series-title": "Proceedings of the 2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)",
+        "first-page": "1513",
+        "article-title": "Design patterns for smart contracts in the Ethereum ecosystem",
+        "author": "Wöhrer",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1090",
+        "author": "OpenZeppelin"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1080",
+        "author": "OpenZeppelin"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1100",
+        "author": "OpenZeppelin"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10664-024-10485-1",
+        "article-title": "A large-scale exploratory study on the proxy pattern in Ethereum",
+        "volume": "29",
+        "author": "Ebrahimi",
+        "year": "2024",
+        "journal-title": "Empir. Softw. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0840",
+        "doi-asserted-by": "crossref",
+        "first-page": "4886",
+        "DOI": "10.1109/TSE.2023.3317209",
+        "article-title": "VulHunter: hunting vulnerable smart contracts at EVM bytecode-level via multiple instance learning",
+        "volume": "49",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Softw. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1290",
+        "series-title": "Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems",
+        "first-page": "1229",
+        "article-title": "Smart contracts vulnerability classification through deep learning",
+        "author": "Rossini",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0980",
+        "series-title": "Proceedings of the 2021 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+        "first-page": "1",
+        "article-title": "VSCL: automating vulnerability detection in smart contracts with deep learning",
+        "author": "Mi",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0600",
+        "article-title": "Unknown threats detection methods of smart contracts",
+        "author": "He",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1300",
+        "series-title": "Proceedings of the 2023 IEEE International Conference on Pervasive Computing and Communications Workshops and Other Affiliated Events (PerCom Workshops)",
+        "first-page": "74",
+        "article-title": "On the use of deep neural networks for security vulnerabilities detection in smart contracts",
+        "author": "Rossini",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1580",
+        "doi-asserted-by": "crossref",
+        "first-page": "1133",
+        "DOI": "10.1109/TNSE.2020.2968505",
+        "article-title": "ContractWard: automated vulnerability detection models for Ethereum smart contracts",
+        "volume": "8",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Netw. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1680",
+        "first-page": "1",
+        "article-title": "A novel machine learning-based analysis model for smart contract vulnerability",
+        "volume": "2021",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "Secur. Commun. Netw."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0630",
+        "doi-asserted-by": "crossref",
+        "first-page": "32595",
+        "DOI": "10.1109/ACCESS.2022.3162065",
+        "article-title": "CodeNet: code-targeted convolutional neural network architecture for smart contract vulnerability detection",
+        "volume": "10",
+        "author": "Hwang",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1760",
+        "series-title": "Proceedings of the 2021 International Joint Conference on Neural Networks (IJCNN)",
+        "first-page": "1",
+        "article-title": "DeeSCVHunter: a deep learning-based framework for smart contract vulnerability detection",
+        "author": "Yu",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0990",
+        "series-title": "Proceedings of the 2019 17th International Conference on Privacy, Security and Trust (PST)",
+        "first-page": "1",
+        "article-title": "Machine learning model for smart contracts security analysis",
+        "author": "Momeni",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0850",
+        "series-title": "Proceedings of the 2023 8th International Conference on Signal and Image Processing (ICSIP)",
+        "first-page": "831",
+        "article-title": "SCGRU: a model for Ethereum smart contract vulnerability detection combining CNN and BiGRU-attention",
+        "author": "Liang",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1650",
+        "series-title": "Proceedings of the 2021 IEEE 32nd International Symposium on Software Reliability Engineering (ISSRE)",
+        "first-page": "378",
+        "article-title": "Peculiar: smart contract vulnerability detection based on crucial data flow graph and pre-training techniques",
+        "author": "Wu",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0780",
+        "doi-asserted-by": "crossref",
+        "first-page": "4916",
+        "DOI": "10.1109/TKDE.2023.3333371",
+        "article-title": "Smart contract vulnerability detection based on automated feature extraction and feature interaction",
+        "volume": "36",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0860",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jss.2023.111775",
+        "article-title": "Vulnerable smart contract function locating based on multi-relational nested graph convolutional network",
+        "volume": "204",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "J. Syst. Softw."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1790",
+        "article-title": "SVScanner: detecting smart contract vulnerabilities via deep semantic extraction",
+        "volume": "75",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "J. Inf. Secur. Appl."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0230",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jss.2023.111705",
+        "article-title": "Smart contract vulnerability detection based on semantic graph and residual graph convolutional networks with edge attention",
+        "volume": "202",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "J. Syst. Softw."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1820",
+        "series-title": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+        "first-page": "1",
+        "article-title": "Reentrancy vulnerability detection and localization: a deep learning based two-phase approach",
+        "author": "Zhang",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0580",
+        "series-title": "Proceedings of the 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+        "first-page": "1598",
+        "article-title": "SCScan: a SVM-based scanning system for vulnerabilities in blockchain smart contracts",
+        "author": "Hao",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1770",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jss.2023.111699",
+        "article-title": "Optimizing smart contract vulnerability detection via multi-modality code and entropy embedding",
+        "volume": "202",
+        "author": "Yuan",
+        "year": "2023",
+        "journal-title": "J. Syst. Softw."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1710",
+        "article-title": "Improvement and optimization of vulnerability detection methods for Ethernet smart contracts",
+        "volume": "11",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0790",
+        "series-title": "Proceedings of the 2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE)",
+        "first-page": "578",
+        "article-title": "ConvMHSA-SCVD: enhancing smart contract vulnerability detection through a knowledge-driven and data-driven framework",
+        "author": "Li",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1730",
+        "series-title": "Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings",
+        "first-page": "274",
+        "article-title": "Clairvoyance: cross-contract static analysis for detecting practical reentrancy vulnerabilities in smart contracts",
+        "author": "Ye",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "4354",
+        "DOI": "10.1109/TNSM.2023.3278311",
+        "article-title": "A new smart contract anomaly detection method by fusing opcode and source code features for blockchain services",
+        "volume": "20",
+        "author": "Duan",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Netw. Serv. Manag."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0570",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2023/9212269",
+        "article-title": "A smart contract vulnerability detection model based on syntactic and semantic fusion learning",
+        "volume": "2023",
+        "author": "Han",
+        "year": "2023",
+        "journal-title": "Wirel. Commun. Mob. Comput."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1630",
+        "series-title": "Artificial Neural Networks and Machine Learning - ICANN 2023",
+        "first-page": "241",
+        "article-title": "A graph neural network-based smart contract vulnerability detection method with artificial rule",
+        "author": "Wei",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0900",
+        "first-page": "1296",
+        "article-title": "Combining graph neural networks with expert knowledge for smart contract vulnerability detection",
+        "volume": "35",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1860",
+        "doi-asserted-by": "crossref",
+        "first-page": "24695",
+        "DOI": "10.1109/JIOT.2022.3196269",
+        "article-title": "Vulnerability analysis of smart contract for blockchain-based IoT applications: a machine learning approach",
+        "volume": "9",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1560",
+        "series-title": "Proceedings of the 2021 28th Asia-Pacific Software Engineering Conference (APSEC)",
+        "first-page": "564",
+        "article-title": "Smart contract vulnerability detection using code representation fusion",
+        "author": "Wang",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1720",
+        "series-title": "Proceedings of the 2022 IEEE International Conference on Big Data (Big Data)",
+        "first-page": "3225",
+        "article-title": "An improved vulnerability detection system of smart contracts based on symbolic execution",
+        "author": "Yao",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1830",
+        "series-title": "Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis",
+        "first-page": "740",
+        "article-title": "Park: accelerating smart contract vulnerability detection via parallel-fork symbolic execution",
+        "author": "Zheng",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0170",
+        "series-title": "Proceedings of the 2022 IEEE Symposium on Security and Privacy (SP)",
+        "first-page": "161",
+        "article-title": "SAILFISH: vetting smart contract state-inconsistency bugs in seconds",
+        "author": "Bose",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0330",
+        "author": "Contro"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0820",
+        "series-title": "Proceedings of the 2020 IEEE 40th International Conference on Distributed Computing Systems (ICDCS)",
+        "first-page": "1219",
+        "article-title": "SafePay on Ethereum: a framework for detecting unfair payments in smart contracts",
+        "author": "Li",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0830",
+        "series-title": "Proceedings of the 2020 International Symposium on Reliable Distributed Systems (SRDS)",
+        "first-page": "61",
+        "article-title": "Protect your smart contract against unfair payment",
+        "author": "Li",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1460",
+        "first-page": "68",
+        "article-title": "Rethinking of reentrancy on the Ethereum",
+        "author": "Tang",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0550",
+        "series-title": "Proceedings of the 37th ACM/SIGAPP Symposium on Applied Computing",
+        "first-page": "316",
+        "article-title": "Model checking of vulnerabilities in smart contracts: a solidity-to-CPN approach",
+        "author": "Garfatta",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1016/j.jksuci.2022.08.029",
+        "article-title": "A formal verification approach for composite smart contracts security using FSM",
+        "volume": "35",
+        "author": "Almakhour",
+        "year": "2023",
+        "journal-title": "J. King Saud Univ., Comput. Inf. Sci."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0940",
+        "series-title": "Financial Cryptography and Data Security",
+        "first-page": "446",
+        "article-title": "VeriSolid: correct-by-design smart contracts for Ethereum",
+        "author": "Mavridou",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1030",
+        "series-title": "Proceedings of the 2020 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)",
+        "first-page": "1",
+        "article-title": "Verified development and deployment of multiple interacting smart contracts with VeriSolid",
+        "author": "Nelaturu",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0680",
+        "series-title": "Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering",
+        "first-page": "259",
+        "article-title": "ContractFuzzer: fuzzing smart contracts for vulnerability detection",
+        "author": "Jiang",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0950",
+        "series-title": "Proceedings of the 2019 IEEE 19th International Conference on Software Quality, Reliability and Security Companion (QRS-C)",
+        "first-page": "544",
+        "article-title": "A fuzz testing service for assuring smart contracts",
+        "author": "Mei",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0210",
+        "series-title": "Proceedings of the 2018 25th Asia-Pacific Software Engineering Conference (APSEC)",
+        "first-page": "707",
+        "article-title": "Fuse: an architecture for smart contract fuzz testing service",
+        "author": "Chan",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0910",
+        "doi-asserted-by": "crossref",
+        "first-page": "1237",
+        "DOI": "10.1109/TIFS.2023.3237370",
+        "article-title": "Rethinking smart contract fuzzing: fuzzing with invocation ordering and important branch revisiting",
+        "volume": "18",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "99552",
+        "DOI": "10.1109/ACCESS.2020.2995183",
+        "article-title": "GasFuzzer: fuzzing Ethereum smart contract binaries to expose gas-oriented exception security vulnerabilities",
+        "volume": "8",
+        "author": "Ashraf",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0770",
+        "doi-asserted-by": "crossref",
+        "first-page": "984",
+        "DOI": "10.1109/TR.2022.3161634",
+        "article-title": "ReDefender: detecting reentrancy vulnerabilities in smart contracts automatically",
+        "volume": "71",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Reliab."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0290",
+        "series-title": "Proceedings of the 2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+        "first-page": "227",
+        "article-title": "SMARTIAN: enhancing smart contract fuzzing with static and dynamic data-flow analyses",
+        "author": "Choi",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1740",
+        "series-title": "Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis",
+        "first-page": "298",
+        "article-title": "Detecting state inconsistency bugs in DApps via on-chain transaction replay and fuzzing",
+        "author": "Ye",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1570",
+        "doi-asserted-by": "crossref",
+        "first-page": "1795",
+        "DOI": "10.1109/TDSC.2020.3037332",
+        "article-title": "Oracle-supported dynamic exploit generation for smart contracts",
+        "volume": "19",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Dependable Secure Comput."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0460",
+        "series-title": "Proceedings of the 2021 IEEE 27th International Conference on Parallel and Distributed Systems (ICPADS)",
+        "first-page": "274",
+        "article-title": "Jyane: detecting reentrancy vulnerabilities based on path profiling method",
+        "author": "Fang",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0890",
+        "doi-asserted-by": "crossref",
+        "first-page": "77990",
+        "DOI": "10.1109/ACCESS.2023.3298048",
+        "article-title": "A smart contract vulnerability detection mechanism based on deep learning and expert rules",
+        "volume": "11",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0690",
+        "doi-asserted-by": "crossref",
+        "first-page": "4611",
+        "DOI": "10.1109/TSE.2021.3123170",
+        "article-title": "Aroc: an automatic repair framework for on-chain smart contracts",
+        "volume": "48",
+        "author": "Jin",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Softw. Eng."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1060",
+        "series-title": "Proceedings of the 2021 IEEE Symposium on Security and Privacy (SP)",
+        "first-page": "1215",
+        "article-title": "SGUARD: towards fixing vulnerable smart contracts automatically",
+        "author": "Nguyen",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1430",
+        "article-title": "ASSBert: active and semi-supervised Bert for smart contract vulnerability detection",
+        "volume": "73",
+        "author": "Sun",
+        "year": "2023",
+        "journal-title": "J. Inf. Secur. Appl."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0100",
+        "author": "Arp"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1530",
+        "author": "User"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1870",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s11704-023-3113-x",
+        "article-title": "The governance technology for blockchain systems: a survey",
+        "volume": "18",
+        "author": "Zhu",
+        "year": "2024",
+        "journal-title": "Front. Comput. Sci."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0560",
+        "article-title": "A survey on blockchain technology and its security",
+        "volume": "3",
+        "author": "Guo",
+        "year": "2022",
+        "journal-title": "Blockchain Res. Appl."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0500",
+        "series-title": "Financial Cryptography and Data Security",
+        "first-page": "33",
+        "article-title": "The eye of Horus: spotting and analyzing attacks on Ethereum smart contracts",
+        "author": "Ferreira Torres",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1840",
+        "series-title": "Proceedings of the 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)",
+        "first-page": "295",
+        "article-title": "Turn the rudder: a beacon of reentrancy detection for smart contracts on Ethereum",
+        "author": "Zheng",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0800",
+        "doi-asserted-by": "crossref",
+        "first-page": "10378",
+        "DOI": "10.1016/j.jksuci.2022.10.028",
+        "article-title": "A survey of DeFi security: challenges and opportunities",
+        "volume": "34",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "J. King Saud Univ., Comput. Inf. Sci."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "2256",
+        "DOI": "10.1109/TDSC.2022.3178836",
+        "article-title": "Relaxed effective callback freedom: a parametric correctness condition for sequential modules with callbacks",
+        "volume": "20",
+        "author": "Albert",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Dependable Secure Comput."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0650",
+        "author": "Inspexco"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1070",
+        "author": "Nipunp"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0130",
+        "series-title": "4th International Workshop on Formal Methods for Blockchains (FMBC 2022)",
+        "first-page": "3:1",
+        "article-title": "Automatic generation of attacker contracts in solidity",
+        "author": "Ballesteros",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0370",
+        "author": "Defiant"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1190",
+        "author": "Polydex"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1340",
+        "author": "SanshuNFT"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0760",
+        "author": "Lab"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1700",
+        "series-title": "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering",
+        "first-page": "1",
+        "article-title": "Uncover the premeditated attacks: detecting exploitable reentrancy vulnerabilities by identifying attacker contracts",
+        "author": "Yang",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1370",
+        "author": "Siren"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0040",
+        "author": "Alan"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1250",
+        "series-title": "Proceedings of the 2022 International Conference on Data Science, Agents & Artificial Intelligence (ICDSAAI)",
+        "first-page": "1",
+        "article-title": "Solidity vulnerability scanner",
+        "author": "Ramakrishnan",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1470",
+        "author": "Team"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0240",
+        "article-title": "Security challenges and defense approaches for blockchain-based services from a full-stack architecture perspective",
+        "volume": "4",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "Blockchain Res. Appl."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1660",
+        "doi-asserted-by": "crossref",
+        "first-page": "631",
+        "DOI": "10.1002/spe.3163",
+        "article-title": "A large-scale empirical study of low-level function use in Ethereum smart contracts and automated replacement",
+        "volume": "53",
+        "author": "Xi",
+        "year": "2023",
+        "journal-title": "Softw. Pract. Exp."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1390",
+        "author": "SlowMist"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0540",
+        "author": "Gai"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1270",
+        "author": "Rekt"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0160",
+        "author": "BlockSecTeam"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "1345",
+        "DOI": "10.1109/TPDS.2024.3389153",
+        "article-title": "On off-chaining smart contract runtime protection: a queuing model approach",
+        "volume": "35",
+        "author": "Ali",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Parallel Distrib. Syst."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0140",
+        "author": "Bistroo"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1110",
+        "author": "OwnChain"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1890",
+        "series-title": "Proceedings of the 2023 IEEE 34th International Symposium on Software Reliability Engineering (ISSRE)",
+        "first-page": "545",
+        "article-title": "Evaluating Ethereum reentrancy detection tools via mutation testing",
+        "author": "Zhu",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1220",
+        "author": "QuillAudits"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1140",
+        "author": "PeckShield"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1230",
+        "author": "QuillAudits"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1620",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1145/3656416",
+        "article-title": "Consolidating smart contracts with behavioral contracts",
+        "volume": "8",
+        "author": "Wei",
+        "year": "2024",
+        "journal-title": "Proc. ACM Program. Lang."
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1510",
+        "series-title": "Proceedings of the 2023 IEEE International Conference on Blockchain (Blockchain)",
+        "first-page": "151",
+        "article-title": "Unveiling vulnerabilities in DAO: a comprehensive security analysis and protective framework",
+        "author": "Tsai",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1150",
+        "author": "PeckShieldAlert"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0150",
+        "author": "BlockSecTeam"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0090",
+        "author": "AnciliaInc"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1130",
+        "author": "PeckShield"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1020",
+        "author": "Mutual"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1240",
+        "author": "QuillAudits"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1170",
+        "author": "Phalcon"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0510",
+        "author": "Finance"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0520",
+        "author": "Finance"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0660",
+        "author": "Itez"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1010",
+        "author": "Mutual"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0640",
+        "author": "Inc"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1380",
+        "author": "SlowMist"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0960",
+        "author": "MetaSec"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br1400",
+        "author": "SlowMist"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0020",
+        "author": "0xCygaar"
+      },
+      {
+        "key": "10.1016/j.bcra.2025.100347_br0970",
+        "author": "MetaSec"
+      }
+    ],
+    "container-title": [
+      "Blockchain: Research and Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2096720925000740?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2096720925000740?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2026-08-05T00:55:37Z",
+      "timestamp": 1785891337000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2096720925000740"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "references-count": 188,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2096720925000740"
+    ],
+    "URL": "https://doi.org/10.1016/j.bcra.2025.100347",
+    "relation": {},
+    "ISSN": [
+      "2096-7209"
+    ],
+    "issn-type": [
+      {
+        "value": "2096-7209",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Welcome back: A systematic literature review of smart contract reentrancy and countermeasures",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Blockchain: Research and Applications",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bcra.2025.100347",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 THE AUTHORS. Published by Elsevier B.V. on behalf of Zhejiang University Press.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100347"
+  }
+}

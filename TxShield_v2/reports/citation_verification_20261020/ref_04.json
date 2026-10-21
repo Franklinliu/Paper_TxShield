@@ -1,0 +1,245 @@
+{
+  "n": 4,
+  "key": "qin2020flashloan",
+  "input": {
+    "n": 4,
+    "key": "qin2020flashloan",
+    "title": "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit",
+    "author": "Kaihua Qin and Liyi Zhou and Benjamin Livshits and Arthur Gervais",
+    "year": "2020",
+    "eprint": "2003.03810",
+    "archiveprefix": "arXiv",
+    "primaryclass": "cs.CR",
+    "url": "https://arxiv.org/abs/2003.03810"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit",
+      "doi": "10.1007/978-3-662-64322-8_1",
+      "author": [
+        {
+          "given": "Kaihua",
+          "family": "Qin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Liyi",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Benjamin",
+          "family": "Livshits",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arthur",
+          "family": "Gervais",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "venue": [
+        "Lecture Notes in Computer Science",
+        "Financial Cryptography and Data Security"
+      ],
+      "page": "3-32",
+      "volume": null,
+      "url": "https://doi.org/10.1007/978-3-662-64322-8_1"
+    },
+    {
+      "similarity": 0.667,
+      "title": "Attacking DBSCAN for Fun and Profit",
+      "doi": "10.1137/1.9781611974010.27",
+      "author": [
+        {
+          "given": "Jonathan",
+          "family": "Crussell",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Philip",
+          "family": "Kegelmeyer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            30
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the 2015 SIAM International Conference on Data Mining"
+      ],
+      "page": "235-243",
+      "volume": null,
+      "url": "https://doi.org/10.1137/1.9781611974010.27"
+    },
+    {
+      "similarity": 0.397,
+      "title": "Flash in the pan?: Analyzing flash loan attacks on the DeFi ecosystem",
+      "doi": "10.1108/jfc-12-2025-0468",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2160-9152",
+          "authenticated-orcid": true,
+          "given": "Tim",
+          "family": "Hall",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Winchester Department of Policing, Criminology and Forensics, , Winchester,",
+              "place": [
+                "UK"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Remo",
+          "family": "Stieger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "SyntiFi GmbH , Zug,",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            2
+          ]
+        ]
+      },
+      "venue": [
+        "Journal of Financial Crime"
+      ],
+      "page": "429-456",
+      "volume": "33",
+      "url": "https://doi.org/10.1108/jfc-12-2025-0468"
+    }
+  ],
+  "source_url": "https://arxiv.org/abs/2003.03810",
+  "source_status": 200,
+  "source_title": "[2003.03810] Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit"
+    },
+    {
+      "name": "citation_title",
+      "content": "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit"
+    },
+    {
+      "name": "citation_author",
+      "content": "Qin, Kaihua"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhou, Liyi"
+    },
+    {
+      "name": "citation_author",
+      "content": "Livshits, Benjamin"
+    },
+    {
+      "name": "citation_author",
+      "content": "Gervais, Arthur"
+    },
+    {
+      "name": "citation_date",
+      "content": "2020/03/08"
+    },
+    {
+      "name": "citation_online_date",
+      "content": "2021/03/20"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://arxiv.org/pdf/2003.03810"
+    },
+    {
+      "name": "citation_arxiv_id",
+      "content": "2003.03810"
+    },
+    {
+      "name": "citation_abstract",
+      "content": "Credit allows a lender to loan out surplus capital to a borrower. In the traditional economy, credit bears the risk that the borrower may default on its debt, the lender hence requires upfront collateral from the borrower, plus interest fee payments. Due to the atomicity of blockchain transactions, lenders can offer flash loans, i.e., loans that are only valid within one transaction and must be repaid by the end of that transaction. This concept has lead to a number of interesting attack possibilities, some of which were exploited in February 2020. This paper is the first to explore the implication of transaction atomicity and flash loans for the nascent decentralized finance (DeFi) ecosystem. We show quantitatively how transaction atomicity increases the arbitrage revenue. We moreover analyze two existing attacks with ROIs beyond 500k%. We formulate finding the attack parameters as an optimization problem over the state of the underlying Ethereum blockchain and the state of the DeFi ecosystem. We show how malicious adversaries can efficiently maximize an attack profit and hence damage the DeFi ecosystem further. Specifically, we present how two previously executed attacks can be \"boosted\" to result in a profit of 829.5k USD and 1.1M USD, respectively, which is a boost of 2.37x and 1.73x, respectively."
+    }
+  ],
+  "source_text": "[2003.03810] Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit Skip to main content Search Search arXiv Press Enter to search · Advanced search Computer Science > Cryptography and Security arXiv:2003.03810 (cs) [Submitted on 8 Mar 2020 ( v1 ), last revised 20 Mar 2021 (this version, v4)] Title: Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit Authors: Kaihua Qin , Liyi Zhou , Benjamin Livshits , Arthur Gervais View a PDF of the paper titled Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit, by Kaihua Qin and 2 other authors View PDF HTML (experimental) Abstract: Credit allows a lender to loan out surplus capital to a borrower. In the traditional economy, credit bears the risk that the borrower may default on its debt, the lender hence requires upfront collateral from the borrower, plus interest fee payments. Due to the atomicity of blockchain transactions, lenders can offer flash loans, i.e., loans that are only valid within one transaction and must be repaid by the end of that transaction. This concept has lead to a number of interesting attack possibilities, some of which were exploited in February 2020. This paper is the first to explore the implication of transaction atomicity and flash loans for the nascent decentralized finance (DeFi) ecosystem. We show quantitatively how transaction atomicity increases the arbitrage revenue. We moreover analyze two existing attacks with ROIs beyond 500k%. We formulate finding the attack parameters as an optimization problem over the state of the underlying Ethereum blockchain and the state of the DeFi ecosystem. We show how malicious adversaries can efficiently maximize an attack profit and hence damage the DeFi ecosystem further. Specifically, we present how two previously executed attacks can be \"boosted\" to result in a profit of 829.5k USD and 1.1M USD, respectively, which is a boost of 2.37x and 1.73x, respectively. Subjects: Cryptography and Security (cs.CR) ; Distributed, Parallel, and Cluster Computing (cs.DC) Cite as: arXiv:2003.03810 [cs.CR] (or arXiv:2003.03810v4 [cs.CR] for this version) https://doi.org/10.48550/arXiv.2003.03810 Focus to learn more arXiv-issued DOI via DataCite Submission history From: Kaihua Qin [ view email ] [v1] Sun, 8 Mar 2020 16:52:34 UTC (1,063 KB) [v2] Wed, 11 Mar 2020 20:28:58 UTC (1,065 KB) [v3] Sat, 23 Jan 2021 17:13:59 UTC (3,396 KB) [v4] Sat, 20 Mar 2021 10:42:45 UTC (3,396 KB) Full-text links: Access Paper: View a PDF of the paper titled Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit, by Kaihua Qin and 2 other authors View PDF HTML (experimental) TeX Source view license Additional Features Audio Summary Current browse context: cs.CR < prev | next > new | recent | 2020-03 Change to browse by: cs cs.DC References & Citations SciX Google Scholar Semantic Scholar 1 blog link ( what is this? ) DBLP - CS Bibliography listing | bibtex Benjamin Livshits Arthur Gervais export BibTeX citation Loading... BibTeX formatted citation × loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )"
+}

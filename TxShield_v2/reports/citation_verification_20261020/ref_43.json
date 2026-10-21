@@ -1,0 +1,238 @@
+{
+  "n": 43,
+  "key": "hanif2022vulberta",
+  "input": {
+    "n": 43,
+    "key": "hanif2022vulberta",
+    "author": "Hanif, Hazim and Maffeis, Sergio",
+    "booktitle": "2022 International Joint Conference on Neural Networks (IJCNN)",
+    "title": "VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection",
+    "year": "2022",
+    "volume": "",
+    "number": "",
+    "pages": "1-8",
+    "doi": "10.1109/IJCNN55064.2022.9892280"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "VulBERTa: Simplified Source Code Pre-Training for Vulnerability Detection",
+      "doi": "10.1109/ijcnn55064.2022.9892280",
+      "author": [
+        {
+          "given": "Hazim",
+          "family": "Hanif",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Imperial College,Department of Computing,London,UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sergio",
+          "family": "Maffeis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Malaya,Faculty of Computer Science and Information Technology,Malaysia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            18
+          ]
+        ]
+      },
+      "venue": [
+        "2022 International Joint Conference on Neural Networks (IJCNN)"
+      ],
+      "page": "1-8",
+      "volume": null,
+      "url": "https://doi.org/10.1109/ijcnn55064.2022.9892280"
+    },
+    {
+      "similarity": 0.616,
+      "title": "Supply Chain Security: Pre-training Model for Python Source Code Vulnerability Detection",
+      "doi": "10.1109/jcice61382.2024.00039",
+      "author": [
+        {
+          "given": "Yiwang",
+          "family": "Le",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Peking University,Shenzhen Graduate School,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hui",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Peking University,Shenzhen Graduate School,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Peking University,Shenzhen Graduate School,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhixiong",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Peking University,Shenzhen Graduate School,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ao",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Peking University,Shenzhen Graduate School,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ziheng",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Qinghai Co., LTD,China Mobile Communications Group,Qinghai,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            10
+          ]
+        ]
+      },
+      "venue": [
+        "2024 3rd International Joint Conference on Information and Communication Engineering (JCICE)"
+      ],
+      "page": "150-155",
+      "volume": null,
+      "url": "https://doi.org/10.1109/jcice61382.2024.00039"
+    },
+    {
+      "similarity": 0.549,
+      "title": "Multi-source cross-domain vulnerability detection based on code pre-trained model",
+      "doi": "10.1016/j.infsof.2025.107764",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0005-3856-9184",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Cao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yunwei",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2025,
+            9
+          ]
+        ]
+      },
+      "venue": [
+        "Information and Software Technology"
+      ],
+      "page": "107764",
+      "volume": "185",
+      "url": "https://doi.org/10.1016/j.infsof.2025.107764"
+    }
+  ]
+}

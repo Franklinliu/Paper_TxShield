@@ -1,0 +1,71 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./output/pdf/TxShield_TIFS_Cover_Letter.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/newtxtext.sty
+`newtxtext' v1.71, 2022/02/28 Text macros taking advantage of TeXGyre Termes an
+d its extensions (msharpe)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xstring/xstring.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kastrup/binhex.tex)
+ntx@otftextfalse
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2023/texmf-dist/tex/latex/newtx/t1ntxtlf.fd)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(tmp/pdfs/TxShield_TIFS_Cover_Letter.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(tmp/pdfs/TxShield_TIFS_Cover_Letter.out)
+(tmp/pdfs/TxShield_TIFS_Cover_Letter.out) [1{/usr/local/texlive/2023/texmf-var/
+fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/en
+c/dvips/newtx/ntx-ec-tlf.enc}] (tmp/pdfs/TxShield_TIFS_Cover_Letter.aux) )</usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/202
+3/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on tmp/pdfs/TxShield_TIFS_Cover_Letter.pdf (1 page, 106892 bytes
+).
+Transcript written on tmp/pdfs/TxShield_TIFS_Cover_Letter.log.

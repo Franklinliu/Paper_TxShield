@@ -1,0 +1,321 @@
+{
+  "n": 24,
+  "key": "slise2024",
+  "input": {
+    "n": 24,
+    "key": "slise2024",
+    "author": "Wang, Zexu and Chen, Jiachi and Wang, Yanlin and Zhang, Yu and Zhang, Weizhe and Zheng, Zibin",
+    "title": "Efficiently Detecting Reentrancy Vulnerabilities in Complex Smart Contracts",
+    "booktitle": "Proceedings of the ACM on Software Engineering",
+    "year": "2024",
+    "volume": "1",
+    "number": "FSE",
+    "pages": "161--181",
+    "doi": "10.1145/3643734"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "Efficiently Detecting Reentrancy Vulnerabilities in Complex Smart Contracts",
+      "doi": "10.1145/3643734",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0004-1439-2989",
+          "authenticated-orcid": false,
+          "given": "Zexu",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Sun Yat-sen University, Zhuhai, China"
+            },
+            {
+              "name": "Peng Cheng Laboratory, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0192-9992",
+          "authenticated-orcid": false,
+          "given": "Jiachi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sun Yat-sen University, Zhuhai, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7761-7269",
+          "authenticated-orcid": false,
+          "given": "Yanlin",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sun Yat-sen University, Zhuhai, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2040-5059",
+          "authenticated-orcid": false,
+          "given": "Yu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harbin Institute of Technology, Harbin, China"
+            },
+            {
+              "name": "Peng Cheng Laboratory, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4783-876X",
+          "authenticated-orcid": false,
+          "given": "Weizhe",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harbin Institute of Technology, Harbin, China"
+            },
+            {
+              "name": "Peng Cheng Laboratory, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7878-4330",
+          "authenticated-orcid": false,
+          "given": "Zibin",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sun Yat-sen University, Zhuhai, China"
+            },
+            {
+              "name": "GuangDong Engineering Technology Research Center of Blockchain, Zhuhai, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the ACM on Software Engineering"
+      ],
+      "page": "161-181",
+      "volume": "1",
+      "url": "https://doi.org/10.1145/3643734"
+    },
+    {
+      "similarity": 0.774,
+      "title": "ReDefender: Detecting Reentrancy Vulnerabilities in Smart Contracts Automatically",
+      "doi": "10.1109/tr.2022.3161634",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9916-4790",
+          "authenticated-orcid": false,
+          "given": "Bixin",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Southeast University, Nanjing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5798-3672",
+          "authenticated-orcid": false,
+          "given": "Zhenyu",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Southeast University, Nanjing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5431-9346",
+          "authenticated-orcid": false,
+          "given": "Tianyuan",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Computer Science and Engineering, Southeast University, Nanjing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2022,
+            6
+          ]
+        ]
+      },
+      "venue": [
+        "IEEE Transactions on Reliability"
+      ],
+      "page": "984-999",
+      "volume": "71",
+      "url": "https://doi.org/10.1109/tr.2022.3161634"
+    },
+    {
+      "similarity": 0.756,
+      "title": "ReDefender: A Tool for Detecting Reentrancy Vulnerabilities in Smart Contracts Effectively",
+      "doi": "10.1109/qrs54544.2021.00101",
+      "author": [
+        {
+          "given": "Zhenyu",
+          "family": "Pan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Southeast University,School of Computer Science and Engineering,Nanjing,Jiangsu Province,P.R. China,211189"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tianyuan",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southeast University,School of Computer Science and Engineering,Nanjing,Jiangsu Province,P.R. China,211189"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southeast University,School of Computer Science and Engineering,Nanjing,Jiangsu Province,P.R. China,211189"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bixin",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southeast University,School of Computer Science and Engineering,Nanjing,Jiangsu Province,P.R. China,211189"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2021,
+            12
+          ]
+        ]
+      },
+      "venue": [
+        "2021 IEEE 21st International Conference on Software Quality, Reliability and Security (QRS)"
+      ],
+      "page": "915-925",
+      "volume": null,
+      "url": "https://doi.org/10.1109/qrs54544.2021.00101"
+    }
+  ]
+}

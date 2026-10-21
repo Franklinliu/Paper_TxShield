@@ -1,0 +1,403 @@
+{
+  "n": 32,
+  "key": "TXSPECTOR",
+  "input": {
+    "n": 32,
+    "key": "TXSPECTOR",
+    "author": "Mengya Zhang and Xiaokuan Zhang and Yinqian Zhang and Zhiqiang Lin",
+    "title": "{TXSPECTOR}: Uncovering Attacks in Ethereum from Transactions",
+    "booktitle": "29th USENIX Security Symposium (USENIX Security 20)",
+    "year": "2020",
+    "isbn": "978-1-939133-17-5",
+    "pages": "2775--2792",
+    "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-mengya",
+    "publisher": "USENIX Association",
+    "month": "aug }"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 0.693,
+      "title": "Exploring Locality in Ethereum Transactions",
+      "doi": "10.1109/brains59668.2023.10317054",
+      "author": [
+        {
+          "given": "Matthieu",
+          "family": "Pigaglio",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "UCLouvain,Belgium"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michał",
+          "family": "Król",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "City, University of London,United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Etienne",
+          "family": "Riviére",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UCLouvain,Belgium"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            11
+          ]
+        ]
+      },
+      "venue": [
+        "2023 5th Conference on Blockchain Research &amp; Applications for Innovative Networks and Services (BRAINS)"
+      ],
+      "page": "1-8",
+      "volume": null,
+      "url": "https://doi.org/10.1109/brains59668.2023.10317054"
+    },
+    {
+      "similarity": 0.574,
+      "title": "Mitigating Frontrunning Attacks in Ethereum",
+      "doi": "10.1145/3494106.3528682",
+      "author": [
+        {
+          "given": "Maddipati",
+          "family": "Varun",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Indian Institute of Technology Kharagpur, Kharagpur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Balaji",
+          "family": "Palanisamy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Pittsburgh, Pittsburgh, PA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shamik",
+          "family": "Sural",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Indian Institute of Technology Kharagpur, Kharagpur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            30
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the Fourth ACM International Symposium on Blockchain and Secure Critical Infrastructure"
+      ],
+      "page": "115-124",
+      "volume": null,
+      "url": "https://doi.org/10.1145/3494106.3528682"
+    },
+    {
+      "similarity": 0.463,
+      "title": "Breaking the Privacy Barrier: On the Feasibility of Reorganization Attacks on Ethereum Private Transactions",
+      "doi": "10.1109/acsac63791.2024.00047",
+      "author": [
+        {
+          "given": "Mengya",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Ohio State University,Columbus,Ohio,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xingyu",
+          "family": "Lyu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Massachusetts, Lowell,Lowell,Massachusetts,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jianyu",
+          "family": "Niu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southern University of Science and Technology,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaokuan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "George Mason University,Fairfax,VA,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yinqian",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Southern University of Science and Technology,Research Institute of Trustworthy Autonomous Systems,Shenzhen,China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhiqiang",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Ohio State University,Columbus,Ohio,USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            9
+          ]
+        ]
+      },
+      "venue": [
+        "2024 Annual Computer Security Applications Conference (ACSAC)"
+      ],
+      "page": "439-455",
+      "volume": null,
+      "url": "https://doi.org/10.1109/acsac63791.2024.00047"
+    }
+  ],
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "{TXSPECTOR}: Uncovering Attacks in Ethereum from Transactions",
+      "doi": null,
+      "year": 2020,
+      "authors": [
+        "Mengya Zhang",
+        "Xiaokuan Zhang",
+        "Yinqian Zhang",
+        "Zhiqiang Lin"
+      ],
+      "url": "https://www.usenix.org/system/files/sec20-zhang-mengya.pdf"
+    },
+    {
+      "similarity": 0.446,
+      "title": "An Empirical Study on Ethereum Private Transactions and the Security Implications",
+      "doi": "https://doi.org/10.48550/arxiv.2208.02858",
+      "year": 2022,
+      "authors": [
+        "Xingyu Lyu",
+        "Mengya Zhang",
+        "Xiaokuan Zhang",
+        "Jianyu Niu",
+        "Yinqian Zhang",
+        "Zhiqiang Lin"
+      ],
+      "url": "http://arxiv.org/abs/2208.02858"
+    },
+    {
+      "similarity": 0.556,
+      "title": "The Eye of Horus: Spotting and Analyzing Attacks on Ethereum Smart Contracts",
+      "doi": null,
+      "year": 2021,
+      "authors": [
+        "Christof Ferreira Torres",
+        "Antonio Ken Iannillo",
+        "Arthur Gervais",
+        "Radu State"
+      ],
+      "url": "https://orbilu.uni.lu/handle/10993/46244"
+    }
+  ],
+  "source_url": "https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-mengya",
+  "source_status": 200,
+  "source_title": "TXSPECTOR: Uncovering Attacks in Ethereum from Transactions | USENIX",
+  "source_metadata": [
+    {
+      "name": "citation_title",
+      "content": "{TXSPECTOR}: Uncovering Attacks in Ethereum from Transactions"
+    },
+    {
+      "name": "citation_author",
+      "content": "Mengya Zhang"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "The Ohio State University"
+    },
+    {
+      "name": "citation_author_email",
+      "content": "zhang.9407@osu.edu"
+    },
+    {
+      "name": "citation_author",
+      "content": "Xiaokuan Zhang"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "The Ohio State University"
+    },
+    {
+      "name": "citation_author_email",
+      "content": "zhang.5840@osu.edu"
+    },
+    {
+      "name": "citation_author",
+      "content": "Yinqian Zhang"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "The Ohio State University"
+    },
+    {
+      "name": "citation_author_email",
+      "content": "yinqian@cse.ohio-state.edu"
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhiqiang Lin"
+    },
+    {
+      "name": "citation_author_institution",
+      "content": "The Ohio State University"
+    },
+    {
+      "name": "citation_author_email",
+      "content": "zlin@cse.ohio-state.edu"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2020"
+    },
+    {
+      "name": "citation_conference_title",
+      "content": "29th USENIX Security Symposium (USENIX Security 20)"
+    },
+    {
+      "name": "citation_firstpage",
+      "content": "2775"
+    },
+    {
+      "name": "citation_lastpage",
+      "content": "2792"
+    },
+    {
+      "name": "citation_isbn",
+      "content": "978-1-939133-17-5"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://www.usenix.org/system/files/sec20-zhang-mengya.pdf"
+    }
+  ],
+  "source_text": "TXSPECTOR: Uncovering Attacks in Ethereum from Transactions | USENIX Back to USENIX Sign In Conferences Attend Registration Information Program Technical Sessions Spring Quarter Accepted Papers Summer Quarter Accepted Papers Fall Quarter Accepted Papers Participate Call for Papers Submission Policies and Instructions Call for Artifacts Artifact Evaluation Information Instructions for Presenters Hack@Sec Sponsors About Symposium Organizers Past Symposia Code of Conduct Questions TXSPECTOR: Uncovering Attacks in Ethereum from Transactions Mengya Zhang, Xiaokuan Zhang, Yinqian Zhang, and Zhiqiang Lin, The Ohio State University The invention of Ethereum smart contract has enabled the blockchain users to customize computing logic in transactions. However, similar to traditional computer programs, smart contracts have vulnerabilities, which can be exploited to cause financial loss of contract owners. While there are many software tools for detecting vulnerabilities in the smart contract bytecode, few have focused on transactions. In this paper, we propose TXSPECTOR, a generic, logic-driven framework to investigate Ethereum transactions for attack detection. At a high level, TXSPECTOR replays history transactions and records EVM bytecode-level traces, and then encodes the control and data dependencies into logic relations. Instead of setting a pre-defined set of functionalities, TXSPECTOR allows users to specify customized rules to uncover various types of attacks in the transactions. We have built a prototype of TXSPECTOR and evaluated it for the detection of three Ethereum attacks that exploit: (i) the Re-entrancy vulnerability, (ii) the UncheckedCall vulnerability, and (iii) the Suicidal vulnerability. The results demonstrate that TXSPECTOR can effectively detect attacks in the transactions and, as a byproduct, the corresponding vulnerabilities in the smart contracts. We also show how TXSPECTOR can be used for forensic analysis on transactions, and present Detection Rules for detecting other types of attacks in addition to the three focused Ethereum attacks. Open Access Media USENIX is committed to Open Access to the research presented at our events. Papers and proceedings are freely available to everyone once the event begins. Any video, audio, and/or slides that are posted after the event are also free and open to everyone. Support USENIX and our commitment to Open Access. BibTeX @inproceedings {255340, author = {Mengya Zhang and Xiaokuan Zhang and Yinqian Zhang and Zhiqiang Lin}, title = {{TXSPECTOR}: Uncovering Attacks in Ethereum from Transactions}, booktitle = {29th USENIX Security Symposium (USENIX Security 20)}, year = {2020}, isbn = {978-1-939133-17-5}, pages = {2775--2792}, url = {https://www.usenix.org/conference/usenixsecurity20/presentation/zhang-mengya}, publisher = {USENIX Association}, month = aug } Download Zhang PDF View the slides Presentation Video"
+}

@@ -1,0 +1,24 @@
+{
+  "n": 17,
+  "key": "defihacklabs2024",
+  "input": {
+    "n": 17,
+    "key": "defihacklabs2024",
+    "author": "SunWeb3Sec",
+    "title": "DeFiHackLabs: Reproduce DeFi Hacked Incidents Using Foundry",
+    "howpublished": "\\url{https://github.com/SunWeb3Sec/DeFiHackLabs}",
+    "note": "Accessed: 2025-01-01",
+    "year": "2024"
+  },
+  "evidence": [],
+  "source_url": "https://github.com/SunWeb3Sec/DeFiHackLabs",
+  "source_status": 200,
+  "source_title": "GitHub - SunWeb3Sec/DeFiHackLabs: Reproduce DeFi hacked incidents using Foundry. · GitHub",
+  "source_metadata": [
+    {
+      "property": "og:title",
+      "content": "GitHub - SunWeb3Sec/DeFiHackLabs: Reproduce DeFi hacked incidents using Foundry."
+    }
+  ],
+  "source_text": "GitHub - SunWeb3Sec/DeFiHackLabs: Reproduce DeFi hacked incidents using Foundry. · GitHub Skip to content Navigation Menu Sign in Appearance settings Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert Repository navigation DeFiHackLabs Public Notifications You must be signed in to change notification settings Fork 1.5k ( 1.5k ) Star 6.8k ( 6.8k ) You must be signed in to star a repository About Reproduce DeFi hacked incidents using Foundry. Topics defi ethereum foundry solidity web3 Resources Readme Apache-2.0 license Contributing Contributing Activity Stars 6.8k stars Watchers 137 watching Forks 1.5k forks Report repository main Branches Tags Go to file Code Open more actions menu Latest commit History 4,008 Commits 4,008 Commits Folders and files Name Name Last commit message Last commit date .github .github academy academy lib lib past past script script src src .gitignore .gitignore .gitmodules .gitmodules .prettierrc .prettierrc AudiusPocGasReport.gif AudiusPocGasReport.gif CONTRIBUTING.md CONTRIBUTING.md LICENSE LICENSE README.md README.md add_new_entry.py add_new_entry.py foundry.lock foundry.lock foundry.toml foundry.toml remappings.txt remappings.txt requirements.txt requirements.txt test.py test.py View all files Repository files navigation Loading About Reproduce DeFi hacked incidents using Foundry. Topics defi ethereum foundry solidity web3 Resources Readme Apache-2.0 license Contributing Contributing Activity Stars 6.8k stars Watchers 137 watching Forks 1.5k forks Report repository Releases Packages Used by Contributors Languages You can’t perform that action at this time."
+}

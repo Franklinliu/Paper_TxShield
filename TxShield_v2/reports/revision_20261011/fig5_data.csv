@@ -1,0 +1,10 @@
+model,source,accuracy_percent,precision_percent,recall_percent,f1_percent
+GPT-4.1-mini,original_paper,83.8,83.2,84.6,83.9
+Baidu ERNIE-Speed-128k,original_paper,79.4,75.5,87.1,80.9
+Llama3-8B,original_paper,77.8,74.1,85.4,79.3
+Qwen3-8B,original_paper,70.2,71.9,66.2,69.0
+DeepSeek-R1-Distill-Qwen-7B,original_paper,70.2,70.2,69.8,70.0
+InternLM3,original_paper,55.1,53.3,82.7,64.9
+GPT-5.6-luna,detailed_results_GPT-5.6-luna,89.697802,91.642651,87.362637,89.451477
+DeepSeek-v4-pro,detailed_results_DeepSeek-v4-pro_xgboost.json,91.346154,93.123209,89.285714,91.164095
+Kimi-k3,detailed_results_Kimi_k3.json,93.269231,97.87234,88.461538,92.929293

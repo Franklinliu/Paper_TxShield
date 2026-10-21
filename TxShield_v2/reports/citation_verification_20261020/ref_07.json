@@ -1,0 +1,69 @@
+{
+  "n": 7,
+  "key": "defi2023",
+  "input": {
+    "n": 7,
+    "key": "defi2023",
+    "author": "Zhou, Liyi and Xiong, Xihan and Ernstberger, Jens and Chaliasos, Stefanos and Wang, Zhipeng and Wang, Ye and Qin, Kaihua and Wattenhofer, Roger and Song, Dawn and Gervais, Arthur",
+    "booktitle": "2023 IEEE Symposium on Security and Privacy (SP)",
+    "title": "SoK: Decentralized Finance (DeFi) Attacks",
+    "year": "2023",
+    "volume": "",
+    "number": "",
+    "pages": "2444-2461",
+    "keywords": "Privacy;Smart contracts;Ecosystems;Finance;Decentralized applications;Frequency measurement;Security",
+    "doi": "10.1109/SP46215.2023.10179435"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=SoK%3A+Decentralized+Finance+%28DeFi%29+Attacks&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "SoK: Decentralized Finance (DeFi) Attacks",
+      "doi": "https://doi.org/10.1109/sp46215.2023.10179435",
+      "year": 2023,
+      "authors": [
+        "Liyi Zhou",
+        "Xihan Xiong",
+        "Jens Ernstberger",
+        "Stefanos Chaliasos",
+        "Zhipeng Wang",
+        "Ye Wang",
+        "Kaihua Qin",
+        "Roger P. Wattenhofer",
+        "Dawn Xiaodong Song",
+        "Arthur Gervais"
+      ],
+      "url": "https://doi.org/10.1109/sp46215.2023.10179435"
+    },
+    {
+      "similarity": 0.882,
+      "title": "SoK: Decentralized Finance (DeFi)",
+      "doi": "https://doi.org/10.1145/3558535.3559780",
+      "year": 2022,
+      "authors": [
+        "Sam M. Werner",
+        "Daniel Pérez",
+        "Lewis Gudgeon",
+        "Ariah Klages‐Mundt",
+        "Dominik Harz",
+        "William J. Knottenbelt"
+      ],
+      "url": "https://doi.org/10.1145/3558535.3559780"
+    },
+    {
+      "similarity": 0.72,
+      "title": "SoK: Decentralized Finance (DeFi)-Fundamentals, Taxonomy and Risks",
+      "doi": "https://doi.org/10.22541/au.168568220.09436681/v1",
+      "year": 2023,
+      "authors": [
+        "Krzysztof M. Gogol",
+        "Christian Killer",
+        "MALTE SCHLOSSER",
+        "Thomas Bocek",
+        "Burkhard Stiller"
+      ],
+      "url": "https://doi.org/10.22541/au.168568220.09436681/v1"
+    }
+  ]
+}

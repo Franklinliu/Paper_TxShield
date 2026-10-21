@@ -1,0 +1,280 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{defiTVL2025}
+\citation{cryptoLoss2025,chainalysis2025report}
+\citation{qin2020flashloan}
+\citation{slither}
+\citation{mythril2018}
+\citation{defi2023}
+\citation{certoraProver}
+\citation{Hildenbrandt2018KEVM}
+\citation{defiranger2021}
+\citation{defitainter2023}
+\citation{defort2024}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{TrxGNNBERT}
+\citation{GPTScan}
+\citation{iaudit2025}
+\citation{defihacklabs2024}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{I}{1}{Introduction}{section.1}{}}
+\newlabel{sec:introduction@cref}{{[section][1][]I}{[1][1][]1}}
+\citation{defihacklabs2024}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{defi2023}
+\citation{uniswapv3}
+\citation{aaveflashloan}
+\citation{qin2020flashloan}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Background}{2}{section.2}\protected@file@percent }
+\newlabel{sec:background}{{II}{2}{Background}{section.2}{}}
+\newlabel{sec:background@cref}{{[section][2][]II}{[1][2][]2}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-}0a}\textbf  {Smart Contracts and DeFi Ecosystem}}{2}{paragraph.2.0.0.1}\protected@file@percent }
+\citation{defi2023,scvsurvey2024,taxonomysc2024}
+\citation{reentrancysurvey2025}
+\citation{blockwatchdog2024,slise2024}
+\citation{defiranger2021,pomabuster2024}
+\citation{qin2020flashloan}
+\citation{oraclesurvey2023}
+\citation{GPTScan}
+\citation{iaudit2025}
+\citation{zhou2021flashboys}
+\citation{lewis2021retrievalaugmentedgenerationknowledgeintensivenlp}
+\citation{lewis2021retrievalaugmentedgenerationknowledgeintensivenlp,llmhallucination2024}
+\citation{defihacklabs2024}
+\citation{foundry}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-}0b}\textbf  {DeFi Attack Taxonomy}}{3}{paragraph.2.0.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {II-}0c}\textbf  {Retrieval-Augmented Generation}}{3}{paragraph.2.0.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Approach Overview}{3}{section.3}\protected@file@percent }
+\newlabel{sec:approach}{{III}{3}{Approach Overview}{section.3}{}}
+\newlabel{sec:approach@cref}{{[section][3][]III}{[1][3][]3}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Security Knowledge Construction}{3}{section.4}\protected@file@percent }
+\newlabel{sec:knowledge-base}{{IV}{3}{Security Knowledge Construction}{section.4}{}}
+\newlabel{sec:knowledge-base@cref}{{[section][4][]IV}{[1][3][]3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textcolor {red}{Overview of \textup  {\textsc  {TxShield}}\xspace  {}. XGBoost controls the use of retrieved context and supplies a risk hint before the LLM makes the final decision.}}}{4}{figure.1}\protected@file@percent }
+\newlabel{fig:flowchart}{{1}{4}{\textcolor {red}{Overview of \approach {}. XGBoost controls the use of retrieved context and supplies a risk hint before the LLM makes the final decision.}}{figure.1}{}}
+\newlabel{fig:flowchart@cref}{{[figure][1][]1}{[1][3][]4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Execution Trace Minimization}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Semantic Summarization and Vector Indexing}{4}{subsection.4.2}\protected@file@percent }
+\citation{jina2024}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Execution Trace Tree Minimization}}{5}{algocf.1}\protected@file@percent }
+\newlabel{alg:trace-minimization}{{1}{5}{Execution Trace Minimization}{algocf.1}{}}
+\newlabel{alg:trace-minimization@cref}{{[algorithm][1][]1}{[1][4][]5}}
+\newlabel{func:finddeepest}{{6}{5}{Execution Trace Minimization}{AlgoLine.1.6}{}}
+\newlabel{func:finddeepest@cref}{{[line][6][]6}{[1][4][]5}}
+\newlabel{func:prunetarget}{{8}{5}{Execution Trace Minimization}{AlgoLine.1.8}{}}
+\newlabel{func:prunetarget@cref}{{[line][8][]8}{[1][4][]5}}
+\newlabel{func:markduplicate:start}{{10}{5}{Execution Trace Minimization}{AlgoLine.1.10}{}}
+\newlabel{func:markduplicate:start@cref}{{[line][10][]10}{[1][4][]5}}
+\newlabel{func:markduplicate:sigma}{{11}{5}{Execution Trace Minimization}{AlgoLine.1.11}{}}
+\newlabel{func:markduplicate:sigma@cref}{{[line][11][]11}{[1][4][]5}}
+\newlabel{func:markduplicate:record}{{15}{5}{Execution Trace Minimization}{AlgoLine.1.15}{}}
+\newlabel{func:markduplicate:record@cref}{{[line][15][]15}{[1][4][]5}}
+\newlabel{func:markduplicate:end}{{17}{5}{Execution Trace Minimization}{AlgoLine.1.17}{}}
+\newlabel{func:markduplicate:end@cref}{{[line][17][]17}{[1][4][]5}}
+\newlabel{func:prune:start}{{18}{5}{Execution Trace Minimization}{AlgoLine.1.18}{}}
+\newlabel{func:prune:start@cref}{{[line][18][]18}{[1][4][]5}}
+\newlabel{func:prune:duplicate:start}{{19}{5}{Execution Trace Minimization}{AlgoLine.1.19}{}}
+\newlabel{func:prune:duplicate:start@cref}{{[line][19][]19}{[1][4][]5}}
+\newlabel{func:prune:duplicate:end}{{20}{5}{Execution Trace Minimization}{AlgoLine.1.20}{}}
+\newlabel{func:prune:duplicate:end@cref}{{[line][20][]20}{[1][4][]5}}
+\newlabel{func:prune:truncated}{{22}{5}{Execution Trace Minimization}{AlgoLine.1.22}{}}
+\newlabel{func:prune:truncated@cref}{{[line][22][]22}{[1][4][]5}}
+\newlabel{func:prune:metadata:start}{{23}{5}{Execution Trace Minimization}{AlgoLine.1.23}{}}
+\newlabel{func:prune:metadata:start@cref}{{[line][23][]23}{[1][4][]5}}
+\newlabel{func:prune:metadata:end}{{24}{5}{Execution Trace Minimization}{AlgoLine.1.24}{}}
+\newlabel{func:prune:metadata:end@cref}{{[line][24][]24}{[1][4][]5}}
+\newlabel{func:prune:length}{{31}{5}{Execution Trace Minimization}{AlgoLine.1.31}{}}
+\newlabel{func:prune:length@cref}{{[line][31][]31}{[1][4][]5}}
+\newlabel{func:prune:alias}{{33}{5}{Execution Trace Minimization}{AlgoLine.1.33}{}}
+\newlabel{func:prune:alias@cref}{{[line][33][]33}{[1][4][]5}}
+\newlabel{func:prune:end}{{34}{5}{Execution Trace Minimization}{AlgoLine.1.34}{}}
+\newlabel{func:prune:end@cref}{{[line][34][]34}{[1][4][]5}}
+\newlabel{func:prunetarget:start}{{35}{5}{Execution Trace Minimization}{AlgoLine.1.35}{}}
+\newlabel{func:prunetarget:start@cref}{{[line][35][]35}{[1][4][]5}}
+\newlabel{func:prunetarget:end}{{41}{5}{Execution Trace Minimization}{AlgoLine.1.41}{}}
+\newlabel{func:prunetarget:end@cref}{{[line][41][]41}{[1][4][]5}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}In-Context Reasoning for Attack Detection}{6}{section.5}\protected@file@percent }
+\newlabel{sec:retrieval}{{V}{6}{In-Context Reasoning for Attack Detection}{section.5}{}}
+\newlabel{sec:retrieval@cref}{{[section][5][]V}{[1][5][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Knowledge Retrieval}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}\textcolor {red}{XGBoost-guided Retrieval and Prompting}}{6}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:xgb-guidance}{{\mbox  {V-B}}{6}{\textcolor {red}{XGBoost-guided Retrieval and Prompting}}{subsection.5.2}{}}
+\newlabel{sec:xgb-guidance@cref}{{[subsection][2][5]\mbox  {V-B}}{[1][6][]6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}\textcolor {red}{Risk-informed LLM Reasoning}}{6}{subsection.5.3}\protected@file@percent }
+\newlabel{sec:reasoning}{{\mbox  {V-C}}{6}{\textcolor {red}{Risk-informed LLM Reasoning}}{subsection.5.3}{}}
+\newlabel{sec:reasoning@cref}{{[subsection][3][5]\mbox  {V-C}}{[1][6][]6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Prompt template for retrieval-augmented detection.}}{7}{figure.2}\protected@file@percent }
+\newlabel{fig:prompt1}{{2}{7}{Prompt template for retrieval-augmented detection}{figure.2}{}}
+\newlabel{fig:prompt1@cref}{{[figure][2][]2}{[1][6][]7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Prompt template for zero-shot detection without historical examples.}}{7}{figure.3}\protected@file@percent }
+\newlabel{fig:prompt2}{{3}{7}{Prompt template for zero-shot detection without historical examples}{figure.3}{}}
+\newlabel{fig:prompt2@cref}{{[figure][3][]3}{[1][6][]7}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Evaluation}{7}{section.6}\protected@file@percent }
+\newlabel{sec:evaluation}{{VI}{7}{Evaluation}{section.6}{}}
+\newlabel{sec:evaluation@cref}{{[section][6][]VI}{[1][7][]7}}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{defihacklabs2024}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{TrxGNNBERT}
+\citation{TXSPECTOR}
+\citation{wu2025blockscan}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{defort2024}
+\citation{defiranger2021}
+\citation{defitainter2023}
+\citation{TrxGNNBERT}
+\citation{TXSPECTOR}
+\citation{wu2025blockscan}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{defort2024}
+\citation{defiranger2021}
+\citation{defitainter2023}
+\citation{langchain}
+\citation{chromadb}
+\citation{jina2024}
+\citation{zhong2025detectingvariousdefiprice}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces \textcolor {blue}{Detection performance on DeFiAttackBench\xspace  {}. \textup  {\textsc  {TxShield}}\xspace  {} and XGBoost-only use 364 attack and 364 benign samples. Metrics are percentages.}}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:performance-dsystem-compact}{{I}{8}{\Blue {Detection performance on \dsystem {}. \approach {} and XGBoost-only use 364 attack and 364 benign samples. Metrics are percentages.}}{table.1}{}}
+\newlabel{tab:performance-dsystem-compact@cref}{{[table][1][]I}{[1][8][]8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}RQ1 (Effectiveness): Comparative Analysis of Detection Accuracy}{8}{subsection.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textcolor {blue}{Distribution of the 364 attack transactions in DeFiAttackBench\xspace  {}, drawn from DeFiHackLabs. Labels report the percentage and count for each category.}}}{9}{figure.4}\protected@file@percent }
+\newlabel{tab:attack_categories}{{4}{9}{\Blue {Distribution of the 364 attack transactions in \dsystem {}, drawn from DeFiHackLabs. Labels report the percentage and count for each category.}}{figure.4}{}}
+\newlabel{tab:attack_categories@cref}{{[figure][4][]4}{[1][8][]9}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces \textcolor {blue}{Detection performance on PriceAttackBench\xspace  {}, the 91-attack subset of DeFiScope\textquotesingle s D1 dataset\nobreakspace  {}\cite  {zhong2025detectingvariousdefiprice}.}}}{9}{table.2}\protected@file@percent }
+\newlabel{tab:recall-d1-dataset}{{II}{9}{\Blue {Detection performance on \done {}, the 91-attack subset of DeFiScope\textquotesingle s D1 dataset~\cite {zhong2025detectingvariousdefiprice}.}}{table.2}{}}
+\newlabel{tab:recall-d1-dataset@cref}{{[table][2][]II}{[1][8][]9}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces \textcolor {blue}{Missed price-manipulation attacks and baselines' detection results.}}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:ragflow_false_negative}{{III}{9}{\Blue {Missed price-manipulation attacks and baselines' detection results.}}{table.3}{}}
+\newlabel{tab:ragflow_false_negative@cref}{{[table][3][]III}{[1][9][]9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}\textcolor {blue}{RQ2 (Ablation Study): Effects of Component Configurations}}{9}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces \textcolor {blue}{Component ablation results. Metrics are percentages on valid predictions; counts are ordered TP/FP/TN/FN.}}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:ragflow-ablation}{{IV}{10}{\Blue {Component ablation results. Metrics are percentages on valid predictions; counts are ordered TP/FP/TN/FN.}}{table.4}{}}
+\newlabel{tab:ragflow-ablation@cref}{{[table][4][]IV}{[1][9][]10}}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces \textcolor {blue}{Detailed results for three LLM backbones using the complete \textup  {\textsc  {TxShield}}\xspace  {} pipeline ($N=728$ each). Metrics are percentages.}}}{10}{table.5}\protected@file@percent }
+\newlabel{tab:backbone_results}{{V}{10}{\Blue {Detailed results for three LLM backbones using the complete \approach {} pipeline ($N=728$ each). Metrics are percentages.}}{table.5}{}}
+\newlabel{tab:backbone_results@cref}{{[table][5][]V}{[1][10][]10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}\textcolor {blue}{RQ3 (Backbone Ablation): Choice of LLM Backbone}}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces \textcolor {blue}{Backbone performance without XGBoost. Metrics are percentages on valid predictions; valid sample counts indicate coverage.}}}{10}{table.6}\protected@file@percent }
+\newlabel{tab:noxgb_backbones}{{VI}{10}{\Blue {Backbone performance without XGBoost. Metrics are percentages on valid predictions; valid sample counts indicate coverage.}}{table.6}{}}
+\newlabel{tab:noxgb_backbones@cref}{{[table][6][]VI}{[1][10][]10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}RQ4 (Efficiency): Analysis Latency and API Cost}{10}{subsection.6.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textcolor {blue}{Detection performance across nine LLM backbones on DeFiAttackBench\xspace  {}. Metrics are percentages.}}}{11}{figure.5}\protected@file@percent }
+\newlabel{tab:ragflow_results}{{5}{11}{\Blue {Detection performance across nine LLM backbones on \dsystem {}. Metrics are percentages.}}{figure.5}{}}
+\newlabel{tab:ragflow_results@cref}{{[figure][5][]5}{[1][10][]11}}
+\newlabel{fig:backbone_results}{{5}{11}{\Blue {Detection performance across nine LLM backbones on \dsystem {}. Metrics are percentages.}}{figure.5}{}}
+\newlabel{fig:backbone_results@cref}{{[figure][5][]5}{[1][10][]11}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces \textcolor {blue}{Runtime and API cost of \textup  {\textsc  {TxShield}}\xspace  {} for the evaluated backbone configurations.}}}{11}{table.7}\protected@file@percent }
+\newlabel{tab:api_cost_comparison}{{VII}{11}{\Blue {Runtime and API cost of \approach {} for the evaluated backbone configurations.}}{table.7}{}}
+\newlabel{tab:api_cost_comparison@cref}{{[table][7][]VII}{[1][11][]11}}
+\newlabel{box:takeaways}{{\mbox  {VI-D}}{11}{RQ4 (Efficiency): Analysis Latency and API Cost}{table.7}{}}
+\newlabel{box:takeaways@cref}{{[subsection][4][6]\mbox  {VI-D}}{[1][11][]11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-E}}Discussion: Operational Boundaries and Capability Spectrum}{11}{subsection.6.5}\protected@file@percent }
+\citation{defihacklabs_dn404_2024}
+\citation{defihacklabs_game_2024}
+\citation{Luu2016Making}
+\citation{Nikolic2018Finding}
+\citation{slither}
+\citation{mythril2018}
+\citation{certoraProver}
+\citation{Hildenbrandt2018KEVM}
+\citation{defi2023}
+\citation{MadMax}
+\citation{mythischaikul2023machine}
+\citation{TXSPECTOR}
+\citation{zhou2021flashboys}
+\citation{feng-etal-2020-codebert}
+\citation{hanif2022vulberta}
+\citation{fu2022linevul}
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces \textcolor {blue}{Detection rates in the category-level evaluation.}}}{12}{table.8}\protected@file@percent }
+\newlabel{tab:capability_spectrum}{{VIII}{12}{\Blue {Detection rates in the category-level evaluation.}}{table.8}{}}
+\newlabel{tab:capability_spectrum@cref}{{[table][8][]VIII}{[1][11][]12}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Related Work}{12}{section.7}\protected@file@percent }
+\newlabel{sec:related_work}{{VII}{12}{Related Work}{section.7}{}}
+\newlabel{sec:related_work@cref}{{[section][7][]VII}{[1][12][]12}}
+\citation{GPTScan}
+\citation{wei2023chainofthoughtpromptingelicitsreasoning}
+\citation{10.1145/3442188.3445922}
+\citation{khare2024understandingeffectivenesslargelanguage}
+\citation{guo2024outsidecomfortzoneanalysing}
+\citation{lewis2021retrievalaugmentedgenerationknowledgeintensivenlp}
+\citation{zhang2023repocoder}
+\citation{zhou2023docpromptinggeneratingcoderetrieving}
+\citation{deng2024pentestgptllmempoweredautomaticpenetration}
+\citation{wang2024smartinvmultimodallearningsmart}
+\citation{zhong2025detectingvariousdefiprice}
+\citation{defihacklabs2024}
+\citation{zhong2025detectingvariousdefiprice}
+\bibstyle{IEEEtran}
+\bibdata{sample-base}
+\bibcite{defiTVL2025}{1}
+\bibcite{cryptoLoss2025}{2}
+\bibcite{chainalysis2025report}{3}
+\bibcite{qin2020flashloan}{4}
+\bibcite{slither}{5}
+\bibcite{mythril2018}{6}
+\bibcite{defi2023}{7}
+\bibcite{certoraProver}{8}
+\bibcite{Hildenbrandt2018KEVM}{9}
+\bibcite{defiranger2021}{10}
+\bibcite{defitainter2023}{11}
+\bibcite{defort2024}{12}
+\bibcite{zhong2025detectingvariousdefiprice}{13}
+\bibcite{TrxGNNBERT}{14}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Conclusion}{13}{section.8}\protected@file@percent }
+\newlabel{sec:conclusion}{{VIII}{13}{Conclusion}{section.8}{}}
+\newlabel{sec:conclusion@cref}{{[section][8][]VIII}{[1][13][]13}}
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Data Availability}{13}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{13}{section*.1}\protected@file@percent }
+\bibcite{GPTScan}{15}
+\bibcite{iaudit2025}{16}
+\bibcite{defihacklabs2024}{17}
+\bibcite{uniswapv3}{18}
+\bibcite{aaveflashloan}{19}
+\bibcite{scvsurvey2024}{20}
+\bibcite{taxonomysc2024}{21}
+\bibcite{reentrancysurvey2025}{22}
+\bibcite{blockwatchdog2024}{23}
+\bibcite{slise2024}{24}
+\bibcite{pomabuster2024}{25}
+\bibcite{oraclesurvey2023}{26}
+\bibcite{zhou2021flashboys}{27}
+\bibcite{lewis2021retrievalaugmentedgenerationknowledgeintensivenlp}{28}
+\bibcite{llmhallucination2024}{29}
+\bibcite{foundry}{30}
+\bibcite{jina2024}{31}
+\bibcite{TXSPECTOR}{32}
+\bibcite{wu2025blockscan}{33}
+\bibcite{langchain}{34}
+\bibcite{chromadb}{35}
+\bibcite{defihacklabs_dn404_2024}{36}
+\bibcite{defihacklabs_game_2024}{37}
+\bibcite{Luu2016Making}{38}
+\bibcite{Nikolic2018Finding}{39}
+\bibcite{MadMax}{40}
+\bibcite{mythischaikul2023machine}{41}
+\bibcite{feng-etal-2020-codebert}{42}
+\bibcite{hanif2022vulberta}{43}
+\bibcite{fu2022linevul}{44}
+\bibcite{wei2023chainofthoughtpromptingelicitsreasoning}{45}
+\bibcite{10.1145/3442188.3445922}{46}
+\bibcite{khare2024understandingeffectivenesslargelanguage}{47}
+\bibcite{guo2024outsidecomfortzoneanalysing}{48}
+\bibcite{zhang2023repocoder}{49}
+\bibcite{zhou2023docpromptinggeneratingcoderetrieving}{50}
+\bibcite{deng2024pentestgptllmempoweredautomaticpenetration}{51}
+\bibcite{wang2024smartinvmultimodallearningsmart}{52}
+\gdef \@abspage@last{14}

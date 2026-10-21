@@ -1,0 +1,53 @@
+{
+  "n": 22,
+  "key": "reentrancysurvey2025",
+  "input": {
+    "n": 22,
+    "key": "reentrancysurvey2025",
+    "author": "Ghiyami Pour, F. and Costa, G. and Galletta, L.",
+    "title": "Welcome Back: A Systematic Literature Review of Smart Contract Reentrancy and Countermeasures",
+    "journal": "Blockchain: Research and Applications",
+    "year": "2025",
+    "pages": "100347",
+    "doi": "10.1016/j.bcra.2025.100347"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Welcome+Back%3A+A+Systematic+Literature+Review+of+Smart+Contract+Reentrancy+and+Countermeasures&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "Welcome back: A systematic literature review of smart contract reentrancy and countermeasures",
+      "doi": "https://doi.org/10.1016/j.bcra.2025.100347",
+      "year": 2025,
+      "authors": [
+        "Fatemeh Ghiyami Pour",
+        "Gabriele Costa",
+        "Letterio Galletta"
+      ],
+      "url": "https://doi.org/10.1016/j.bcra.2025.100347"
+    },
+    {
+      "similarity": 0.42,
+      "title": "Ascertaining Susceptibilities in Smart Contracts: A Quantum Machine Learning Approach",
+      "doi": "https://doi.org/10.3390/e27090933",
+      "year": 2025,
+      "authors": [
+        "Amulyashree Sridhar",
+        "Kalyan Nagaraj",
+        "Shambhavi Bangalore Ravi",
+        "Sindhu Kurup"
+      ],
+      "url": "https://doi.org/10.3390/e27090933"
+    },
+    {
+      "similarity": 0.322,
+      "title": "Advancing Blockchain-Oriented Software Engineering: Empirical Investigations and AI-Augmented Tooling for Secure Smart Contract Development",
+      "doi": null,
+      "year": 2026,
+      "authors": [
+        "Shawal Khalid"
+      ],
+      "url": "https://hdl.handle.net/10919/143869"
+    }
+  ]
+}

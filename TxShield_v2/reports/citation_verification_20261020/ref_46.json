@@ -1,0 +1,26 @@
+{
+  "n": 46,
+  "key": "10.1145/3442188.3445922",
+  "input": {
+    "n": 46,
+    "key": "10.1145/3442188.3445922",
+    "author": "Bender, Emily M. and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret",
+    "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+    "year": "2021",
+    "isbn": "9781450383097",
+    "publisher": "Association for Computing Machinery",
+    "address": "New York, NY, USA",
+    "url": "https://doi.org/10.1145/3442188.3445922",
+    "doi": "10.1145/3442188.3445922",
+    "abstract": "The past 3 years of work in NLP have been characterized by the development and deployment of ever larger language models, especially for English. BERT, its variants, GPT-2/3, and others, most recently Switch-C, have pushed the boundaries of the possible both through architectural innovations and through sheer size. Using these pretrained models and the methodology of fine-tuning them for specific tasks, researchers have extended the state of the art on a wide array of tasks as measured by leaderboards on specific benchmarks for English. In this paper, we take a step back and ask: How big is too big? What are the possible risks associated with this technology and what paths are available for mitigating those risks? We provide recommendations including weighing the environmental and financial costs first, investing resources into curating and carefully documenting datasets rather than ingesting everything on the web, carrying out pre-development exercises evaluating how the planned approach fits into research and development goals and supports stakeholder values, and encouraging research directions beyond ever larger language models.",
+    "booktitle": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "pages": "610–623",
+    "numpages": "14",
+    "location": "Virtual Event, Canada",
+    "series": "FAccT '21"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=On+the+Dangers+of+Stochastic+Parrots%3A+Can+Language+Models+Be+Too+Big%3F&rows=3",
+  "openalex_error": "400 Client Error: Bad Request for url: https://api.openalex.org/works?search=On+the+Dangers+of+Stochastic+Parrots%3A+Can+Language+Models+Be+Too+Big%3F&per-page=3",
+  "source_error": "403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3442188.3445922"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "original": "main.pdf",
+    "archived": "archive/pdf_versions_20261020/manuscripts/main.pdf",
+    "sha256": "913683e09a332513ab8ef357b396f8156b509786e4aff661357ea2f4d7ab00b7"
+  },
+  {
+    "original": "main_marked.pdf",
+    "archived": "archive/pdf_versions_20261020/manuscripts/main_marked.pdf",
+    "sha256": "913683e09a332513ab8ef357b396f8156b509786e4aff661357ea2f4d7ab00b7"
+  },
+  {
+    "original": "main_submission.pdf",
+    "archived": "archive/pdf_versions_20261020/manuscripts/main_submission.pdf",
+    "sha256": "14e765227af6fbfc105996fda632c4e7091dfcfcf100db6df7f39951d3494e59"
+  },
+  {
+    "original": "main_submission_corrected.pdf",
+    "archived": "archive/pdf_versions_20261020/manuscripts/main_submission_corrected.pdf",
+    "sha256": "c47644aa70dbfd1d6544043409623e09a6891b4f22adeac68e9a785fd90027a9"
+  },
+  {
+    "original": "txShield-main_submission_prof_j.pdf",
+    "archived": "archive/pdf_versions_20261020/coauthor_comments/txShield-main_submission_prof_j.pdf",
+    "sha256": "76ef514278d678401291e098c2284ae7a02c727ed85cb921d137a986180ad1c8"
+  },
+  {
+    "original": "prompts.pdf",
+    "archived": "archive/pdf_versions_20261020/reference_figures/prompts.pdf",
+    "sha256": "0bdcc480b9900055600d5acb7f54875754b537641949ea380b567ca1665428a6"
+  },
+  {
+    "original": "ragflow.pdf",
+    "archived": "archive/pdf_versions_20261020/reference_figures/ragflow.pdf",
+    "sha256": "67329532ac93fcb37f3e799643a63a4455320a451f105bcde2418655e1ebf9d8"
+  }
+]

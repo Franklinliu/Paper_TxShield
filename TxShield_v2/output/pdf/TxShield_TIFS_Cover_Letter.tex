@@ -1,0 +1,39 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\begin{document}
+\begin{flushright}
+15 October 2026
+\end{flushright}
+Editor-in-Chief\\
+\textit{IEEE Transactions on Information Forensics and Security}
+
+Dear Editor-in-Chief,
+
+Please consider our manuscript, \textbf{``TxShield: Transaction-level RAG-enabled DeFi Attack Detection,''} for publication in \textit{IEEE Transactions on Information Forensics and Security}.
+
+Detecting attacks on decentralized finance (DeFi) protocols requires distinguishing malicious behavior from legitimate transactions that may involve similar contract interactions, asset transfers, and flash loans. Rules struggle to accommodate diverse attack implementations, while large language models can misclassify complex but benign activity. Our work addresses this problem by combining reasoning over historical attack patterns with classification of numerical transaction features.
+
+TxShield retrieves relevant historical attacks to support transaction-level reasoning over execution traces. It uses two-stage retrieval to identify relevant historical cases and XGBoost to estimate risk from structured execution-trace features. The risk estimate guides the use of retrieved context and supplies an auxiliary probability hint to the language model, which makes the final classification from transaction evidence. Direct XGBoost classification is evaluated separately as a baseline.
+
+On an evaluation set comprising 364 attack transactions from DeFiHackLabs and 364 benign transactions, TxShield achieves an F1 score of 92.93\% and precision of 97.87\%. Compared with direct XGBoost classification, it reduces false positives from 60 to 7 while maintaining comparable recall. A separate evaluation on 91 price-manipulation attacks detects 86 attacks. Component and backbone ablations examine how retrieval, numerical risk guidance, and language-model choice affect detection performance.
+
+We believe the manuscript is well suited to TIFS because it addresses attack detection in financial smart-contract systems through analysis of transaction behavior. Its contribution is a concrete detection framework and an empirical assessment of the trade-offs between identifying attacks and limiting false alarms.
+
+Thank you for considering our manuscript.
+
+Sincerely,
+
+Wei Ma, Shiya Li, Jiayi Xu, Ye Liu, Junjie Shi, Cong Wu, Jing Chen,\\
+Lingxiao Jiang, and Zijian Zhang
+
+Wei Ma is currently an Assistant Professor at Blekinge Institute of Technology (BTH), Sweden. This work was mainly carried out while he was at Singapore Management University (SMU).
+
+\textit{Correspondence:} Ye Liu, Beijing Institute of Technology\\
+\href{mailto:ye.liu@bit.edu.cn}{ye.liu@bit.edu.cn}
+\end{document}

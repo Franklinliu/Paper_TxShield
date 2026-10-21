@@ -1,0 +1,31 @@
+% IEEE Transactions on Information Forensics and Security manuscript.
+% Compile with pdfLaTeX and BibTeX (latexmk -pdf main.tex).
+\documentclass[journal,10pt]{IEEEtran}
+\input{macros}
+
+%% Custom commands for easy renaming
+\newcommand{\approach}{\textup{\textsc{TxShield}}\xspace}
+\newcommand{\dsystem}{DeFiAttackBench\xspace}
+\newcommand{\done}{PriceAttackBench\xspace}
+
+
+\begin{document}
+\title{TxShield: Transaction-level RAG-enabled DeFi Attack Detection}
+\author{Anonymous Author(s)}
+\maketitle
+\input{sections/abstract}
+\begin{IEEEkeywords}
+Smart Contract Security, DeFi Attack Detection, Retrieval-Augmented Generation, Transaction Analysis, Blockchain Security
+\end{IEEEkeywords}
+
+\input{sections/introduction}
+\input{sections/background}
+\input{sections/approach}
+\input{sections/evaluation}
+\input{sections/related}
+\input{sections/conclusion}
+\input{sections/data_availability}
+
+\bibliographystyle{IEEEtran}
+\bibliography{sample-base}
+\end{document}

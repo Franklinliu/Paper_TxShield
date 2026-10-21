@@ -1,0 +1,30 @@
+%% Background section
+
+\section{Background}
+\label{sec:background}
+
+\paragraph{\textbf{Smart Contracts and DeFi Ecosystem}}
+Smart contracts are self-executing programs deployed on blockchain platforms such as Ethereum. Written primarily in Solidity, these contracts are compiled into bytecode and executed by the Ethereum Virtual Machine (EVM), a stack-based virtual machine that processes transactions deterministically across all network nodes. Once deployed, smart contract code is immutable (it cannot be modified or patched), which makes security vulnerabilities particularly consequential.
+Decentralized Finance (DeFi) leverages smart contracts to replicate traditional financial services without centralized intermediaries~\cite{defi2023}. The DeFi ecosystem comprises several key protocol types: (1) \textit{Decentralized Exchanges (DEXs)} such as Uniswap~\cite{uniswapv3} enable permissionless token trading through Automated Market Makers (AMMs), where liquidity pools and mathematical formulas (e.g., the constant-product formula $x \cdot y = k$) determine token prices; (2) \textit{Lending Protocols} like Aave~\cite{aaveflashloan} and Compound allow users to lend and borrow assets with interest rates determined algorithmically; and (3) \textit{Flash Loan Providers} offer uncollateralized loans that must be borrowed and repaid within a single atomic transaction~\cite{qin2020flashloan}.
+A defining characteristic of DeFi is \textit{composability} (the ability for protocols to interact seamlessly, with outputs from one protocol serving as inputs to another). While composability enables capital efficiency and innovation, it also creates complex attack surfaces where vulnerabilities can span multiple protocols.
+
+\paragraph{\textbf{DeFi Attack Taxonomy}}
+
+%Based on our analysis of 574 real-world attack incidents and existing literature~\cite{defi2023,scvsurvey2024,taxonomysc2024}, we categorize DeFi attacks into the following major types:
+Based on existing literature~\cite{defi2023,scvsurvey2024,taxonomysc2024}, we categorize DeFi attacks into the following major types:
+
+\emph{Reentrancy Attacks.} Reentrancy occurs when a contract makes an external call to another contract before updating its own state, allowing the callee to ``re-enter'' the original function and exploit the inconsistent state~\cite{reentrancysurvey2025}. Modern variants include cross-function reentrancy (exploiting state shared across multiple functions) and cross-contract reentrancy (exploiting interactions between multiple contracts)~\cite{blockwatchdog2024,slise2024}.
+
+\emph{Price Manipulation Attacks.} These attacks exploit the mechanism by which DeFi protocols determine asset prices. In AMM-based DEXs, an attacker can execute large trades to temporarily shift the price curve, then exploit this artificial price in another protocol (e.g., a lending platform using the DEX as a price oracle)~\cite{defiranger2021,pomabuster2024}. Flash loans amplify this threat by providing attackers with massive capital at zero upfront cost~\cite{qin2020flashloan}. Time-Weighted Average Price (TWAP) oracles, designed to mitigate single-block manipulation, remain vulnerable to multi-block attacks~\cite{oraclesurvey2023}.
+
+\emph{Access Control Vulnerabilities.} These vulnerabilities arise when privileged functions lack proper authorization checks, allowing unauthorized users to execute administrative operations such as minting tokens, modifying parameters, or draining funds~\cite{GPTScan}. Variants include missing access modifiers, incorrect role assignments, and unprotected initialization functions.
+
+\emph{Business Logic Flaws.} Unlike generic vulnerability patterns, business logic flaws are protocol-specific bugs in the implementation of intended functionality. Examples include incorrect reward calculations, flawed liquidation mechanisms, and improper handling of edge cases. These vulnerabilities are particularly challenging to detect because they require understanding the protocol's intended behavior~\cite{iaudit2025}.
+
+\emph{Other Vulnerabilities.} Additional attack vectors include integer overflow/underflow (largely mitigated by Solidity 0.8+), front-running and sandwich attacks exploiting transaction ordering~\cite{zhou2021flashboys}, and governance attacks manipulating decentralized voting mechanisms.
+
+\paragraph{\textbf{Retrieval-Augmented Generation}}
+
+Retrieval-Augmented Generation (RAG) is a paradigm that enhances LLM capabilities by incorporating external knowledge retrieval~\cite{lewis2021retrievalaugmentedgenerationknowledgeintensivenlp}. Unlike pure parametric models that rely solely on knowledge encoded in their weights during training, RAG systems dynamically retrieve relevant information from external databases to augment the generation process.
+A typical RAG architecture consists of three components: (1) a \textit{knowledge base} storing documents as vector embeddings, (2) a \textit{retriever} that identifies relevant documents given a query, and (3) a \textit{generator} (typically an LLM) that produces outputs conditioned on both the query and retrieved context. The retrieval process typically employs dense vector similarity search, where queries and documents are mapped to a shared embedding space and relevance is measured by cosine similarity or other distance metrics.
+RAG addresses two fundamental limitations of standalone LLMs. First, it mitigates \textit{knowledge staleness}: while LLM parameters are fixed after training, the knowledge base can be continuously updated with new information. Second, it reduces \textit{hallucination}: by grounding generation in retrieved evidence, RAG systems produce more factually accurate outputs~\cite{llmhallucination2024}. These properties make RAG particularly suitable for domains requiring up-to-date, specialized knowledge, such as detecting rapidly evolving DeFi attack patterns.

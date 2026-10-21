@@ -1,0 +1,15 @@
+{
+  "n": 18,
+  "key": "uniswapv3",
+  "input": {
+    "n": 18,
+    "key": "uniswapv3",
+    "author": "Adams, Hayden and Zinsmeister, Noah and Salem, Moody and Keefer, River and Robinson, Dan",
+    "title": "Uniswap v3 Core",
+    "howpublished": "\\url{https://uniswap.org/whitepaper-v3.pdf}",
+    "year": "2021"
+  },
+  "evidence": [],
+  "source_url": "https://app.uniswap.org/whitepaper-v3.pdf",
+  "source_status": 200
+}

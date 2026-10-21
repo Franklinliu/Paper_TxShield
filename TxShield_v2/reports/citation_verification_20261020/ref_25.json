@@ -1,0 +1,57 @@
+{
+  "n": 25,
+  "key": "pomabuster2024",
+  "input": {
+    "n": 25,
+    "key": "pomabuster2024",
+    "author": "Xi, Rui and Wang, Zehua and Pattabiraman, Karthik",
+    "title": "POMABuster: Detecting Price Oracle Manipulation Attacks in Decentralized Finance",
+    "booktitle": "2024 IEEE Symposium on Security and Privacy (SP)",
+    "year": "2024",
+    "pages": "1823--1841",
+    "doi": "10.1109/SP54263.2024.00095",
+    "url": "https://ieeexplore.ieee.org/document/10646773/"
+  },
+  "evidence": [],
+  "crossref_error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=POMABuster%3A+Detecting+Price+Oracle+Manipulation+Attacks+in+Decentralized+Finance&rows=3",
+  "openalex": [
+    {
+      "similarity": 1.0,
+      "title": "POMABuster: Detecting Price Oracle Manipulation Attacks in Decentralized Finance",
+      "doi": "https://doi.org/10.1109/sp54263.2024.00257",
+      "year": 2024,
+      "authors": [
+        "Rui Xi",
+        "Zehua Wang",
+        "Karthik Pattabiraman"
+      ],
+      "url": "https://doi.org/10.1109/sp54263.2024.00257"
+    },
+    {
+      "similarity": 1.0,
+      "title": "POMABuster: Detecting Price Oracle Manipulation Attacks in Decentralized Finance",
+      "doi": "https://doi.org/10.5281/zenodo.10359282",
+      "year": 2023,
+      "authors": [
+        "Anon"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.10359282"
+    },
+    {
+      "similarity": 0.571,
+      "title": "TOAD-ML: a trust-aware framework for validating oracle price feeds and detecting manipulation in decentralized finance",
+      "doi": "https://doi.org/10.3389/fbloc.2026.1903202",
+      "year": 2026,
+      "authors": [
+        "Dhivyalakshmi Venkatraman",
+        "Manikandan Kuppusamy"
+      ],
+      "url": "https://doi.org/10.3389/fbloc.2026.1903202"
+    }
+  ],
+  "source_url": "https://ieeexplore.ieee.org/document/10646773/",
+  "source_status": 202,
+  "source_title": "",
+  "source_metadata": [],
+  "source_text": ""
+}

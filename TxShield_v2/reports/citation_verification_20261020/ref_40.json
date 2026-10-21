@@ -1,0 +1,322 @@
+{
+  "n": 40,
+  "key": "MadMax",
+  "input": {
+    "n": 40,
+    "key": "MadMax",
+    "author": "Grech, Neville and Kong, Michael and Jurisevic, Anton and Brent, Lexi and Scholz, Bernhard and Smaragdakis, Yannis",
+    "title": "MadMax: surviving out-of-gas conditions in Ethereum smart contracts",
+    "year": "2018",
+    "issue_date": "November 2018",
+    "publisher": "Association for Computing Machinery",
+    "address": "New York, NY, USA",
+    "volume": "2",
+    "number": "OOPSLA",
+    "url": "https://doi.org/10.1145/3276486",
+    "doi": "10.1145/3276486",
+    "abstract": "Ethereum is a distributed blockchain platform, serving as an ecosystem for smart contracts: full-fledged inter-communicating programs that capture the transaction logic of an account. Unlike programs in mainstream languages, a gas limit restricts the execution of an Ethereum smart contract: execution proceeds as long as gas is available. Thus, gas is a valuable resource that can be manipulated by an attacker to provoke unwanted behavior in a victim's smart contract (e.g., wasting or blocking funds of said victim). Gas-focused vulnerabilities exploit undesired behavior when a contract (directly or through other interacting contracts) runs out of gas. Such vulnerabilities are among the hardest for programmers to protect against, as out-of-gas behavior may be uncommon in non-attack scenarios and reasoning about it is far from trivial. In this paper, we classify and identify gas-focused vulnerabilities, and present MadMax: a static program analysis technique to automatically detect gas-focused vulnerabilities with very high confidence. Our approach combines a control-flow-analysis-based decompiler and declarative program-structure queries. The combined analysis captures high-level domain-specific concepts (such as \"dynamic data structure storage\" and \"safely resumable loops\") and achieves high precision and scalability. MadMax analyzes the entirety of smart contracts in the Ethereum blockchain in just 10 hours (with decompilation timeouts in 8\\% of the cases) and flags contracts with a (highly volatile) monetary value of over $2.8B as vulnerable. Manual inspection of a sample of flagged contracts shows that 81\\% of the sampled warnings do indeed lead to vulnerabilities, which we report on in our experiment.",
+    "journal": "Proc. ACM Program. Lang.",
+    "month": "oct",
+    "articleno": "116",
+    "numpages": "27",
+    "keywords": "Blockchain, Program Analysis, Security, Smart Contracts"
+  },
+  "evidence": [],
+  "crossref": [
+    {
+      "similarity": 1.0,
+      "title": "MadMax: surviving out-of-gas conditions in Ethereum smart contracts",
+      "doi": "10.1145/3276486",
+      "author": [
+        {
+          "given": "Neville",
+          "family": "Grech",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Athens, Greece / University of Malta, Malta"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Sydney, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anton",
+          "family": "Jurisevic",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Sydney, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lexi",
+          "family": "Brent",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Sydney, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bernhard",
+          "family": "Scholz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Sydney, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yannis",
+          "family": "Smaragdakis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Athens, Greece"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2018,
+            10,
+            24
+          ]
+        ]
+      },
+      "venue": [
+        "Proceedings of the ACM on Programming Languages"
+      ],
+      "page": "1-27",
+      "volume": "2",
+      "url": "https://doi.org/10.1145/3276486"
+    },
+    {
+      "similarity": 0.791,
+      "title": "Quantifying the Risk of Out-of-Gas Conditions in Ethereum Smart Contracts",
+      "doi": "10.1109/icaic63015.2025.10848774",
+      "author": [
+        {
+          "given": "Maryam Massoud",
+          "family": "Ahmed",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Rowan University Glassboro,Department of Computer Science,NJ"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Lim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rowan University Glassboro,Department of Computer Science,NJ"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaorui",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "North Carolina State Univeristy Raleigh,Department of Computer Science,NC"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shen-Shyang",
+          "family": "Ho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rowan University Glassboro,Department of Computer Science,NJ"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nikolay",
+          "family": "Ivanov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rowan University Glassboro,Department of Computer Science,NJ"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            5
+          ]
+        ]
+      },
+      "venue": [
+        "2025 IEEE 4th International Conference on AI in Cybersecurity (ICAIC)"
+      ],
+      "page": "1-8",
+      "volume": null,
+      "url": "https://doi.org/10.1109/icaic63015.2025.10848774"
+    },
+    {
+      "similarity": 0.569,
+      "title": "Gas‐centered mutation testing of Ethereum Smart Contracts",
+      "doi": "10.1002/smr.2672",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1568-9288",
+          "authenticated-orcid": false,
+          "given": "Pedro",
+          "family": "Delgado‐Pérez",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "UCASE Software Engineering Research Group, Department of Computer Science and Engineering University of Cadiz  Cádiz Spain"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ignacio",
+          "family": "Meléndez‐Lapi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Engineering University of Cadiz  Cádiz Spain"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8989-7509",
+          "authenticated-orcid": false,
+          "given": "Juan",
+          "family": "Boubeta‐Puig",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UCASE Software Engineering Research Group, Department of Computer Science and Engineering University of Cadiz  Cádiz Spain"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            12
+          ]
+        ]
+      },
+      "venue": [
+        "Journal of Software: Evolution and Process"
+      ],
+      "page": null,
+      "volume": "36",
+      "url": "https://doi.org/10.1002/smr.2672"
+    }
+  ],
+  "source_error": "403 Client Error: Forbidden for url: https://dl.acm.org/doi/10.1145/3276486"
+}
